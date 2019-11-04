@@ -1,0 +1,226 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)
+// swift-module-flags: -target x86_64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name HumanKit
+import Compression
+import CoreFoundation
+import Foundation
+@_exported import HumanKit
+import Swift
+import SystemConfiguration
+import UIKit
+import WebKit
+import os.log
+import os
+@objc public protocol HKHumanDelegate {
+  @objc optional func onAnimationComplete()
+  @objc optional func onInitMessage()
+  @objc optional func onObjectSelected(objectId: Swift.String, view: HumanKit.HKHuman)
+  @objc optional func onObjectDeselected(objectId: Swift.String, view: HumanKit.HKHuman)
+  @objc optional func onChapterTransition(chapterId: Swift.String, view: HumanKit.HKHuman)
+  @objc optional func screenshot(image: UIKit.UIImage)
+}
+@objc public class HKHuman : ObjectiveC.NSObject {
+  @objc weak public var delegate: HumanKit.HKHumanDelegate?
+  @objc public var scene: HumanKit.HKScene
+  @objc public var timeline: HumanKit.HKTimeline
+  @objc public var camera: HumanKit.HKCamera
+  @objc public var ui: HumanKit.HKUI
+  public init(view: UIKit.UIView, options: [HumanKit.HumanUIOptions : Swift.Bool])
+  @objc public init(view: UIKit.UIView)
+  @objc public func setupUI(option: HumanKit.HumanUIOptions, value: Swift.Bool)
+  @objc public func load(model: Swift.String, callback: @escaping () -> ())
+  @objc public func unload()
+  @objc public func loadIndex(callback: @escaping () -> ())
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class HKScene : ObjectiveC.NSObject {
+  @objc public var title: Swift.String
+  @objc public var text: Swift.String
+  @objc public var textSections: [[Swift.String : Swift.String]]
+  @objc public var objectIDs: [Swift.String]
+  @objc public var objects: [Swift.String : Swift.String]
+  @objc public var annotations: [Swift.String : HumanKit.HKAnnotation]
+  @objc public func share(from: CoreGraphics.CGRect)
+  @objc public func screenshot()
+  @objc public func reset()
+  @objc public func setBackgroundColor(top: UIKit.UIColor, bottom: UIKit.UIColor, type: HumanKit.BackgroundOptions = .radial)
+  @objc public func xray(enabled: Swift.Bool)
+  @objc public func isolate(enabled: Swift.Bool)
+  @objc public func dissect(enabled: Swift.Bool)
+  @objc public func undo()
+  @objc public func isXray(objectID: Swift.String) -> Swift.Bool
+  @objc public func setXray(objectID: Swift.String, enable: Swift.Bool)
+  @objc public func setPickable(objectID: Swift.String, enable: Swift.Bool)
+  @objc public func selectObject(objectID: Swift.String)
+  @objc public func selectObjectWithGroup(objectID: Swift.String, group: [Swift.String])
+  @objc public func selectGroup(group: [Swift.String])
+  @objc public func undoSelections()
+  @objc public func setHighlightColor(color: UIKit.UIColor)
+  @objc public func disableHighlight()
+  @objc public func enableHighlight()
+  @objc public func highlightObject(objectid: Swift.String)
+  @objc public func unhighlightObject(objectid: Swift.String)
+  @objc public func disablePicking()
+  @objc public func enablePicking()
+  @objc public func showLabels()
+  @objc public func hideLabels()
+  @objc public func getObjectPosition(objectID: Swift.String) -> [Swift.Double]
+  @objc public func colorObject(id: Swift.String, color: HumanKit.HKColor)
+  @objc public func uncolorObject(id: Swift.String)
+  @objc public func getColor(id: Swift.String) -> HumanKit.HKColor
+  @objc public func showAnnotations()
+  @objc public func hideAnnotations()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class HKModule : ObjectiveC.NSObject {
+  @objc public var moduleID: Swift.String
+  @objc public var title: Swift.String
+  @objc public var info: Swift.String
+  @objc public var thumbnail: Swift.String
+  @objc public init(moduleID: Swift.String, title: Swift.String, info: Swift.String, thumb: Swift.String = "")
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class HKCamera : ObjectiveC.NSObject {
+  @objc public var eye: [Swift.Double]
+  @objc public var look: [Swift.Double]
+  @objc public var up: [Swift.Double]
+  @objc public var zoom: Swift.Double
+  @objc public func getModuleCameraInfo(moduleID: Swift.String)
+  @objc public func getChapterCameraInfo()
+  @objc public func getCameraInfo()
+  @objc public func pan(x: Swift.Float, y: Swift.Float, z: Swift.Float)
+  @objc public func zoom(factor: Swift.Float)
+  @objc public func orbit(yaw: Swift.Float, pitch: Swift.Float, duration: Swift.Float = 1.0)
+  @objc public func updateCamera(eyeIn: [Swift.Double], lookIn: [Swift.Double], upIn: [Swift.Double], animated: Swift.Bool)
+  @objc public func lockCamera(lock: Swift.Bool)
+  @objc public func animateTo(objectId: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public enum HumanLanguage : Swift.Int {
+  case english = 0
+  case spanish
+  case portuguese
+  case french
+  case italian
+  case german
+  case chinese
+  case japanese
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+}
+@objc public enum HumanUIOptions : Swift.Int {
+  case tools
+  case info
+  case animation
+  case objects
+  case slider
+  case reset
+  case nolink
+  case all
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum BackgroundOptions : Swift.Int {
+  case radial
+  case linear
+  public typealias RawValue = Swift.Int
+  public init?(rawValue: Swift.Int)
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class HKUI : ObjectiveC.NSObject {
+  @objc public static var languageNames: [Swift.String]
+  @objc public static var languageCodes: [Swift.String]
+  @objc public var hasPlayPause: Swift.Bool
+  @objc public var hasScrubber: Swift.Bool
+  @objc public static func languageCode() -> Swift.String
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class HKChapter : ObjectiveC.NSObject {
+  @objc public var title: Swift.String
+  @objc public var info: Swift.String
+  @objc public var index: Swift.Int
+  @objc public init(title: Swift.String, info: Swift.String, index: Swift.Int)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class HKTimeline : ObjectiveC.NSObject {
+  @objc public var currentTime: Swift.Float
+  @objc public var currentChapter: HumanKit.HKChapter?
+  @objc public var chapters: [Swift.String : HumanKit.HKChapter]
+  @objc public var chapterList: [Swift.String]
+  @objc public func play()
+  @objc public func pause()
+  @objc public func unpause()
+  @objc public func nextChapter()
+  @objc public func prevChapter()
+  @objc public func moveToChapter(chapterID: Swift.String)
+  @objc public func moveToTime(time: Swift.Float)
+  @objc public func playing() -> Swift.Bool
+  @objc public func duration() -> Swift.Float
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class HKColor : ObjectiveC.NSObject {
+  @objc public var tint: UIKit.UIColor
+  @objc public var saturation: CoreGraphics.CGFloat
+  @objc public var opacity: CoreGraphics.CGFloat
+  @objc public var brightness: CoreGraphics.CGFloat
+  @objc public var contrast: CoreGraphics.CGFloat
+  public func randomColor()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public class HKAnnotation : ObjectiveC.NSObject {
+  @objc public var title: Swift.String
+  @objc public var info: Swift.String
+  @objc public var objectID: Swift.String
+  @objc public var annotationID: Swift.String
+  @objc public var position: [Swift.Float]
+  @objc public init(annotationID: Swift.String, title: Swift.String, info: Swift.String, objectID: Swift.String)
+  @objc public func getPosition()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol HKServicesDelegate {
+  @objc optional func modulesLoaded()
+  @objc optional func onValidSDK()
+  @objc optional func onInvalidSDK()
+}
+@objc public class HKServices : ObjectiveC.NSObject {
+  @objc weak public var delegate: HumanKit.HKServicesDelegate?
+  @objc public var modules: [HumanKit.HKModule]
+  @objc public init(validateKey: Swift.String, secret: Swift.String = "")
+  @objc public func findModule(ICD: Swift.String)
+  @objc public static func moduleDownloaded(id: Swift.String) -> Swift.Bool
+  @objc public static func deleteStoredData()
+  @objc public static func setLanguage(to: HumanKit.HumanLanguage)
+  @objc public static func shareLink(forModule: Swift.String) -> Swift.String
+  @objc public static func isUnicodeLanguage() -> Swift.Bool
+  @objc public static func getJsonString(forModule: Swift.String) -> Swift.String
+  @objc public static func getJsonData(forModule: Swift.String) -> Foundation.Data
+  public func getModules()
+  @objc public func stop()
+  @objc public func restart()
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension HumanKit.HumanLanguage : Swift.Equatable {}
+extension HumanKit.HumanLanguage : Swift.Hashable {}
+extension HumanKit.HumanLanguage : Swift.RawRepresentable {}
+extension HumanKit.HumanUIOptions : Swift.Hashable {}
+extension HumanKit.HumanUIOptions : Swift.RawRepresentable {}
+extension HumanKit.BackgroundOptions : Swift.Hashable {}
+extension HumanKit.BackgroundOptions : Swift.RawRepresentable {}
