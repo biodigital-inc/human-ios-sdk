@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  s.source       = { :git => "https://github.com/biodigital-inc/human-ios-sdk.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/biodigital-inc/human-ios-sdk.git", :tag => s.version }
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
     s.vendored_frameworks = 'HumanKit.framework'
