@@ -17,7 +17,7 @@ to your app target add:
 pod 'HumanKit'
 
 for a specific version:
-pod 'HumanKit', '~> 1.2.0'
+pod 'HumanKit', '1.2.0'
 
 or for the simulator version:
-pod 'HumanKit', '~> 1.2.0-sim'
+pod 'HumanKit', '1.2.0-sim'
