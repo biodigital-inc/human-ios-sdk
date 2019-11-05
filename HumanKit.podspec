@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "HumanKit"
-  s.version      = "1.2.0"
+  s.version      = "1.2.0-sim"
   s.summary      = "HumanKit by BioDigital Inc."
   s.description  = "The BioDigital HumanKit framework for iOS makes it easy to add 3D interactive anatomy and health condition models to any iOS application."
   s.homepage     = "http://developer.biodigital.com"
