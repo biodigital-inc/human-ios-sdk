@@ -23,5 +23,8 @@ pod 'HumanKit'
 for a specific version:
 pod 'HumanKit', '2.0.0'
 
+for the simulator build:
+pod 'HumanKit', '2.0.0-sim'
+
 or for a universal build:
 pod 'HumanKit', '2.0.0-universal'
