@@ -41,11 +41,12 @@
     }];
 }
 
--(void)onObjectSelectedWithObjectId:(NSString *)objectId view:(HKHuman *)view {
+-(void)human:(HKHuman *)view objectSelected:(NSString *)objectSelected {
     HKColor *color = [[HKColor alloc] init];
     color.tint = [UIColor blueColor];
     color.opacity = 0.66;
-    [[body scene] colorObjectWithId:objectId color:color];
+    [[body scene] colorWithObjectId:objectSelected color:color];
 }
+
 
 @end

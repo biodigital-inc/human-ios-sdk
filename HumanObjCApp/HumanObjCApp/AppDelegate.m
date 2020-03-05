@@ -18,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    humankit = [[HKServices alloc] initWithValidateKey:@"<YOUR KEY>" secret:@""];
+    humankit = [[HKServices alloc] initWithValidateKey:@"<YOUR API KEY>" secret:@""];
     humankit.delegate = self;
     return YES;
 }
@@ -50,7 +50,7 @@
 }
 
 -(void)modulesLoaded {
-    NSLog(@"got %lu modules",(unsigned long)humankit.modules.count);
+    NSLog(@"got %lu modules",(unsigned long)humankit.models.count);
 }
 
 - (void)onInvalidSDK {
