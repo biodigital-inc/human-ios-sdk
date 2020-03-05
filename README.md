@@ -1,6 +1,10 @@
 # HumanKit
 The BioDigital Human iOS SDK
 
+Current version: 2.0.0
+
+Previous version: 1.2.0
+
 Please visit http://developer.biodigital.com for documentation and setup instructions, and http://human.biodigital.com to see the 3D Human
 
 To test the Sample Apps, download the ZIP and run 'pod install' in the project directories.  
@@ -17,7 +21,7 @@ to your app target add:
 pod 'HumanKit'
 
 for a specific version:
-pod 'HumanKit', '1.2.0'
+pod 'HumanKit', '2.0.0'
 
-or for the simulator version:
-pod 'HumanKit', '1.2.0-sim'
+or for a universal build:
+pod 'HumanKit', '2.0.0-universal'

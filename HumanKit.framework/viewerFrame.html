@@ -1,0 +1,111 @@
+<html>
+    <head>
+<script src="./human-api.min.js"></script>
+<!--<script src="https://developer.biodigital.com/builds/api/2/human-api.min.js"></script>-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+      margin: 0;
+      width:100vw;
+      height:100vh;
+    }
+
+    #embeddedHuman {
+      position: absolute;
+      border: none;
+      width: 100vw;
+      height: 100vh;
+    }
+</style>
+</head>
+<body>
+    <iframe
+        id="embeddedHuman"
+        allowFullScreen="true"
+        class="fullscreen"
+        src="">
+    </iframe>
+</body>
+<script>
+    var human = new HumanAPI({iframeId:"embeddedHuman",pollInterval:0});
+
+    window.webkit.messageHandlers.humanHandler.postMessage("");
+
+    human.on('scene.loaded', function(moduleData) {
+             window.webkit.messageHandlers.sceneHandler.postMessage(moduleData);
+    });
+
+    // send a chapter transition message
+    human.on( 'timeline.chapterTransition', function(chapterData) {
+        window.webkit.messageHandlers.chapterHandler.postMessage(chapterData);
+    });
+
+    // camera updated callback
+    human.on( 'camera.updated', function(cameraData) {
+        window.webkit.messageHandlers.cameraUpdateHandler.postMessage(cameraData);
+    });
+
+    human.on('human.loaded', function() {
+        window.webkit.messageHandlers.messageHandler.postMessage("human.loaded")
+             
+        human.on('human.progress',function(data) {
+            window.webkit.messageHandlers.messageHandler.postMessage("human.progress " + JSON.stringify(data));
+        });
+
+
+human.on('scene.xrayEnabled', function() {
+         window.webkit.messageHandlers.xrayHandler.postMessage(true);
+});
+
+human.on('scene.xrayDisabled', function() {
+         window.webkit.messageHandlers.xrayHandler.postMessage(false);
+});
+
+human.on('scene.restored', function() {
+         window.webkit.messageHandlers.sceneRestoredHandler.postMessage("boo");
+});
+
+human.on( 'scene.objectsShown' , function(objects) {
+         window.webkit.messageHandlers.objectsShownHandler.postMessage(objects);
+});
+
+             human.on( 'scene.objectsSelected' , function(objects) {
+                      window.webkit.messageHandlers.selectHandler.postMessage(objects);
+             });
+
+// send an animation update message
+human.on('timeline.playing', function(animationTime) {
+         window.webkit.messageHandlers.timelineHandler.postMessage(animationTime);
+});
+human.on('timeline.completed', function() {
+     window.webkit.messageHandlers.timelineHandler.postMessage('done');
+});
+human.on( 'scene.picked' , function (event) {
+    window.webkit.messageHandlers.pickHandler.postMessage(event);
+});
+human.on( 'annotations.created' , function (anno) {
+    window.webkit.messageHandlers.annoCreateHandler.postMessage(anno);
+});
+human.on( 'annotations.shown' , function () {
+    window.webkit.messageHandlers.annotationsShownHandler.postMessage(true);
+});
+human.on('annotations.destroyed', function (event) {
+    window.webkit.messageHandlers.annoDestroyHandler.postMessage(event);
+});
+human.on('annotations.hidden', function () {
+    window.webkit.messageHandlers.annotationsShownHandler.postMessage(false);
+});
+human.on('annotations.positionUpdated', function(annoPosition) {
+    window.webkit.messageHandlers.annotationsMovedHandler.postMessage(annoPosition);
+});
+
+    human.on( 'human.ready' , function () {
+             window.webkit.messageHandlers.messageHandler.postMessage("GH: human.ready");
+         window.webkit.messageHandlers.assetsHandler.postMessage('loaded');
+    });
+});
+
+window.webkit.messageHandlers.messageHandler.postMessage("API object created, listeners registered");
+
+</script>
+</html>
