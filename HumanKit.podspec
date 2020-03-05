@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author             = { "Gary Herman" => "gary@biodigital.com" }
   s.social_media_url   = "http://twitter.com/biodigitalhuman"
 
-  # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
+  # ――― Platform Specifics ―――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.platform     = :ios, "9.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
