@@ -77,14 +77,14 @@ class SwipeChaptersView : UIView, UIScrollViewDelegate, UITextViewDelegate {
             label.font = UIFont.init(name: "HelveticaNeue", size: 16)
             var attrString : NSMutableAttributedString = NSMutableAttributedString(string: "")
             do {
-                attrString = try NSMutableAttributedString(data: chapter.info.data(using:String.Encoding.utf8)!, options: [.documentType: NSAttributedString.DocumentType.html, .characterEncoding: String.Encoding.utf8.rawValue], documentAttributes: nil)
+                attrString = try NSMutableAttributedString(data: chapter.text.data(using:String.Encoding.utf8)!, options: [.documentType: NSAttributedString.DocumentType.html, .characterEncoding: String.Encoding.utf8.rawValue], documentAttributes: nil)
                 let attrDict = [NSAttributedString.Key.font:label.font!]
                 attrString.beginEditing()
                 attrString.setAttributes(attrDict, range: NSMakeRange(0, attrString.length))
                 attrString.endEditing()
                 label.attributedText = attrString
             } catch {
-                label.text = chapter.info
+                label.text = chapter.text
             }
             
             label.backgroundColor = .clear

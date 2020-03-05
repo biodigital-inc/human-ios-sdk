@@ -19,16 +19,16 @@ class TileViewController : UIViewController, UICollectionViewDelegate, UICollect
     var searchCat : UISearchBar?
 
     // modules list UI
-    var bd_modules = [HKModule(moduleID: "production/maleAdult/human_02_regional_male_head_neck.json", title: "Head and Neck", info: "", thumb: "human_02_regional_male_head_neck"),
-                   HKModule(moduleID: "production/maleAdult/human_02_regional_male_thorax.json", title: "Thorax", info: "", thumb: "human_02_regional_male_thorax"),
-                   HKModule(moduleID: "production/maleAdult/ear_cross_section_coronal.json", title: "Ear: Coronal Cross Section", info: "", thumb: "ear_cross_section_coronal"),
-                   HKModule(moduleID: "production/maleAdult/atherosclerosis_total_occlusion.json", title: "Atheriosclerosis: Total Occlusion", info: "", thumb: "atherosclerosis_total_occlusion"),
-                   HKModule(moduleID: "production/maleAdult/hemorrhagic_stroke.json", title: "Hemorrhagic Stroke", info: "", thumb: "hemorrhagic_stroke"),
-                   HKModule(moduleID: "production/maleAdult/breathing_dynamics.json", title: "Breathing Dynamics", info: "", thumb: "breathing_dynamics")]
+    var bd_models = [HKModel(modelId: "production/maleAdult/male_region_head_07", title: "Head and Neck", text: "", thumb: "human_02_regional_male_head_neck"),
+                      HKModel(modelId: "production/maleAdult/male_region_thorax_07", title: "Thorax", text: "", thumb: "human_02_regional_male_thorax"),
+                      HKModel(modelId: "preview/ear_cross_section_coronal", title: "Ear: Coronal Cross Section", text: "", thumb: "ear_cross_section_coronal"),
+                      HKModel(modelId: "production/maleAdult/atherosclerosis_total_occlusion", title: "Atheriosclerosis: Total Occlusion", text: "", thumb: "atherosclerosis_total_occlusion"),
+                      HKModel(modelId: "production/maleAdult/hemorrhagic_stroke", title: "Hemorrhagic Stroke", text: "", thumb: "hemorrhagic_stroke"),
+                      HKModel(modelId: "production/maleAdult/breathing_dynamics", title: "Breathing Dynamics", text: "", thumb: "breathing_dynamics")]
     
-    var client_modules = [HKModule]()
+    var client_models = [HKModel]()
     
-    var modules = [HKModule]()
+    var models = [HKModel]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,7 +45,31 @@ class TileViewController : UIViewController, UICollectionViewDelegate, UICollect
         label.text = "SDK Sample Library"
         view.addSubview(label)
 
-        let tileFrame = CGRect(x:0,y:60,width:width,height:height-140)
+        let ICDLabel = UILabel(frame:CGRect(x:0, y:60, width:100, height:40))
+        ICDLabel.textColor = .black
+        ICDLabel.font = .systemFont(ofSize: 18)
+        ICDLabel.text = "Search ICD"
+        ICDLabel.backgroundColor = UIColor.init(red: 199.0/255.0, green: 199.0/255.0, blue: 199.0/255.0, alpha: 1.0)
+        ICDLabel.textAlignment = .right
+        view.addSubview(ICDLabel)
+        let searchFrame = CGRect(x: 100, y: 60, width: width-100, height: 40)
+        searchICD = UISearchBar(frame: searchFrame)
+        searchICD?.delegate = self
+        view.addSubview(searchICD!)
+
+        let catLabel = UILabel(frame:CGRect(x:0, y:100, width:100, height:40))
+        catLabel.textColor = .black
+        catLabel.font = .systemFont(ofSize: 18)
+        catLabel.text = "Specialty"
+        catLabel.backgroundColor = UIColor.init(red: 199.0/255.0, green: 199.0/255.0, blue: 199.0/255.0, alpha: 1.0)
+        catLabel.textAlignment = .right
+        view.addSubview(catLabel)
+        let catFrame = CGRect(x: 100, y: 100, width: width-100, height: 40)
+        searchCat = UISearchBar(frame: catFrame)
+        searchCat?.delegate = self
+        view.addSubview(searchCat!)
+
+        let tileFrame = CGRect(x:0,y:140,width:width,height:height-140)
         let tileLayout = UICollectionViewFlowLayout()
         var inset : CGFloat = 40.0
         if width > 800 {
@@ -59,29 +83,29 @@ class TileViewController : UIViewController, UICollectionViewDelegate, UICollect
         
         tiles.backgroundColor = .white
         
-        tiles.register(ModuleTile.self, forCellWithReuseIdentifier: "tile")
+        tiles.register(ModelTile.self, forCellWithReuseIdentifier: "tile")
         tiles.delegate = self
         tiles.dataSource = self
         
-        modules.append(contentsOf: bd_modules)
+        models.append(contentsOf: bd_models)
         
         view.addSubview(tiles)
     }
     
     func modulesLoaded() {
-        print("modules loaded")
-        if client_modules.count == 0 {
-            client_modules.append(contentsOf: AppDelegate.shared.humankit.modules)
+        print("models loaded")
+        if client_models.count == 0 {
+            client_models.append(contentsOf: AppDelegate.shared.humankit!.models)
         }
-        if AppDelegate.shared.humankit.modules.count > 0 {
-            modules.append(contentsOf: AppDelegate.shared.humankit.modules)
+        if AppDelegate.shared.humankit.models.count > 0 {
+            models.append(contentsOf: AppDelegate.shared.humankit!.models)
             tiles.reloadData()
         } else {
             let action = UIAlertController(title: "Search didn't match any ICD or Specialty name", message: "Please try again", preferredStyle: .alert)
             action.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
             present(action, animated: true, completion: nil)
-            modules.append(contentsOf: bd_modules)
-            modules.append(contentsOf: client_modules)
+            models.append(contentsOf: bd_models)
+            models.append(contentsOf: client_models)
             tiles.reloadData()
         }
     }
@@ -98,20 +122,22 @@ class TileViewController : UIViewController, UICollectionViewDelegate, UICollect
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return modules.count
+        return models.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "tile", for: indexPath) as! ModuleTile
-        cell.setModule(module: modules[indexPath.row])
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "tile", for: indexPath) as! ModelTile
+        cell.setModel(model: models[indexPath.row])
         return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        searchICD!.text = ""
+        searchCat!.text = ""
         human = storyboard?.instantiateViewController(withIdentifier: "threedee") as? HumanViewController
-        human!.modalPresentationStyle = .fullScreen
-        present(human!, animated: true) {
-            self.human!.showModule(which: self.modules[indexPath.row])
+        human?.modalPresentationStyle = .fullScreen
+        present(human!, animated: true) {            
+            self.human!.showModel(which: self.models[indexPath.row])
         }
     }
     
@@ -122,6 +148,32 @@ class TileViewController : UIViewController, UICollectionViewDelegate, UICollect
         }
         return UIEdgeInsets(top: 40, left: inset, bottom: 40, right: inset)
     }
-
+    
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
+        print("cancel")
+        searchBar.resignFirstResponder()
+        models.removeAll()
+        models.append(contentsOf: bd_models)
+        tiles.reloadData()
+    }
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        searchBar.resignFirstResponder()
+        if let text = searchBar.text {
+            if text.lengthOfBytes(using: .utf8) > 0 {
+                models.removeAll()
+                tiles.reloadData()
+                var sendtext = text
+                if (searchBar == searchICD) {
+                    sendtext = "ICD:" + text
+                }
+                AppDelegate.shared.humankit.findModel(ICD: sendtext)
+            }
+        } else {
+            models.removeAll()
+            models.append(contentsOf: bd_models)
+            tiles.reloadData()
+        }
+    }
     
 }

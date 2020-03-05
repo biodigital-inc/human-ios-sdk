@@ -9,8 +9,8 @@
 import UIKit
 import HumanKit
 
-class ModuleTile : UICollectionViewCell {
-    var module : HKModule?
+class ModelTile : UICollectionViewCell {
+    var model : HKModel?
     var thumbnail : UIImageView?
     var label : UILabel?
     
@@ -30,15 +30,15 @@ class ModuleTile : UICollectionViewCell {
         super.init(coder:aDecoder)
     }
     
-    func setModule(module: HKModule) {
-        self.module = module
-        label?.text = module.title
-        var thumbname = module.thumbnail
+    func setModel(model: HKModel) {
+        self.model = model
+        label?.text = model.title
+        var thumbname = model.thumbnail
         // the content API modules will have online thumbnails, here the gray background shows hardcoded demo modules
         backgroundColor = UIColor.init(red: 199.0/255.0, green: 199.0/255.0, blue: 199.0/255.0, alpha: 1.0)
         if thumbname.starts(with: "https") {
-            let indexStartOfText = module.thumbnail.index(module.thumbnail.startIndex, offsetBy: 29)
-            thumbname = String(module.thumbnail.suffix(from: indexStartOfText))
+            let indexStartOfText = model.thumbnail.index(model.thumbnail.startIndex, offsetBy: 29)
+            thumbname = String(model.thumbnail.suffix(from: indexStartOfText))
             backgroundColor = .clear
         }
         if let image = UIImage(named: thumbname) {
@@ -51,7 +51,7 @@ class ModuleTile : UICollectionViewCell {
             if fileManager.fileExists(atPath: fileURL.path) {
                 thumbnail?.image = UIImage(contentsOfFile: fileURL.path)
             } else {
-                guard let url = URL(string: module.thumbnail) else { return }
+                guard let url = URL(string: model.thumbnail) else { return }
                 DispatchQueue.global().async {
                     do {
                         let data = try? Data(contentsOf: url)
