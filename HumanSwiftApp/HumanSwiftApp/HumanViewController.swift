@@ -151,14 +151,10 @@ class HumanViewController: UIViewController, HKHumanDelegate {
         spinner.isHidden = false
         spinner.startAnimating()
         spinner.color = .humanRed
-        human.annotations.hide()
         human.load(model: which!.modelId) {
             self.spinner.stopAnimating()
             self.swipeChaptersView.initChapters(human: self.human)
             self.modelLabel.text = ""
-            self.human!.scene.hide(objectIds: ["lurie_toddler_oral_fixtures-mouth_open_ID","lurie_toddler_model-female_ID","lurie_toddler_model-eyes_open_ID"])
-            self.human!.scene.show(objectIds: ["lurie_toddler_model-eyes_open_ID"])
-            self.human!.scene.hide(objectIds: ["lurie_toddler_model-eyes_closed_ID"])
         }
     }
             
