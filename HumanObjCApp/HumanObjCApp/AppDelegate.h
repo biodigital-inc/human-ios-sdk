@@ -10,7 +10,6 @@
 @import HumanKit;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate, HKServicesDelegate> {
-    HKServices *humankit;
 }
 
 @property (strong, nonatomic) UIWindow *window;

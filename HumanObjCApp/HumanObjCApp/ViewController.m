@@ -33,17 +33,18 @@
 
 -(void)loadSampleModule {
     NSLog(@"loading...");
-    [body loadWithModel:@"production/maleAdult/human_02_regional_male_thorax.json" callback:^{
-        if (self && self->body) {
-            NSString *title = [self->body.scene title];
-            NSLog(@"title = %@",title);
-        }
-    }];
+    [body loadWithModel:@"production/maleAdult/human_02_regional_male_thorax.json"];
+}
+
+-(void)human:(HKHuman *)view modelLoaded:(NSString *)modelLoaded {
+    if (self && self->body) {
+        NSString *title = [self->body.scene title];
+        NSLog(@"title = %@",title);
+    }
 }
 
 -(void)human:(HKHuman *)view objectSelected:(NSString *)objectSelected {
-    HKColor *color = [[HKColor alloc] init];
-    color.tint = [UIColor blueColor];
+    HKColor *color = [[HKColor alloc] init: [UIColor blueColor]];
     color.opacity = 0.66;
     [[body scene] colorWithObjectId:objectSelected color:color];
 }

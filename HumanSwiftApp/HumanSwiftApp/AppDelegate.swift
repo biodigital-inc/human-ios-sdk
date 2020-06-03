@@ -14,7 +14,6 @@ import HumanKit
 class AppDelegate: UIResponder, UIApplicationDelegate, HKServicesDelegate {
     
     var window: UIWindow?
-    var humankit : HKServices!
     var tiles : TileViewController?
 
     static var shared : AppDelegate {
@@ -23,15 +22,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate, HKServicesDelegate {
     
     //
     // NOTE: you will need to enter a valid SDK key (and optional secret) to match the bundle id you set up at https://developer.biodigital.com
-    //
-    // 76a40ecac7a4cb54e720bf72562bd4b57f496b09:6f08dc7320ff90c5c22265aa2c03dbbe7309692b
-    // 4bf7499d290a269ce3ea9d3d28f6f2cf15df7de5:ccad96b6b387cb2cf371f5fd0b7e81be8b28db22
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        humankit = HKServices(validateKey:"<YOUR KEY>", secret:"<YOUR SECRET>")
-        humankit.delegate = self
+        HKServices.shared.setup(delegate: self)
         tiles = window!.rootViewController as? TileViewController
-        humankit.getModules()
+        HKServices.shared.getModels()
         return true
     }
     

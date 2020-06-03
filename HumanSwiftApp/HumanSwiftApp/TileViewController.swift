@@ -21,7 +21,6 @@ class TileViewController : UIViewController, UICollectionViewDelegate, UICollect
     // modules list UI
     var bd_models = [HKModel(modelId: "production/maleAdult/male_region_head_07", title: "Head and Neck", text: "", thumb: "human_02_regional_male_head_neck"),
                       HKModel(modelId: "production/maleAdult/male_region_thorax_07", title: "Thorax", text: "", thumb: "human_02_regional_male_thorax"),
-                      HKModel(modelId: "preview/ear_cross_section_coronal", title: "Ear: Coronal Cross Section", text: "", thumb: "ear_cross_section_coronal"),
                       HKModel(modelId: "production/maleAdult/atherosclerosis_total_occlusion", title: "Atheriosclerosis: Total Occlusion", text: "", thumb: "atherosclerosis_total_occlusion"),
                       HKModel(modelId: "production/maleAdult/hemorrhagic_stroke", title: "Hemorrhagic Stroke", text: "", thumb: "hemorrhagic_stroke"),
                       HKModel(modelId: "production/maleAdult/breathing_dynamics", title: "Breathing Dynamics", text: "", thumb: "breathing_dynamics")]
@@ -95,10 +94,10 @@ class TileViewController : UIViewController, UICollectionViewDelegate, UICollect
     func modulesLoaded() {
         print("models loaded")
         if client_models.count == 0 {
-            client_models.append(contentsOf: AppDelegate.shared.humankit!.models)
+            client_models.append(contentsOf: HKServices.shared.models)
         }
-        if AppDelegate.shared.humankit.models.count > 0 {
-            models.append(contentsOf: AppDelegate.shared.humankit!.models)
+        if HKServices.shared.models.count > 0 {
+            models.append(contentsOf: HKServices.shared.models)
             tiles.reloadData()
         } else {
             let action = UIAlertController(title: "Search didn't match any ICD or Specialty name", message: "Please try again", preferredStyle: .alert)
@@ -167,7 +166,7 @@ class TileViewController : UIViewController, UICollectionViewDelegate, UICollect
                 if (searchBar == searchICD) {
                     sendtext = "ICD:" + text
                 }
-                AppDelegate.shared.humankit.findModel(ICD: sendtext)
+                HKServices.shared.findModel(ICD: sendtext)
             }
         } else {
             models.removeAll()

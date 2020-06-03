@@ -151,11 +151,7 @@ class HumanViewController: UIViewController, HKHumanDelegate {
         spinner.isHidden = false
         spinner.startAnimating()
         spinner.color = .humanRed
-        human.load(model: which!.modelId) {
-            self.spinner.stopAnimating()
-            self.swipeChaptersView.initChapters(human: self.human)
-            self.modelLabel.text = ""
-        }
+        human.load(model: which!.modelId)
     }
             
     @IBAction func home() {
@@ -165,6 +161,11 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     }
 
     // MARK: HKHumanDelegate callback functions
+    func human(_ view: HKHuman, modelLoaded: String) {
+        self.spinner.stopAnimating()
+        self.swipeChaptersView.initChapters(human: self.human)
+        self.modelLabel.text = ""
+    }
     
     // these methods are optional, you do not need to implement them
     func onValidSDK() {

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DD72AF90C6BA89C575D58D5 /* Pods_objcapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5DBB7BA97B165330E290B25 /* Pods_objcapp.framework */; };
+		408D3C1F8338465E1C984CED /* Pods_HumanObjCApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A40B8B73DE24494F2A477B8 /* Pods_HumanObjCApp.framework */; };
 		4E666D812084EFCF00BC0206 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E666D802084EFCF00BC0206 /* AppDelegate.m */; };
 		4E666D842084EFCF00BC0206 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E666D832084EFCF00BC0206 /* ViewController.m */; };
 		4E666D872084EFCF00BC0206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E666D852084EFCF00BC0206 /* Main.storyboard */; };
@@ -30,7 +30,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		14C403E27FC6AE5F2DE4A21A /* Pods-objcapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objcapp.release.xcconfig"; path = "Target Support Files/Pods-objcapp/Pods-objcapp.release.xcconfig"; sourceTree = "<group>"; };
+		2A40B8B73DE24494F2A477B8 /* Pods_HumanObjCApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HumanObjCApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E666D7C2084EFCF00BC0206 /* HumanObjCApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HumanObjCApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E666D7F2084EFCF00BC0206 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4E666D802084EFCF00BC0206 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -41,8 +41,8 @@
 		4E666D8B2084EFDC00BC0206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E666D8D2084EFDC00BC0206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E666D8E2084EFDC00BC0206 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		742AC6424DA3A3A7ADC7BEC7 /* Pods-objcapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-objcapp.debug.xcconfig"; path = "Target Support Files/Pods-objcapp/Pods-objcapp.debug.xcconfig"; sourceTree = "<group>"; };
-		E5DBB7BA97B165330E290B25 /* Pods_objcapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_objcapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E8A83FACFC9C1ADC0DE97A /* Pods-HumanObjCApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumanObjCApp.debug.xcconfig"; path = "Target Support Files/Pods-HumanObjCApp/Pods-HumanObjCApp.debug.xcconfig"; sourceTree = "<group>"; };
+		70ACB1DCC2AB36BF39FAFF62 /* Pods-HumanObjCApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumanObjCApp.release.xcconfig"; path = "Target Support Files/Pods-HumanObjCApp/Pods-HumanObjCApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,28 +50,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DD72AF90C6BA89C575D58D5 /* Pods_objcapp.framework in Frameworks */,
+				408D3C1F8338465E1C984CED /* Pods_HumanObjCApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		22E3C8B96618801E948841B4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				E5DBB7BA97B165330E290B25 /* Pods_objcapp.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		4E666D732084EFCF00BC0206 = {
 			isa = PBXGroup;
 			children = (
 				4E666D7E2084EFCF00BC0206 /* HumanObjCApp */,
 				4E666D7D2084EFCF00BC0206 /* Products */,
 				EC376F695D8F98FDD560E73B /* Pods */,
-				22E3C8B96618801E948841B4 /* Frameworks */,
+				FB32A947201E0583CD2066F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +94,18 @@
 		EC376F695D8F98FDD560E73B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				742AC6424DA3A3A7ADC7BEC7 /* Pods-objcapp.debug.xcconfig */,
-				14C403E27FC6AE5F2DE4A21A /* Pods-objcapp.release.xcconfig */,
+				58E8A83FACFC9C1ADC0DE97A /* Pods-HumanObjCApp.debug.xcconfig */,
+				70ACB1DCC2AB36BF39FAFF62 /* Pods-HumanObjCApp.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB32A947201E0583CD2066F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A40B8B73DE24494F2A477B8 /* Pods_HumanObjCApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,12 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E666D922084EFDC00BC0206 /* Build configuration list for PBXNativeTarget "HumanObjCApp" */;
 			buildPhases = (
-				BCC7C5F930667C075BA6AD5C /* [CP] Check Pods Manifest.lock */,
+				DC67BB18CEB1A478A1119F62 /* [CP] Check Pods Manifest.lock */,
 				4E666D782084EFCF00BC0206 /* Sources */,
 				4E666D792084EFCF00BC0206 /* Frameworks */,
 				4E666D7A2084EFCF00BC0206 /* Resources */,
 				4E666D982084F2DB00BC0206 /* Embed Frameworks */,
-				B8B0907F46AFBDE544B416EA /* [CP] Embed Pods Frameworks */,
+				A1054CA60A8668D2750782AA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,24 +177,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B8B0907F46AFBDE544B416EA /* [CP] Embed Pods Frameworks */ = {
+		A1054CA60A8668D2750782AA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-objcapp/Pods-objcapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-HumanObjCApp/Pods-HumanObjCApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-objcapp/Pods-objcapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-HumanObjCApp/Pods-HumanObjCApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-objcapp/Pods-objcapp-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HumanObjCApp/Pods-HumanObjCApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BCC7C5F930667C075BA6AD5C /* [CP] Check Pods Manifest.lock */ = {
+		DC67BB18CEB1A478A1119F62 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -209,7 +209,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-objcapp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-HumanObjCApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -363,7 +363,7 @@
 		};
 		4E666D932084EFDC00BC0206 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 742AC6424DA3A3A7ADC7BEC7 /* Pods-objcapp.debug.xcconfig */;
+			baseConfigurationReference = 58E8A83FACFC9C1ADC0DE97A /* Pods-HumanObjCApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -386,7 +386,7 @@
 		};
 		4E666D942084EFDC00BC0206 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14C403E27FC6AE5F2DE4A21A /* Pods-objcapp.release.xcconfig */;
+			baseConfigurationReference = 70ACB1DCC2AB36BF39FAFF62 /* Pods-HumanObjCApp.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
