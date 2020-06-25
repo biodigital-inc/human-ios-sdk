@@ -55,6 +55,7 @@ import os
   @objc public func setupUI(option: HumanKit.HumanUIOptions, value: Swift.Bool)
   @objc public func load(model: Swift.String)
   @objc public func unload()
+  @objc public func reload()
   @objc public func disableInput()
   @objc public func enableInput()
   @objc deinit
@@ -281,7 +282,7 @@ import os
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class HKServices : ObjectiveC.NSObject {
   @objc public var models: [HumanKit.HKModel]
   @objc public static let shared: HumanKit.HKServices
-  @objc public func sharedInstance() -> HumanKit.HKServices
+  @objc public func setup(key: Swift.String, secret: Swift.String, delegate: HumanKit.HKServicesDelegate? = nil)
   @objc public func setup(delegate: HumanKit.HKServicesDelegate? = nil)
   @objc public func getModels()
   @objc public func findModel(ICD: Swift.String)
