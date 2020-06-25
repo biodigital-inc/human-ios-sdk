@@ -3,6 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>BioDigital SDK Key</key>
+	<string>2a4e4a872cfb4a58a39e1326bbef5637ef3c385e</string>
+	<key>BioDigital SDK Secret</key>
 	<string></string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>

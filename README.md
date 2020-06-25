@@ -1,14 +1,17 @@
 # HumanKit
 The BioDigital Human iOS SDK
 
-Current version: 2.0.1
+Current version: 2.0.2
 
-Previous version: 2.0.0
+Previous version: 2.0.1
 
 Please visit http://developer.biodigital.com for documentation and setup instructions, and http://human.biodigital.com to see the 3D Human
 
-To test the Sample Apps, download the ZIP and run 'pod install' in the project directories.  
-NOTE: You'll need to generate an API key in our developer site and put your credentials into the Sample App to connect to our servers.
+To test the Sample Apps, clone the repo or download the ZIP and run 'pod install' in the project directories.
+
+Our Apple Research Kit integration is the file ORKBioDigitalModelManager.swift
+
+NOTE: You'll need to generate an API key in our developer site and put your credentials into the Sample Apps to view our 3D content.
 
 <hr>
 
@@ -21,7 +24,7 @@ to your app target add:
 pod 'HumanKit'
 
 for a specific version:
-pod 'HumanKit', '2.0.1'
+pod 'HumanKit', '2.0.2'
 
 for a universal build:
-pod 'HumanKit', '2.0.1-universal'
+pod 'HumanKit', '2.0.2-universal'

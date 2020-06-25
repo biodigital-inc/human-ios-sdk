@@ -44,9 +44,9 @@
 }
 
 -(void)human:(HKHuman *)view objectSelected:(NSString *)objectSelected {
-    HKColor *color = [[HKColor alloc] init: [UIColor blueColor]];
-    color.opacity = 0.66;
-    [[body scene] colorWithObjectId:objectSelected color:color];
+//    HKColor *color = [[HKColor alloc] init];
+//    color.opacity = 0.66;
+//    [[body scene] colorWithObjectId:objectSelected color:color];
 }
 
 

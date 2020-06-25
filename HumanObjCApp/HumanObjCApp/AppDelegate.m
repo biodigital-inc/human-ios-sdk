@@ -9,15 +9,11 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 
-@interface AppDelegate ()
-
-@end
-
 @implementation AppDelegate
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
     [[HKServices shared] setupWithDelegate:self];
     return YES;
 }
@@ -49,7 +45,7 @@
 }
 
 -(void)modulesLoaded {
-    NSLog(@"got %lu modules",(unsigned long)[HKServices shared].models.count);
+//    NSLog(@"got %lu modules",(unsigned long)[HKServices shared].models.count);
 }
 
 - (void)onInvalidSDK {
