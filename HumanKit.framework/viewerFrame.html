@@ -1,6 +1,6 @@
 <html>
     <head>
-<script src="https://developer.biodigital.com/builds/api/2/human-api.min.js"></script>
+<script src="human-api.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
     body {
@@ -44,7 +44,7 @@
         window.webkit.messageHandlers.messageHandler.postMessage("human.progress " + JSON.stringify(data));
         if (data.progress === 100) {
             if (progressDone === false) {
-                window.webkit.messageHandlers.assetsHandler.postMessage('loaded');
+                window.webkit.messageHandlers.assetsHandler.postMessage("loaded");
             }
             progressDone = true;
         } else {
@@ -112,10 +112,11 @@
         window.webkit.messageHandlers.messageHandler.postMessage("GH: human.ready");
         human.send('scene.metadata', function(metadata) {
             window.webkit.messageHandlers.sceneMetaHandler.postMessage(metadata);
-            window.webkit.messageHandlers.messageHandler.postMessage("** SCENE.METADATA: " + JSON.stringify(metadata));
+//            window.webkit.messageHandlers.messageHandler.postMessage("** SCENE.METADATA: " + JSON.stringify(metadata));
         });
         human.send('scene.info', function(scenedata) {
             window.webkit.messageHandlers.sceneInfoHandler.postMessage(scenedata);
+//            window.webkit.messageHandlers.messageHandler.postMessage("** SCENE.INFO: " + JSON.stringify(scenedata));
         });
 //
     });
