@@ -14,6 +14,7 @@
 		4E666D892084EFDC00BC0206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E666D882084EFDC00BC0206 /* Assets.xcassets */; };
 		4E666D8C2084EFDC00BC0206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E666D8A2084EFDC00BC0206 /* LaunchScreen.storyboard */; };
 		4E666D8F2084EFDC00BC0206 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E666D8E2084EFDC00BC0206 /* main.m */; };
+		B367F5312548734F00F4FB04 /* BioDigital.plist in Resources */ = {isa = PBXBuildFile; fileRef = B367F5302548734F00F4FB04 /* BioDigital.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		4E666D8E2084EFDC00BC0206 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		58E8A83FACFC9C1ADC0DE97A /* Pods-HumanObjCApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumanObjCApp.debug.xcconfig"; path = "Target Support Files/Pods-HumanObjCApp/Pods-HumanObjCApp.debug.xcconfig"; sourceTree = "<group>"; };
 		70ACB1DCC2AB36BF39FAFF62 /* Pods-HumanObjCApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumanObjCApp.release.xcconfig"; path = "Target Support Files/Pods-HumanObjCApp/Pods-HumanObjCApp.release.xcconfig"; sourceTree = "<group>"; };
+		B367F5302548734F00F4FB04 /* BioDigital.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BioDigital.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				4E666D882084EFDC00BC0206 /* Assets.xcassets */,
 				4E666D8A2084EFDC00BC0206 /* LaunchScreen.storyboard */,
 				4E666D8D2084EFDC00BC0206 /* Info.plist */,
+				B367F5302548734F00F4FB04 /* BioDigital.plist */,
 				4E666D8E2084EFDC00BC0206 /* main.m */,
 			);
 			path = HumanObjCApp;
@@ -170,6 +173,7 @@
 			files = (
 				4E666D8C2084EFDC00BC0206 /* LaunchScreen.storyboard in Resources */,
 				4E666D892084EFDC00BC0206 /* Assets.xcassets in Resources */,
+				B367F5312548734F00F4FB04 /* BioDigital.plist in Resources */,
 				4E666D872084EFCF00BC0206 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

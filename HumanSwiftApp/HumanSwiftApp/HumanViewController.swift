@@ -53,14 +53,6 @@ class HumanViewController: UIViewController, HKHumanDelegate {
         return scv
     }()
     
-    lazy var spinner : UIActivityIndicatorView = {
-        let spinny = UIActivityIndicatorView()
-        spinny.color = .humanRed
-        spinny.hidesWhenStopped = true
-        spinny.style = .whiteLarge
-        return spinny
-    }()
-
     var paintColor : HKColor? = nil;
     
     lazy var redColor : HKColor = {
@@ -146,11 +138,6 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     func showModel(which: HKModel?) {
         modelLabel.text = "Loading \(which!.title)..."
         swipeChaptersView.clear()
-        view.addSubview(spinner)
-        spinner.center = view.center
-        spinner.isHidden = false
-        spinner.startAnimating()
-        spinner.color = .humanRed
         human.load(model: which!.modelId)
     }
             
@@ -162,7 +149,6 @@ class HumanViewController: UIViewController, HKHumanDelegate {
 
     // MARK: HKHumanDelegate callback functions
     func human(_ view: HKHuman, modelLoaded: String) {
-        self.spinner.stopAnimating()
         self.swipeChaptersView.initChapters(human: self.human)
         self.modelLabel.text = ""
     }

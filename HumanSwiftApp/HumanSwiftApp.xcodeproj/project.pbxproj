@@ -15,6 +15,7 @@
 		4ED940A321C42CCC00638D15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ED940A121C42CCC00638D15 /* LaunchScreen.storyboard */; };
 		4ED940AF21C42D7600638D15 /* TileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED940AA21C42D7600638D15 /* TileViewController.swift */; };
 		4ED940B021C42D7600638D15 /* SwipeChaptersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED940AB21C42D7600638D15 /* SwipeChaptersView.swift */; };
+		B367F52C2548709100F4FB04 /* BioDigital.plist in Resources */ = {isa = PBXBuildFile; fileRef = B367F52B2548709100F4FB04 /* BioDigital.plist */; };
 		B3817BF024119AA3000EFA06 /* ModelTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3817BEF24119AA3000EFA06 /* ModelTile.swift */; };
 		C5C51134E25BF96C8E54BFF6 /* Pods_HumanSwiftApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F32AA7F1EC6ED4FB64EB87 /* Pods_HumanSwiftApp.framework */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,7 @@
 		4ED940AA21C42D7600638D15 /* TileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileViewController.swift; sourceTree = "<group>"; };
 		4ED940AB21C42D7600638D15 /* SwipeChaptersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeChaptersView.swift; sourceTree = "<group>"; };
 		57F32AA7F1EC6ED4FB64EB87 /* Pods_HumanSwiftApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HumanSwiftApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B367F52B2548709100F4FB04 /* BioDigital.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BioDigital.plist; sourceTree = "<group>"; };
 		B3817BEF24119AA3000EFA06 /* ModelTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelTile.swift; sourceTree = "<group>"; };
 		DCDFD0F3C2A656A0F8B6117B /* Pods-HumanSwiftApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumanSwiftApp.debug.xcconfig"; path = "Target Support Files/Pods-HumanSwiftApp/Pods-HumanSwiftApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +98,7 @@
 				4ED9409F21C42CCC00638D15 /* Assets.xcassets */,
 				4ED940A121C42CCC00638D15 /* LaunchScreen.storyboard */,
 				4ED940A421C42CCC00638D15 /* Info.plist */,
+				B367F52B2548709100F4FB04 /* BioDigital.plist */,
 			);
 			path = HumanSwiftApp;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			files = (
 				4ED940A321C42CCC00638D15 /* LaunchScreen.storyboard in Resources */,
 				4ED940A021C42CCC00638D15 /* Assets.xcassets in Resources */,
+				B367F52C2548709100F4FB04 /* BioDigital.plist in Resources */,
 				4ED9409E21C42CBB00638D15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
