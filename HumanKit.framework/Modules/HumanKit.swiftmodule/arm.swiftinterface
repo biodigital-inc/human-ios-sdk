@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
 // swift-module-flags: -target armv7-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name HumanKit
 import Compression
 import CoreFoundation
@@ -266,6 +266,7 @@ extension IAPHelper : StoreKit.SKPaymentTransactionObserver {
   @objc public func show()
   @objc public func hide()
   @objc public func create(annotation: HumanKit.HKAnnotation)
+  @objc public func createLabel(annotation: HumanKit.HKAnnotation)
   @objc public func update(annotationId: Swift.String)
   @objc public func destroy(annotationId: Swift.String)
   @objc override dynamic public init()

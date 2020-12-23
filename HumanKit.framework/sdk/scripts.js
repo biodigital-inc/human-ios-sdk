@@ -4903,7 +4903,7 @@ quat.equals = vec4.equals;;/**
                 item = arguments[1];
 
                 if (this.items[id]) { // Won't happen if given ID is string
-                    throw SceneJS_error.fatalError(SceneJS.errors.ID_CLASH, "ID clash: '" + id + "'");
+                    SceneJS_error.fatalError(SceneJS.errors.ID_CLASH, "ID clash: '" + id + "'");
                 }
 
                 this.items[id] = item;
@@ -5256,7 +5256,7 @@ quat.equals = vec4.equals;;/**
 
             if (json.id) {
                 if (this._engines[json.id]) {
-                    throw SceneJS_error.fatalError(
+                    SceneJS_error.fatalError(
                         SceneJS.errors.ILLEGAL_NODE_CONFIG,
                         "Scene already exists with this ID: '" + json.id + "'");
                 }
@@ -5687,7 +5687,7 @@ quat.equals = vec4.equals;;/**
                 break;
 
             default:
-                throw SceneJS_error.fatalError("SceneJS.bind - this event type not supported: '" + name + "'");
+                SceneJS_error.fatalError("SceneJS.bind - this event type not supported: '" + name + "'");
         }
     };
 
@@ -5746,7 +5746,7 @@ quat.equals = vec4.equals;;/**
         // Bind to canvas
         var canvas = document.getElementById(canvasId);
         if (!canvas) {
-            throw SceneJS_error.fatalError(SceneJS.errors.CANVAS_NOT_FOUND,
+            SceneJS_error.fatalError(SceneJS.errors.CANVAS_NOT_FOUND,
                 "SceneJS.Scene attribute 'canvasId' does not match any elements in the page");
         }
 
@@ -5838,11 +5838,14 @@ quat.equals = vec4.equals;;/**
                 }
             }
         }
-        
+
         if (!this.gl) {
-            throw SceneJS_error.fatalError(
+            // DO NOT THROW
+            // how will this effect control flow???
+            SceneJS_error.fatalError(
                 SceneJS.errors.WEBGL_NOT_SUPPORTED,
-                'Failed to get a WebGL context');
+                "Failed to get a WebGL context"
+            );
         }
     };
 
@@ -6447,20 +6450,15 @@ quat.equals = vec4.equals;;/**
 
     var SceneJS_error = window.SceneJS_error = new (function() {
 
-        var activeSceneId;
+        var handler = undefined;
+        var bufferedFatalError = undefined;
 
-        SceneJS_events.addListener(
-                SceneJS_events.SCENE_COMPILING, // Set default logging for scene root
-                function(params) {
-                    activeSceneId = params.engine.id;
-                });
-
-        SceneJS_events.addListener(
-                SceneJS_events.RESET,
-                function() {
-                    activeSceneId = null;
-                },
-                100000);  // Really low priority - must be reset last
+        this.setFatalErrorHandler = function(_handler) {
+            handler = _handler;
+            if (bufferedFatalError !== undefined) {
+                handler(bufferedFatalError);
+            }
+        }
 
         this.fatalError = function(code, message) {
             if (typeof code == "string") {
@@ -6470,27 +6468,15 @@ quat.equals = vec4.equals;;/**
             var error = {
                 errorName: SceneJS.errors._getErrorName(code) || "ERROR",
                 code: code,
-                exception: message,
-                fatal: true
+                messageFromCaller: message,
+                stackTrace: Human.utils.getStackTrace(),
             };
-            if (activeSceneId) {
-                error.sceneId = activeSceneId;
-            }
-            SceneJS_events.fireEvent(SceneJS_events.ERROR, error);
-            return message;
-        };
 
-        this.error = function(code, message) {
-            var error = {
-                errorName: SceneJS.errors._getErrorName(code) || "ERROR",
-                code: code,
-                exception: message,
-                fatal: false
-            };
-            if (activeSceneId) {
-                error.sceneId = activeSceneId;
+            if (handler !== undefined) {
+                handler(error);
+            } else {
+                bufferedFatalError = error;
             }
-            SceneJS_events.fireEvent(SceneJS_events.ERROR, error);
         };
     })();
 
@@ -7433,7 +7419,7 @@ quat.equals = vec4.equals;;/**
         this.allocated = false;
         this.handle = this.gl.createBuffer();
         if (!this.handle) {
-            throw SceneJS_error.fatalError(SceneJS.errors.OUT_OF_VRAM, "Failed to allocate WebGL ArrayBuffer");
+            SceneJS_error.fatalError(SceneJS.errors.OUT_OF_VRAM, "Failed to allocate WebGL ArrayBuffer");
         }
         if (this.handle) {
             this.gl.bindBuffer(this.type, this.handle);
@@ -7693,7 +7679,7 @@ quat.equals = vec4.equals;;/**
         this.gl.bindFramebuffer(this.gl.FRAMEBUFFER, this.buf.framebuf);
 
         if (!this.gl.isFramebuffer(this.buf.framebuf)) {
-            throw SceneJS_error.fatalError(SceneJS.errors.INVALID_FRAMEBUFFER, "Invalid framebuffer");
+            SceneJS_error.fatalError(SceneJS.errors.INVALID_FRAMEBUFFER, "Invalid framebuffer");
         }
 
         var status = this.gl.checkFramebufferStatus(this.gl.FRAMEBUFFER);
@@ -7704,19 +7690,19 @@ quat.equals = vec4.equals;;/**
                 break;
 
             case this.gl.FRAMEBUFFER_INCOMPLETE_ATTACHMENT:
-                throw SceneJS_error.fatalError(SceneJS.errors.ERROR, "Incomplete framebuffer: FRAMEBUFFER_INCOMPLETE_ATTACHMENT");
+                SceneJS_error.fatalError(SceneJS.errors.ERROR, "Incomplete framebuffer: FRAMEBUFFER_INCOMPLETE_ATTACHMENT");
 
             case this.gl.FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT:
-                throw SceneJS_error.fatalError(SceneJS.errors.ERROR, "Incomplete framebuffer: FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT");
+                SceneJS_error.fatalError(SceneJS.errors.ERROR, "Incomplete framebuffer: FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT");
 
             case this.gl.FRAMEBUFFER_INCOMPLETE_DIMENSIONS:
-                throw SceneJS_error.fatalError(SceneJS.errors.ERROR, "Incomplete framebuffer: FRAMEBUFFER_INCOMPLETE_DIMENSIONS");
+                SceneJS_error.fatalError(SceneJS.errors.ERROR, "Incomplete framebuffer: FRAMEBUFFER_INCOMPLETE_DIMENSIONS");
 
             case this.gl.FRAMEBUFFER_UNSUPPORTED:
-                throw SceneJS_error.fatalError(SceneJS.errors.ERROR, "Incomplete framebuffer: FRAMEBUFFER_UNSUPPORTED");
+                SceneJS_error.fatalError(SceneJS.errors.ERROR, "Incomplete framebuffer: FRAMEBUFFER_UNSUPPORTED");
 
             default:
-                throw SceneJS_error.fatalError(SceneJS.errors.ERROR, "Incomplete framebuffer: " + status);
+                SceneJS_error.fatalError(SceneJS.errors.ERROR, "Incomplete framebuffer: " + status);
         }
 
         this.bound = false;
@@ -8079,7 +8065,7 @@ quat.equals = vec4.equals;;/**
         this.handle = gl.createShader(type);
 
         if (!this.handle) {
-            throw SceneJS_error.fatalError(SceneJS.errors.OUT_OF_VRAM, "Failed to create WebGL shader");
+            SceneJS_error.fatalError(SceneJS.errors.OUT_OF_VRAM, "Failed to create WebGL shader");
         }
 
         gl.shaderSource(this.handle, source);
@@ -8098,7 +8084,7 @@ quat.equals = vec4.equals;;/**
                     SceneJS.log.error((j + 1) + ": " + lines[j]);
                 }
 
-                throw SceneJS_error.fatalError(
+                SceneJS_error.fatalError(
                     SceneJS.errors.SHADER_COMPILATION_FAILURE, "Shader program failed to compile");
             }
         }
@@ -8118,7 +8104,7 @@ quat.equals = vec4.equals;;/**
         try {
             this._init(gl, cfg);
         } catch (e) {
-            throw SceneJS_error.fatalError(SceneJS.errors.OUT_OF_VRAM, "Failed to create texture: " + e.message || e);
+            SceneJS_error.fatalError(SceneJS.errors.OUT_OF_VRAM, "Failed to create texture: " + e.message || e);
         }
 
     };
@@ -9558,7 +9544,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
     SceneJS.Node.prototype.removeNode = function (node) {
 
         if (!node) {
-            throw SceneJS_error.fatalError(
+            SceneJS_error.fatalError(
                 SceneJS.errors.ILLEGAL_NODE_CONFIG,
                 "Node#removeNode - node argument undefined");
         }
@@ -9567,7 +9553,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
             if (typeof node == "string") {
                 var gotNode = this._engine.findNode(node);
                 if (!gotNode) {
-                    throw SceneJS_error.fatalError(
+                    SceneJS_error.fatalError(
                         SceneJS.errors.NODE_NOT_FOUND,
                         "Node#removeNode - node not found anywhere: '" + node + "'");
                 }
@@ -9584,7 +9570,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
             }
         }
 
-        throw SceneJS_error.fatalError(
+        SceneJS_error.fatalError(
             SceneJS.errors.NODE_NOT_FOUND,
             "Node#removeNode - child node not found: " + (node._compile ? ": " + node.id : node));
     };
@@ -9665,7 +9651,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
         // Graft node object
         if (node._compile) {
             if (node.parent != null) {
-                throw SceneJS_error.fatalError(
+                SceneJS_error.fatalError(
                     SceneJS.errors.ILLEGAL_NODE_CONFIG,
                     "Node#addNode - node argument is still attached to another parent");
             }
@@ -9683,13 +9669,13 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
         if (typeof node == "string") {
             var gotNode = this._engine.findNode(node);
             if (!gotNode) {
-                throw SceneJS_error.fatalError(
+                SceneJS_error.fatalError(
                     SceneJS.errors.ILLEGAL_NODE_CONFIG,
                     "Node#addNode - node not found: '" + node + "'");
             }
             node = gotNode;
             if (node.parent != null) {
-                throw SceneJS_error.fatalError(
+                SceneJS_error.fatalError(
                     SceneJS.errors.ILLEGAL_NODE_CONFIG,
                     "Node#addNode - node argument is still attached to another parent");
             }
@@ -9753,7 +9739,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
     SceneJS.Node.prototype.insertNode = function (node, i) {
 
         if (!node) {
-            throw SceneJS_error.fatalError(
+            SceneJS_error.fatalError(
                 SceneJS.errors.ILLEGAL_NODE_CONFIG,
                 "SceneJS.Node#insertNode - node argument is undefined");
         }
@@ -9763,13 +9749,13 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
         }
 
         if (!node._compile) {
-            throw SceneJS_error.fatalError(
+            SceneJS_error.fatalError(
                 SceneJS.errors.ILLEGAL_NODE_CONFIG,
                 "SceneJS.Node#insertNode - node argument is not a SceneJS.Node");
         }
 
         if (node.parent != null) {
-            throw SceneJS_error.fatalError(
+            SceneJS_error.fatalError(
                 SceneJS.errors.ILLEGAL_NODE_CONFIG,
                 "SceneJS.Node#insertNode - node argument is still attached to another parent");
         }
@@ -9780,7 +9766,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
 
         } else if (i < 0) {
 
-            throw SceneJS_error.fatalError(
+            SceneJS_error.fatalError(
                 SceneJS.errors.ILLEGAL_NODE_CONFIG,
                 "SceneJS.Node#insertNode - node index out of range: -1");
 
@@ -11007,7 +10993,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
                 return gl.TRIANGLE_FAN;
 
             default:
-                throw SceneJS_error.fatalError(
+                SceneJS_error.fatalError(
                     SceneJS.errors.ILLEGAL_NODE_CONFIG,
                     "geometry primitive unsupported: '" +
                     primitive +
@@ -11137,7 +11123,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
             buildCore(gl, core);
         } catch (e) { // Allocation failure - delete whatever buffers got allocated
             destroyBuffers(core);
-            throw SceneJS_error.fatalError(
+            SceneJS_error.fatalError(
                 SceneJS.errors.ERROR,
                 "Failed to allocate geometry: " + e);
         }
@@ -12077,7 +12063,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
                 }
             }
 
-            throw SceneJS_error.fatalError(
+            SceneJS_error.fatalError(
                 SceneJS.errors.ERROR,
                 "Failed to allocate VBO(s) for morphGeometry: " + e);
         }
@@ -12255,14 +12241,14 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
     function buildCore(node, data) {
         var targetsData = data.targets || [];
         if (targetsData.length < 2) {
-            throw SceneJS_error.fatalError(
+            SceneJS_error.fatalError(
                 SceneJS.errors.ILLEGAL_NODE_CONFIG,
                 "morphGeometry node should have at least two targets");
         }
 
         var keysData = data.keys || [];
         if (keysData.length != targetsData.length) {
-            throw SceneJS_error.fatalError(
+            SceneJS_error.fatalError(
                 SceneJS.errors.ILLEGAL_NODE_CONFIG,
                 "morphGeometry node mismatch in number of keys and targets");
         }
@@ -12707,7 +12693,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
 
             var mode = cfg.mode || "dir";
             if (mode != "dir" && mode != "point" && mode != "ambient" && mode != "spot") {
-                throw SceneJS_error.fatalError(
+                SceneJS_error.fatalError(
                     SceneJS.errors.ILLEGAL_NODE_CONFIG,
                     "Light mode not supported - should be 'dir' or 'point' or 'spot' or 'ambient'");
             }
@@ -13415,7 +13401,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
 
             var applyFrom = params.applyFrom || "uv";
             if (applyFrom.substring(0,2) !== "uv") {
-                    throw SceneJS_error.fatalError(
+                    SceneJS_error.fatalError(
                         SceneJS.errors.NODE_CONFIG_EXPECTED,
                         "texture applyFrom value is unsupported - should be 'uv<index>'");
             }
@@ -13423,7 +13409,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
             if (applyFrom !== "uv") {
                 uvLayerIdx = parseInt(applyFrom.substring(2));
                 if (isNaN(uvLayerIdx)) {
-                    throw SceneJS_error.fatalError(
+                    SceneJS_error.fatalError(
                         SceneJS.errors.NODE_CONFIG_EXPECTED,
                         "texture applyFrom value invalid - should be 'uv<index>'");
                 }
@@ -13447,7 +13433,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
                     applyTo != "metallicRoughness" // Combined metallic & roughness map
                   ) { // Shininess map
 
-                    throw SceneJS_error.fatalError(
+                    SceneJS_error.fatalError(
                         SceneJS.errors.NODE_CONFIG_EXPECTED,
                         "texture applyTo value is unsupported: " + applyTo);
                 }
@@ -13455,7 +13441,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
 
             if (params.blendMode) {
                 if (params.blendMode != "add" && params.blendMode != "multiply" && params.blendMode != "over" && params.blendMode != "conditionalAlpha") {
-                    throw SceneJS_error.fatalError(
+                    SceneJS_error.fatalError(
                         SceneJS.errors.NODE_CONFIG_EXPECTED,
                         "texture layer blendMode value is unsupported - " +
                         "should be either 'add' or 'multiply'");
@@ -13501,7 +13487,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
                 } else if (params.containerFormat === "ktx") {
                     parseFunction = this._parseKTX;
                 } else {
-                    throw SceneJS_error.fatalError(
+                    SceneJS_error.fatalError(
                         SceneJS.errors.NODE_CONFIG_EXPECTED,
                         "Compressed textures require containerFormat parameter to be 'dds' or 'pvr'");
                 }
@@ -13618,7 +13604,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
         var ext = SceneJS._getExtension(gl, extension);
 
         if (!ext) {
-            throw SceneJS_error.fatalError(
+            SceneJS_error.fatalError(
                 SceneJS.errors.ILLEGAL_NODE_CONFIG,
                 "Compressed texture format " + extension + "not available.");
         }
@@ -13756,7 +13742,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
         }
         var glName = SceneJS._webgl.enumMap[value];
         if (glName == undefined) {
-            throw SceneJS_error.fatalError(
+            SceneJS_error.fatalError(
                 SceneJS.errors.ILLEGAL_NODE_CONFIG,
                 "Unrecognised value for texture node property '" + name + "' value: '" + value + "'");
         }
@@ -13932,7 +13918,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
     SceneJS.TextureMap.prototype._parseDDS = function(buffer) {
 
         if (!DDS_CONSTANTS) {
-            throw SceneJS_error.fatalError(
+            SceneJS_error.fatalError(
                 SceneJS.errors.ILLEGAL_NODE_CONFIG,
                 "DXT compressed textures not supported on this platform.");
         }
@@ -13940,13 +13926,13 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
         var header = new Uint32Array(buffer, 0, DDS_CONSTANTS.HEADER_LENGTH);
 
         if (header[DDS_CONSTANTS.MAGIC_NUMBER_INDEX] != DDS_CONSTANTS.MAGIC_NUMBER) {
-            throw SceneJS_error.fatalError(
+            SceneJS_error.fatalError(
                 SceneJS.errors.ILLEGAL_NODE_CONFIG,
                 "Invalid DDS File: Magic number invalid.");
         }
 
         if (header[DDS_CONSTANTS.PIXEL_FORMAT_FLAGS_INDEX] & DDS_CONSTANTS.PIXEL_FORMAT_FOURCC_FLAG === 0) {
-            throw SceneJS_error.fatalError(
+            SceneJS_error.fatalError(
                 SceneJS.errors.ILLEGAL_NODE_CONFIG,
                 "Invalid DDS File: FourCC required.");
         }
@@ -13972,7 +13958,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
         var header = new Uint32Array(buffer, 0, PVR_CONSTANTS.HEADER_LENGTH);
 
         if (header[PVR_CONSTANTS.MAGIC_NUMBER_INDEX] != PVR_CONSTANTS.MAGIC_NUMBER) {
-            throw SceneJS_error.fatalError(
+            SceneJS_error.fatalError(
                 SceneJS.errors.ILLEGAL_NODE_CONFIG,
                 "Invalid PVR File: Magic number invalid.");
         }
@@ -14000,7 +13986,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
 
         for (var i = 0; i < KTX_CONSTANTS.IDENTIFIER_LENGTH; ++i) {
             if (header[i] != KTX_CONSTANTS.IDENTIFIER[i]) {
-                throw SceneJS_error.fatalError(
+                SceneJS_error.fatalError(
                     SceneJS.errors.ILLEGAL_NODE_CONFIG,
                     "Invalid KTX File: Identifier invalid.");
             }
@@ -14303,7 +14289,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
                     params.applyTo != "fragment" &&
                     params.applyTo != "transparency") {
 
-                    throw SceneJS_error.fatalError(
+                    SceneJS_error.fatalError(
                         SceneJS.errors.NODE_CONFIG_EXPECTED,
                         "fresnel applyTo value is unsupported - should be either 'color', 'specular', 'alpha', 'reflect', 'emit' or 'fragment'");
                 }
@@ -14313,7 +14299,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
 
             if (params.blendMode) {
                 if (params.blendMode != "add" && params.blendMode != "multiply") {
-                    throw SceneJS_error.fatalError(
+                    SceneJS_error.fatalError(
                         SceneJS.errors.NODE_CONFIG_EXPECTED,
                         "texture layer blendMode value is unsupported - " +
                         "should be either 'add' or 'multiply'");
@@ -14518,7 +14504,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
 
             if (params.blendMode) {
                 if (params.blendMode !== "add" && params.blendMode !== "multiply") {
-                    throw SceneJS_error.fatalError(
+                    SceneJS_error.fatalError(
                         SceneJS.errors.NODE_CONFIG_EXPECTED,
                             "cubemap blendMode value is unsupported - " +
                             "should be either 'add' or 'multiply'");
@@ -14526,7 +14512,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
             }
             var applyTo = params.applyTo || "reflect";
             if (applyTo !== "reflect" && applyTo !== "light") {
-                throw SceneJS_error.fatalError(
+                SceneJS_error.fatalError(
                     SceneJS.errors.NODE_CONFIG_EXPECTED,
                     "cubemap applyTo value is unsupported - should be either 'reflect' or 'light'");
             }
@@ -14537,7 +14523,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
 
             var space = params.space || "world";
             if (space !== "view" && space !== "world") {
-                throw SceneJS_error.fatalError(
+                SceneJS_error.fatalError(
                     SceneJS.errors.ILLEGAL_NODE_CONFIG,
                     "cubemap 'space' value is unsupported: '" + space + "' - should be 'view' or 'world'");
             }
@@ -14725,7 +14711,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
 
             var applyFrom = params.applyFrom || "uv";
             if (applyFrom.substring(0,2) !== "uv") {
-                throw SceneJS_error.fatalError(
+                SceneJS_error.fatalError(
                     SceneJS.errors.NODE_CONFIG_EXPECTED,
                     "texture applyFrom value is unsupported - should be 'uv<index>'");
             }
@@ -14733,7 +14719,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
             if (applyFrom !== "uv") {
                 uvLayerIdx = applyFrom.substring(2);
                 if (isNaN(uvLayerIdx)) {
-                    throw SceneJS_error.fatalError(
+                    SceneJS_error.fatalError(
                         SceneJS.errors.NODE_CONFIG_EXPECTED,
                         "texture applyFrom value invalid - should be 'uv<index>'");
                 }
@@ -14870,7 +14856,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
         }
         var glName = SceneJS._webgl.enumMap[value];
         if (glName == undefined) {
-            throw SceneJS_error.fatalError(
+            SceneJS_error.fatalError(
                 SceneJS.errors.ILLEGAL_NODE_CONFIG,
                 "Unrecognised value for texture node property '" + name + "' value: '" + value + "'");
         }
@@ -15096,7 +15082,7 @@ ScalarFresnel.prototype.isEqual = function(fresnel1, fresnel2) {
     SceneJS.XForm.prototype.setElements = function (elements) {
 
         if (elements.length != 16) {
-            throw SceneJS_error.fatalError(
+            SceneJS_error.fatalError(
                 SceneJS.errors.ILLEGAL_NODE_CONFIG,
                 "SceneJS.XForm elements should number 16");
         }
@@ -23088,11 +23074,6 @@ GrowingPacker.prototype = {
      * Error management
      *---------------------------------------------------------------------------------------------------------------*/
 
-    SceneJS.bind("error",
-        function (e) {
-            Human._error("WEBGL", e.errorName, e.exception, true);
-        });
-
     /**
      * Signals non-fatal error.
      * @memberof Human
@@ -28187,22 +28168,22 @@ Human.rpc.hideDefinitions(function() {
         });
 
 
-    Human.rpc.define("labels.create",
-        function (params) {
-            if (!params.objectId) {
-                this.error("parameter expected: 'objectId'");
-                return;
-            }
-            if (params.replace) {
-                Human.view.labels.clearLabels();
-            }
-            Human.view.labels.createLabel(params);
-        });
+    // Human.rpc.define("labels.create",
+    //     function (params) {
+    //         if (!params.objectId) {
+    //             this.error("parameter expected: 'objectId'");
+    //             return;
+    //         }
+    //         if (params.replace) {
+    //             Human.view.labels.clearLabels();
+    //         }
+    //         Human.view.labels.createLabel(params);
+    //     });
 
-    Human.rpc.define("labels.clear",
-        function () {
-            Human.view.labels.clearLabels();
-        });
+    // Human.rpc.define("labels.clear",
+    //     function () {
+    //         Human.view.labels.clearLabels();
+    //     });
 
     /**
      * Queries what lights exist
@@ -45690,7 +45671,7 @@ Recipes are grouped modifications that can be applied to any collection of leaf 
 
         } else {
 
-            if (time < keys[0]) {
+            if (time <= keys[0]) {
                 this._key1 = 0;
                 this._key2 = 1;
                 this._clampToTarget(names, 0);
