@@ -146,16 +146,21 @@ class HumanViewController: UIViewController, HKHumanDelegate {
         timer.invalidate()
         dismiss(animated: true, completion: nil)
     }
+    
+    func human(_ view: HKHuman, initScene: String) {
+        print("*** init scene " + initScene);
+    }
 
     // MARK: HKHumanDelegate callback functions
     func human(_ view: HKHuman, modelLoaded: String) {
         self.swipeChaptersView.initChapters(human: self.human)
         self.modelLabel.text = ""
+        print("MODEL LOADED: " + modelLoaded);
     }
-    
+        
     // these methods are optional, you do not need to implement them
     func onValidSDK() {
-//        print("VALID SDK!, we can load stuff now")
+        print("VALID SDK!")
     }
     
     func onAnimationComplete() {
@@ -165,6 +170,10 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     
     func onInvalidSDK() {
         print("INVALID SDK KEY?!  please validate your sdk to continue")
+    }
+    
+    func human(_ view: HKHuman, objectsShown: [String : Bool]) {
+        print("**** objects shown ")
     }
     
     func human(_ view: HKHuman, objectPicked: String, position: [Double]) {
