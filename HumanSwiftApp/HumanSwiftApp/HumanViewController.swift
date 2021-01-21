@@ -157,6 +157,11 @@ class HumanViewController: UIViewController, HKHumanDelegate {
         self.modelLabel.text = ""
         print("MODEL LOADED: " + modelLoaded);
     }
+    
+    func human(_ view: HKHuman, modelLoadError: String) {
+        print("error loading model \(modelLoadError), retry...")
+        human.load(model: modelLoadError)
+    }
         
     // these methods are optional, you do not need to implement them
     func onValidSDK() {
