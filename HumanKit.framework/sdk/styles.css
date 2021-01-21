@@ -643,6 +643,18 @@ body.theme-light {
     border-radius: 18px; }
 .button--rounded:after {
       border-radius: 18px; }
+.cursor-auto {
+  cursor: auto; }
+.cursor-default {
+  cursor: default; }
+.cursor-pointer {
+  cursor: pointer; }
+.cursor-wait {
+  cursor: wait; }
+.cursor-text {
+  cursor: text; }
+.cursor-move {
+  cursor: move; }
 .block {
   display: block; }
 .inline-block {
@@ -3475,6 +3487,14 @@ body .mat-dialog-actions {
   margin-bottom: -8px; }
 body .transparent.cdk-overlay-backdrop {
   opacity: 0; }
+body .bd-dialog-backdrop {
+  background-color: rgba(16, 24, 35, 0.9); }
+body .bd-dialog-panel {
+  background-color: transparent;
+  height: auto;
+  width: auto; }
+body .bd-dialog-panel .mat-dialog-container {
+    padding: 0; }
 body .mat-checkbox .mat-checkbox-ripple,
 body .mat-radio-button .mat-radio-ripple {
   height: 32px;
@@ -3597,6 +3617,14 @@ body .mat-button-toggle-group-appearance-standard.mat-button-toggle-group.mat-bu
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
         border-bottom-width: 1px; }
+body .mat-progress-bar {
+  height: 8px; }
+body .mat-progress-bar-fill::after {
+  background-color: #1c5ab9; }
+body .mat-progress-bar-buffer {
+  background: #a6c6f8; }
+body .mat-progress-bar {
+  border-radius: 4px; }
 @font-face {
   font-family: 'Inter UI';
   font-style: normal;

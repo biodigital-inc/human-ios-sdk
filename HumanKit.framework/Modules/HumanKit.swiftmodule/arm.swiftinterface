@@ -14,6 +14,7 @@ import os.log
 import os
 @objc public protocol HKHumanDelegate {
   @objc optional func human(_ view: HumanKit.HKHuman, initScene: Swift.String)
+  @objc optional func human(_ view: HumanKit.HKHuman, modelLoadError: Swift.String)
   @objc optional func human(_ view: HumanKit.HKHuman, modelLoaded: Swift.String)
   @objc optional func human(_ view: HumanKit.HKHuman, annotationPicked: Swift.String)
   @objc optional func human(_ view: HumanKit.HKHuman, timelineUpdated: HumanKit.HKTimeline)
@@ -101,6 +102,7 @@ extension IAPHelper : StoreKit.SKPaymentTransactionObserver {
   @objc public var textSections: [[Swift.String : Swift.String]]
   @objc public var objectIds: [Swift.String]
   @objc public var objects: [Swift.String : Swift.String]
+  @objc public var hasLayers: Swift.Bool
   @objc public func share(from: CoreGraphics.CGRect)
   @objc public func screenshot()
   @objc public func reset()
@@ -155,6 +157,7 @@ extension IAPHelper : StoreKit.SKPaymentTransactionObserver {
   @objc public func setXray(objectID: Swift.String, enable: Swift.Bool)
   @available(*, unavailable, message: "This is not currently supported")
   @objc public func setPickable(objectID: Swift.String, enable: Swift.Bool)
+  @objc public func setLayers(percent: Swift.Int)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -266,7 +269,6 @@ extension IAPHelper : StoreKit.SKPaymentTransactionObserver {
   @objc public func show()
   @objc public func hide()
   @objc public func create(annotation: HumanKit.HKAnnotation)
-  @objc public func createLabel(annotation: HumanKit.HKAnnotation)
   @objc public func update(annotationId: Swift.String)
   @objc public func destroy(annotationId: Swift.String)
   @objc override dynamic public init()

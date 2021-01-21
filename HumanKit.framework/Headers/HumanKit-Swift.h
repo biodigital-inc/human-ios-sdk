@@ -271,7 +271,6 @@ SWIFT_CLASS("_TtC8HumanKit13HKAnnotations")
 /// \param annotation set up an HKAnnotation object and pass it to this function to add it to the scene
 ///
 - (void)createWithAnnotation:(HKAnnotation * _Nonnull)annotation;
-- (void)createLabelWithAnnotation:(HKAnnotation * _Nonnull)annotation;
 /// Update an annotation in the scene with an updated HKAnnotation object.
 /// since:
 /// SDK 2.0
@@ -496,6 +495,14 @@ SWIFT_PROTOCOL("_TtP8HumanKit15HKHumanDelegate_")
 /// \param initScene the title of the loaded scene
 ///
 - (void)human:(HKHuman * _Nonnull)view initScene:(NSString * _Nonnull)initScene;
+/// Callback when a loading error has occurred
+/// since:
+/// SDK 2.0.5
+/// \param view the HKHuman object for this event
+///
+/// \param modelLoadError the title of the loaded scene
+///
+- (void)human:(HKHuman * _Nonnull)view modelLoadError:(NSString * _Nonnull)modelLoadError;
 /// Callback when the scene metadata is accessible
 /// since:
 /// SDK 2.0.1
@@ -711,6 +718,8 @@ SWIFT_CLASS("_TtC8HumanKit7HKScene")
 @property (nonatomic, copy) NSArray<NSString *> * _Nonnull objectIds;
 /// A map of objectIDs to display names
 @property (nonatomic, copy) NSDictionary<NSString *, NSString *> * _Nonnull objects;
+/// Reports whether or not the model contains layer information
+@property (nonatomic) BOOL hasLayers;
 /// Brings up the built-in iOS share UI with the current contents of the view
 - (void)shareFrom:(CGRect)from;
 /// Captures a screenshot and triggers the screenshot callback in HKHumanDelegate
@@ -896,6 +905,10 @@ SWIFT_CLASS("_TtC8HumanKit7HKScene")
 /// Set an object to unpickable
 /// Removed in API 2.0 - this is no longer supported
 - (void)setPickableWithObjectID:(NSString * _Nonnull)objectID enable:(BOOL)enable SWIFT_UNAVAILABLE_MSG("This is not currently supported");
+/// Set the layer removal level, i.e. how much to peel back, as a percent bet
+/// \param percent percent layer removal between 0 and 100
+///
+- (void)setLayersWithPercent:(NSInteger)percent;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -1414,7 +1427,6 @@ SWIFT_CLASS("_TtC8HumanKit13HKAnnotations")
 /// \param annotation set up an HKAnnotation object and pass it to this function to add it to the scene
 ///
 - (void)createWithAnnotation:(HKAnnotation * _Nonnull)annotation;
-- (void)createLabelWithAnnotation:(HKAnnotation * _Nonnull)annotation;
 /// Update an annotation in the scene with an updated HKAnnotation object.
 /// since:
 /// SDK 2.0
@@ -1639,6 +1651,14 @@ SWIFT_PROTOCOL("_TtP8HumanKit15HKHumanDelegate_")
 /// \param initScene the title of the loaded scene
 ///
 - (void)human:(HKHuman * _Nonnull)view initScene:(NSString * _Nonnull)initScene;
+/// Callback when a loading error has occurred
+/// since:
+/// SDK 2.0.5
+/// \param view the HKHuman object for this event
+///
+/// \param modelLoadError the title of the loaded scene
+///
+- (void)human:(HKHuman * _Nonnull)view modelLoadError:(NSString * _Nonnull)modelLoadError;
 /// Callback when the scene metadata is accessible
 /// since:
 /// SDK 2.0.1
@@ -1854,6 +1874,8 @@ SWIFT_CLASS("_TtC8HumanKit7HKScene")
 @property (nonatomic, copy) NSArray<NSString *> * _Nonnull objectIds;
 /// A map of objectIDs to display names
 @property (nonatomic, copy) NSDictionary<NSString *, NSString *> * _Nonnull objects;
+/// Reports whether or not the model contains layer information
+@property (nonatomic) BOOL hasLayers;
 /// Brings up the built-in iOS share UI with the current contents of the view
 - (void)shareFrom:(CGRect)from;
 /// Captures a screenshot and triggers the screenshot callback in HKHumanDelegate
@@ -2039,6 +2061,10 @@ SWIFT_CLASS("_TtC8HumanKit7HKScene")
 /// Set an object to unpickable
 /// Removed in API 2.0 - this is no longer supported
 - (void)setPickableWithObjectID:(NSString * _Nonnull)objectID enable:(BOOL)enable SWIFT_UNAVAILABLE_MSG("This is not currently supported");
+/// Set the layer removal level, i.e. how much to peel back, as a percent bet
+/// \param percent percent layer removal between 0 and 100
+///
+- (void)setLayersWithPercent:(NSInteger)percent;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

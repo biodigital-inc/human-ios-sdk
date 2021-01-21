@@ -28167,24 +28167,6 @@ Human.rpc.hideDefinitions(function() {
             Human.view.effects.setParams(params);
         });
 
-
-    // Human.rpc.define("labels.create",
-    //     function (params) {
-    //         if (!params.objectId) {
-    //             this.error("parameter expected: 'objectId'");
-    //             return;
-    //         }
-    //         if (params.replace) {
-    //             Human.view.labels.clearLabels();
-    //         }
-    //         Human.view.labels.createLabel(params);
-    //     });
-
-    // Human.rpc.define("labels.clear",
-    //     function () {
-    //         Human.view.labels.clearLabels();
-    //     });
-
     /**
      * Queries what lights exist
      */
