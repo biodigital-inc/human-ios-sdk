@@ -37,9 +37,15 @@ class ModelTile : UICollectionViewCell {
         label?.text = model.title
         // the content API modules will have thumbnail URLs
         // otherwise look up the bookmark location by modelId
+        var modelID = model.modelId
         if model.thumbnail.isEmpty {
-            let basedir = model.modelId.contains("/") ? "modules/" : "bookmarks/"
-            model.thumbnail = "https://human.biodigital.com/thumbs/" + basedir + model.modelId + "/large/index.jpg"
+            if modelID.contains(".json") {
+                let index = modelID.firstIndex(of: ".")!
+                modelID = String(modelID[modelID.startIndex..<index])
+                print("model id is \(modelID)")
+            }
+            let basedir = modelID.contains("/") ? "modules/" : "bookmarks/"
+            model.thumbnail = "https://human.biodigital.com/thumbs/" + basedir + modelID + "/large/index.jpg"
         }
         var thumbname = model.thumbnail
         backgroundColor = .humanGray40
@@ -52,7 +58,7 @@ class ModelTile : UICollectionViewCell {
         } else {
             let fileManager = FileManager.default
             let thubLoc = thumbname.contains("bookmark") ? "bookmarks/" : "modules/"
-            let thumbsurl = try! fileManager.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true).appendingPathComponent("/thumbs/" + thubLoc + model.modelId + "/large/")
+            let thumbsurl = try! fileManager.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true).appendingPathComponent("/thumbs/" + thubLoc + modelID + "/large/")
             try! fileManager.createDirectory(at: thumbsurl, withIntermediateDirectories: true, attributes: nil)
             let fileURL = try! fileManager.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true).appendingPathComponent(thumbname)
             if fileManager.fileExists(atPath: fileURL.path) {
@@ -74,7 +80,7 @@ class ModelTile : UICollectionViewCell {
                 }
             }
         }
-        if HKServices.shared.modelDownloaded(id: model.modelId) {
+        if HKServices.shared.modelDownloaded(id: modelID) {
             dprint("\(model.modelId) is downloaded")
             backgroundColor = .green
             downloaded = true
