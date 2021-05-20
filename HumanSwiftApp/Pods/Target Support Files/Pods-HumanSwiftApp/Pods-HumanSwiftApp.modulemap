@@ -1,6 +1,0 @@
-framework module Pods_HumanSwiftApp {
-  umbrella header "Pods-HumanSwiftApp-umbrella.h"
-
-  export *
-  module * { export * }
-}
