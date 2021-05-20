@@ -17,6 +17,7 @@
 		4ED940B021C42D7600638D15 /* SwipeChaptersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED940AB21C42D7600638D15 /* SwipeChaptersView.swift */; };
 		B367F52C2548709100F4FB04 /* BioDigital.plist in Resources */ = {isa = PBXBuildFile; fileRef = B367F52B2548709100F4FB04 /* BioDigital.plist */; };
 		B3817BF024119AA3000EFA06 /* ModelTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3817BEF24119AA3000EFA06 /* ModelTile.swift */; };
+		B3D015232656B574005D217F /* BioDigitalQA.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3D015222656B573005D217F /* BioDigitalQA.plist */; };
 		C5C51134E25BF96C8E54BFF6 /* Pods_HumanSwiftApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F32AA7F1EC6ED4FB64EB87 /* Pods_HumanSwiftApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		57F32AA7F1EC6ED4FB64EB87 /* Pods_HumanSwiftApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HumanSwiftApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B367F52B2548709100F4FB04 /* BioDigital.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BioDigital.plist; sourceTree = "<group>"; };
 		B3817BEF24119AA3000EFA06 /* ModelTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelTile.swift; sourceTree = "<group>"; };
+		B3D015222656B573005D217F /* BioDigitalQA.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BioDigitalQA.plist; sourceTree = "<group>"; };
 		DCDFD0F3C2A656A0F8B6117B /* Pods-HumanSwiftApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumanSwiftApp.debug.xcconfig"; path = "Target Support Files/Pods-HumanSwiftApp/Pods-HumanSwiftApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,6 +101,7 @@
 				4ED940A121C42CCC00638D15 /* LaunchScreen.storyboard */,
 				4ED940A421C42CCC00638D15 /* Info.plist */,
 				B367F52B2548709100F4FB04 /* BioDigital.plist */,
+				B3D015222656B573005D217F /* BioDigitalQA.plist */,
 			);
 			path = HumanSwiftApp;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				4ED940A321C42CCC00638D15 /* LaunchScreen.storyboard in Resources */,
 				4ED940A021C42CCC00638D15 /* Assets.xcassets in Resources */,
 				B367F52C2548709100F4FB04 /* BioDigital.plist in Resources */,
+				B3D015232656B574005D217F /* BioDigitalQA.plist in Resources */,
 				4ED9409E21C42CBB00638D15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

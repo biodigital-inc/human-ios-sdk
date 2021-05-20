@@ -13,7 +13,13 @@ class HumanViewController: UIViewController, HKHumanDelegate {
 
     // required by HumanKit SDK
     @IBOutlet weak var canvasView: UIView!
-    var human : HKHuman!
+    var human : HKHuman?
+    
+    #if DEBUG
+    var nativeUI = true
+    #else
+    var nativeUI = false
+    #endif
 
     // module info label
     @IBOutlet weak var modelLabel: UILabel!
@@ -27,7 +33,8 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     var currentTime : Float = 0.0
     var maxTime : Float = 0.0
     var timer = Timer()
-    
+    var size = CGSize()
+
     // native UI elements to interact with the SDK
     @IBOutlet weak var resetButton: UIButton!
     @IBOutlet weak var shareButton: UIButton!
@@ -81,18 +88,14 @@ class HumanViewController: UIViewController, HKHumanDelegate {
         return col
     }()
     
-    var nativeUI = false
-
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // set up the SDK's view and set ourselves as the delegate
         // the nativeUI flag turns on/off the native app layer UI elements, which demonstrate some of the SDK
-        canvasView.backgroundColor = .clear
-        if nativeUI {
-            human = HKHuman(view: canvasView, options: [HumanUIOptions.all:false])
-        } else {
-            human = HKHuman(view: canvasView)
+        canvasView!.backgroundColor = .clear
+        canvasView.autoresizesSubviews = true
+        if !nativeUI {
             xrayButton.isHidden = true
             dissectButton.isHidden = true
             isolateButton.isHidden = true
@@ -106,26 +109,21 @@ class HumanViewController: UIViewController, HKHumanDelegate {
         playPauseButton.isHidden = true
         animationSlider.isHidden = true
         animationSlider.setThumbImage(UIImage(named: "AppIcon40x40"), for: .normal)
-        human.delegate = self
         view.addSubview(swipeChaptersView)
-//        print(swipeChaptersView.frame)
+//        dprint(swipeChaptersView.frame)
     }
 
     // tell the info panel to resize itself when the device is rotated
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        self.size = size
         swipeChaptersView.initChapters(human: human!, size: size)
     }
-    
-    func onInitMessage(_ view: HKHuman) {
-        print("** got init message")
-    }
-    
+
     func runTimer() {
         timer.invalidate()
         if #available(iOS 10.0, *) {
             timer = Timer.scheduledTimer(withTimeInterval: 0.03, repeats: true, block: { (elapsed) in
-                self.animationSlider.value = self.human.timeline.currentTime
-                print("time is \(self.human.timeline.currentTime)")
+                self.animationSlider.value = self.human!.timeline.currentTime
             })
         } else {
                     // Fallback on earlier versions
@@ -135,12 +133,15 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     var oZoom = 0.0;
 
     // the load function will return when the model is fully loaded
-    func showModel(which: HKModel?) {
+    func showModel(with: HKHuman, which: HKModel?) {
+        human = with
+        human!.delegate = self
+        modelLabel.isHidden = false
         modelLabel.text = "Loading \(which!.title)..."
         swipeChaptersView.clear()
-        human.load(model: which!.modelId)
+        human!.load(model: which!.modelId)
     }
-            
+
     @IBAction func home() {
         human!.unload()
         timer.invalidate()
@@ -153,14 +154,14 @@ class HumanViewController: UIViewController, HKHumanDelegate {
 
     // MARK: HKHumanDelegate callback functions
     func human(_ view: HKHuman, modelLoaded: String) {
-        self.swipeChaptersView.initChapters(human: self.human)
+        self.swipeChaptersView.initChapters(human: self.human!)
         self.modelLabel.text = ""
         print("MODEL LOADED: " + modelLoaded);
     }
     
     func human(_ view: HKHuman, modelLoadError: String) {
         print("error loading model \(modelLoadError), retry...")
-        human.load(model: modelLoadError)
+        human!.load(model: modelLoadError)
     }
         
     // these methods are optional, you do not need to implement them
@@ -182,15 +183,15 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     }
     
     func human(_ view: HKHuman, objectPicked: String, position: [Double]) {
-        if let obj = human.scene.objects[objectPicked] {
+        if let obj = human!.scene.objects[objectPicked] {
             print("** YOU SELECTED " + obj)
             if paintView.isHidden { return }
             if let painter = paintColor {
-                human.scene.colorObject(id: objectPicked, color: painter)
+                human!.scene.color(objectId: objectPicked, color: painter)
             } else {
-                human.scene.uncolorObject(id: objectPicked)
+                human!.scene.uncolor(objectId: objectPicked)
             }
-            human.scene.getColor(objectId: objectPicked);
+            human!.scene.getColor(objectId: objectPicked);
         }
     }
     
@@ -204,13 +205,13 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     func onChapterTransition(chapterId: String, view: HKHuman) {
         if let chapter = view.timeline.chapters[chapterId] {
             print("this chapter: \(chapter.title)")
-            if ( self.human.timeline.playing && nativeUI ) {
-                self.maxTime = self.human.timeline.duration
+            if ( self.human!.timeline.playing && nativeUI ) {
+                self.maxTime = self.human!.timeline.duration
                 self.playPauseButton.setImage(UIImage(named:"pause"), for: .normal)
                 self.playPauseButton.isHidden = false
                 self.animationSlider.isHidden = false
                 self.animationSlider.maximumValue = self.maxTime
-                self.animationSlider.value = self.human.timeline.currentTime
+                self.animationSlider.value = self.human!.timeline.currentTime
                 self.runTimer()
             }
         }
@@ -219,14 +220,14 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     // buttons can call into the SDK
     
     @IBAction func playPause() {
-        if (human.timeline.playing) {
-            human.timeline.pause()
+        if (human!.timeline.playing) {
+            human!.timeline.pause()
             playPauseButton.setImage(UIImage(named:"play"), for: .normal)
         } else {
             if paused {
-                human.timeline.unpause()
+                human!.timeline.unpause()
             } else {
-                human.timeline.play()
+                human!.timeline.play()
             }
             runTimer()
             playPauseButton.setImage(UIImage(named:"pause"), for: .normal)
@@ -235,29 +236,38 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     }
     
     @IBAction func startScrub() {
-        human.timeline.pause()
+        human!.timeline.pause()
         timer.invalidate()
     }
     
     @IBAction func scrubbed(slider: UISlider) {
         timer.invalidate()
-        human.timeline.moveToTime(time: slider.value)
+        human!.timeline.moveToTime(time: slider.value)
     }
     
     @IBAction func endScrub() {
         if !paused {
-            human.timeline.unpause()
+            human!.timeline.unpause()
             runTimer()
         }
     }
     
+    // implement handler for share
+    func human(_ view: HKHuman, shareImage: UIImage) {
+        let sharer = UIActivityViewController(activityItems: [shareImage], applicationActivities: nil)
+        sharer.excludedActivityTypes = [];
+        sharer.popoverPresentationController?.sourceRect = canvasView.frame
+        sharer.popoverPresentationController?.sourceView = canvasView
+        self.present(sharer, animated: true) {}
+    }
+    
     @IBAction func share() {
-        human.scene.share(from: shareButton.frame)
+        human!.scene.share(from: shareButton.frame)
     }
     
     @IBAction func xrayToggle() {
         xrayMode = !xrayMode;
-        human.scene.xray(xrayMode)
+        human!.scene.xray(xrayMode)
         if xrayMode {
             xrayButton.layer.shadowColor = UIColor.yellow.cgColor
             xrayButton.layer.shadowRadius = 2
@@ -274,7 +284,7 @@ class HumanViewController: UIViewController, HKHumanDelegate {
             paintPressed()
         }
         dissectMode = !dissectMode;
-        human.scene.dissect(dissectMode)
+        human!.scene.dissect(dissectMode)
         if dissectMode {
             dissectButton.layer.shadowColor = UIColor.white.cgColor
             dissectButton.layer.shadowRadius = 8
@@ -291,7 +301,7 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     
     @IBAction func isolateToggle() {
         isolateMode = !isolateMode;
-        human.scene.isolate(isolateMode)
+        human!.scene.isolate(isolateMode)
         if isolateMode {
             isolateButton.layer.shadowColor = UIColor.red.cgColor
             isolateButton.layer.shadowRadius = 8
@@ -305,12 +315,12 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     }
     
     @IBAction func undoDissect() {
-        human.scene.undo()
+        human!.scene.undo()
     }
     
     @IBAction func resetButtonPressed() {
-        human.scene.reset()
-        human.camera.reset()
+        human!.scene.reset()
+        human!.camera.reset()
         isolateMode = false
         xrayMode = false
         dissectMode = false
@@ -326,56 +336,6 @@ class HumanViewController: UIViewController, HKHumanDelegate {
         undoButton.isHidden = true
     }
     
-    // MARK: API test functions
-    
-    // test orbit fn
-    @IBAction func orbit() {
-        human.camera.orbit(yaw:-10, pitch:0, duration: 0.5);
-    }
-    
-    func reset() {
-        self.modelLabel.text = ""
-    }
-    
-    @IBAction func trash() {
-//        human.()
-    }
-
-    // some fun random color functions which call into the SDK
-    func randomBackgroundColor() {
-        let a : CGFloat = CGFloat(arc4random_uniform(255))/255.0
-        let b : CGFloat = CGFloat(arc4random_uniform(255))/255.0
-        let c : CGFloat = CGFloat(arc4random_uniform(255))/255.0
-        let d : CGFloat = CGFloat(arc4random_uniform(255))/255.0
-        let e : CGFloat = CGFloat(arc4random_uniform(255))/255.0
-        let f : CGFloat = CGFloat(arc4random_uniform(255))/255.0
-        let g : CGFloat = CGFloat(arc4random_uniform(255))/255.0
-        let h : CGFloat = CGFloat(arc4random_uniform(255))/255.0
-        let topColor = UIColor(red: a, green: b, blue: c, alpha: d)
-        let bottomColor = UIColor(red: e, green: f, blue: g, alpha: h)
-        let type : BackgroundOptions = arc4random_uniform(100) < 50 ? .radial : .linear
-        human.ui.setBackgroundColor(top: topColor, bottom: bottomColor, type: type)
-    }
-    
-    // select and zoom to a random object in the scene
-    func selectRandomObject() {
-        let bound : UInt32 = UInt32(self.human.scene.objectIds.count)
-        let which = Int(arc4random_uniform(bound))
-        let objectID = self.human.scene.objectIds[which]
-        print("let's select " + objectID)
-        self.human.scene.select(objectIds: [objectID])
-        self.human.camera.animateTo(objectId: objectID)
-    }
-    
-    // pick some random colors and call the setHighlightColor function
-    func randomHighlightColor() {
-        let a : CGFloat = CGFloat(arc4random_uniform(255))/255.0
-        let b : CGFloat = CGFloat(arc4random_uniform(255))/255.0
-        let c : CGFloat = CGFloat(arc4random_uniform(255))/255.0
-        let d : CGFloat = CGFloat(arc4random_uniform(255))/255.0
-        let highlight = UIColor(red: a, green: b, blue: c, alpha: d)
-        human.scene.setHighlightColor(color: highlight)
-    }
     
     // Object painting API test functions
     @IBAction func paintPressed() {
@@ -384,30 +344,30 @@ class HumanViewController: UIViewController, HKHumanDelegate {
         }
         paintMode = !paintMode
         paintView.isHidden = !paintView.isHidden
-        if paintView.isHidden { human.scene.enableHighlight() }
-        else { human.scene.disableHighlight() }
+        if paintView.isHidden { human!.scene.enableHighlight() }
+        else { human!.scene.disableHighlight() }
     }
     
     @IBAction func setPaintColor(button:UIButton) {
         switch button {
         case redButton:
             paintColor = redColor
-            human.scene.disableHighlight()
+            human!.scene.disableHighlight()
         case blueButton:
             paintColor = blueColor
-            human.scene.disableHighlight()
+            human!.scene.disableHighlight()
         case greenButton:
             paintColor = greenColor
-            human.scene.disableHighlight()
+            human!.scene.disableHighlight()
         case yellowButton:
             paintColor = yellowColor
-            human.scene.disableHighlight()
+            human!.scene.disableHighlight()
         case unpaintButton:
             paintColor = nil
-            human.scene.enableHighlight()
+            human!.scene.enableHighlight()
         default:
             paintColor = nil
-            human.scene.enableHighlight()
+            human!.scene.enableHighlight()
         }
         if let col = paintColor {
             paintButton.layer.borderColor = col.tint.cgColor

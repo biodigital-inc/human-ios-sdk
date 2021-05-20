@@ -13,7 +13,8 @@ class ModelTile : UICollectionViewCell {
     var model : HKModel?
     var thumbnail : UIImageView?
     var label : UILabel?
-    
+    var downloaded = false
+
     override init(frame: CGRect) {
         super.init(frame: frame)
         label = UILabel(frame: CGRect(x:0,y:200,width:200,height:60))
@@ -21,6 +22,7 @@ class ModelTile : UICollectionViewCell {
         label?.numberOfLines = 0
         label?.lineBreakMode = .byWordWrapping
         label?.textColor = .humanRed
+        label?.backgroundColor = .clear
         thumbnail = UIImageView(frame:CGRect(x: 0, y: 0, width: 200, height: 200))
         addSubview(label!)
         addSubview(thumbnail!)
@@ -33,19 +35,24 @@ class ModelTile : UICollectionViewCell {
     func setModel(model: HKModel) {
         self.model = model
         label?.text = model.title
+        // the content API modules will have thumbnail URLs
+        // otherwise look up the bookmark location by modelId
+        if model.thumbnail.isEmpty {
+            let basedir = model.modelId.contains("/") ? "modules/" : "bookmarks/"
+            model.thumbnail = "https://human.biodigital.com/thumbs/" + basedir + model.modelId + "/large/index.jpg"
+        }
         var thumbname = model.thumbnail
-        // the content API modules will have online thumbnails, here the gray background shows hardcoded demo modules
-        backgroundColor = UIColor.init(red: 199.0/255.0, green: 199.0/255.0, blue: 199.0/255.0, alpha: 1.0)
+        backgroundColor = .humanGray40
         if thumbname.starts(with: "https") {
             let indexStartOfText = model.thumbnail.index(model.thumbnail.startIndex, offsetBy: 29)
             thumbname = String(model.thumbnail.suffix(from: indexStartOfText))
-            backgroundColor = .clear
         }
         if let image = UIImage(named: thumbname) {
             thumbnail?.image =  image
         } else {
             let fileManager = FileManager.default
-            let thumbsurl = try! fileManager.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true).appendingPathComponent("thumbnails")
+            let thubLoc = thumbname.contains("bookmark") ? "bookmarks/" : "modules/"
+            let thumbsurl = try! fileManager.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true).appendingPathComponent("/thumbs/" + thubLoc + model.modelId + "/large/")
             try! fileManager.createDirectory(at: thumbsurl, withIntermediateDirectories: true, attributes: nil)
             let fileURL = try! fileManager.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true).appendingPathComponent(thumbname)
             if fileManager.fileExists(atPath: fileURL.path) {
@@ -62,9 +69,17 @@ class ModelTile : UICollectionViewCell {
                             try data.write(to: fileURL)
                         }
                     } catch {
+                        print("error saving thumb \(fileURL.absoluteString)")
                     }
                 }
             }
+        }
+        if HKServices.shared.modelDownloaded(id: model.modelId) {
+            dprint("\(model.modelId) is downloaded")
+            backgroundColor = .green
+            downloaded = true
+        } else {
+            dprint("\(model.modelId) is not downloaded")
         }
     }
 }

@@ -65,3 +65,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, HKServicesDelegate {
     }
 }
 
+func dprint(_ object: Any) {
+    #if DEBUG
+    Swift.print(object)
+    #endif
+}

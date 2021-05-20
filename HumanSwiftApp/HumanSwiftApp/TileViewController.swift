@@ -11,25 +11,35 @@ import HumanKit
 
 class TileViewController : UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, UISearchBarDelegate {
     
+    // HumanKit SDK HKHuman and view
+    @IBOutlet weak var canvasView: UIView!
+    var human : HKHuman!
+
     var tiles : UICollectionView!
     var label : UILabel!
-    var human : HumanViewController?
+    var humanVC : HumanViewController!
     
     var searchICD : UISearchBar?
     var searchCat : UISearchBar?
 
     // modules list UI
-    var bd_models = [HKModel(modelId: "production/maleAdult/male_region_head_07", title: "Head and Neck", text: "", thumb: "human_02_regional_male_head_neck"),
-                      HKModel(modelId: "production/maleAdult/male_region_thorax_07", title: "Thorax", text: "", thumb: "human_02_regional_male_thorax"),
-                      HKModel(modelId: "production/maleAdult/atherosclerosis_total_occlusion", title: "Atheriosclerosis: Total Occlusion", text: "", thumb: "atherosclerosis_total_occlusion"),
-                      HKModel(modelId: "production/maleAdult/hemorrhagic_stroke", title: "Hemorrhagic Stroke", text: "", thumb: "hemorrhagic_stroke"),
-                      HKModel(modelId: "production/maleAdult/breathing_dynamics", title: "Breathing Dynamics", text: "", thumb: "breathing_dynamics")]
+    var bd_models = [
+        HKModel(modelId: "production/maleAdult/breathing_beating_heart_v02", title: "Breathing Beating Heart", text: "", thumb: ""),
+        HKModel(modelId: "production/maleAdult/acne_tissue_nodule", title: "Acne Tissue Nodule", text: "", thumb: ""),
+        HKModel(modelId: "production/maleAdult/acne", title: "Acne", text: "", thumb: ""),
+        HKModel(modelId: "production/femaleAdult/alveoli_smoker", title: "Alveoli Smoker", text: "", thumb: ""),
+        HKModel(modelId: "production/maleAdult/male_region_brain_13", title: "Brain", text: "", thumb: ""),
+        HKModel(modelId: "production/maleAdult/atherosclerosis_total_occlusion", title: "Atheriosclerosis: Total Occlusion", text: "", thumb: ""),
+        HKModel(modelId: "production/maleAdult/bladder_cancer_v02", title: "Bladder Cancer", text: "", thumb: "")
+    ]
     
     var client_models = [HKModel]()
     
     var models = [HKModel]()
     
     override func viewDidLoad() {
+        super.viewDidLoad()
+        
         super.viewDidLoad()
         
         view.frame = UIScreen.main.bounds
@@ -41,34 +51,11 @@ class TileViewController : UIViewController, UICollectionViewDelegate, UICollect
         let labelFrame = CGRect(x: 0, y: 30, width: width, height: 30)
         label = UILabel(frame: labelFrame)
         label.textAlignment = .center
+        label.backgroundColor = .humanRed
         label.text = "SDK Sample Library"
         view.addSubview(label)
-
-        let ICDLabel = UILabel(frame:CGRect(x:0, y:60, width:100, height:40))
-        ICDLabel.textColor = .black
-        ICDLabel.font = .systemFont(ofSize: 18)
-        ICDLabel.text = "Search ICD"
-        ICDLabel.backgroundColor = UIColor.init(red: 199.0/255.0, green: 199.0/255.0, blue: 199.0/255.0, alpha: 1.0)
-        ICDLabel.textAlignment = .right
-        view.addSubview(ICDLabel)
-        let searchFrame = CGRect(x: 100, y: 60, width: width-100, height: 40)
-        searchICD = UISearchBar(frame: searchFrame)
-        searchICD?.delegate = self
-        view.addSubview(searchICD!)
-
-        let catLabel = UILabel(frame:CGRect(x:0, y:100, width:100, height:40))
-        catLabel.textColor = .black
-        catLabel.font = .systemFont(ofSize: 18)
-        catLabel.text = "Specialty"
-        catLabel.backgroundColor = UIColor.init(red: 199.0/255.0, green: 199.0/255.0, blue: 199.0/255.0, alpha: 1.0)
-        catLabel.textAlignment = .right
-        view.addSubview(catLabel)
-        let catFrame = CGRect(x: 100, y: 100, width: width-100, height: 40)
-        searchCat = UISearchBar(frame: catFrame)
-        searchCat?.delegate = self
-        view.addSubview(searchCat!)
-
-        let tileFrame = CGRect(x:0,y:140,width:width,height:height-140)
+        
+        let tileFrame = CGRect(x:0,y:60,width:width,height:height-100)
         let tileLayout = UICollectionViewFlowLayout()
         var inset : CGFloat = 40.0
         if width > 800 {
@@ -89,6 +76,15 @@ class TileViewController : UIViewController, UICollectionViewDelegate, UICollect
         models.append(contentsOf: bd_models)
         
         view.addSubview(tiles)
+        
+        #if DEBUG
+        let uiAll = false
+        #else
+        let uiAll = true
+        #endif
+        
+        human = HKHuman(view: canvasView, options: [HumanUIOptions.all:uiAll])
+
     }
     
     func modulesLoaded() {
@@ -117,7 +113,10 @@ class TileViewController : UIViewController, UICollectionViewDelegate, UICollect
         let tileFrame = CGRect(x:0,y:height*0.2,width:width,height:height*0.8)
         tiles.frame = tileFrame
         tiles.collectionViewLayout.invalidateLayout()
-        human?.viewWillTransition(to: size, with: coordinator)
+        humanVC?.viewWillTransition(to: size, with: coordinator)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            self.canvasView.frame = self.humanVC.canvasView.bounds
+        }
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -131,13 +130,17 @@ class TileViewController : UIViewController, UICollectionViewDelegate, UICollect
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        searchICD!.text = ""
-        searchCat!.text = ""
-        human = storyboard?.instantiateViewController(withIdentifier: "threedee") as? HumanViewController
-        human?.modalPresentationStyle = .fullScreen
-        present(human!, animated: true) {            
-            self.human!.showModel(which: self.models[indexPath.row])
-        }
+        //        searchICD!.text = ""
+        //        searchCat!.text = ""
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                humanVC = storyboard.instantiateViewController(withIdentifier: "threedee") as? HumanViewController
+                humanVC.modalPresentationStyle = .fullScreen
+                present(humanVC, animated: true) {
+                    // setup HKHuman delegate and set view
+                    self.humanVC.canvasView.addSubview(self.canvasView)
+                    self.canvasView.frame = self.humanVC.canvasView.bounds
+                    self.humanVC.showModel(with: self.human, which: self.models[indexPath.row])
+                }
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
