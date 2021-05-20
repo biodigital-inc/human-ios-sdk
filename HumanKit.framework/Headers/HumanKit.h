@@ -6,8 +6,8 @@
 //  Copyright © 2018 BioDigital Inc. All rights reserved.
 //
 
-#ifndef HumanKit_h
-#define HumanKit_h
+#ifndef BDHumanKit_h
+#define BDHumanKit_h
 
 #import <UIKit/UIKit.h>
 
@@ -24,5 +24,7 @@ FOUNDATION_EXPORT const unsigned char HumanKitVersionString[];
 #import "GCDWebServerFileResponse.h"
 #import "GCDWebServerDataRequest.h"
 #import "GCDWebServerFileRequest.h"
+#import "GCDWebServerURLEncodedFormRequest.h"
+#import "GCDWebServerMultiPartFormRequest.h"
 
 #endif /* HumanKit_h */

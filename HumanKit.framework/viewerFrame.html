@@ -27,6 +27,8 @@
 </body>
 <script>
     var human = new HumanAPI("embeddedHuman");
+    
+    window.webkit.messageHandlers.messageHandler.postMessage("HI GARY!");
 
     human.on( 'labels.created', function(labelData) {
         window.webkit.messageHandlers.messageHandler.postMessage("labels.created event: " + JSON.stringify(labelData));
@@ -60,13 +62,11 @@ human.on('labels.picked', function(annoPosition) {
 
     // send a chapter transition message
     human.on( 'timeline.chapterTransition', function(chapterData) {
-        window.webkit.messageHandlers.messageHandler.postMessage("&&&&&&&&&&&& got chapter transition");
         window.webkit.messageHandlers.chapterHandler.postMessage(chapterData);
     });
 
     // camera updated callback
     human.on( 'camera.updated', function(cameraData) {
-        window.webkit.messageHandlers.messageHandler.postMessage('camera ' + JSON.stringify(cameraData));
         window.webkit.messageHandlers.cameraUpdateHandler.postMessage(cameraData);
     });
 
@@ -83,7 +83,16 @@ human.on('labels.picked', function(annoPosition) {
     });
 
     human.on('scene.xrayEnabled', function() {
-         window.webkit.messageHandlers.xrayHandler.postMessage(true);
+        window.webkit.messageHandlers.xrayHandler.postMessage(true);
+    });
+    
+    human.on('native.share', function(data) {
+        window.webkit.messageHandlers.messageHandler.postMessage("got native share " + JSON.stringify(data.type));
+        window.webkit.messageHandlers.nativeShareHandler.postMessage(data);
+    });
+
+    human.on('native.debugMessage', function(message) {
+        window.webkit.messageHandlers.messageHandler.postMessage("$$$ got debug messsage " + JSON.stringify(message));
     });
 
     human.on('scene.xrayDisabled', function() {
@@ -103,11 +112,16 @@ human.on('labels.picked', function(annoPosition) {
         window.webkit.messageHandlers.selectHandler.postMessage(objects);
         lastPick = '';
     });
-
+    
     // send an animation update message
     human.on('timeline.playing', function(animationTime) {
 //        window.webkit.messageHandlers.messageHandler.postMessage("timeline.playing: " + JSON.stringify(animationTime));
         window.webkit.messageHandlers.timelineHandler.postMessage(animationTime.time);
+        if (animationTime.time > 0.0 && progressDone === false) {
+            window.webkit.messageHandlers.messageHandler.postMessage("$$$$$$$$ caught missed loaded message");
+            window.webkit.messageHandlers.assetsHandler.postMessage("loaded");
+            progressDone = true;
+        }
     });
 
     human.on('timeline.completed', function() {
@@ -155,21 +169,24 @@ human.on( 'labels.disabled' , function () {
         window.webkit.messageHandlers.annotationsMovedHandler.postMessage(annoPosition);
     });
 
-    human.on( 'human.ready' , function () {
+    human.on('scene.ready', function () {
         progressDone = false;
-        window.webkit.messageHandlers.messageHandler.postMessage("GH: human.ready");
+        window.webkit.messageHandlers.messageHandler.postMessage("GH: scene.ready");
         human.send('scene.metadata', function(metadata) {
             window.webkit.messageHandlers.sceneMetaHandler.postMessage(metadata);
-//            window.webkit.messageHandlers.messageHandler.postMessage("** SCENE.METADATA: " + JSON.stringify(metadata));
+            window.webkit.messageHandlers.messageHandler.postMessage("** SCENE.METADATA: " + JSON.stringify(metadata));
         });
         human.send('scene.info', function(scenedata) {
             window.webkit.messageHandlers.sceneInfoHandler.postMessage(scenedata);
-//            window.webkit.messageHandlers.messageHandler.postMessage("** SCENE.INFO: " + JSON.stringify(scenedata));
+            window.webkit.messageHandlers.messageHandler.postMessage("** SCENE.INFO: " + JSON.stringify(scenedata));
         });
 //
     });
 
-    window.webkit.messageHandlers.messageHandler.postMessage("API object created, listeners registered");
-    window.webkit.messageHandlers.humanHandler.postMessage("ready");
+    window.webkit.messageHandlers.messageHandler.postMessage("API object created, listeners registered params:" + window.bd_urlparams);
+    window.webkit.messageHandlers.humanHandler.postMessage("ready" );
+    
+    var iframe = document.getElementById("embeddedHuman");
+    iframe.src = "http://localhost:" + window.sdkPort + "/?id=models/9OR" + window.bd_urlparams;
 </script>
 </html>

@@ -1,8 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
-// swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name HumanKit
-import Compression
-import CoreFoundation
+// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name HumanKit
 import Foundation
 @_exported import HumanKit
 import StoreKit
@@ -12,38 +10,6 @@ import UIKit
 import WebKit
 import os.log
 import os
-@objc public protocol HKHumanDelegate {
-  @objc optional func human(_ view: HumanKit.HKHuman, initScene: Swift.String)
-  @objc optional func human(_ view: HumanKit.HKHuman, modelLoadError: Swift.String)
-  @objc optional func human(_ view: HumanKit.HKHuman, modelLoaded: Swift.String)
-  @objc optional func human(_ view: HumanKit.HKHuman, annotationPicked: Swift.String)
-  @objc optional func human(_ view: HumanKit.HKHuman, timelineUpdated: HumanKit.HKTimeline)
-  @objc optional func human(_ view: HumanKit.HKHuman, animationComplete: Swift.Bool)
-  @objc optional func human(_ view: HumanKit.HKHuman, objectPicked: Swift.String, position: [Swift.Double])
-  @objc optional func human(_ view: HumanKit.HKHuman, objectSelected: Swift.String)
-  @objc optional func human(_ view: HumanKit.HKHuman, objectDeselected: Swift.String)
-  @objc optional func human(_ view: HumanKit.HKHuman, chapterTransition: Swift.String)
-  @objc optional func human(_ view: HumanKit.HKHuman, cameraUpdated: HumanKit.HKCamera)
-  @objc optional func human(_ view: HumanKit.HKHuman, xrayEnabled: Swift.Bool)
-  @objc optional func human(_ view: HumanKit.HKHuman, sceneRestored: Swift.Bool)
-  @objc optional func human(_ view: HumanKit.HKHuman, objectsShown: [Swift.String : Swift.Bool])
-  @objc optional func human(_ view: HumanKit.HKHuman, objectColor: Swift.String, color: HumanKit.HKColor)
-  @objc optional func human(_ view: HumanKit.HKHuman, annotationsShown: Swift.Bool)
-  @objc optional func human(_ view: HumanKit.HKHuman, annotationCreated: Swift.String)
-  @objc optional func human(_ view: HumanKit.HKHuman, annotationDestroyed: Swift.String)
-  @objc optional func human(_ view: HumanKit.HKHuman, annotationUpdated: HumanKit.HKAnnotation)
-  @objc optional func screenshot(image: UIKit.UIImage)
-  @available(*, deprecated, message: "Please use human(_:initScene:)")
-  @objc optional func onInitMessage()
-  @available(*, deprecated, message: "Please use human(_:chapterTransition:)")
-  @objc optional func onChapterTransition(chapterId: Swift.String, view: HumanKit.HKHuman)
-  @available(*, deprecated, message: "Please use human(_:objectDeselected:)")
-  @objc optional func onObjectDeselected(objectId: Swift.String, view: HumanKit.HKHuman)
-  @available(*, deprecated, message: "Please use human(_:objectSelected:)")
-  @objc optional func onObjectSelected(objectId: Swift.String, view: HumanKit.HKHuman)
-  @available(*, deprecated, message: "Please use human(_:animationComplete:)")
-  @objc optional func onAnimationComplete()
-}
 @objc public class HKHuman : ObjectiveC.NSObject {
   @objc weak public var delegate: HumanKit.HKHumanDelegate?
   @objc public var scene: HumanKit.HKScene
@@ -60,15 +26,15 @@ import os
   @objc public func reload()
   @objc public func disableInput()
   @objc public func enableInput()
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 public typealias ProductIdentifier = Swift.String
 public typealias ProductsRequestCompletionHandler = (Swift.Bool, [StoreKit.SKProduct]?) -> Swift.Void
 @objc open class IAPHelper : ObjectiveC.NSObject {
   public init(productIds: Swift.Set<HumanKit.ProductIdentifier>)
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 extension IAPHelper {
   public func requestProducts(_ completionHandler: @escaping HumanKit.ProductsRequestCompletionHandler)
@@ -93,8 +59,8 @@ extension IAPHelper : StoreKit.SKPaymentTransactionObserver {
   @objc public var thumbnail: Swift.String
   @objc public var thumbnailImage: UIKit.UIImage
   @objc public init(modelId: Swift.String, title: Swift.String, text: Swift.String, thumb: Swift.String = "")
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class HKScene : ObjectiveC.NSObject {
   @objc public var title: Swift.String
@@ -106,6 +72,7 @@ extension IAPHelper : StoreKit.SKPaymentTransactionObserver {
   @objc public func share(from: CoreGraphics.CGRect)
   @objc public func screenshot()
   @objc public func reset()
+  @objc public func setLayers(percent: Swift.Int)
   @objc public func hide(objectIds: [Swift.String])
   @objc public func show(objectIds: [Swift.String])
   @objc public func showOrHide(objectIds: [Swift.String : Swift.Bool])
@@ -157,7 +124,6 @@ extension IAPHelper : StoreKit.SKPaymentTransactionObserver {
   @objc public func setXray(objectID: Swift.String, enable: Swift.Bool)
   @available(*, unavailable, message: "This is not currently supported")
   @objc public func setPickable(objectID: Swift.String, enable: Swift.Bool)
-  @objc public func setLayers(percent: Swift.Int)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -190,11 +156,11 @@ extension IAPHelper : StoreKit.SKPaymentTransactionObserver {
   case german
   case chinese
   case japanese
+  public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
-  public init?(rawValue: Swift.Int)
 }
 @objc public enum HumanUIOptions : Swift.Int {
   case tools
@@ -205,8 +171,8 @@ extension IAPHelper : StoreKit.SKPaymentTransactionObserver {
   case reset
   case nolink
   case all
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
@@ -214,8 +180,8 @@ extension IAPHelper : StoreKit.SKPaymentTransactionObserver {
 @objc public enum BackgroundOptions : Swift.Int {
   case radial
   case linear
-  public typealias RawValue = Swift.Int
   public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
@@ -241,8 +207,8 @@ extension IAPHelper : StoreKit.SKPaymentTransactionObserver {
   @objc public var animated: Swift.Bool
   @objc public var loops: Swift.Bool
   @objc public var duration: Swift.Double
-  @objc deinit
   @objc override dynamic public init()
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class HKTimeline : ObjectiveC.NSObject {
   @objc public var currentTime: Swift.Float
@@ -300,14 +266,14 @@ extension IAPHelper : StoreKit.SKPaymentTransactionObserver {
   @objc deinit
 }
 @objc public protocol HKServicesDelegate {
-  @objc func onValidSDK()
-  @objc func onInvalidSDK()
+  @objc optional func onValidSDK()
+  @objc optional func onInvalidSDK()
   @objc optional func modelsLoaded()
   @objc optional func modelDownloaded(modelId: Swift.String, count: Swift.Int, total: Swift.Int)
   @available(*, renamed: "modelsLoaded()")
   @objc optional func modulesLoaded()
 }
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class HKServices : ObjectiveC.NSObject {
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class HKServices : ObjectiveC.NSObject, HumanKit.HKHumanDelegate {
   @objc public var models: [HumanKit.HKModel]
   @objc public static let shared: HumanKit.HKServices
   @objc public func setup(key: Swift.String, secret: Swift.String, delegate: HumanKit.HKServicesDelegate? = nil)
@@ -315,8 +281,9 @@ extension IAPHelper : StoreKit.SKPaymentTransactionObserver {
   @objc public func getModels()
   @objc public func findModel(ICD: Swift.String)
   @objc public func download(modelIds: [Swift.String])
+  @objc public func human(_ view: HumanKit.HKHuman, modelLoaded: Swift.String)
   @objc public func modelDownloaded(id: Swift.String) -> Swift.Bool
-  @objc public func deleteStoredData()
+  @objc public func deleteStoredData() -> Swift.Int
   @objc public func setLanguage(to: HumanKit.HumanLanguage)
   @objc public func isUnicodeLanguage() -> Swift.Bool
   @objc public func getJsonString(modelId: Swift.String) -> Swift.String
@@ -330,6 +297,40 @@ extension IAPHelper : StoreKit.SKPaymentTransactionObserver {
   @available(*, renamed: "modelDownloaded(Id:)")
   @objc public func moduleDownloaded(id: Swift.String) -> Swift.Bool
   @objc deinit
+}
+@objc public protocol HKHumanDelegate {
+  @objc optional func human(_ view: HumanKit.HKHuman, shareImage: UIKit.UIImage)
+  @objc optional func human(_ view: HumanKit.HKHuman, shareURL: Swift.String)
+  @objc optional func human(_ view: HumanKit.HKHuman, initScene: Swift.String)
+  @objc optional func human(_ view: HumanKit.HKHuman, modelLoadError: Swift.String)
+  @objc optional func human(_ view: HumanKit.HKHuman, modelLoaded: Swift.String)
+  @objc optional func human(_ view: HumanKit.HKHuman, annotationPicked: Swift.String)
+  @objc optional func human(_ view: HumanKit.HKHuman, timelineUpdated: HumanKit.HKTimeline)
+  @objc optional func human(_ view: HumanKit.HKHuman, animationComplete: Swift.Bool)
+  @objc optional func human(_ view: HumanKit.HKHuman, objectPicked: Swift.String, position: [Swift.Double])
+  @objc optional func human(_ view: HumanKit.HKHuman, objectSelected: Swift.String)
+  @objc optional func human(_ view: HumanKit.HKHuman, objectDeselected: Swift.String)
+  @objc optional func human(_ view: HumanKit.HKHuman, chapterTransition: Swift.String)
+  @objc optional func human(_ view: HumanKit.HKHuman, cameraUpdated: HumanKit.HKCamera)
+  @objc optional func human(_ view: HumanKit.HKHuman, xrayEnabled: Swift.Bool)
+  @objc optional func human(_ view: HumanKit.HKHuman, sceneRestored: Swift.Bool)
+  @objc optional func human(_ view: HumanKit.HKHuman, objectsShown: [Swift.String : Swift.Bool])
+  @objc optional func human(_ view: HumanKit.HKHuman, objectColor: Swift.String, color: HumanKit.HKColor)
+  @objc optional func human(_ view: HumanKit.HKHuman, annotationsShown: Swift.Bool)
+  @objc optional func human(_ view: HumanKit.HKHuman, annotationCreated: Swift.String)
+  @objc optional func human(_ view: HumanKit.HKHuman, annotationDestroyed: Swift.String)
+  @objc optional func human(_ view: HumanKit.HKHuman, annotationUpdated: HumanKit.HKAnnotation)
+  @objc optional func screenshot(image: UIKit.UIImage)
+  @available(*, deprecated, message: "Please use human(_:initScene:)")
+  @objc optional func onInitMessage()
+  @available(*, deprecated, message: "Please use human(_:chapterTransition:)")
+  @objc optional func onChapterTransition(chapterId: Swift.String, view: HumanKit.HKHuman)
+  @available(*, deprecated, message: "Please use human(_:objectDeselected:)")
+  @objc optional func onObjectDeselected(objectId: Swift.String, view: HumanKit.HKHuman)
+  @available(*, deprecated, message: "Please use human(_:objectSelected:)")
+  @objc optional func onObjectSelected(objectId: Swift.String, view: HumanKit.HKHuman)
+  @available(*, deprecated, message: "Please use human(_:animationComplete:)")
+  @objc optional func onAnimationComplete()
 }
 extension HumanKit.HumanLanguage : Swift.Equatable {}
 extension HumanKit.HumanLanguage : Swift.Hashable {}
