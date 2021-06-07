@@ -13,6 +13,7 @@ public enum ORKHumanModelBioDigitalModelType : String {
     case heart = "production/maleAdult/breathing_beating_heart_v02"
     case brain = "production/maleAdult/brain_v02"
     case head = "production/maleAdult/male_region_head_07"
+    case torn_meniscus = "production/maleAdult/torn_medial_meniscus"
 }
 
 public class ORKBioDigitalModelManager : ORK3DModelManager {
