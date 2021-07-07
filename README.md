@@ -1,7 +1,7 @@
 # HumanKit
 The BioDigital Human iOS SDK
 
-Current version: 2.1.0 Released May 20, 2021
+Current version: 2.1.1 Released July 7, 2021
 
 Please visit http://developer.biodigital.com for documentation and setup instructions, and http://human.biodigital.com to see the 3D Human
 
@@ -22,7 +22,7 @@ to your app target add:
 pod 'HumanKit'
 
 for a specific version:
-pod 'HumanKit', '2.1.0'
+pod 'HumanKit', '2.1.1'
 
 for a universal build:
-pod 'HumanKit', '2.1.0-universal'
+pod 'HumanKit', '2.1.1-universal'
