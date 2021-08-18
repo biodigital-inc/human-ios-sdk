@@ -24,12 +24,12 @@ class TileViewController : UIViewController, UICollectionViewDelegate, UICollect
 
     // modules list UI
     var bd_models = [
-        HKModel(modelId: "production/maleAdult/breathing_beating_heart_v02", title: "Breathing Beating Heart", text: "", thumb: ""),
         HKModel(modelId: "production/maleAdult/acne_tissue_nodule", title: "Acne Tissue Nodule", text: "", thumb: ""),
         HKModel(modelId: "production/maleAdult/acne", title: "Acne", text: "", thumb: ""),
         HKModel(modelId: "production/femaleAdult/alveoli_smoker", title: "Alveoli Smoker", text: "", thumb: ""),
         HKModel(modelId: "production/maleAdult/male_region_brain_13", title: "Brain", text: "", thumb: ""),
         HKModel(modelId: "production/maleAdult/atherosclerosis_total_occlusion", title: "Atheriosclerosis: Total Occlusion", text: "", thumb: ""),
+        HKModel(modelId: "production/maleAdult/breathing_beating_heart_v02", title: "Breathing Beating Heart", text: "", thumb: ""),
         HKModel(modelId: "production/maleAdult/bladder_cancer_v02", title: "Bladder Cancer", text: "", thumb: "")
     ]
     
