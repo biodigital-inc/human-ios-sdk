@@ -188,5 +188,6 @@ human.on( 'labels.disabled' , function () {
     
     var iframe = document.getElementById("embeddedHuman");
     iframe.src = "http://localhost:" + window.sdkPort + "/?id=models/9OR" + window.bd_urlparams;
+    window.webkit.messageHandlers.messageHandler.postMessage("src=" + iframe.src);
 </script>
 </html>
