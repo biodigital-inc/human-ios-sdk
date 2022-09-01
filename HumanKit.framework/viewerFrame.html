@@ -69,16 +69,14 @@ human.on('labels.picked', function(annoPosition) {
     human.on( 'camera.updated', function(cameraData) {
         window.webkit.messageHandlers.cameraUpdateHandler.postMessage(cameraData);
     });
+    
+    var sceneLoaded = false
 
-    var progressDone = false;
-
-    human.on('human.progress',function(data) {
-        window.webkit.messageHandlers.messageHandler.postMessage("**** human.progress " + JSON.stringify(data));
-        if (data.progress === 100) {
-            if (progressDone === false) {
-                window.webkit.messageHandlers.assetsHandler.postMessage("loaded");
-            }
-            progressDone = true;
+    human.on('scene.loaded', function() {
+        if (!sceneLoaded) {
+            sceneLoaded = true;
+            window.webkit.messageHandlers.messageHandler.postMessage("ASSETS LOADED");
+            window.webkit.messageHandlers.assetsHandler.postMessage("loaded");
         }
     });
 
@@ -112,6 +110,8 @@ human.on('labels.picked', function(annoPosition) {
         window.webkit.messageHandlers.selectHandler.postMessage(objects);
         lastPick = '';
     });
+    
+    var progressDone = false;
     
     // send an animation update message
     human.on('timeline.playing', function(animationTime) {
@@ -170,15 +170,13 @@ human.on( 'labels.disabled' , function () {
     });
 
     human.on('scene.ready', function () {
-        progressDone = false;
+        sceneLoaded = false;
         window.webkit.messageHandlers.messageHandler.postMessage("GH: scene.ready");
         human.send('scene.metadata', function(metadata) {
             window.webkit.messageHandlers.sceneMetaHandler.postMessage(metadata);
-            window.webkit.messageHandlers.messageHandler.postMessage("** SCENE.METADATA: " + JSON.stringify(metadata));
         });
         human.send('scene.info', function(scenedata) {
             window.webkit.messageHandlers.sceneInfoHandler.postMessage(scenedata);
-            window.webkit.messageHandlers.messageHandler.postMessage("** SCENE.INFO: " + JSON.stringify(scenedata));
         });
 //
     });

@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name HumanKit
 import Foundation
 @_exported import HumanKit
@@ -8,6 +8,7 @@ import Swift
 import SystemConfiguration
 import UIKit
 import WebKit
+import _Concurrency
 import os.log
 import os
 @objc public class HKHuman : ObjectiveC.NSObject {
@@ -26,28 +27,26 @@ import os
   @objc public func reload()
   @objc public func disableInput()
   @objc public func enableInput()
-  @objc override dynamic public init()
   @objc deinit
 }
 public typealias ProductIdentifier = Swift.String
-public typealias ProductsRequestCompletionHandler = (Swift.Bool, [StoreKit.SKProduct]?) -> Swift.Void
+public typealias ProductsRequestCompletionHandler = (_ success: Swift.Bool, _ products: [StoreKit.SKProduct]?) -> Swift.Void
 @objc open class IAPHelper : ObjectiveC.NSObject {
   public init(productIds: Swift.Set<HumanKit.ProductIdentifier>)
-  @objc override dynamic public init()
   @objc deinit
 }
-extension IAPHelper {
+extension HumanKit.IAPHelper {
   public func requestProducts(_ completionHandler: @escaping HumanKit.ProductsRequestCompletionHandler)
   public func buyProduct(_ product: StoreKit.SKProduct)
   public func isProductPurchased(_ productIdentifier: HumanKit.ProductIdentifier) -> Swift.Bool
   public class func canMakePayments() -> Swift.Bool
   public func restorePurchases()
 }
-extension IAPHelper : StoreKit.SKProductsRequestDelegate {
+extension HumanKit.IAPHelper : StoreKit.SKProductsRequestDelegate {
   @objc dynamic public func productsRequest(_ request: StoreKit.SKProductsRequest, didReceive response: StoreKit.SKProductsResponse)
   @objc dynamic public func request(_ request: StoreKit.SKRequest, didFailWithError error: Swift.Error)
 }
-extension IAPHelper : StoreKit.SKPaymentTransactionObserver {
+extension HumanKit.IAPHelper : StoreKit.SKPaymentTransactionObserver {
   @objc dynamic public func paymentQueue(_ queue: StoreKit.SKPaymentQueue, updatedTransactions transactions: [StoreKit.SKPaymentTransaction])
   @objc dynamic public func paymentQueueRestoreCompletedTransactionsFinished(_ queue: StoreKit.SKPaymentQueue)
   @objc dynamic public func paymentQueue(_ queue: StoreKit.SKPaymentQueue, restoreCompletedTransactionsFailedWithError error: Swift.Error)
@@ -59,7 +58,6 @@ extension IAPHelper : StoreKit.SKPaymentTransactionObserver {
   @objc public var thumbnail: Swift.String
   @objc public var thumbnailImage: UIKit.UIImage
   @objc public init(modelId: Swift.String, title: Swift.String, text: Swift.String, thumb: Swift.String = "")
-  @objc override dynamic public init()
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class HKScene : ObjectiveC.NSObject {
@@ -69,7 +67,6 @@ extension IAPHelper : StoreKit.SKPaymentTransactionObserver {
   @objc public var objectIds: [Swift.String]
   @objc public var objects: [Swift.String : Swift.String]
   @objc public var hasLayers: Swift.Bool
-  @objc public func setHeartRate(rate: Swift.Float)
   @objc public func share(from: CoreGraphics.CGRect)
   @objc public func screenshot()
   @objc public func reset()
@@ -181,7 +178,9 @@ extension IAPHelper : StoreKit.SKPaymentTransactionObserver {
   case onDemand
   case quizLock
   case audio
+  case tutorial
   case nolink
+  case logo
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -220,7 +219,8 @@ extension IAPHelper : StoreKit.SKPaymentTransactionObserver {
   @objc public var animated: Swift.Bool
   @objc public var loops: Swift.Bool
   @objc public var duration: Swift.Double
-  @objc override dynamic public init()
+  @objc public var thumbnail: Swift.String
+  @objc public var images: [Swift.String]
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class HKTimeline : ObjectiveC.NSObject {
@@ -261,7 +261,6 @@ extension IAPHelper : StoreKit.SKPaymentTransactionObserver {
   @objc public var brightness: CoreGraphics.CGFloat
   @objc public var contrast: CoreGraphics.CGFloat
   @objc public func randomColor()
-  @objc override dynamic public init()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class HKAnnotation : ObjectiveC.NSObject {
@@ -275,7 +274,6 @@ extension IAPHelper : StoreKit.SKPaymentTransactionObserver {
   @objc public var shown: Swift.Bool
   @objc public var occludable: Swift.Bool
   @objc public init(objectId: Swift.String)
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc public protocol HKServicesDelegate {
@@ -283,6 +281,7 @@ extension IAPHelper : StoreKit.SKPaymentTransactionObserver {
   @objc optional func onInvalidSDK()
   @objc optional func modelsLoaded()
   @objc optional func modelDownloaded(modelId: Swift.String, count: Swift.Int, total: Swift.Int)
+  @objc optional func modelDownloadError(modelId: Swift.String)
   @available(*, renamed: "modelsLoaded()")
   @objc optional func modulesLoaded()
 }
@@ -295,6 +294,8 @@ extension IAPHelper : StoreKit.SKPaymentTransactionObserver {
   @objc public func findModel(ICD: Swift.String)
   @objc public func download(modelIds: [Swift.String])
   @objc public func human(_ view: HumanKit.HKHuman, modelLoaded: Swift.String)
+  @objc public func human(_ view: HumanKit.HKHuman, modelLoadError: Swift.String)
+  @objc public func offlineModels() -> [Swift.String]
   @objc public func modelDownloaded(id: Swift.String) -> Swift.Bool
   @objc public func deleteStoredData() -> Swift.Int
   @objc public func setLanguage(to: HumanKit.HumanLanguage)
