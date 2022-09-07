@@ -37,6 +37,9 @@ class TileViewController : UIViewController, UICollectionViewDelegate, UICollect
     
     var models = [HKModel]()
     
+    // setting for the .all option in HKUIOptions for the HKHuman
+    var uiAll = true
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -76,19 +79,12 @@ class TileViewController : UIViewController, UICollectionViewDelegate, UICollect
         models.append(contentsOf: bd_models)
         
         view.addSubview(tiles)
-        
-        #if DEBUG
-        let uiAll = false
-        #else
-        let uiAll = true
-        #endif
-        
-        human = HKHuman(view: canvasView, options: [HumanUIOptions.all:uiAll])
-
+                
+        human = HKHuman(view: canvasView, options: [.all : uiAll])
     }
     
     func modulesLoaded() {
-        print("models loaded")
+        print("content library models loaded")
         if client_models.count == 0 {
             client_models.append(contentsOf: HKServices.shared.models)
         }
@@ -130,17 +126,16 @@ class TileViewController : UIViewController, UICollectionViewDelegate, UICollect
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        //        searchICD!.text = ""
-        //        searchCat!.text = ""
-                let storyboard = UIStoryboard(name: "Main", bundle: nil)
-                humanVC = storyboard.instantiateViewController(withIdentifier: "threedee") as? HumanViewController
-                humanVC.modalPresentationStyle = .fullScreen
-                present(humanVC, animated: true) {
-                    // setup HKHuman delegate and set view
-                    self.humanVC.canvasView.addSubview(self.canvasView)
-                    self.canvasView.frame = self.humanVC.canvasView.bounds
-                    self.humanVC.showModel(with: self.human, which: self.models[indexPath.row])
-                }
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        humanVC = storyboard.instantiateViewController(withIdentifier: "threedee") as? HumanViewController
+        humanVC.modalPresentationStyle = .fullScreen
+        humanVC.nativeUI = !uiAll
+        present(humanVC, animated: true) {
+            // setup HKHuman delegate and set view
+            self.humanVC.canvasView.addSubview(self.canvasView)
+            self.canvasView.frame = self.humanVC.canvasView.bounds
+            self.humanVC.showModel(with: self.human, which: self.models[indexPath.row])
+        }
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {

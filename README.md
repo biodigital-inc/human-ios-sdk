@@ -1,7 +1,9 @@
 # HumanKit
 The BioDigital Human iOS SDK
 
-Current version: 2.1.2 Released August 18, 2021
+Current version: 2.75.1 Released September 7, 2022
+
+Version numbers are now tied to the release version of the internal 3D anatomy viewer.
 
 Please visit http://developer.biodigital.com for documentation and setup instructions, and http://human.biodigital.com to see the 3D Human
 
@@ -22,7 +24,7 @@ to your app target add:
 pod 'HumanKit'
 
 for a specific version:
-pod 'HumanKit', '2.1.2'
+pod 'HumanKit', '2.75.1'
 
 for a universal build:
-pod 'HumanKit', '2.1.2-universal'
+pod 'HumanKit', '2.75.1-universal'

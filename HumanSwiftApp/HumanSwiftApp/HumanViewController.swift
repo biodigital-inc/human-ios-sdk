@@ -14,26 +14,9 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     // required by HumanKit SDK
     @IBOutlet weak var canvasView: UIView!
     var human : HKHuman?
-    
-    #if DEBUG
-    var nativeUI = true
-    #else
-    var nativeUI = false
-    #endif
 
-    // module info label
-    @IBOutlet weak var modelLabel: UILabel!
-    
-    // some application state,
-    var xrayMode = false
-    var dissectMode = false
-    var isolateMode = false
-    var paintMode = false
-    var paused = false
-    var currentTime : Float = 0.0
-    var maxTime : Float = 0.0
-    var timer = Timer()
-    var size = CGSize()
+    // set this to hide the built in UI and show native elements to interact with the scene
+    var nativeUI = false
 
     // native UI elements to interact with the SDK
     @IBOutlet weak var resetButton: UIButton!
@@ -54,7 +37,23 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     @IBOutlet weak var blueButton : UIButton!
     @IBOutlet weak var yellowButton : UIButton!
     @IBOutlet weak var unpaintButton : UIButton!
+    
+    // module loading label
+    @IBOutlet weak var modelLabel: UILabel!
+    
+    // some application state,
+    var xrayMode = false
+    var dissectMode = false
+    var isolateMode = false
+    var paintMode = false
+    var paused = false
+    var currentTime : Float = 0.0
+    var maxTime : Float = 0.0
+    var timer = Timer()
+    var size = CGSize()
+    var hiddenObjectIds = [String]()
 
+    // chapter info panel
     lazy var swipeChaptersView : SwipeChaptersView = {
         let scv = SwipeChaptersView(frame: CGRect(x: 0, y: UIScreen.main.bounds.height - 108, width: UIScreen.main.bounds.width, height: 40))
         return scv
@@ -110,7 +109,6 @@ class HumanViewController: UIViewController, HKHumanDelegate {
         animationSlider.isHidden = true
         animationSlider.setThumbImage(UIImage(named: "AppIcon40x40"), for: .normal)
         view.addSubview(swipeChaptersView)
-//        dprint(swipeChaptersView.frame)
     }
 
     // tell the info panel to resize itself when the device is rotated
@@ -125,14 +123,10 @@ class HumanViewController: UIViewController, HKHumanDelegate {
             timer = Timer.scheduledTimer(withTimeInterval: 0.03, repeats: true, block: { (elapsed) in
                 self.animationSlider.value = self.human!.timeline.currentTime
             })
-        } else {
-                    // Fallback on earlier versions
         }
     }
     
-    var oZoom = 0.0;
-
-    // the load function will return when the model is fully loaded
+    // call human.load(<modelID>) to load a model
     func showModel(with: HKHuman, which: HKModel?) {
         human = with
         human!.delegate = self
@@ -148,43 +142,53 @@ class HumanViewController: UIViewController, HKHumanDelegate {
         dismiss(animated: true, completion: nil)
     }
     
-    func human(_ view: HKHuman, initScene: String) {
-        print("*** init scene " + initScene);
+    // MARK: HKServicesDelegate callback functions
+    
+    func onValidSDK() {
+        print("developer key validated")
+    }
+    
+    func onInvalidSDK() {
+        print("unable to validate developer key.  please check your bundle id and key are valid at https://developer.biodigital.com")
     }
 
     // MARK: HKHumanDelegate callback functions
+    
+    // these callbacks are all optional
+
+    // modelLoaded fires when the model is completely loaded
     func human(_ view: HKHuman, modelLoaded: String) {
         self.swipeChaptersView.initChapters(human: self.human!)
         self.modelLabel.text = ""
-        print("MODEL LOADED: " + modelLoaded);
+        print("model loaded: " + modelLoaded);
     }
     
+    // initScene callback fires when the scene meta data is available
+    func human(_ view: HKHuman, initScene: String) {
+        print("init scene " + initScene);
+    }
+
     func human(_ view: HKHuman, modelLoadError: String) {
-        print("error loading model \(modelLoadError), retry...")
-        human!.load(model: modelLoadError)
+        print("error loading model \(modelLoadError)")
+        let action = UIAlertController(title: "Error Loading Model \(modelLoadError)", message: "Something went wrong, please try again.", preferredStyle: .alert)
+        action.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
+        self.present(action, animated: true, completion: nil)
+        home()
     }
         
-    // these methods are optional, you do not need to implement them
-    func onValidSDK() {
-        print("VALID SDK!")
-    }
-    
-    func onAnimationComplete() {
+    func human(_ view: HKHuman, animationComplete: Bool) {
         playPauseButton.setImage(UIImage(named:"play"), for: .normal)
         paused = false
     }
     
-    func onInvalidSDK() {
-        print("INVALID SDK KEY?!  please validate your sdk to continue")
-    }
-    
-    func human(_ view: HKHuman, objectsShown: [String : Bool]) {
-        print("**** objects shown ")
-    }
-    
     func human(_ view: HKHuman, objectPicked: String, position: [Double]) {
         if let obj = human!.scene.objects[objectPicked] {
-            print("** YOU SELECTED " + obj)
+            print("you selected \(obj) \(dissectMode)")
+            if dissectMode {
+                human!.scene.hide(objectIds: [objectPicked])
+                hiddenObjectIds.append(objectPicked)
+                return
+            }
             if paintView.isHidden { return }
             if let painter = paintColor {
                 human!.scene.color(objectId: objectPicked, color: painter)
@@ -195,17 +199,16 @@ class HumanViewController: UIViewController, HKHumanDelegate {
         }
     }
     
-    func human(_ view: HKHuman, annotationCreated: String) {
-    }
-    
     func human(_ view: HKHuman, objectColor: String, color: HKColor) {
         print("got color for object " + objectColor)
     }
     
-    func onChapterTransition(chapterId: String, view: HKHuman) {
-        if let chapter = view.timeline.chapters[chapterId] {
+    // fires on chapter transitions
+    func human(_ view: HKHuman, chapterTransition: String) {
+        if let chapter = view.timeline.chapters[chapterTransition] {
             print("this chapter: \(chapter.title)")
             if ( self.human!.timeline.playing && nativeUI ) {
+                print("show animation controls")
                 self.maxTime = self.human!.timeline.duration
                 self.playPauseButton.setImage(UIImage(named:"pause"), for: .normal)
                 self.playPauseButton.isHidden = false
@@ -216,6 +219,16 @@ class HumanViewController: UIViewController, HKHumanDelegate {
             }
         }
     }
+    
+    // share handler for the draw tool
+    func human(_ view: HKHuman, shareImage: UIImage) {
+        let sharer = UIActivityViewController(activityItems: [shareImage], applicationActivities: nil)
+        sharer.excludedActivityTypes = [];
+        sharer.popoverPresentationController?.sourceRect = canvasView.frame
+        sharer.popoverPresentationController?.sourceView = canvasView
+        self.present(sharer, animated: true) {}
+    }
+
     
     // buttons can call into the SDK
     
@@ -252,15 +265,6 @@ class HumanViewController: UIViewController, HKHumanDelegate {
         }
     }
     
-    // implement handler for share
-    func human(_ view: HKHuman, shareImage: UIImage) {
-        let sharer = UIActivityViewController(activityItems: [shareImage], applicationActivities: nil)
-        sharer.excludedActivityTypes = [];
-        sharer.popoverPresentationController?.sourceRect = canvasView.frame
-        sharer.popoverPresentationController?.sourceView = canvasView
-        self.present(sharer, animated: true) {}
-    }
-    
     @IBAction func share() {
         human!.scene.share(from: shareButton.frame)
     }
@@ -280,11 +284,10 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     }
     
     @IBAction func dissectToggle() {
-        if (paintMode ) {
+        if (paintMode) {
             paintPressed()
         }
         dissectMode = !dissectMode;
-        human!.scene.dissect(dissectMode)
         if dissectMode {
             dissectButton.layer.shadowColor = UIColor.white.cgColor
             dissectButton.layer.shadowRadius = 8
@@ -301,7 +304,6 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     
     @IBAction func isolateToggle() {
         isolateMode = !isolateMode;
-        human!.scene.isolate(isolateMode)
         if isolateMode {
             isolateButton.layer.shadowColor = UIColor.red.cgColor
             isolateButton.layer.shadowRadius = 8
@@ -315,7 +317,9 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     }
     
     @IBAction func undoDissect() {
-        human!.scene.undo()
+        if dissectMode && hiddenObjectIds.count > 0 {
+            human!.scene.show(objectIds: [hiddenObjectIds.removeLast()])
+        }
     }
     
     @IBAction func resetButtonPressed() {
@@ -339,7 +343,7 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     
     // Object painting API test functions
     @IBAction func paintPressed() {
-        if (dissectMode) {
+        if dissectMode {
             dissectToggle()
         }
         paintMode = !paintMode

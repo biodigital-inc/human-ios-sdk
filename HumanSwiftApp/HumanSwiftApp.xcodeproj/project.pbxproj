@@ -18,11 +18,10 @@
 		B367F52C2548709100F4FB04 /* BioDigital.plist in Resources */ = {isa = PBXBuildFile; fileRef = B367F52B2548709100F4FB04 /* BioDigital.plist */; };
 		B3817BF024119AA3000EFA06 /* ModelTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3817BEF24119AA3000EFA06 /* ModelTile.swift */; };
 		B3D015232656B574005D217F /* BioDigitalQA.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3D015222656B573005D217F /* BioDigitalQA.plist */; };
-		C5C51134E25BF96C8E54BFF6 /* Pods_HumanSwiftApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57F32AA7F1EC6ED4FB64EB87 /* Pods_HumanSwiftApp.framework */; };
+		C1B6115C49D60F50115D84D0 /* Pods_HumanSwiftApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819FE0CC1E626735BC5547A7 /* Pods_HumanSwiftApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1F1B4357289F537B56247CE7 /* Pods-HumanSwiftApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumanSwiftApp.release.xcconfig"; path = "Target Support Files/Pods-HumanSwiftApp/Pods-HumanSwiftApp.release.xcconfig"; sourceTree = "<group>"; };
 		4EA81CAC23511A0A00204197 /* HumanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HumanViewController.swift; sourceTree = "<group>"; };
 		4EA81CAF23560DFC00204197 /* UIColor+Human.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Human.swift"; sourceTree = "<group>"; };
 		4ED9409521C42CBB00638D15 /* HumanSwiftApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HumanSwiftApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,11 +32,12 @@
 		4ED940A421C42CCC00638D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ED940AA21C42D7600638D15 /* TileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileViewController.swift; sourceTree = "<group>"; };
 		4ED940AB21C42D7600638D15 /* SwipeChaptersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeChaptersView.swift; sourceTree = "<group>"; };
-		57F32AA7F1EC6ED4FB64EB87 /* Pods_HumanSwiftApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HumanSwiftApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		716FC693BC564F60E52405BF /* Pods-HumanSwiftApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumanSwiftApp.release.xcconfig"; path = "Target Support Files/Pods-HumanSwiftApp/Pods-HumanSwiftApp.release.xcconfig"; sourceTree = "<group>"; };
+		819FE0CC1E626735BC5547A7 /* Pods_HumanSwiftApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HumanSwiftApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9110AC2AF13BA2F87AB41E6A /* Pods-HumanSwiftApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumanSwiftApp.debug.xcconfig"; path = "Target Support Files/Pods-HumanSwiftApp/Pods-HumanSwiftApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B367F52B2548709100F4FB04 /* BioDigital.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BioDigital.plist; sourceTree = "<group>"; };
 		B3817BEF24119AA3000EFA06 /* ModelTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelTile.swift; sourceTree = "<group>"; };
 		B3D015222656B573005D217F /* BioDigitalQA.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BioDigitalQA.plist; sourceTree = "<group>"; };
-		DCDFD0F3C2A656A0F8B6117B /* Pods-HumanSwiftApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumanSwiftApp.debug.xcconfig"; path = "Target Support Files/Pods-HumanSwiftApp/Pods-HumanSwiftApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,26 +45,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5C51134E25BF96C8E54BFF6 /* Pods_HumanSwiftApp.framework in Frameworks */,
+				C1B6115C49D60F50115D84D0 /* Pods_HumanSwiftApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0EAAD10BFC041A803FCB6F62 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				57F32AA7F1EC6ED4FB64EB87 /* Pods_HumanSwiftApp.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		3B5E74F36BF38D7FFA52DDD6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DCDFD0F3C2A656A0F8B6117B /* Pods-HumanSwiftApp.debug.xcconfig */,
-				1F1B4357289F537B56247CE7 /* Pods-HumanSwiftApp.release.xcconfig */,
+				9110AC2AF13BA2F87AB41E6A /* Pods-HumanSwiftApp.debug.xcconfig */,
+				716FC693BC564F60E52405BF /* Pods-HumanSwiftApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -75,7 +67,7 @@
 				4ED9409721C42CBB00638D15 /* HumanSwiftApp */,
 				4ED9409621C42CBB00638D15 /* Products */,
 				3B5E74F36BF38D7FFA52DDD6 /* Pods */,
-				0EAAD10BFC041A803FCB6F62 /* Frameworks */,
+				D23D3BCCADCC8D7425173CE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +98,14 @@
 			path = HumanSwiftApp;
 			sourceTree = "<group>";
 		};
+		D23D3BCCADCC8D7425173CE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				819FE0CC1E626735BC5547A7 /* Pods_HumanSwiftApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -113,11 +113,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4ED940A721C42CCC00638D15 /* Build configuration list for PBXNativeTarget "HumanSwiftApp" */;
 			buildPhases = (
-				9EEBDAC0FDF190DB0AD6A098 /* [CP] Check Pods Manifest.lock */,
+				8EC66FD844231AEC35B7F5EC /* [CP] Check Pods Manifest.lock */,
 				4ED9409121C42CBB00638D15 /* Sources */,
 				4ED9409221C42CBB00638D15 /* Frameworks */,
 				4ED9409321C42CBB00638D15 /* Resources */,
-				EFBDB0C36D28FEBC741B8754 /* [CP] Embed Pods Frameworks */,
+				0BFD8C23D040EB61485648C9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,6 +140,7 @@
 				TargetAttributes = {
 					4ED9409421C42CBB00638D15 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1340;
 					};
 				};
 			};
@@ -177,7 +178,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9EEBDAC0FDF190DB0AD6A098 /* [CP] Check Pods Manifest.lock */ = {
+		0BFD8C23D040EB61485648C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HumanSwiftApp/Pods-HumanSwiftApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HumanSwiftApp/Pods-HumanSwiftApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HumanSwiftApp/Pods-HumanSwiftApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EC66FD844231AEC35B7F5EC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -197,23 +215,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EFBDB0C36D28FEBC741B8754 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HumanSwiftApp/Pods-HumanSwiftApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HumanSwiftApp/Pods-HumanSwiftApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HumanSwiftApp/Pods-HumanSwiftApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -372,7 +373,7 @@
 		};
 		4ED940A821C42CCC00638D15 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCDFD0F3C2A656A0F8B6117B /* Pods-HumanSwiftApp.debug.xcconfig */;
+			baseConfigurationReference = 9110AC2AF13BA2F87AB41E6A /* Pods-HumanSwiftApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -384,14 +385,14 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.biodigital.sdkdemoapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		4ED940A921C42CCC00638D15 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F1B4357289F537B56247CE7 /* Pods-HumanSwiftApp.release.xcconfig */;
+			baseConfigurationReference = 716FC693BC564F60E52405BF /* Pods-HumanSwiftApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -403,7 +404,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.biodigital.sdkdemoapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
