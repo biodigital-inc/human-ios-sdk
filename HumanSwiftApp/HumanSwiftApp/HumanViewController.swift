@@ -59,7 +59,7 @@ class HumanViewController: UIViewController, HKHumanDelegate {
         return scv
     }()
     
-    var paintColor : HKColor? = nil;
+    var paintColor : HKColor? = nil
     
     lazy var redColor : HKColor = {
         let col = HKColor()
@@ -160,12 +160,12 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     func human(_ view: HKHuman, modelLoaded: String) {
         self.swipeChaptersView.initChapters(human: self.human!)
         self.modelLabel.text = ""
-        print("model loaded: " + modelLoaded);
+        print("model loaded: " + modelLoaded)
     }
     
     // initScene callback fires when the scene meta data is available
     func human(_ view: HKHuman, initScene: String) {
-        print("init scene " + initScene);
+        print("init scene " + initScene)
     }
 
     func human(_ view: HKHuman, modelLoadError: String) {
@@ -207,8 +207,7 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     func human(_ view: HKHuman, chapterTransition: String) {
         if let chapter = view.timeline.chapters[chapterTransition] {
             print("this chapter: \(chapter.title)")
-            if ( self.human!.timeline.playing && nativeUI ) {
-                print("show animation controls")
+            if self.human!.timeline.playing && nativeUI {
                 self.maxTime = self.human!.timeline.duration
                 self.playPauseButton.setImage(UIImage(named:"pause"), for: .normal)
                 self.playPauseButton.isHidden = false
@@ -223,7 +222,7 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     // share handler for the draw tool
     func human(_ view: HKHuman, shareImage: UIImage) {
         let sharer = UIActivityViewController(activityItems: [shareImage], applicationActivities: nil)
-        sharer.excludedActivityTypes = [];
+        sharer.excludedActivityTypes = []
         sharer.popoverPresentationController?.sourceRect = canvasView.frame
         sharer.popoverPresentationController?.sourceView = canvasView
         self.present(sharer, animated: true) {}
@@ -233,7 +232,7 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     // buttons can call into the SDK
     
     @IBAction func playPause() {
-        if (human!.timeline.playing) {
+        if human!.timeline.playing {
             human!.timeline.pause()
             playPauseButton.setImage(UIImage(named:"play"), for: .normal)
         } else {
@@ -270,7 +269,7 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     }
     
     @IBAction func xrayToggle() {
-        xrayMode = !xrayMode;
+        xrayMode = !xrayMode
         human!.scene.xray(xrayMode)
         if xrayMode {
             xrayButton.layer.shadowColor = UIColor.yellow.cgColor
@@ -284,10 +283,10 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     }
     
     @IBAction func dissectToggle() {
-        if (paintMode) {
+        if paintMode {
             paintPressed()
         }
-        dissectMode = !dissectMode;
+        dissectMode = !dissectMode
         if dissectMode {
             dissectButton.layer.shadowColor = UIColor.white.cgColor
             dissectButton.layer.shadowRadius = 8
@@ -303,7 +302,7 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     }
     
     @IBAction func isolateToggle() {
-        isolateMode = !isolateMode;
+        isolateMode = !isolateMode
         if isolateMode {
             isolateButton.layer.shadowColor = UIColor.red.cgColor
             isolateButton.layer.shadowRadius = 8

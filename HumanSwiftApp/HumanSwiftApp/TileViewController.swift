@@ -48,8 +48,8 @@ class TileViewController : UIViewController, UICollectionViewDelegate, UICollect
         view.frame = UIScreen.main.bounds
         view.backgroundColor = .white
         
-        let height = UIScreen.main.bounds.height;
-        let width = UIScreen.main.bounds.width;
+        let height = UIScreen.main.bounds.height
+        let width = UIScreen.main.bounds.width
         
         let labelFrame = CGRect(x: 0, y: 30, width: width, height: 30)
         label = UILabel(frame: labelFrame)
@@ -103,7 +103,7 @@ class TileViewController : UIViewController, UICollectionViewDelegate, UICollect
     
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         let height = size.height
-        let width = size.width;
+        let width = size.width
         let labelFrame = CGRect(x: 0, y: 0, width: width, height: height*0.2)
         label.frame = labelFrame
         let tileFrame = CGRect(x:0,y:height*0.2,width:width,height:height*0.8)
@@ -161,7 +161,7 @@ class TileViewController : UIViewController, UICollectionViewDelegate, UICollect
                 models.removeAll()
                 tiles.reloadData()
                 var sendtext = text
-                if (searchBar == searchICD) {
+                if searchBar == searchICD {
                     sendtext = "ICD:" + text
                 }
                 HKServices.shared.findModel(ICD: sendtext)
