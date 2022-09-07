@@ -203,7 +203,7 @@ class SwipeChaptersView : UIView, UIScrollViewDelegate, UITextViewDelegate {
         if point.x > 0 {
             human?.timeline.prevChapter()
             currentPage -= 1
-        } else if ( point.x < 0 ) {
+        } else if point.x < 0 {
             human?.timeline.nextChapter()
             currentPage += 1
         }

@@ -7,6 +7,6 @@ target 'HumanObjCApp' do
   use_frameworks!
 
   # Pods for HumanSDKApp
-  pod 'HumanKit', '2.1.2'
+  pod 'HumanKit', '2.75.1'
 
 end

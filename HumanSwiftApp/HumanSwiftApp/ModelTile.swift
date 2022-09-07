@@ -38,11 +38,11 @@ class ModelTile : UICollectionViewCell {
         // the content API modules will have thumbnail URLs
         // otherwise look up the bookmark location by modelId
         var modelID = model.modelId
+        // try to determine the correct thumbnail, this should work for all BioDigital production models
         if model.thumbnail.isEmpty {
             if modelID.contains(".json") {
                 let index = modelID.firstIndex(of: ".")!
                 modelID = String(modelID[modelID.startIndex..<index])
-                print("model id is \(modelID)")
             }
             let basedir = modelID.contains("/") ? "modules/" : "bookmarks/"
             model.thumbnail = "https://human.biodigital.com/thumbs/" + basedir + modelID + "/large/index.jpg"
@@ -57,10 +57,8 @@ class ModelTile : UICollectionViewCell {
             thumbnail?.image =  image
         } else {
             let fileManager = FileManager.default
-            let thubLoc = thumbname.contains("bookmark") ? "bookmarks/" : "modules/"
-            let thumbsurl = try! fileManager.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true).appendingPathComponent("/thumbs/" + thubLoc + modelID + "/large/")
-            try! fileManager.createDirectory(at: thumbsurl, withIntermediateDirectories: true, attributes: nil)
             let fileURL = try! fileManager.url(for: .documentDirectory, in: .userDomainMask, appropriateFor: nil, create: true).appendingPathComponent(thumbname)
+            try! fileManager.createDirectory(at: fileURL.deletingLastPathComponent(), withIntermediateDirectories: true, attributes: nil)
             if fileManager.fileExists(atPath: fileURL.path) {
                 thumbnail?.image = UIImage(contentsOfFile: fileURL.path)
             } else {
