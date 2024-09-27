@@ -1,0 +1,224 @@
+<html>
+    <head>
+<script src="human-api-3.0.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    body {
+      margin: 0;
+      width:100vw;
+      height:100vh;
+    }
+
+    #embeddedHuman {
+      position: absolute;
+      border: none;
+      width: 100vw;
+      height: 100vh;
+    }
+</style>
+</head>
+<body>
+    <iframe
+        id="embeddedHuman"
+        allowFullScreen="true"
+        class="fullscreen"
+        src="">
+    </iframe>
+</body>
+<script>
+    var human = new HumanAPI("embeddedHuman");
+    
+    human.on( 'labels.created', function(labelData) {
+        window.webkit.messageHandlers.messageHandler.postMessage("labels.created event: " + JSON.stringify(labelData));
+        window.webkit.messageHandlers.labelCreateHandler.postMessage(labelData);
+    });
+    
+    human.on( 'labels.destroyed', function(labelData) {
+        window.webkit.messageHandlers.messageHandler.postMessage("labels.destroyed event: " + JSON.stringify(labelData));
+        window.webkit.messageHandlers.labelDestroyHandler.postMessage(labelData);
+    });
+
+    human.on( 'labels.chapterInfo', function(labelData) {
+        window.webkit.messageHandlers.messageHandler.postMessage("labels.chapterInfo event: " + JSON.stringify(labelData));
+    });
+
+    human.on('labels.moved', function(labelPosition) {
+        window.webkit.messageHandlers.messageHandler.postMessage("labels.moved event:" + JSON.stringify(labelPosition));
+        window.webkit.messageHandlers.labelMovedHandler.postMessage(labelPosition);
+    });
+
+    human.on('labels.updated', function(labelData) {
+        window.webkit.messageHandlers.messageHandler.postMessage("labels.updated event:" + JSON.stringify(labelData));
+        window.webkit.messageHandlers.labelUpdatedHandler.postMessage(labelData);
+    });
+
+    human.on('labels.picked', function(labelData) {
+        window.webkit.messageHandlers.messageHandler.postMessage("labels.picked event: " + JSON.stringify(labelData));
+        window.webkit.messageHandlers.labelPickedHandler.postMessage(labelData);
+    });
+    
+    human.on( 'labels.enabled' , function () {
+        window.webkit.messageHandlers.messageHandler.postMessage("labels.enabled event");
+        window.webkit.messageHandlers.labelsShownHandler.postMessage(true);
+    });
+
+    human.on( 'labels.disabled' , function () {
+        window.webkit.messageHandlers.messageHandler.postMessage("labels.disabled event");
+        window.webkit.messageHandlers.labelsShownHandler.postMessage(false);
+    });
+
+    
+    // send a chapter transition message
+    human.on( 'timeline.chapterTransition', function(chapterData) {
+        window.webkit.messageHandlers.messageHandler.postMessage("timeline.chapterTransition event: " + JSON.stringify(chapterData));
+        window.webkit.messageHandlers.chapterHandler.postMessage(chapterData);
+    });
+
+    // camera updated callback
+    human.on( 'camera.updated', function(cameraData) {
+        window.webkit.messageHandlers.messageHandler.postMessage("camera.updated event: " + JSON.stringify(cameraData));
+        window.webkit.messageHandlers.cameraUpdateHandler.postMessage(cameraData);
+    });
+    
+    var sceneLoaded = false
+    
+    var finishLoad = function(caller) {
+        sceneLoaded = true;
+        window.webkit.messageHandlers.messageHandler.postMessage("$$$$$$$$ ASSETS LOADED " + caller);
+        human.send('scene.info', function(sceneData) {
+            window.webkit.messageHandlers.sceneInfoHandler.postMessage(sceneData);
+        });
+        window.webkit.messageHandlers.assetsHandler.postMessage("loaded");
+    }
+
+    human.on('scene.loaded', function() {
+        window.webkit.messageHandlers.messageHandler.postMessage("scene.loaded event");
+        if (!sceneLoaded) {
+            finishLoad('scene.loaded');
+        } else {
+            window.webkit.messageHandlers.messageHandler.postMessage("scene.loaded -- sceneLoaded is already true");
+        }
+    });
+
+    human.on('scene.xrayEnabled', function() {
+        window.webkit.messageHandlers.messageHandler.postMessage("scene.xrayEnabled event");
+        window.webkit.messageHandlers.xrayHandler.postMessage(true);
+    });
+    
+    human.on('native.share', function(data) {
+        window.webkit.messageHandlers.messageHandler.postMessage("native.share event " + JSON.stringify(data.type));
+        window.webkit.messageHandlers.nativeShareHandler.postMessage(data);
+    });
+
+    human.on('native.debugMessage', function(message) {
+        window.webkit.messageHandlers.messageHandler.postMessage("$$$ got debug messsage " + JSON.stringify(message));
+    });
+
+    human.on('scene.xrayDisabled', function() {
+        window.webkit.messageHandlers.messageHandler.postMessage("scene.xrayDisabled event");
+         window.webkit.messageHandlers.xrayHandler.postMessage(false);
+    });
+
+    human.on('scene.restored', function() {
+        window.webkit.messageHandlers.messageHandler.postMessage("scene.restored event");
+         window.webkit.messageHandlers.sceneRestoredHandler.postMessage("boo");
+    });
+
+    human.on( 'scene.objectsShown' , function(objects) {
+        window.webkit.messageHandlers.messageHandler.postMessage("scene.objectsShown event" + JSON.stringify(objects));
+         window.webkit.messageHandlers.objectsShownHandler.postMessage(objects);
+    });
+
+    human.on( 'scene.objectsSelected' , function(objects) {
+        window.webkit.messageHandlers.messageHandler.postMessage("scene.objectsSelected event" + JSON.stringify(objects));
+        window.webkit.messageHandlers.selectHandler.postMessage(objects);
+        lastPick = '';
+    });
+    
+    var progressDone = false;
+    var progress = 0.0;
+    
+    human.on('human.progress',function(data) {
+            window.webkit.messageHandlers.messageHandler.postMessage("load human.progress event " + JSON.stringify(data));
+            progress = data.progress;
+            if (data.progress === 1) {
+                if (!sceneLoaded) {
+                    finishLoad('human.progress');
+                } else {
+                    window.webkit.messageHandlers.messageHandler.postMessage("not calling scene.info");
+                }
+                window.webkit.messageHandlers.messageHandler.postMessage("$$$$$$$$ load human.progress DONE " + JSON.stringify(data));
+            }
+        });
+    
+    // send an animation update message
+    human.on('timeline.playing', function(animationTime) {
+<!--        window.webkit.messageHandlers.messageHandler.postMessage("timeline.playing event " + JSON.stringify(animationTime));-->
+        window.webkit.messageHandlers.timelineHandler.postMessage(animationTime.time);
+<!--        if (animationTime.time > 0.0 && sceneLoaded === false) {-->
+<!--            window.webkit.messageHandlers.messageHandler.postMessage("$$$$$$$$ caught missed loaded message");-->
+<!--            finishLoad('timeline.playing');-->
+<!--        }-->
+    });
+
+    human.on('timeline.completed', function() {
+        window.webkit.messageHandlers.messageHandler.postMessage("timeline.completed event ");
+        window.webkit.messageHandlers.timelineHandler.postMessage('done');
+    });
+
+    var lastPick = '';
+
+    human.on( 'scene.picked' , function (event) {
+        window.webkit.messageHandlers.messageHandler.postMessage("scene.picked event " + JSON.stringify(event));
+        if (event.position !== undefined && event.objectId !== lastPick) {
+            lastPick = event.objectId;
+            window.webkit.messageHandlers.pickHandler.postMessage(event);
+        }
+    });
+
+    human.on('scene.ready', function () {
+        sceneLoaded = false;
+        window.webkit.messageHandlers.messageHandler.postMessage("scene.ready event");
+        human.send('scene.metadata', function(metadata) {
+            window.webkit.messageHandlers.messageHandler.postMessage("scene.metadata event " + JSON.stringify(metadata));
+            window.webkit.messageHandlers.sceneMetaHandler.postMessage(metadata);
+        });
+    });
+    
+    human.on('quiz.entered', function(quizData) {
+        window.webkit.messageHandlers.messageHandler.postMessage("quiz.entered event " + JSON.stringify(quizData));
+        window.webkit.messageHandlers.quizEnteredHandler.postMessage(quizData);
+    });
+
+    human.on('quiz.exited', function() {
+        window.webkit.messageHandlers.messageHandler.postMessage("quiz.exited event");
+        window.webkit.messageHandlers.quizExitedHandler.postMessage(true);
+    });
+
+    human.on('quiz.questionLoaded', function(quizData) {
+        window.webkit.messageHandlers.messageHandler.postMessage("quiz.questionLoaded event " + JSON.stringify(quizData));
+        window.webkit.messageHandlers.quizQuestionLoadedHandler.postMessage(quizData);
+    });
+
+    human.on('quiz.answerSelected', function(quizData) {
+        window.webkit.messageHandlers.messageHandler.postMessage("quiz.answerSelected event " + JSON.stringify(quizData));
+        window.webkit.messageHandlers.quizAnswerSelectedHandler.postMessage(quizData);
+    });
+
+    human.on('quiz.answerSubmitted', function(quizData) {
+        window.webkit.messageHandlers.messageHandler.postMessage("quiz.answerSubmitted event " + JSON.stringify(quizData));
+        window.webkit.messageHandlers.quizAnswerSubmittedHandler.postMessage(quizData);
+    });
+
+    human.on('quiz.completed', function(quizData) {
+        window.webkit.messageHandlers.messageHandler.postMessage("quiz.completed event " + JSON.stringify(quizData));
+        window.webkit.messageHandlers.quizCompletedHandler.postMessage(quizData);
+    });
+
+    window.webkit.messageHandlers.messageHandler.postMessage("API object created, listeners registered params: " + window.bd_urlparams);
+    window.webkit.messageHandlers.humanHandler.postMessage("ready");
+    
+    var iframe = document.getElementById("embeddedHuman");
+    iframe.src = "http://localhost:" + window.sdkPort + "/?id=models/9OR" + window.bd_urlparams;
+</script>
+</html>
