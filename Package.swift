@@ -16,6 +16,6 @@ let package = Package(
     targets: [
         .target(
             name: "HumanKit"),
-        .binaryTarget(name: "HumanKit", path: "./Sources/HumanKit.xcframework")
+        .binaryTarget(name: "HumanKit", path: "./HumanKit.xcframework")
     ]
 )
