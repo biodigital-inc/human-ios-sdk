@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>CircleMinusDark</title>
+    <desc>Created with Sketch.</desc>
+    <g id="CirclePlusDark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="CircleDark" stroke="#CCCCCC" fill="none" x="1" y="1" width="16" height="16" rx="8"></rect>
+        <rect id="Rectangle" fill="#CCCCCC" x="5" y="8" width="8" height="2"></rect>
+    </g>
+</svg>
