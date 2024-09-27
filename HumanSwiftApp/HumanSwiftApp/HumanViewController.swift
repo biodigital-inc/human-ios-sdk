@@ -230,7 +230,6 @@ class HumanViewController: UIViewController, HKHumanDelegate {
 
     
     // buttons can call into the SDK
-    
     @IBAction func playPause() {
         if human!.timeline.playing {
             human!.timeline.pause()

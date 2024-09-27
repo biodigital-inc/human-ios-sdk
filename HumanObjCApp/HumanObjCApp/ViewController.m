@@ -3,7 +3,7 @@
 //  objcapp
 //
 //  Created by Gary Herman on 4/16/18.
-//  Copyright © 2018 BioDigital Inc. All rights reserved.
+//  Copyright © 2024 BioDigital Inc. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -30,7 +30,7 @@
 }
 
 -(void)loadSampleModule {
-    [body loadWithModel:@"production/maleAdult/human_02_regional_male_thorax.json"];
+    [body loadWithModel:@"production/maleAdult/cell"];
 }
 
 -(void)human:(HKHuman *)view modelLoaded:(NSString *)modelLoaded {

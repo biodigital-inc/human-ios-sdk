@@ -17,13 +17,13 @@ class ModelTile : UICollectionViewCell {
 
     override init(frame: CGRect) {
         super.init(frame: frame)
-        label = UILabel(frame: CGRect(x:0,y:200,width:200,height:60))
+        label = UILabel(frame: CGRect(x:0,y:144,width:144,height:42))
         label?.textAlignment = .center
         label?.numberOfLines = 0
         label?.lineBreakMode = .byWordWrapping
         label?.textColor = .humanRed
         label?.backgroundColor = .clear
-        thumbnail = UIImageView(frame:CGRect(x: 0, y: 0, width: 200, height: 200))
+        thumbnail = UIImageView(frame:CGRect(x: 0, y: 0, width: 144, height: 144))
         addSubview(label!)
         addSubview(thumbnail!)
     }
@@ -38,14 +38,14 @@ class ModelTile : UICollectionViewCell {
         // the content API modules will have thumbnail URLs
         // otherwise look up the bookmark location by modelId
         var modelID = model.modelId
-        // try to determine the correct thumbnail, this should work for all BioDigital production models
+        // try to determine the correct thumbnail
         if model.thumbnail.isEmpty {
             if modelID.contains(".json") {
                 let index = modelID.firstIndex(of: ".")!
                 modelID = String(modelID[modelID.startIndex..<index])
             }
             let basedir = modelID.contains("/") ? "modules/" : "bookmarks/"
-            model.thumbnail = "https://human.biodigital.com/thumbs/" + basedir + modelID + "/large/index.jpg"
+            model.thumbnail = "https://human.biodigital.com/thumbs/" + basedir + modelID + "/small/index.jpg"
         }
         var thumbname = model.thumbnail
         backgroundColor = .humanGray40
@@ -68,6 +68,7 @@ class ModelTile : UICollectionViewCell {
                         let data = try? Data(contentsOf: url)
                         if let data = data, let image = UIImage(data: data) {
                             DispatchQueue.main.async {
+                                print("got thumbnail \(model.thumbnail)")
                                 self.thumbnail?.image = image
                             }
                             try data.write(to: fileURL)

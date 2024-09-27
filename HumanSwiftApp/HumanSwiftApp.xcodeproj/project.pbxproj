@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F0B5BB91CFB98E28DDD3DAE /* Pods_HumanSwiftApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB60764865E5FD3DCA11F48D /* Pods_HumanSwiftApp.framework */; };
 		4EA81CAE23511A0A00204197 /* HumanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA81CAC23511A0A00204197 /* HumanViewController.swift */; };
 		4EA81CB023560DFC00204197 /* UIColor+Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA81CAF23560DFC00204197 /* UIColor+Human.swift */; };
 		4ED9409921C42CBB00638D15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED9409821C42CBB00638D15 /* AppDelegate.swift */; };
@@ -17,9 +18,20 @@
 		4ED940B021C42D7600638D15 /* SwipeChaptersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED940AB21C42D7600638D15 /* SwipeChaptersView.swift */; };
 		B367F52C2548709100F4FB04 /* BioDigital.plist in Resources */ = {isa = PBXBuildFile; fileRef = B367F52B2548709100F4FB04 /* BioDigital.plist */; };
 		B3817BF024119AA3000EFA06 /* ModelTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3817BEF24119AA3000EFA06 /* ModelTile.swift */; };
-		B3D015232656B574005D217F /* BioDigitalQA.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3D015222656B573005D217F /* BioDigitalQA.plist */; };
-		C1B6115C49D60F50115D84D0 /* Pods_HumanSwiftApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819FE0CC1E626735BC5547A7 /* Pods_HumanSwiftApp.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B3A777A72CA5FA0F0005F6F5 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4EA81CAC23511A0A00204197 /* HumanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HumanViewController.swift; sourceTree = "<group>"; };
@@ -32,12 +44,11 @@
 		4ED940A421C42CCC00638D15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4ED940AA21C42D7600638D15 /* TileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileViewController.swift; sourceTree = "<group>"; };
 		4ED940AB21C42D7600638D15 /* SwipeChaptersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeChaptersView.swift; sourceTree = "<group>"; };
-		716FC693BC564F60E52405BF /* Pods-HumanSwiftApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumanSwiftApp.release.xcconfig"; path = "Target Support Files/Pods-HumanSwiftApp/Pods-HumanSwiftApp.release.xcconfig"; sourceTree = "<group>"; };
-		819FE0CC1E626735BC5547A7 /* Pods_HumanSwiftApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HumanSwiftApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9110AC2AF13BA2F87AB41E6A /* Pods-HumanSwiftApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumanSwiftApp.debug.xcconfig"; path = "Target Support Files/Pods-HumanSwiftApp/Pods-HumanSwiftApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7BAF0ECA905F7AD16DE40913 /* Pods-HumanSwiftApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumanSwiftApp.release.xcconfig"; path = "Target Support Files/Pods-HumanSwiftApp/Pods-HumanSwiftApp.release.xcconfig"; sourceTree = "<group>"; };
 		B367F52B2548709100F4FB04 /* BioDigital.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = BioDigital.plist; sourceTree = "<group>"; };
 		B3817BEF24119AA3000EFA06 /* ModelTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelTile.swift; sourceTree = "<group>"; };
-		B3D015222656B573005D217F /* BioDigitalQA.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BioDigitalQA.plist; sourceTree = "<group>"; };
+		BB60764865E5FD3DCA11F48D /* Pods_HumanSwiftApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HumanSwiftApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDCA3C853C3B239187D77DE1 /* Pods-HumanSwiftApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HumanSwiftApp.debug.xcconfig"; path = "Target Support Files/Pods-HumanSwiftApp/Pods-HumanSwiftApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,18 +56,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1B6115C49D60F50115D84D0 /* Pods_HumanSwiftApp.framework in Frameworks */,
+				2F0B5BB91CFB98E28DDD3DAE /* Pods_HumanSwiftApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3B5E74F36BF38D7FFA52DDD6 /* Pods */ = {
+		235C99ED1A3B56F3C41EC6A4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9110AC2AF13BA2F87AB41E6A /* Pods-HumanSwiftApp.debug.xcconfig */,
-				716FC693BC564F60E52405BF /* Pods-HumanSwiftApp.release.xcconfig */,
+				EDCA3C853C3B239187D77DE1 /* Pods-HumanSwiftApp.debug.xcconfig */,
+				7BAF0ECA905F7AD16DE40913 /* Pods-HumanSwiftApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -65,9 +76,9 @@
 			isa = PBXGroup;
 			children = (
 				4ED9409721C42CBB00638D15 /* HumanSwiftApp */,
+				B3A777A42CA5FA0F0005F6F5 /* Frameworks */,
 				4ED9409621C42CBB00638D15 /* Products */,
-				3B5E74F36BF38D7FFA52DDD6 /* Pods */,
-				D23D3BCCADCC8D7425173CE9 /* Frameworks */,
+				235C99ED1A3B56F3C41EC6A4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,15 +104,14 @@
 				4ED940A121C42CCC00638D15 /* LaunchScreen.storyboard */,
 				4ED940A421C42CCC00638D15 /* Info.plist */,
 				B367F52B2548709100F4FB04 /* BioDigital.plist */,
-				B3D015222656B573005D217F /* BioDigitalQA.plist */,
 			);
 			path = HumanSwiftApp;
 			sourceTree = "<group>";
 		};
-		D23D3BCCADCC8D7425173CE9 /* Frameworks */ = {
+		B3A777A42CA5FA0F0005F6F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				819FE0CC1E626735BC5547A7 /* Pods_HumanSwiftApp.framework */,
+				BB60764865E5FD3DCA11F48D /* Pods_HumanSwiftApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,11 +123,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4ED940A721C42CCC00638D15 /* Build configuration list for PBXNativeTarget "HumanSwiftApp" */;
 			buildPhases = (
-				8EC66FD844231AEC35B7F5EC /* [CP] Check Pods Manifest.lock */,
+				BE7F2169CE3A33196FCCB8E6 /* [CP] Check Pods Manifest.lock */,
 				4ED9409121C42CBB00638D15 /* Sources */,
 				4ED9409221C42CBB00638D15 /* Frameworks */,
 				4ED9409321C42CBB00638D15 /* Resources */,
-				0BFD8C23D040EB61485648C9 /* [CP] Embed Pods Frameworks */,
+				B3A777A72CA5FA0F0005F6F5 /* Embed Frameworks */,
+				3042F8BCCD23261C3EDB0135 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,7 +181,6 @@
 				4ED940A321C42CCC00638D15 /* LaunchScreen.storyboard in Resources */,
 				4ED940A021C42CCC00638D15 /* Assets.xcassets in Resources */,
 				B367F52C2548709100F4FB04 /* BioDigital.plist in Resources */,
-				B3D015232656B574005D217F /* BioDigitalQA.plist in Resources */,
 				4ED9409E21C42CBB00638D15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,7 +188,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0BFD8C23D040EB61485648C9 /* [CP] Embed Pods Frameworks */ = {
+		3042F8BCCD23261C3EDB0135 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -195,7 +205,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HumanSwiftApp/Pods-HumanSwiftApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		8EC66FD844231AEC35B7F5EC /* [CP] Check Pods Manifest.lock */ = {
+		BE7F2169CE3A33196FCCB8E6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -373,16 +383,22 @@
 		};
 		4ED940A821C42CCC00638D15 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9110AC2AF13BA2F87AB41E6A /* Pods-HumanSwiftApp.debug.xcconfig */;
+			baseConfigurationReference = EDCA3C853C3B239187D77DE1 /* Pods-HumanSwiftApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = X4L8VADZWX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HumanSwiftApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.biodigital.sdkdemoapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -392,16 +408,22 @@
 		};
 		4ED940A921C42CCC00638D15 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 716FC693BC564F60E52405BF /* Pods-HumanSwiftApp.release.xcconfig */;
+			baseConfigurationReference = 7BAF0ECA905F7AD16DE40913 /* Pods-HumanSwiftApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = X4L8VADZWX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = HumanSwiftApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.biodigital.sdkdemoapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

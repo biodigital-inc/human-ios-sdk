@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '9.0'
+platform :ios, '12.0'
 source 'https://github.com/biodigital-inc/human-ios-sdk.git'
 
 target 'HumanObjCApp' do
@@ -7,6 +7,6 @@ target 'HumanObjCApp' do
   use_frameworks!
 
   # Pods for HumanSDKApp
-  pod 'HumanKit', '2.75.1'
+  pod 'HumanKit', '134.1'
 
 end

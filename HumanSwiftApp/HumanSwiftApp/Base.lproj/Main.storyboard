@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="i0Z-F0-QRA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="i0Z-F0-QRA">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment version="2304" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -144,7 +144,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WJ7-fM-GHN">
-                                <rect key="frame" x="0.0" y="50" width="375" height="24"/>
+                                <rect key="frame" x="0.0" y="80" width="375" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="e4Y-Gp-Vcb"/>
                                 </constraints>
@@ -273,7 +273,7 @@
                             <constraint firstItem="su3-J9-eqS" firstAttribute="top" secondItem="47K-9L-QL1" secondAttribute="bottom" constant="12" id="CcF-Iv-ezq"/>
                             <constraint firstItem="cuI-Dp-VrN" firstAttribute="leading" secondItem="gnU-SF-dTd" secondAttribute="leading" constant="14" id="EjA-2F-kwQ"/>
                             <constraint firstItem="VyV-et-Iue" firstAttribute="top" secondItem="3gP-WN-EFa" secondAttribute="bottom" constant="50" id="Fif-3Q-t9W"/>
-                            <constraint firstItem="WJ7-fM-GHN" firstAttribute="top" secondItem="XSR-bV-6mE" secondAttribute="top" constant="50" id="I8a-X9-Hpr"/>
+                            <constraint firstItem="WJ7-fM-GHN" firstAttribute="top" secondItem="XSR-bV-6mE" secondAttribute="top" constant="80" id="I8a-X9-Hpr"/>
                             <constraint firstItem="4Pg-uD-plr" firstAttribute="leading" secondItem="gnU-SF-dTd" secondAttribute="leading" constant="14" id="LG1-Ck-aBC"/>
                             <constraint firstItem="SOF-fn-RE1" firstAttribute="leading" secondItem="gnU-SF-dTd" secondAttribute="leading" id="O13-AC-HkZ"/>
                             <constraint firstItem="OBk-pc-vzS" firstAttribute="leading" secondItem="gnU-SF-dTd" secondAttribute="leading" constant="14" id="Qc4-QE-Sr6"/>
