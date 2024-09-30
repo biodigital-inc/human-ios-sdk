@@ -4,18 +4,15 @@
 import PackageDescription
 
 let package = Package(
-    name: "HumanKit",
-    platforms: [
-        .iOS(.v12)
-    ],
+    name: "human-kit",
     products: [
         .library(
-            name: "HumanKit",
-            targets: ["HumanKit"]),
+            name: "human-kit",
+            targets: ["human-kit", "HumanKit"]),
     ],
     targets: [
         .target(
-            name: "HumanKit"),
-        .binaryTarget(name: "HumanKit", path: "./HumanKit.xcframework")
+            name: "human-kit"),
+        .binaryTarget(name: "HumanKit", path: "../HumanKit.xcframework")
     ]
 )
