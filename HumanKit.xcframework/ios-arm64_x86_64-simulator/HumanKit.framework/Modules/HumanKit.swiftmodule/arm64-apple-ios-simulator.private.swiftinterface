@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name HumanKit
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Foundation
@@ -282,6 +282,7 @@ import os
   @objc optional func modelDownloadError(modelId: Swift.String)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class HKServices : ObjectiveC.NSObject, HumanKit.HKHumanDelegate {
+  public var BASE_URL: Swift.String
   @objc public var models: [HumanKit.HKModel]
   @objc public static let shared: HumanKit.HKServices
   @objc public func setup(key: Swift.String, secret: Swift.String, delegate: (any HumanKit.HKServicesDelegate)? = nil)

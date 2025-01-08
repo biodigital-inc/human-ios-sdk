@@ -1,7 +1,7 @@
 # HumanKit
 The BioDigital Human iOS SDK
 
-Current version: 134.1 Released September 27, 2024
+Current version: 140.1 Released January 8, 2025
 
 Please visit http://developer.biodigital.com for documentation and setup instructions, and http://human.biodigital.com to see the 3D Human
 
@@ -22,7 +22,7 @@ to your app target add:
 pod 'HumanKit'
 
 for a specific version:
-pod 'HumanKit', '134.1'
+pod 'HumanKit', '140.1'
 
 for a universal build:
-pod 'HumanKit', '134.1-universal'
+pod 'HumanKit', '140.1-universal'

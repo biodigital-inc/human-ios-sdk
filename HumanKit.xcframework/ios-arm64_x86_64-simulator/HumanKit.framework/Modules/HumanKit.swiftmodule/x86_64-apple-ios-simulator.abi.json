@@ -19,7 +19,10 @@
         "name": "WebKit",
         "printedName": "WebKit",
         "declKind": "Import",
-        "moduleName": "HumanKit"
+        "moduleName": "HumanKit",
+        "declAttributes": [
+          "Preconcurrency"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -28586,28 +28589,28 @@
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/BodyHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 398,
+      "offset": 414,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/BodyHelper.swift",
       "kind": "BooleanLiteral",
-      "offset": 442,
+      "offset": 458,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/BodyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 468,
+      "offset": 484,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/BodyHelper.swift",
       "kind": "StringLiteral",
-      "offset": 492,
+      "offset": 508,
       "length": 2,
       "value": "\"\""
     },
@@ -29601,175 +29604,175 @@
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 1678,
+      "offset": 1676,
       "length": 5,
       "value": "38999"
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 1688,
+      "offset": 1686,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 1732,
+      "offset": 1730,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
-      "offset": 1806,
+      "offset": 1804,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
-      "offset": 1836,
+      "offset": 1834,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
-      "offset": 1874,
+      "offset": 1872,
       "length": 12,
       "value": "\"models\/9OR\""
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
-      "offset": 1917,
+      "offset": 1915,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
-      "offset": 1953,
+      "offset": 1951,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
-      "offset": 2226,
+      "offset": 2224,
       "length": 5,
       "value": "\"sdk\""
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
-      "offset": 2373,
+      "offset": 2369,
       "length": 30,
       "value": "\"https:\/\/human.biodigital.com\""
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 2452,
+      "offset": 2448,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
-      "offset": 2546,
+      "offset": 2542,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
-      "offset": 2577,
+      "offset": 2573,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
-      "offset": 2608,
+      "offset": 2604,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 2738,
+      "offset": 2734,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 2774,
+      "offset": 2770,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 2833,
+      "offset": 2829,
       "length": 4,
       "value": "-600"
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 2842,
+      "offset": 2838,
       "length": 4,
       "value": "-800"
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 2855,
+      "offset": 2851,
       "length": 3,
       "value": "600"
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 2868,
+      "offset": 2864,
       "length": 3,
       "value": "800"
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 2905,
+      "offset": 2901,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 2936,
+      "offset": 2932,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "BooleanLiteral",
-      "offset": 3075,
+      "offset": 3071,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
-      "offset": 3787,
+      "offset": 3783,
       "length": 69,
       "value": "\"https:\/\/apis.biodigital.com\/services\/v1\/content\/collections\/myhuman\""
     },
     {
       "filePath": "\/Volumes\/SeagateSSD\/code\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
-      "offset": 3884,
+      "offset": 3880,
       "length": 45,
       "value": "\"https:\/\/apis.biodigital.com\/oauth2\/v1\/token\""
     }
