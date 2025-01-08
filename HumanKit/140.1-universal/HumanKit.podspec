@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/biodigital-inc/human-ios-sdk.git", :tag => s.version }
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-    s.vendored_frameworks = 'HumanKit.xcframework'
+  s.vendored_frameworks = 'HumanKit.xcframework'
 end
