@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "HumanKitPackage",
+    sources: "HumanKitPackage",
     platforms: [
         .iOS(.v13)
     ],
@@ -20,7 +21,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "HumanKit",
-            path: "./HumanKit.xcframework"
+            path: "HumanKit.xcframework"
         )
     ]
 )
