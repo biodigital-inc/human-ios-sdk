@@ -5,7 +5,6 @@ import PackageDescription
 
 let package = Package(
     name: "HumanKitPackage",
-    sources: "HumanKitPackage",
     platforms: [
         .iOS(.v13)
     ],
@@ -13,15 +12,12 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "HumanKitPackage",
-            targets: ["HumanKitPackage", "HumanKit"])
+            targets: ["HumanKit"])
     ],
     targets: [
-        .target(
-            name: "HumanKitPackage"
-        ),
         .binaryTarget(
             name: "HumanKit",
-            path: "HumanKit.xcframework"
+            path: "Sources/HumanKitPackage/HumanKit.xcframework"
         )
     ]
 )
