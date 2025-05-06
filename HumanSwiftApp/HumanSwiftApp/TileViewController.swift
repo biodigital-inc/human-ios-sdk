@@ -21,6 +21,7 @@ class TileViewController : UIViewController, UICollectionViewDelegate, UICollect
     
     // model list with curated BioDigital content
     var bd_models = [
+        HKModel(modelId: "demos/codepen_quiz", title: "Quiz Demo", text: "", thumb: ""),
         HKModel(modelId: "production/femaleAdult/alzheimers_disease", title: "Alzheimers Disease", text: "", thumb: "https://human.biodigital.com/media/images/469e0d37-6088-4b64-8269-833b89d77a5b/small/image.jpg"),
         HKModel(modelId: "production/maleAdult/esophageal_varices", title: "Esophageal Varices", text: "", thumb: "https://human.biodigital.com/media/images/9b201b08-089e-44ac-8a80-9679453ffc3c/small/image.jpg"),
         HKModel(modelId: "production/maleAdult/posterior_total_hip_replacement", title: "Hip Replacement", text: "", thumb: "https://human.biodigital.com/media/images/05ba4b17-b49f-4cd9-b8be-cada95f41698/small/image.jpg"),

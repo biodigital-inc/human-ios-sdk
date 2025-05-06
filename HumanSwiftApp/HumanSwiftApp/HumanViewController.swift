@@ -10,14 +10,14 @@ import HumanKit
 import simd
 
 class HumanViewController: UIViewController, HKHumanDelegate {
-
+    
     // required by HumanKit SDK
     @IBOutlet weak var canvasView: UIView!
     var human : HKHuman?
-
+    
     // set this to hide the built in UI and show native elements to interact with the scene
     var nativeUI = false
-
+    
     // native UI elements to interact with the SDK
     @IBOutlet weak var resetButton: UIButton!
     @IBOutlet weak var shareButton: UIButton!
@@ -52,7 +52,7 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     var timer = Timer()
     var size = CGSize()
     var hiddenObjectIds = [String]()
-
+    
     // chapter info panel
     lazy var swipeChaptersView : SwipeChaptersView = {
         let scv = SwipeChaptersView(frame: CGRect(x: 0, y: UIScreen.main.bounds.height - 108, width: UIScreen.main.bounds.width, height: 40))
@@ -66,7 +66,7 @@ class HumanViewController: UIViewController, HKHumanDelegate {
         col.tint = UIColor.red
         return col
     }()
-
+    
     lazy var blueColor : HKColor = {
         let col = HKColor()
         col.tint = UIColor.blue
@@ -110,13 +110,13 @@ class HumanViewController: UIViewController, HKHumanDelegate {
         animationSlider.setThumbImage(UIImage(named: "AppIcon40x40"), for: .normal)
         view.addSubview(swipeChaptersView)
     }
-
+    
     // tell the info panel to resize itself when the device is rotated
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
         self.size = size
         swipeChaptersView.initChapters(human: human!, size: size)
     }
-
+    
     func runTimer() {
         timer.invalidate()
         if #available(iOS 10.0, *) {
@@ -135,7 +135,7 @@ class HumanViewController: UIViewController, HKHumanDelegate {
         swipeChaptersView.clear()
         human!.load(model: which!.modelId)
     }
-
+    
     @IBAction func home() {
         human!.unload()
         timer.invalidate()
@@ -151,11 +151,11 @@ class HumanViewController: UIViewController, HKHumanDelegate {
     func onInvalidSDK() {
         print("unable to validate developer key.  please check your bundle id and key are valid at https://developer.biodigital.com")
     }
-
+    
     // MARK: HKHumanDelegate callback functions
     
     // these callbacks are all optional
-
+    
     // modelLoaded fires when the model is completely loaded
     func human(_ view: HKHuman, modelLoaded: String) {
         self.swipeChaptersView.initChapters(human: self.human!)
@@ -163,6 +163,49 @@ class HumanViewController: UIViewController, HKHumanDelegate {
         print("model loaded: " + modelLoaded)
     }
     
+    func human(_ view: HKHuman, quizEnabled: Bool) {
+        if (quizEnabled) {
+            print("This model has a quiz. There are \(view.quiz.questions.count) quiz questions")
+            view.quiz.enter()
+        }
+    }
+    
+    func human(_ view: HKHuman, quizEntered: Bool) {
+        print("Got quiz entered callback: \(quizEntered)")
+    }
+    
+    func human(_ view: HKHuman, quizExited: Bool) {
+        print("Got quiz exited callback: \(quizExited)")
+    }
+    
+    func human(_ view: HKHuman, quizQuestionLoaded: String) {
+        print("Quiz question loaded \(quizQuestionLoaded)")
+        print("The question is: \(view.quiz.questions[quizQuestionLoaded]!.questionPrompt)")
+    }
+    
+    func human(_ view: HKHuman, quizAnswerSelected: [String]) {
+        print("Got quiz answer selected callback")
+        for  answer in quizAnswerSelected {
+            if let answerString = view.quiz.questions[view.quiz.activeQuestionId]!.answers[answer] {
+                print("you selected an answer \(answerString)")
+            } else {
+                print("your answer was \(answer)")
+            }
+        }
+    }
+
+    func human(_ view: HKHuman, quizAnswerSubmitted: HKQuizSubmission?) {
+        var success = "unknown"
+        if let submitted = quizAnswerSubmitted {
+            success = submitted.correct ? "correct" : "incorrect"
+        }
+        print("Got quiz answer submitted callback, the answer was \(success)")
+    }
+    
+    func human(_ view: HKHuman, quizCompleted: Double) {
+        print("Got quiz complete callback, the score is \(quizCompleted)")
+    }
+
     // initScene callback fires when the scene meta data is available
     func human(_ view: HKHuman, initScene: String) {
         print("init scene " + initScene)
