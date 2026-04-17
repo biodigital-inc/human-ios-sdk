@@ -7,5 +7,4 @@ framework module HumanKit {
 
 module HumanKit.Swift {
   header "HumanKit-Swift.h"
-  requires objc
 }
