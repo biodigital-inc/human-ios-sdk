@@ -66,7 +66,7 @@
 		</data>
 		<key>Headers/HumanKit-Swift.h</key>
 		<data>
-		uG8a/ftQA539BY2xxM0NQSwnik0=
+		kA5YGaowFJQ3W+hdtVsSa8lQcOk=
 		</data>
 		<key>Headers/HumanKit.h</key>
 		<data>
@@ -74,59 +74,59 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		GvonLpk/mRzG7o91OmGAzkNoyYU=
+		z2nyfAzv2AxmFAFylOwXZa9ivKI=
 		</data>
 		<key>Modules/HumanKit.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		2yg/UvlKsUnFe7mCaSqA3dnJ1zQ=
+		3rV+EgFzgDYKlSWQ1ilDsaEVOog=
 		</data>
 		<key>Modules/HumanKit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		aoWngjD0FVqtt+kjuGjhoqjEeik=
+		Qvn93mexnB3IjZo4wpmcqduG9e8=
 		</data>
 		<key>Modules/HumanKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Kv+y8gHjDpVQ0O5UMnkiFiy3/pM=
+		kYVF8hq0PajCjN3fhKA5ybW2040=
 		</data>
 		<key>Modules/HumanKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		F2R7HcB8hkRK1YCw3Syqk1fJFbY=
+		YfPMpfexPGQxNsRIJqPbgLGtNmg=
 		</data>
 		<key>Modules/HumanKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		/JHe8zPptshhj02W86JVB/iEAe8=
+		ck5wo/LMuWOHuFnOfb3ENrdQ2MQ=
 		</data>
 		<key>Modules/HumanKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		F2R7HcB8hkRK1YCw3Syqk1fJFbY=
+		YfPMpfexPGQxNsRIJqPbgLGtNmg=
 		</data>
 		<key>Modules/HumanKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		EjD3F1jd/TfQFZd4UlV8KdiA928=
+		tIhnxf4L9TPOeqLdS1sCxCHLkug=
 		</data>
 		<key>Modules/HumanKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Kv+y8gHjDpVQ0O5UMnkiFiy3/pM=
+		kYVF8hq0PajCjN3fhKA5ybW2040=
 		</data>
 		<key>Modules/HumanKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		B7uOpkLmjnejWhRWZ5OTtORgIcw=
+		czlZ7bq/qg4+TBta73mHvpugi7Y=
 		</data>
 		<key>Modules/HumanKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		wdhLgt84tCF/vjF+M52WvFUGqCc=
+		8YLaMi06dYtj27ttI70xyBYuAdA=
 		</data>
 		<key>Modules/HumanKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		B7uOpkLmjnejWhRWZ5OTtORgIcw=
+		czlZ7bq/qg4+TBta73mHvpugi7Y=
 		</data>
 		<key>Modules/HumanKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xvXwYwBWZkda2L1L/XxTs55951Y=
+		eKb7hLkTeJo6/AxQ5bkx8YMLTcY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		3tAC7rLcWKU3CJbbvvNTzb5e/70=
+		g39gtEqzLosgJlNRp7g03u6csME=
 		</data>
 		<key>assets/pp_dummy_cube/geometry.___Shape</key>
 		<data>
@@ -164,1009 +164,645 @@
 		<data>
 		k2rky34s0fhuvy0UJCCCOVyxlxc=
 		</data>
-		<key>sdk/17.js</key>
+		<key>sdk/192.js</key>
 		<data>
-		cpRIwjpkzufcJGjHoV1EenafJrc=
+		BnIvcU8oxUqCpRvO6SeWm/AxzIg=
 		</data>
-		<key>sdk/235.js</key>
+		<key>sdk/256.js</key>
 		<data>
-		Jm1dkUhvvlIwDVDiuTTgsn91Ow8=
+		o+IxkSYXh08MnxctQjVrZapcNxU=
 		</data>
-		<key>sdk/361.js</key>
+		<key>sdk/262.js</key>
 		<data>
-		kvOJc9aAbx7H2ibH1X1aubddWs8=
+		eUdInpogtV1j+HhvmCvfQTXi3J0=
 		</data>
 		<key>sdk/3rdpartylicenses.txt</key>
 		<data>
-		Y6rFDsnf41hyflbt6na1lDZm5Nk=
+		VylZ2d8uaMW+8i+eRCu6cDRyGEA=
 		</data>
-		<key>sdk/401.js</key>
+		<key>sdk/457.js</key>
+		<data>
+		jd0jG97ohPm0pygK7YUKwNb3q1U=
+		</data>
+		<key>sdk/471.js</key>
+		<data>
+		hMlrtambiKegdYnDyGUBHRtNIIs=
+		</data>
+		<key>sdk/537.js</key>
+		<data>
+		tBbzpo+U+f0iSUG0sX0oQeaENqE=
+		</data>
+		<key>sdk/661.js</key>
+		<data>
+		B6E4mgbcu8eM4KLpcYzAtoxLjmo=
+		</data>
+		<key>sdk/774.js</key>
+		<data>
+		tG1VW9LMmMyW5V2bDQZQu1UFbuk=
+		</data>
+		<key>sdk/816.js</key>
+		<data>
+		gqvMHbOraQBwuQtKcD5ayt4BPKE=
+		</data>
+		<key>sdk/846.js</key>
+		<data>
+		r8pw6I5dpWqw+2DCgzERLhuZTTc=
+		</data>
+		<key>sdk/863.js</key>
 		<data>
 		sOC/FsLo2n5CpCKIkcD1CcFzUXg=
 		</data>
-		<key>sdk/449.js</key>
+		<key>sdk/937.js</key>
 		<data>
-		3TaCWMhi4cv2GtgT1DMxs45KH1g=
-		</data>
-		<key>sdk/492.js</key>
-		<data>
-		8mbMPJU3wLidxqJ1j6BlnNJr3C4=
-		</data>
-		<key>sdk/513.js</key>
-		<data>
-		l97qK2JqLzuENXZIEINBM4Wcgu0=
-		</data>
-		<key>sdk/608.js</key>
-		<data>
-		rFxYPEttVRkMmWu8F3uWiMyi66A=
-		</data>
-		<key>sdk/762.js</key>
-		<data>
-		/VjOv1m1ABYWcL/0fJiVnrECF5w=
-		</data>
-		<key>sdk/78.js</key>
-		<data>
-		TNhup84jDL18KMpGjI+zNVQeYKk=
-		</data>
-		<key>sdk/Inter-Black.woff</key>
-		<data>
-		BREamVgGWqHImjjlsAkI/HVECbo=
+		BDAGk5/bJhtIydNu5rxypOJerOM=
 		</data>
 		<key>sdk/Inter-Black.woff2</key>
 		<data>
-		rH8KuWqGQUpDEnyCdOx7HAy0MSY=
-		</data>
-		<key>sdk/Inter-BlackItalic.woff</key>
-		<data>
-		QLjjSxEfvxRkinat3+potTjK6/8=
+		/PokpoHshMjCaWve7PrZ8UpDjfk=
 		</data>
 		<key>sdk/Inter-BlackItalic.woff2</key>
 		<data>
-		FFp/iID8rK26X8CWkiaITBR0Qhs=
-		</data>
-		<key>sdk/Inter-Bold.woff</key>
-		<data>
-		5aSeWigRnpYFOabeC/j3K4EDYq8=
+		KX6X9sVbfmIsCUJB38ZdpK8rJC8=
 		</data>
 		<key>sdk/Inter-Bold.woff2</key>
 		<data>
-		HpSg36yLqwlH6psLb7Zj661czrU=
-		</data>
-		<key>sdk/Inter-BoldItalic.woff</key>
-		<data>
-		j4js0BQKd9MHFV5wNMKHZgs+jWM=
+		XL8Q6fi+fawqNlv7If5t30ZB5Wk=
 		</data>
 		<key>sdk/Inter-BoldItalic.woff2</key>
 		<data>
-		+3WgUFEZa3zyzY/dJRSfHCKeGAU=
-		</data>
-		<key>sdk/Inter-ExtraBold.woff</key>
-		<data>
-		ecb6bSaRxu2QPQiNDF7R64dhZzY=
+		UulCagt2UQsWNYAmQ/VDR7FhF+Y=
 		</data>
 		<key>sdk/Inter-ExtraBold.woff2</key>
 		<data>
-		cvbk1RJNCXNdo8uXugXxJsVlGZc=
-		</data>
-		<key>sdk/Inter-ExtraBoldItalic.woff</key>
-		<data>
-		sFkiu6/3OvyhI+g4yhvXwAiMREw=
+		ysA4dNtySNLUWngNxhkgJtDxdUI=
 		</data>
 		<key>sdk/Inter-ExtraBoldItalic.woff2</key>
 		<data>
-		GyeN00g09iXXxNf/I9qdyPxwVeI=
-		</data>
-		<key>sdk/Inter-ExtraLight.woff</key>
-		<data>
-		/l2ez3MYrJLW1eFkIdtxnpoAGiU=
+		mktL6P5Yq5SqtOPzrJ+KgM5v1sk=
 		</data>
 		<key>sdk/Inter-ExtraLight.woff2</key>
 		<data>
-		4To3bIWjLkgqC9DHbkv1pgLQVyg=
-		</data>
-		<key>sdk/Inter-ExtraLightItalic.woff</key>
-		<data>
-		J8XTTrYDhuJSdw+LJLcvXTcWxEk=
+		We119qP093tMo91RFBrnYyzbsb8=
 		</data>
 		<key>sdk/Inter-ExtraLightItalic.woff2</key>
 		<data>
-		57VLc5HQ5rvDLcvBgXaI9FXDWcE=
-		</data>
-		<key>sdk/Inter-Italic.woff</key>
-		<data>
-		87paYPSsSclz1Y9e9M/q7plJYzM=
+		opY3wv+PR4n3bhAIxcmKWJcyksc=
 		</data>
 		<key>sdk/Inter-Italic.woff2</key>
 		<data>
-		oky8nA5W9xlse8aOxBuFbYQjdiI=
-		</data>
-		<key>sdk/Inter-Light.woff</key>
-		<data>
-		mWNkQ5zXdyPf0tOUGUbmO2YSLp8=
+		sD9E4EmqVI8Frivo9jPFgB6JCss=
 		</data>
 		<key>sdk/Inter-Light.woff2</key>
 		<data>
-		Cgzo3JK6byCvV+6zQeFgN1+XEmg=
-		</data>
-		<key>sdk/Inter-LightItalic.woff</key>
-		<data>
-		qCE8eefNyOsLD9gzeGZJDfVgP5U=
+		Ix0WGYRK2ZQ1tQgZoHy1vJhcNXg=
 		</data>
 		<key>sdk/Inter-LightItalic.woff2</key>
 		<data>
-		ur1n0o52EhLkjgT8NJUm/fVmW6c=
-		</data>
-		<key>sdk/Inter-Medium.woff</key>
-		<data>
-		ytjPyE6/YQE4rvY+aUkJf/SNct0=
+		6Li+s9qCH9xIEDJJ3K4QjoU1wWo=
 		</data>
 		<key>sdk/Inter-Medium.woff2</key>
 		<data>
-		krMFJzBLXcgPRemX4LGsTHARChg=
-		</data>
-		<key>sdk/Inter-MediumItalic.woff</key>
-		<data>
-		XP4SUj0ZeHspEGhIORTs7oUmG84=
+		1QK7Gz+BL2LOaOK5PPbSpbm8cSA=
 		</data>
 		<key>sdk/Inter-MediumItalic.woff2</key>
 		<data>
-		MVXh4f43sIvCwkPut+bcc644tbg=
-		</data>
-		<key>sdk/Inter-Regular.woff</key>
-		<data>
-		cppFUbnMWXnzk0cnnW/txmIL8UE=
+		qG7y4ERTcZSdMJR5Tu/nzTvGnIY=
 		</data>
 		<key>sdk/Inter-Regular.woff2</key>
 		<data>
-		+WNIJgdR6nix0j6VV9spcpC9ryg=
-		</data>
-		<key>sdk/Inter-SemiBold.woff</key>
-		<data>
-		eulquZDHiB+ClHwb3Ef0F5S4SNc=
+		t6C2++vEDrKbds8TXEt75QuYG0s=
 		</data>
 		<key>sdk/Inter-SemiBold.woff2</key>
 		<data>
-		36n489eb+KAAH+cu6trQSQy6Wcw=
-		</data>
-		<key>sdk/Inter-SemiBoldItalic.woff</key>
-		<data>
-		vmmg6ECYpZtT6eIE4O0WibZwZDM=
+		nMKxDUGGtjyNkL40YGmyARRRiXw=
 		</data>
 		<key>sdk/Inter-SemiBoldItalic.woff2</key>
 		<data>
-		Kcw/u1azbSwNq39CxCDrvS7pyzY=
-		</data>
-		<key>sdk/Inter-Thin.woff</key>
-		<data>
-		BPO0YCj1oPsqZPeb8G/RCFd3lP8=
+		0gyXoYAFkQTvl49PHsK/PkV2CHo=
 		</data>
 		<key>sdk/Inter-Thin.woff2</key>
 		<data>
-		4qgrAdn3PS+59pC+/peDUamXTlU=
-		</data>
-		<key>sdk/Inter-ThinItalic.woff</key>
-		<data>
-		oi2VUv4XI+s3YsK7y1aoOKMtbHA=
+		Nr6CYcFOy+6/OyKteZ0ure5QpYQ=
 		</data>
 		<key>sdk/Inter-ThinItalic.woff2</key>
 		<data>
-		fPuJOIft91drDap74+qWYsLXvEg=
+		xJtSCrfn2ex6lqCUwXdf3jQjOVQ=
 		</data>
-		<key>sdk/Inter-italic.var.woff2</key>
+		<key>sdk/InterDisplay-Black.woff2</key>
 		<data>
-		byCgRpF7+G1LbMKcTiUVvWTSy5s=
+		4XDWqP69iql9BBP6s9SZMgbBUm0=
 		</data>
-		<key>sdk/Inter-roman.var.woff2</key>
+		<key>sdk/InterDisplay-BlackItalic.woff2</key>
 		<data>
-		eiYC0uuwjOiV4zrdtv5ZXxApQx4=
+		QwrArpqKbE+Bvzo1tEzqiRHPtNg=
 		</data>
-		<key>sdk/Inter.var.woff2</key>
+		<key>sdk/InterDisplay-Bold.woff2</key>
 		<data>
-		+Rnac4RwbWkk8Q1WziWBKe1JiEU=
+		VoK8mEEOZIDCJkcqoSdSjiNXh60=
 		</data>
-		<key>sdk/assets/images/2d_image_workflow.gif</key>
+		<key>sdk/InterDisplay-BoldItalic.woff2</key>
 		<data>
-		LenlrbkPnuzRzSESPAsT6qSYz+8=
+		lwbl1RP4Ow92yIgpKASV2qao3po=
 		</data>
-		<key>sdk/assets/images/BioDigital_watermark_1024x768.svg</key>
+		<key>sdk/InterDisplay-ExtraBold.woff2</key>
+		<data>
+		XKW48CP5F22BUUgmwD620mcqjNg=
+		</data>
+		<key>sdk/InterDisplay-ExtraBoldItalic.woff2</key>
+		<data>
+		YdoGfKvw9HI09m32GTZg2zua4k8=
+		</data>
+		<key>sdk/InterDisplay-ExtraLight.woff2</key>
+		<data>
+		bBFv03oOaKMME62NYodmbQjwLAQ=
+		</data>
+		<key>sdk/InterDisplay-ExtraLightItalic.woff2</key>
+		<data>
+		EtnBUfJ7Cwe2pDHFT2EqBhzYF4M=
+		</data>
+		<key>sdk/InterDisplay-Italic.woff2</key>
+		<data>
+		DKGDSFWPv6J2SI+4UDzROpo3tgw=
+		</data>
+		<key>sdk/InterDisplay-Light.woff2</key>
+		<data>
+		0uuo0kCV/810sqmQJdvYs6qMfZU=
+		</data>
+		<key>sdk/InterDisplay-LightItalic.woff2</key>
+		<data>
+		+5REK4jntKcF/Wlh8Ysli/OVMU0=
+		</data>
+		<key>sdk/InterDisplay-Medium.woff2</key>
+		<data>
+		3//vBl5hKm8HAkgAiJc4MfFucWo=
+		</data>
+		<key>sdk/InterDisplay-MediumItalic.woff2</key>
+		<data>
+		G/A2hrXMYlVnYJ7sAtm3q/C7ccE=
+		</data>
+		<key>sdk/InterDisplay-Regular.woff2</key>
+		<data>
+		aJZSXiSo04T0ifLDAfg4WNoRBPs=
+		</data>
+		<key>sdk/InterDisplay-SemiBold.woff2</key>
+		<data>
+		0BpBBsO6WWiC959YvgQNwgs8Ukc=
+		</data>
+		<key>sdk/InterDisplay-SemiBoldItalic.woff2</key>
+		<data>
+		d8ylieXsvZsQCw0hxU1krT8D7qc=
+		</data>
+		<key>sdk/InterDisplay-Thin.woff2</key>
+		<data>
+		h5rH1eFmyzFuqQ2HwhIA+HOSQyE=
+		</data>
+		<key>sdk/InterDisplay-ThinItalic.woff2</key>
+		<data>
+		qfhit+inHtfgZX2IyOl6UNWA1VI=
+		</data>
+		<key>sdk/InterVariable-Italic.woff2</key>
+		<data>
+		pfBRPtds30pOGpJJSbaoWm6TM8o=
+		</data>
+		<key>sdk/InterVariable.woff2</key>
+		<data>
+		9VsY/fWk+8oj4jAQ++id8n1w0f8=
+		</data>
+		<key>sdk/assets/shared/images/BioDigital_watermark_1024x768.svg</key>
 		<data>
 		/OHlDce8wkDNIQnvFVryDCibmZo=
 		</data>
-		<key>sdk/assets/images/BioDigital_watermark_959x100.svg</key>
+		<key>sdk/assets/shared/images/BioDigital_watermark_959x100.svg</key>
 		<data>
 		F7Ss1pui54DR6RDzQGohW0eFwp0=
 		</data>
-		<key>sdk/assets/images/ar-position-reticle.png</key>
+		<key>sdk/assets/shared/images/ar-position-reticle.png</key>
 		<data>
 		Ij3C0w/N5q+RFYs9wgEnZjB9bQg=
 		</data>
-		<key>sdk/assets/images/ar_icon.svg</key>
+		<key>sdk/assets/shared/images/ar_icon.svg</key>
 		<data>
 		5O9soOXhNEBL7w9feioGetathuw=
 		</data>
-		<key>sdk/assets/images/ar_learn_more.svg</key>
+		<key>sdk/assets/shared/images/ar_learn_more.svg</key>
 		<data>
 		cbm6dViwWt9+OxcYezpy3FeCI4o=
 		</data>
-		<key>sdk/assets/images/ar_move_phone.svg</key>
+		<key>sdk/assets/shared/images/ar_move_phone.svg</key>
 		<data>
 		z7LsqV1gKQ79TyDccuZWQqFwf/g=
 		</data>
-		<key>sdk/assets/images/bento/biodigital-3d-visualization-services.jpg</key>
-		<data>
-		8Opw0USZjTfhQMl5ETAfkOTxlpA=
-		</data>
-		<key>sdk/assets/images/bento/complete-anatomy-male-female.png</key>
-		<data>
-		3yZDjBARW52mAkZByXuWG/nWecc=
-		</data>
-		<key>sdk/assets/images/bento/pro-services-step-1.jpg</key>
-		<data>
-		OwkVtjUtZG7mzDMfK6uGOT78tgk=
-		</data>
-		<key>sdk/assets/images/bento/pro-services-step-2.jpg</key>
-		<data>
-		JXhtyYhRtv5I04/cf8Xi9fnj5SA=
-		</data>
-		<key>sdk/assets/images/bento/pro-services-step-3.jpg</key>
-		<data>
-		DP8EuNybujGXu8tESZ8+VF9g4wo=
-		</data>
-		<key>sdk/assets/images/bento/pro-services-step-4.jpg</key>
-		<data>
-		c7hoKCzq0S8sPFBTDBzLXRZeNLs=
-		</data>
-		<key>sdk/assets/images/bento/skintone-0_layer-01.jpg</key>
-		<data>
-		QcVGWYTgYUvjMSbmeWQjT/ZjOSk=
-		</data>
-		<key>sdk/assets/images/bento/skintone-0_layer-02.jpg</key>
-		<data>
-		i6gmeUfyrCGS/d1xFm582i3iXAU=
-		</data>
-		<key>sdk/assets/images/bento/skintone-0_layer-03.jpg</key>
-		<data>
-		HAl2hgOluo7zA9MQ2KGZWe+t3FU=
-		</data>
-		<key>sdk/assets/images/bento/skintone-1_layer-01.jpg</key>
-		<data>
-		3Es0zZ3fExPS5Ffdgd2R5DMA04s=
-		</data>
-		<key>sdk/assets/images/bento/skintone-1_layer-02.jpg</key>
-		<data>
-		HKdMGZSxW/VyaoeW+XIlQEyaIvc=
-		</data>
-		<key>sdk/assets/images/bento/skintone-1_layer-03.jpg</key>
-		<data>
-		GslziksBbGBMm8mz4r8pjaumb4Y=
-		</data>
-		<key>sdk/assets/images/bento/skintone-2_layer-01.jpg</key>
-		<data>
-		3JG+dFQKW7qGBU2xMldO9RB8H0M=
-		</data>
-		<key>sdk/assets/images/bento/skintone-2_layer-02.jpg</key>
-		<data>
-		n0EgIDZkMw15V4a/g9MthES/Ung=
-		</data>
-		<key>sdk/assets/images/bento/skintone-2_layer-03.jpg</key>
-		<data>
-		wo/rJoLr51Lu1GTb8o/wsqeGWO4=
-		</data>
-		<key>sdk/assets/images/bento/skintone-3_layer-01.jpg</key>
-		<data>
-		ZnNBL/U5eB41FZZ/QMczAO7ocZM=
-		</data>
-		<key>sdk/assets/images/bento/skintone-3_layer-02.jpg</key>
-		<data>
-		z2Dxf2IQjRCXj1h0fUjivPQhdIE=
-		</data>
-		<key>sdk/assets/images/bento/skintone-3_layer-03.jpg</key>
-		<data>
-		dJSPaip63Vnd1xtwq8lBHjhvr/o=
-		</data>
-		<key>sdk/assets/images/bento/skintone-4_layer-01.jpg</key>
-		<data>
-		EaIXDMvxdLZ10TxFA8oMxRyy5+c=
-		</data>
-		<key>sdk/assets/images/bento/skintone-4_layer-02.jpg</key>
-		<data>
-		4bn58taxx4kD/Ctp/Wugpm+qrL0=
-		</data>
-		<key>sdk/assets/images/bento/skintone-4_layer-03.jpg</key>
-		<data>
-		j3AwkIU3cTE3JX4EQJEJguMh9rc=
-		</data>
-		<key>sdk/assets/images/bento/studio-01-tree.jpg</key>
-		<data>
-		H3ZvShgMGBS5OlizrZb6yDv1ENU=
-		</data>
-		<key>sdk/assets/images/bento/studio-02-paint.jpg</key>
-		<data>
-		JXb0eQ25waSIbRM/UaTmkHznsrc=
-		</data>
-		<key>sdk/assets/images/bento/studio-03-label.jpg</key>
-		<data>
-		Cd2UDnczOEKdExN+kQyOc18D0PI=
-		</data>
-		<key>sdk/assets/images/bento/studio-04-quiz.jpg</key>
-		<data>
-		8sumVXsThEwXiyfkS2x5Q50gs/k=
-		</data>
-		<key>sdk/assets/images/bento/studio-05-download-image.jpg</key>
-		<data>
-		WyfoNVMNQ2qQ00L27qhmeRZfp9E=
-		</data>
-		<key>sdk/assets/images/bento/vr-hands-on.mp4</key>
-		<data>
-		nJBZGWCzjNklfcCupGQS6wEnM/Q=
-		</data>
-		<key>sdk/assets/images/bento/vr-hands-on.png</key>
-		<data>
-		wVBSWfhRLEUOZqimKfPWjucldwc=
-		</data>
-		<key>sdk/assets/images/biodigital-head-and-neck.jpg</key>
-		<data>
-		vyeB1/O6tnqWXxCB79L+fvru+JY=
-		</data>
-		<key>sdk/assets/images/biodigital-human-3d-model-my-library.jpg</key>
-		<data>
-		6AnvYaBhEfDa/1A7aTnJ+ojAzas=
-		</data>
-		<key>sdk/assets/images/biodigital-human-customize-3D-model-in-studio.jpg</key>
-		<data>
-		FdnYklAm/9yW56xyS9QSUvhelb4=
-		</data>
-		<key>sdk/assets/images/biodigital-human-customize-3D-model-in-studio.png</key>
-		<data>
-		o+GUOecuboft3MzZsSmE1dYpyKc=
-		</data>
-		<key>sdk/assets/images/biodigital-human-explore-3d-human-anatomy.jpg</key>
-		<data>
-		1+zTksvzQxXj5zLhpPRZ5IKYZQU=
-		</data>
-		<key>sdk/assets/images/biodigital-human-publish-custom-3D-model.jpg</key>
-		<data>
-		b8nXsr82a5JDHUkxDt2MuOKyS0c=
-		</data>
-		<key>sdk/assets/images/biodigital-human-publish-custom-3d-model.png</key>
-		<data>
-		0ucyaRZk+2EoppNZDN/owfczwU8=
-		</data>
-		<key>sdk/assets/images/biodigital-human-upload-videos.jpg</key>
-		<data>
-		0u2soPDfo5//MD6e343axj+3cS0=
-		</data>
-		<key>sdk/assets/images/biodigital-logo-white.svg</key>
+		<key>sdk/assets/shared/images/biodigital-logo-white.svg</key>
 		<data>
 		TpiDrdGltbyvRAui3gav7wr3MEc=
 		</data>
-		<key>sdk/assets/images/biodigital-logo.svg</key>
+		<key>sdk/assets/shared/images/biodigital-logo.svg</key>
 		<data>
 		y/recD+Op6z18XdgSQARka7JwHQ=
 		</data>
-		<key>sdk/assets/images/biodigital-multidevice-graphic.jpg</key>
-		<data>
-		gUpAFK8HY/3EwvqJu3Df8qiJhz8=
-		</data>
-		<key>sdk/assets/images/blur/blur_0.png</key>
-		<data>
-		zv4Ik1oMpd3cqE9CeiqlSquNl3A=
-		</data>
-		<key>sdk/assets/images/blur/blur_1.png</key>
-		<data>
-		XhWPx13ZAkwO3iJ/X2JEU5zSIoE=
-		</data>
-		<key>sdk/assets/images/blur/blur_10.png</key>
-		<data>
-		CT6aeMRbXsajXaWUB9Q10t5h8oo=
-		</data>
-		<key>sdk/assets/images/blur/blur_2.png</key>
-		<data>
-		Z2BTdR9eUn/W5PKbWMz1Mqvz5YI=
-		</data>
-		<key>sdk/assets/images/blur/blur_3.png</key>
-		<data>
-		bR5CiuHF6bfcVJm8Ryg5OxSo0Xk=
-		</data>
-		<key>sdk/assets/images/blur/blur_4.png</key>
-		<data>
-		rczGF2F8d17wQAiwnWiVFVElxa0=
-		</data>
-		<key>sdk/assets/images/blur/blur_5.png</key>
-		<data>
-		EEkqouBdVmPINIS2qap0f7lmi7A=
-		</data>
-		<key>sdk/assets/images/blur/blur_6.png</key>
-		<data>
-		M+UiqusOeNOWXRosvNMa9BHxT9E=
-		</data>
-		<key>sdk/assets/images/blur/blur_7.png</key>
-		<data>
-		FCThYFKqZ+hYROV4PLQs6MxGT7o=
-		</data>
-		<key>sdk/assets/images/blur/blur_8.png</key>
-		<data>
-		korKm5cXtjCteCciMsZ05XKuxuk=
-		</data>
-		<key>sdk/assets/images/blur/blur_9.png</key>
-		<data>
-		pJ9FMb7ms0yJr1rfQkIajLwP/wU=
-		</data>
-		<key>sdk/assets/images/card-thumbnail-placeholder.png</key>
-		<data>
-		gZDB6Fys6PnW5sXtKEARu3FSmJo=
-		</data>
-		<key>sdk/assets/images/categories-sprite-small-active.png</key>
-		<data>
-		kYhw2P7XHBVMqX25wl61fJMaiJY=
-		</data>
-		<key>sdk/assets/images/categories-sprite-small.png</key>
-		<data>
-		W3JqZ7rz7DVVHYGw2YC8pEZb+Cw=
-		</data>
-		<key>sdk/assets/images/categories-sprite.png</key>
-		<data>
-		oeph3TIy16J+WZux6SqTNctXd7o=
-		</data>
-		<key>sdk/assets/images/circle-check.svg</key>
+		<key>sdk/assets/shared/images/circle-check.svg</key>
 		<data>
 		zggcwxj1T9zUGQERmqSKZIjtpU0=
 		</data>
-		<key>sdk/assets/images/credit-cards/american-express.png</key>
-		<data>
-		avrd8DJ7zcypMAK84Q9olH7qkTw=
-		</data>
-		<key>sdk/assets/images/credit-cards/discover.png</key>
-		<data>
-		KzwaMqnzcv9aCqZpMslj3/J4Qpc=
-		</data>
-		<key>sdk/assets/images/credit-cards/master-card.png</key>
-		<data>
-		KPJcHHKo/U+kAz6HjbSAsmH2l3k=
-		</data>
-		<key>sdk/assets/images/credit-cards/paypal.png</key>
-		<data>
-		djwF8/oXF4A8/Etw9yIlEnVwUsU=
-		</data>
-		<key>sdk/assets/images/credit-cards/visa.png</key>
-		<data>
-		Ft8BmhefgfUqy9HZur507v45l9M=
-		</data>
-		<key>sdk/assets/images/crosshair-circle.png</key>
+		<key>sdk/assets/shared/images/crosshair-circle.png</key>
 		<data>
 		fVjdhUmh3HNR0rNOMOT/HBBDMow=
 		</data>
-		<key>sdk/assets/images/crosshair.png</key>
+		<key>sdk/assets/shared/images/crosshair.png</key>
 		<data>
 		jFlhbZ+gQQ42xrGwAQyb3zVMCyU=
 		</data>
-		<key>sdk/assets/images/cube-regular.svg</key>
+		<key>sdk/assets/shared/images/cube-regular.svg</key>
 		<data>
 		2KGRUAJxOs57JLv222zvxsX4PsA=
 		</data>
-		<key>sdk/assets/images/cursor-whiteboard-erase.svg</key>
+		<key>sdk/assets/shared/images/cursor-whiteboard-erase.svg</key>
 		<data>
 		JjQYVXmULWAGbTj3rXbvKFtv880=
 		</data>
-		<key>sdk/assets/images/cursor-whiteboard-paint.svg</key>
+		<key>sdk/assets/shared/images/cursor-whiteboard-paint.svg</key>
 		<data>
 		3z23nOX/msSTdQL2P4iFTSBOsUI=
 		</data>
-		<key>sdk/assets/images/cursor-whiteboard-text.svg</key>
+		<key>sdk/assets/shared/images/cursor-whiteboard-text.svg</key>
 		<data>
 		9WhoKjA6azAHG3W1RNmXSLFUYkA=
 		</data>
-		<key>sdk/assets/images/cursors/cursor-eyedropper.png</key>
+		<key>sdk/assets/shared/images/cursors/cursor-eyedropper.png</key>
 		<data>
 		1VSqi5QaeQEGNkwufG2O8tfgqXk=
 		</data>
-		<key>sdk/assets/images/cursors/cursor-eyedropper.svg</key>
+		<key>sdk/assets/shared/images/cursors/cursor-eyedropper.svg</key>
 		<data>
 		YhxzwbFyWpuNW0JrGHTEZG9ptto=
 		</data>
-		<key>sdk/assets/images/cursors/cursor-fade.png</key>
+		<key>sdk/assets/shared/images/cursors/cursor-fade.png</key>
 		<data>
 		gY8TFqJRQG+iO+StjtEp6iBFku8=
 		</data>
-		<key>sdk/assets/images/cursors/cursor-fade.svg</key>
+		<key>sdk/assets/shared/images/cursors/cursor-fade.svg</key>
 		<data>
 		U9bXwUqJdmrkPUSyXC5O/n7LiQQ=
 		</data>
-		<key>sdk/assets/images/cursors/cursor-hide.png</key>
+		<key>sdk/assets/shared/images/cursors/cursor-hide.png</key>
 		<data>
 		5+Yoo/9yXeJcK09GYALHv+9ZBPE=
 		</data>
-		<key>sdk/assets/images/cursors/cursor-hide.svg</key>
+		<key>sdk/assets/shared/images/cursors/cursor-hide.svg</key>
 		<data>
 		lyO4DI94TGnK6RrGX/6aSu0KFFA=
 		</data>
-		<key>sdk/assets/images/cursors/cursor-label.png</key>
+		<key>sdk/assets/shared/images/cursors/cursor-label.png</key>
 		<data>
 		+/57tBYqTe91ZJhm4GDHHrXCt1g=
 		</data>
-		<key>sdk/assets/images/cursors/cursor-label.svg</key>
+		<key>sdk/assets/shared/images/cursors/cursor-label.svg</key>
 		<data>
 		YoR7u72kVMpmS0MFyg1shYRXYvw=
 		</data>
-		<key>sdk/assets/images/cursors/cursor-paint.png</key>
-		<data>
-		k4ajNMyX5oy/uWV8+Z6N4N9kDTY=
-		</data>
-		<key>sdk/assets/images/cursors/cursor-paint.svg</key>
+		<key>sdk/assets/shared/images/cursors/cursor-paint-legacy.svg</key>
 		<data>
 		IH+BsTDYALRb/juG0iwwKeP7RyY=
 		</data>
-		<key>sdk/assets/images/cursors/cusor-paint.svg</key>
+		<key>sdk/assets/shared/images/cursors/cursor-paint.png</key>
 		<data>
-		j8FrU1YxcqpZo2Rz9DBzAJ5Xq3c=
+		k4ajNMyX5oy/uWV8+Z6N4N9kDTY=
 		</data>
-		<key>sdk/assets/images/expert-collections/medical.png</key>
+		<key>sdk/assets/shared/images/cursors/cursor-paint.svg</key>
 		<data>
-		INrXn6J0NildGlcGyIjlV/80W3U=
+		z0VcpTA0c2zAV4ZSPmYNkYmo6yg=
 		</data>
-		<key>sdk/assets/images/expert-collections/physical-therapy.png</key>
-		<data>
-		AsXZ8XMaa4tVrrBM13SVW3Xw7js=
-		</data>
-		<key>sdk/assets/images/facebook-icon.svg</key>
+		<key>sdk/assets/shared/images/facebook-icon.svg</key>
 		<data>
 		JmtD9TqhgfYENwS4X8fmKnUri60=
 		</data>
-		<key>sdk/assets/images/favicon.ico</key>
+		<key>sdk/assets/shared/images/favicon.ico</key>
 		<data>
 		MwQ+O44w0QUSHuhJurpAVus9foY=
 		</data>
-		<key>sdk/assets/images/female/Female_side-by-side.png</key>
-		<data>
-		zh76N6u4GiNfCECDeZbcSNHx5TA=
-		</data>
-		<key>sdk/assets/images/female/Female_side-by-side_v4.png</key>
-		<data>
-		RyoxPJwQa4Wk5k60GWoAvxfur0M=
-		</data>
-		<key>sdk/assets/images/female/Female_single-1_full.png</key>
-		<data>
-		/Bl/1390/a48jzYOCk2jsgjWOws=
-		</data>
-		<key>sdk/assets/images/female/Female_single-2_full.png</key>
-		<data>
-		5hWFErG20TJ1Td61cqd97ujngC4=
-		</data>
-		<key>sdk/assets/images/female/Female_single-3_full.png</key>
-		<data>
-		/XXqO8NQjzA4wtBn46Jf8oZZ8LQ=
-		</data>
-		<key>sdk/assets/images/female/Female_single-4_full.png</key>
-		<data>
-		FUeqQF6TCwu9GwpqX4geby7nS3c=
-		</data>
-		<key>sdk/assets/images/female/biodigital-lady_480.png</key>
-		<data>
-		zQgNFA9VwDBeDYgeCyg+gWsHDIE=
-		</data>
-		<key>sdk/assets/images/female/biodigital-lady_960.png</key>
-		<data>
-		nl7069Y8iNiVz/0p4lCMyjAePkg=
-		</data>
-		<key>sdk/assets/images/flags/cn.svg</key>
+		<key>sdk/assets/shared/images/flags/cn.svg</key>
 		<data>
 		OEyARYQMfiow/f7dWzPpQIsnteE=
 		</data>
-		<key>sdk/assets/images/flags/de.svg</key>
+		<key>sdk/assets/shared/images/flags/de.svg</key>
 		<data>
 		OnfDBijWxLiYxIHQNSEwOxcdl1E=
 		</data>
-		<key>sdk/assets/images/flags/es.svg</key>
+		<key>sdk/assets/shared/images/flags/es.svg</key>
 		<data>
 		j54rxXFABEk6QOdtdtbqdFbywAw=
 		</data>
-		<key>sdk/assets/images/flags/fr.svg</key>
+		<key>sdk/assets/shared/images/flags/fr.svg</key>
 		<data>
 		vvb/4/0AIgX2vCoy+ia3hAJOjgc=
 		</data>
-		<key>sdk/assets/images/flags/il.svg</key>
+		<key>sdk/assets/shared/images/flags/il.svg</key>
 		<data>
 		AICpfYRp0l8oRXc2lzyTksWzF2E=
 		</data>
-		<key>sdk/assets/images/flags/it.svg</key>
+		<key>sdk/assets/shared/images/flags/it.svg</key>
 		<data>
 		sd3yb1X6YvfEtbJf5CuXHiOU8XA=
 		</data>
-		<key>sdk/assets/images/flags/ja.svg</key>
+		<key>sdk/assets/shared/images/flags/ja.svg</key>
 		<data>
 		OgK39PmXr6TRfvH6/ucAm+S7Rig=
 		</data>
-		<key>sdk/assets/images/flags/pt.svg</key>
+		<key>sdk/assets/shared/images/flags/pt.svg</key>
 		<data>
 		YVuYnriiRQpXjOfddE9qu1bILN8=
 		</data>
-		<key>sdk/assets/images/flags/us.svg</key>
+		<key>sdk/assets/shared/images/flags/us.svg</key>
 		<data>
 		kzyqruMgjAH4TMzeE664L/gQ4zM=
 		</data>
-		<key>sdk/assets/images/google-g-24x24.png</key>
+		<key>sdk/assets/shared/images/google-g-24x24.png</key>
 		<data>
 		WylpIxH2cjOf96WUu23qZ5f8uyc=
 		</data>
-		<key>sdk/assets/images/google-icon.svg</key>
+		<key>sdk/assets/shared/images/google-icon.svg</key>
 		<data>
 		dfUPPek8pPqJhHJEfI06u/jCEDg=
 		</data>
-		<key>sdk/assets/images/hero/biodigital-human-asthma-cytokines-activate-t-cells.jpg</key>
-		<data>
-		qJ29wTmv5vdGsRCf0cbx8/oAhEw=
-		</data>
-		<key>sdk/assets/images/hero/biodigital-human-asthma-ephitellium-releases-cytokines.jpg</key>
-		<data>
-		nDJjVpfnfYVH3tK3430YfnotNF4=
-		</data>
-		<key>sdk/assets/images/hero/biodigital-human-asthma.jpg</key>
-		<data>
-		dqBDTqLZFOQyic7bPfgc8iI1c88=
-		</data>
-		<key>sdk/assets/images/hero/biodigital-human-body-systems.jpg</key>
-		<data>
-		waulrgd7hCUzeP46a5L7vfkZzyc=
-		</data>
-		<key>sdk/assets/images/hero/biodigital-human-cardiovascular-system.jpg</key>
-		<data>
-		liR1ETFOSgpuhSptJqCD3HQ6zHY=
-		</data>
-		<key>sdk/assets/images/hero/biodigital-human-covid-19.jpg</key>
-		<data>
-		aUVMBKhfhgVLFxivIJkgkif6C1Q=
-		</data>
-		<key>sdk/assets/images/hero/biodigital-human-multiple-systems.jpg</key>
-		<data>
-		RIk9rK7itcawHtxZsfbsmVtLd+8=
-		</data>
-		<key>sdk/assets/images/hero/biodigital-human-muscular-system.jpg</key>
-		<data>
-		HLDcOF3Nma0nrp1Hti/90z/vySo=
-		</data>
-		<key>sdk/assets/images/hero/biodigital-human-nervous-system.jpg</key>
-		<data>
-		7syydX9dRd+nf/K/NSCLSWwgT7o=
-		</data>
-		<key>sdk/assets/images/hero/biodigital-human-rotator-cuff-repair.jpg</key>
-		<data>
-		DDTiL9mSC7jxXruF2gQKCCIpfDQ=
-		</data>
-		<key>sdk/assets/images/hero/biodigital-human-sodium-potassium-pump.jpg</key>
-		<data>
-		ukeU/YUNkbU8x6BlX10L30VwQkk=
-		</data>
-		<key>sdk/assets/images/hero/biodigital-human-tachycardia-conduction-system-electrical-signals.jpg</key>
-		<data>
-		5uWcsGomP97VBTB3VZzzI9Mfo8c=
-		</data>
-		<key>sdk/assets/images/hero/biodigital-human-tachycardia-conduction-system.jpg</key>
-		<data>
-		KDHd+M+SBoUgPK9WH+eFBXSMW6U=
-		</data>
-		<key>sdk/assets/images/hero/biodigital-human-tachycardia.jpg</key>
-		<data>
-		OI14gEzrh4Nx9ZeO+JLa5G1odhQ=
-		</data>
-		<key>sdk/assets/images/hero/hero-biodigital-lady.png</key>
-		<data>
-		Kp6UJ+VjFtzWm/q44D29lq7qtYE=
-		</data>
-		<key>sdk/assets/images/labels/caret-right.svg</key>
+		<key>sdk/assets/shared/images/labels/caret-right.svg</key>
 		<data>
 		apSkAYODBjEO/osleB23ZHKWMio=
 		</data>
-		<key>sdk/assets/images/labels/circle-dark.svg</key>
+		<key>sdk/assets/shared/images/labels/circle-dark.svg</key>
 		<data>
 		4nH0bZ+BHrz6e617KStx969051o=
 		</data>
-		<key>sdk/assets/images/labels/circle-minus-dark.svg</key>
+		<key>sdk/assets/shared/images/labels/circle-minus-dark.svg</key>
 		<data>
 		MArTao0ksnNFCrwTuoVhimdzOIs=
 		</data>
-		<key>sdk/assets/images/labels/circle-minus.svg</key>
+		<key>sdk/assets/shared/images/labels/circle-minus.svg</key>
 		<data>
 		5UrGtELmioowByqAGbLnkEqkjuo=
 		</data>
-		<key>sdk/assets/images/labels/circle-plus-dark.svg</key>
+		<key>sdk/assets/shared/images/labels/circle-plus-dark.svg</key>
 		<data>
 		6lYRSmQPhJUatqlATk7iwsPMlns=
 		</data>
-		<key>sdk/assets/images/labels/circle-plus.svg</key>
+		<key>sdk/assets/shared/images/labels/circle-plus.svg</key>
 		<data>
 		CTcNFMGR79jC1ITxeYWjdjqmTS8=
 		</data>
-		<key>sdk/assets/images/labels/circle.svg</key>
+		<key>sdk/assets/shared/images/labels/circle.svg</key>
 		<data>
 		sqvho9VjyF9RC49vJiCtv7buxW8=
 		</data>
-		<key>sdk/assets/images/loft.svg</key>
+		<key>sdk/assets/shared/images/loft-logo.svg</key>
 		<data>
-		D+Udygi86BBRKVF3MDnJ+MhmTsk=
+		d+Pwa8Njtf2XRlEyNThkaH4Q40E=
 		</data>
-		<key>sdk/assets/images/login-art.png</key>
+		<key>sdk/assets/shared/images/logo-biodigital-anatomage-color.svg</key>
 		<data>
-		UuN9cef6fhFR2tXA/j2IFoRSa+I=
+		yh3G4mUz13wVY01n2CCyd4GX2D8=
 		</data>
-		<key>sdk/assets/images/logo-blue.svg</key>
+		<key>sdk/assets/shared/images/logo-biodigital-anatomage-white.svg</key>
+		<data>
+		uFbpU46OVv+qMFLzNVSwLVHK9os=
+		</data>
+		<key>sdk/assets/shared/images/logo-blue.svg</key>
 		<data>
 		hSEbaAQ768aYbaY/3xdJqsQZpqo=
 		</data>
-		<key>sdk/assets/images/logo-color.svg</key>
+		<key>sdk/assets/shared/images/logo-color.svg</key>
 		<data>
 		t5zo9elUc5y4ksNXWNElic3nlzg=
 		</data>
-		<key>sdk/assets/images/logo-dark-transparent.svg</key>
+		<key>sdk/assets/shared/images/logo-dark-transparent.svg</key>
 		<data>
 		k9rhsyTPAoddKtFX+snoBIoKTIk=
 		</data>
-		<key>sdk/assets/images/logo-white.svg</key>
+		<key>sdk/assets/shared/images/logo-white.svg</key>
 		<data>
 		3sdmiAGOag99a2vcPtZzzCzPJZo=
 		</data>
-		<key>sdk/assets/images/logo.svg</key>
+		<key>sdk/assets/shared/images/logo.svg</key>
 		<data>
 		Odys+amhoFeSD5LsBOWL5K2q5cA=
 		</data>
-		<key>sdk/assets/images/logos/bu-logo.svg</key>
+		<key>sdk/assets/shared/images/ms-symbollockup_signin_light.svg</key>
 		<data>
-		q1kT8FY2JJh/USwj+ih5N7WxONE=
+		P/gw2CuI31llFhCML9CNONAFt8w=
 		</data>
-		<key>sdk/assets/images/logos/northwestern-medicine-logo.svg</key>
+		<key>sdk/assets/shared/images/powered-by-biodigital-anatomage-color.svg</key>
 		<data>
-		Lg58jO2o2OZf+BNTm08dVOG0kq4=
+		tsejaxi/6Ig3Jdviugb+XB9c1Bg=
 		</data>
-		<key>sdk/assets/images/powered-by-biodigital-black.svg</key>
+		<key>sdk/assets/shared/images/powered-by-biodigital-anatomage-gray-transparent.svg</key>
+		<data>
+		U2nPxxKrxNZChV0J37jPYCX4JXc=
+		</data>
+		<key>sdk/assets/shared/images/powered-by-biodigital-anatomage-white.svg</key>
+		<data>
+		qZmUOIq/DHN4YzcpCZgSNkkrvnY=
+		</data>
+		<key>sdk/assets/shared/images/powered-by-biodigital-black.svg</key>
 		<data>
 		ssgHmdDyftntI4iHAlHP0pohDZQ=
 		</data>
-		<key>sdk/assets/images/powered-by-biodigital-color.svg</key>
+		<key>sdk/assets/shared/images/powered-by-biodigital-color.svg</key>
 		<data>
 		ZPLkQySgieVcnLLi213Or/y9qNc=
 		</data>
-		<key>sdk/assets/images/powered-by-biodigital-logo.svg</key>
+		<key>sdk/assets/shared/images/powered-by-biodigital-logo.svg</key>
 		<data>
 		HYAJjOwDBoNonWU2jJdWILBQBDM=
 		</data>
-		<key>sdk/assets/images/powered-by-biodigital-white.svg</key>
+		<key>sdk/assets/shared/images/powered-by-biodigital-white.svg</key>
 		<data>
 		sGXgfpwC71UalkQIo7NaXt99Ki8=
 		</data>
-		<key>sdk/assets/images/powered-by-biodigital.png</key>
+		<key>sdk/assets/shared/images/powered-by-biodigital.png</key>
 		<data>
 		yZrtBIUH0DwwAtOmEddrPaAxTtc=
 		</data>
-		<key>sdk/assets/images/sample-2.jpg</key>
-		<data>
-		3oSee7wu78tsTKhC6konkclTcSk=
-		</data>
-		<key>sdk/assets/images/sample-3.jpg</key>
-		<data>
-		KwBoF/OcosUXwMer3sgkZwCfoNg=
-		</data>
-		<key>sdk/assets/images/sample.jpg</key>
-		<data>
-		xX35H89TAiAk4tTT0NAp+RG76rw=
-		</data>
-		<key>sdk/assets/images/signup-art.png</key>
-		<data>
-		x+WQ1tA7FO0C3iXn3ZkHTuG72JE=
-		</data>
-		<key>sdk/assets/images/social/email-share.svg</key>
+		<key>sdk/assets/shared/images/social/email-share.svg</key>
 		<data>
 		SN8cEJcpSmsYpPMdHMdBa/y0xlA=
 		</data>
-		<key>sdk/assets/images/social/facebook-share.svg</key>
+		<key>sdk/assets/shared/images/social/facebook-share.svg</key>
 		<data>
 		txHslkiaXRDlxFSsWrWDAa5Gycg=
 		</data>
-		<key>sdk/assets/images/social/link-share.svg</key>
+		<key>sdk/assets/shared/images/social/link-share.svg</key>
 		<data>
 		xgxdkjAWvEwEihjg+ScsSGf9dno=
 		</data>
-		<key>sdk/assets/images/social/linkedin-share.svg</key>
+		<key>sdk/assets/shared/images/social/linkedin-share.svg</key>
 		<data>
 		EKFSD+00EmGLwW6Nkzb3Dh/xFUI=
 		</data>
-		<key>sdk/assets/images/social/twitter-share.svg</key>
+		<key>sdk/assets/shared/images/social/twitter-share.svg</key>
 		<data>
 		uqWE69hlG3LEPGY03wJ5iuXwjZs=
 		</data>
-		<key>sdk/assets/images/studio-tour-labels.jpg</key>
+		<key>sdk/assets/shared/images/studio-logo-white.svg</key>
 		<data>
-		mBPGPOxZOEoTC4NFza9R7RMt1O4=
+		LEe8jMcrPaKTl0Au+tvcH625A/I=
 		</data>
-		<key>sdk/assets/images/studio-tour-paint.jpg</key>
+		<key>sdk/assets/shared/images/studio-logo.svg</key>
 		<data>
-		+ACoydC/UuHau890FnZ+Yru7qBo=
+		crUCz0TLD7EjpCLC05y1+Go3G3o=
 		</data>
-		<key>sdk/assets/images/studio-tour-studio.jpg</key>
-		<data>
-		M4Pss6/wrjz6qP1PSf184tJOx4c=
-		</data>
-		<key>sdk/assets/images/studio-tour-text.jpg</key>
-		<data>
-		gP6JUJgYco7muL8gJdIY4gFifuw=
-		</data>
-		<key>sdk/assets/images/studio-tour-tour.jpg</key>
-		<data>
-		mV3PT7grGVMqNRlL3JwRm5ovX3s=
-		</data>
-		<key>sdk/assets/images/tutorial/tutorial-toolbar@3x.png</key>
-		<data>
-		kI6l0Y96fGUDcX8jdUW394DxlYg=
-		</data>
-		<key>sdk/assets/images/view-chapter-thumbnail-placeholder.png</key>
+		<key>sdk/assets/shared/images/view-chapter-thumbnail-placeholder.png</key>
 		<data>
 		q7QR+qJRxaqbGwHSMUL0XZq0DkY=
 		</data>
-		<key>sdk/assets/images/welcome-tour-collaborate.jpg</key>
-		<data>
-		AU+MiuOC4bmQdWZK9InRCXhFyks=
-		</data>
-		<key>sdk/assets/images/welcome-tour-customize.jpg</key>
-		<data>
-		cWQormx/7msuvMqR4z1pgIqagD0=
-		</data>
-		<key>sdk/assets/images/welcome-tour-explore.jpg</key>
-		<data>
-		Omf4dhPzxekaotanf0ON+CZtwQk=
-		</data>
-		<key>sdk/assets/images/welcome-tour-integrate.jpg</key>
-		<data>
-		EMUAf7jYWwWu+M3wNRfauooWUxk=
-		</data>
-		<key>sdk/assets/images/widget/help-keyboard-pan.svg</key>
+		<key>sdk/assets/shared/images/widget/help-keyboard-pan.svg</key>
 		<data>
 		Dzf/jbEV91ZeiZtORNdOiKyd/DQ=
 		</data>
-		<key>sdk/assets/images/widget/help-keyboard-rotate.svg</key>
+		<key>sdk/assets/shared/images/widget/help-keyboard-rotate.svg</key>
 		<data>
 		IJM3GUEvrwa66zFf8Wc+jZPlbBk=
 		</data>
-		<key>sdk/assets/images/widget/help-keyboard-slow-motion.svg</key>
+		<key>sdk/assets/shared/images/widget/help-keyboard-slow-motion.svg</key>
 		<data>
 		pqQPeuw0uyQINJY7PXWN4Dcvf94=
 		</data>
-		<key>sdk/assets/images/widget/help-keyboard-zoom.svg</key>
+		<key>sdk/assets/shared/images/widget/help-keyboard-zoom.svg</key>
 		<data>
 		ZJOUDtlqFFnfCDq+rOJQUawLDlw=
 		</data>
-		<key>sdk/assets/images/widget/help-learn.svg</key>
+		<key>sdk/assets/shared/images/widget/help-learn.svg</key>
 		<data>
 		VMObqKjtFghhpSzW7ZbIiOxiKGA=
 		</data>
-		<key>sdk/assets/images/widget/help-mouse-double-click-left.svg</key>
+		<key>sdk/assets/shared/images/widget/help-mouse-double-click-left.svg</key>
 		<data>
 		+zt0YqRUflzNvK1Mum1ZuNexVGA=
 		</data>
-		<key>sdk/assets/images/widget/help-mouse-hold-left.svg</key>
+		<key>sdk/assets/shared/images/widget/help-mouse-hold-left.svg</key>
 		<data>
 		DFwDImQLTXtKB+yJY9HgEC9fkBs=
 		</data>
-		<key>sdk/assets/images/widget/help-mouse-hold-right.svg</key>
+		<key>sdk/assets/shared/images/widget/help-mouse-hold-right.svg</key>
 		<data>
 		Ran6wfltE+n3yk3RdXIMPbBti34=
 		</data>
-		<key>sdk/assets/images/widget/help-mouse-long-press-left.svg</key>
+		<key>sdk/assets/shared/images/widget/help-mouse-long-press-left.svg</key>
 		<data>
 		8WRAB4AiTDb/6uBBs9GMwHvQkgo=
 		</data>
-		<key>sdk/assets/images/widget/help-mouse-scroll.svg</key>
+		<key>sdk/assets/shared/images/widget/help-mouse-scroll.svg</key>
 		<data>
 		aMc23dIntnEBBBVnLTKNlgtovc0=
 		</data>
-		<key>sdk/assets/images/widget/help-mouse-single-click-left.svg</key>
+		<key>sdk/assets/shared/images/widget/help-mouse-single-click-left.svg</key>
 		<data>
 		0XGIIlOkj5KOuK6o7+buBVc9AMM=
 		</data>
-		<key>sdk/assets/images/widget/help-pan.svg</key>
+		<key>sdk/assets/shared/images/widget/help-pan.svg</key>
 		<data>
 		woRsYhRsWWyh8VVSlT2MSRWn9AU=
 		</data>
-		<key>sdk/assets/images/widget/help-rotate.svg</key>
+		<key>sdk/assets/shared/images/widget/help-rotate.svg</key>
 		<data>
 		UhfDTc/t5osGgv5/Kgo8QCqiXoU=
 		</data>
-		<key>sdk/assets/images/widget/help-trackpad-double-tap.svg</key>
+		<key>sdk/assets/shared/images/widget/help-trackpad-double-tap.svg</key>
 		<data>
 		iEFfnQBa4QuhTUkCmzJb8T467S4=
 		</data>
-		<key>sdk/assets/images/widget/help-trackpad-long-press.svg</key>
+		<key>sdk/assets/shared/images/widget/help-trackpad-long-press.svg</key>
 		<data>
 		dT5/5zYtBvYFH9hMd4rwfoSNDS8=
 		</data>
-		<key>sdk/assets/images/widget/help-trackpad-scroll.svg</key>
+		<key>sdk/assets/shared/images/widget/help-trackpad-scroll.svg</key>
 		<data>
 		6lghYzXaUQEkDBcCBk8djxKE1Ho=
 		</data>
-		<key>sdk/assets/images/widget/help-trackpad-single-tap.svg</key>
+		<key>sdk/assets/shared/images/widget/help-trackpad-single-tap.svg</key>
 		<data>
 		eINNIndS9f2j/Ei1QpobyT5jELw=
 		</data>
-		<key>sdk/assets/images/widget/help-zoom.svg</key>
+		<key>sdk/assets/shared/images/widget/help-zoom.svg</key>
 		<data>
 		jlu0EBeJqDgvcy0cZ/xgy+Zyt8E=
 		</data>
-		<key>sdk/assets/images/widget/loading_experience/interact-in-3d-arrow.svg</key>
+		<key>sdk/assets/shared/images/widget/loading_experience/interact-in-3d-arrow.svg</key>
 		<data>
 		O3uX/+MUloMLRGm06rbCdSjtvv4=
 		</data>
-		<key>sdk/assets/images/widget/loading_experience/interact-in-3d-hand.svg</key>
+		<key>sdk/assets/shared/images/widget/loading_experience/interact-in-3d-hand.svg</key>
 		<data>
 		bJOXPcrQalPXQmSOBvixibJDnKA=
 		</data>
-		<key>sdk/assets/images/widget/nav-cube-arrows-selected.svg</key>
+		<key>sdk/assets/shared/images/widget/nav-cube-arrows-selected.svg</key>
 		<data>
 		5zqxbAlHPdOOPGsu88THj8TMDd8=
 		</data>
-		<key>sdk/assets/images/widget/nav-cube-arrows.svg</key>
+		<key>sdk/assets/shared/images/widget/nav-cube-arrows.svg</key>
 		<data>
 		qPUMHl7/X7GRT6XKhesG3QJS89w=
 		</data>
-		<key>sdk/assets/images/widget/nav-cube-selected.svg</key>
+		<key>sdk/assets/shared/images/widget/nav-cube-selected.svg</key>
 		<data>
 		UeLpAmBAXxmrOswVRjkqeKEo3+0=
 		</data>
-		<key>sdk/assets/images/widget/nav-cube.svg</key>
+		<key>sdk/assets/shared/images/widget/nav-cube.svg</key>
 		<data>
 		DyvHJ0/zTvopyEgpSJCLCf+wTbg=
 		</data>
-		<key>sdk/assets/images/zspace-tag.svg</key>
+		<key>sdk/assets/shared/latin/l2bi.json</key>
 		<data>
-		YD/8IEjp43/5DbIfEKneoMZtenU=
+		yjRBXfoC6p3x1C44w2Sc6wwQDQ0=
 		</data>
-		<key>sdk/assets/latin/l2bi.json</key>
+		<key>sdk/assets/shared/locales/de-DE.json</key>
 		<data>
-		/jWvdy7cQcC/+ybMFB5vzyj6NYE=
+		0oXqN9EQBbac34H0n/j433wXIB0=
 		</data>
-		<key>sdk/assets/locales/de-DE.json</key>
+		<key>sdk/assets/shared/locales/dictionary.json</key>
 		<data>
-		dfPef47BK3bZ/kx3iUsQPDic2hY=
+		2L9pjbp9yM53qawv6W37gCwnUKQ=
 		</data>
-		<key>sdk/assets/locales/dictionary.json</key>
+		<key>sdk/assets/shared/locales/en-US.json</key>
 		<data>
-		gDt2LM+S/uqSM+0gtBFlO1zCpoA=
+		0eEk9RKALB7tCdR7s/5sV2fNHpU=
 		</data>
-		<key>sdk/assets/locales/en-US.json</key>
+		<key>sdk/assets/shared/locales/es-ES.json</key>
 		<data>
-		o5eKn8e/TNc+bNHZ75BfH0RMGp4=
+		ZUwuqbSAgkSouddkL4ANJK8/mbM=
 		</data>
-		<key>sdk/assets/locales/es-ES.json</key>
+		<key>sdk/assets/shared/locales/fr-FR.json</key>
 		<data>
-		BTKw3HuFEseYctbN881BG0rs4wM=
+		UqeLk8/k1v2L1HOZNem32z3lmFo=
 		</data>
-		<key>sdk/assets/locales/fr-FR.json</key>
-		<data>
-		4fjXXtE5/mWSfx3JVkl7m5BfmJs=
-		</data>
-		<key>sdk/assets/locales/he-IL.json</key>
+		<key>sdk/assets/shared/locales/he-IL.json</key>
 		<data>
 		nFpliRuErPD4SomWBH3z3AOgQ1s=
 		</data>
-		<key>sdk/assets/locales/it-IT.json</key>
+		<key>sdk/assets/shared/locales/it-IT.json</key>
 		<data>
-		zX1M/R1sYHppUt6PjvnZA0HS8rE=
+		cpfYQFH0MG0njoC8G8AC2oiclzU=
 		</data>
-		<key>sdk/assets/locales/ja-JP.json</key>
+		<key>sdk/assets/shared/locales/ja-JP.json</key>
 		<data>
-		q6iJ8Ughk+emRy7+T6xKUkEcA1I=
+		BZf5pBUAf7oBKLGB5sUP3IBti6w=
 		</data>
-		<key>sdk/assets/locales/ja.json</key>
+		<key>sdk/assets/shared/locales/ja.json</key>
 		<data>
 		sFTCooAJw2wSxvmuXfSehMrMpfA=
 		</data>
-		<key>sdk/assets/locales/pt-BR.json</key>
+		<key>sdk/assets/shared/locales/pt-BR.json</key>
 		<data>
-		v+cXuKykhKumwCSrNw23kYHXt3A=
+		pRyub6cQeYNZwueAxwoj965Y5r8=
 		</data>
-		<key>sdk/assets/locales/pt-PT.json</key>
+		<key>sdk/assets/shared/locales/pt-PT.json</key>
 		<data>
 		SjAK2QPDw4qg1B1Kq7wuUlHlTp8=
 		</data>
-		<key>sdk/assets/locales/zh-CN.json</key>
+		<key>sdk/assets/shared/locales/zh-CN.json</key>
 		<data>
-		4WwNZsNRwDXyygcBb2B4I3PqftE=
+		IxDZNwE0XU3LlXy+Vc7jw5ZTBfA=
+		</data>
+		<key>sdk/auth.html</key>
+		<data>
+		M7GLmY1kk1Ndey7ufUvCb2UDYBY=
 		</data>
 		<key>sdk/cardiovascular-system.svg</key>
 		<data>
@@ -1174,11 +810,11 @@
 		</data>
 		<key>sdk/color-all-models.svg</key>
 		<data>
-		gVYhoRXmCgi6ZOi8cY9LS99qM/s=
+		z3lctlBhVDom6MDNv2NeECP/NwY=
 		</data>
 		<key>sdk/color-allergy-and-immunology.svg</key>
 		<data>
-		RAONfO6ND6YBzXMxrx8S9bMVXFM=
+		qszV0D4ueArP/SsMRx7OMLWXW/g=
 		</data>
 		<key>sdk/color-anatomy-by-regions.svg</key>
 		<data>
@@ -1190,39 +826,39 @@
 		</data>
 		<key>sdk/color-bony-landmarks.svg</key>
 		<data>
-		HMIJ1tzV9+B3jTC6IBf6Gzfs7wE=
+		9GY7PEAI8ZF8FFQB/+Mo2E1F8RE=
 		</data>
 		<key>sdk/color-cardiology.svg</key>
 		<data>
-		4fuhbaGp56U/FED3+EF2eG1QwQA=
+		OvCB7wy+0fAOkvJqEItEnCSgPDE=
 		</data>
 		<key>sdk/color-community-bookmarks.svg</key>
 		<data>
-		f4c5IwfzxBBt00UnyHMqrl0+smo=
+		e+QR52f81zcQvlq2fX1rX8WUSa8=
 		</data>
 		<key>sdk/color-complete-anatomy.svg</key>
 		<data>
-		P591WdT+7YmQgifobEXrUzK3w84=
+		025uH6cERtW6pGVmBZ8Ag+EhLAY=
 		</data>
 		<key>sdk/color-cross-sections-and-micro-anatomy.svg</key>
 		<data>
-		orjWMzSXEly4/IKaCGtbsB3jyXo=
+		pv6y2Ca2B+LMuiDbqiUSU2rvGOE=
 		</data>
 		<key>sdk/color-dentistry.svg</key>
 		<data>
-		VUKR0jrk7vl+Jlt5ZR7YlnnAAm4=
+		nvIblnjvfN/q4byVBxKvMDwnT0Q=
 		</data>
 		<key>sdk/color-dermatology.svg</key>
 		<data>
-		i9HVWqFt/3JHInIRF0toXiSRt4k=
+		bC9qlJ8AIYazr9pzhQLWSVlzFHA=
 		</data>
 		<key>sdk/color-endocrinology.svg</key>
 		<data>
-		TG9aZXU4LfL7jc8OEUCRCpUaC28=
+		O+VmCDjml8mENyYJ/i0MN+y/28Q=
 		</data>
 		<key>sdk/color-gastroenterology.svg</key>
 		<data>
-		fFfKJRwKojbkvaJVR0HvFrm1Ts4=
+		8YLci86d9d4aG2ZKtk3Wu+Q+xVY=
 		</data>
 		<key>sdk/color-guided-anatomy.svg</key>
 		<data>
@@ -1230,15 +866,15 @@
 		</data>
 		<key>sdk/color-gynecology.svg</key>
 		<data>
-		G0FYCJvCGEir/ngXD7i1yuXCwqU=
+		cekuCeWKlsJOWS39ndk1bu/wA9w=
 		</data>
 		<key>sdk/color-hematology.svg</key>
 		<data>
-		VMLU3mrePkBh9TUULme+B07xJzc=
+		r3KexnaVz8xuJph8UKqz+5wTGTY=
 		</data>
 		<key>sdk/color-infectious-disease.svg</key>
 		<data>
-		VBIBeB+WWbOvvxZC4rRhFfe3N4s=
+		42D4y3N0BegVHtD5zR1cRG5JAN8=
 		</data>
 		<key>sdk/color-nephrology.svg</key>
 		<data>
@@ -1246,19 +882,19 @@
 		</data>
 		<key>sdk/color-neurology-and-psychiatry.svg</key>
 		<data>
-		cJvvYP9SeL0jeLXxAZLNvsg/6Mg=
+		I4YCXfKmiwuxsRANET+jueq9c3M=
 		</data>
 		<key>sdk/color-obstetrics.svg</key>
 		<data>
-		Kr3LYEeakXaJ/PLpTKqjCLdqgHY=
+		qM/ZlfL45NGwa3/xiIY6QDymhpw=
 		</data>
 		<key>sdk/color-oncology.svg</key>
 		<data>
-		fO9OtPcDPCsVifUTQe0gP2DwQoM=
+		qc7dNLXfHxCosW9l0r5Kb+IRQFA=
 		</data>
 		<key>sdk/color-ophtalmology.svg</key>
 		<data>
-		PGamwovcvo/KSw6fH291SyNHBVM=
+		DfVmxjeAB3PJ7OW+IBuGPNCUugY=
 		</data>
 		<key>sdk/color-origins-and-insertions.svg</key>
 		<data>
@@ -1266,31 +902,31 @@
 		</data>
 		<key>sdk/color-orthopedics.svg</key>
 		<data>
-		soCQEAoSAeSXsBmDLWSPajhUTsc=
+		C2MBibyDJ3uM3ISt2j2eGZzHIpA=
 		</data>
 		<key>sdk/color-otolarygngology.svg</key>
 		<data>
-		xtE96hL4QtAdnn2oix8JlaydcOM=
+		f7V3w8JEuxIR10f/8NFf7+Yp1Ws=
 		</data>
 		<key>sdk/color-pediatrics.svg</key>
 		<data>
-		pLXWoem3qLCrgGwmX9WJgnaxUUs=
+		YKKVXbjkfR+6Ppeonq47jIsO7Ek=
 		</data>
 		<key>sdk/color-physical-therapy.svg</key>
 		<data>
-		m5ItMUvddSd4KUXNVJCoc/x0IYE=
+		fCE27FiXUdzDqb04uMTQGkjKOpA=
 		</data>
 		<key>sdk/color-primary-care.svg</key>
 		<data>
-		BW2LUl8SwjuAavncnRZitSoPi5U=
+		EYmyx4Lo0lMMBsVejhOliBoyr2s=
 		</data>
 		<key>sdk/color-pulmonology.svg</key>
 		<data>
-		fNj/HXUczupalLYe9+lql40QdOM=
+		hkmdrh7bj9vko4szZBDuYopZCS8=
 		</data>
 		<key>sdk/color-quizzes-and-assessments.svg</key>
 		<data>
-		JW3xRwSH+hYNyNCuzTeylWmaTFw=
+		4895pCA9TbnliSXBgC9z/z5hp3c=
 		</data>
 		<key>sdk/color-rheumatology.svg</key>
 		<data>
@@ -1298,27 +934,39 @@
 		</data>
 		<key>sdk/color-urology.svg</key>
 		<data>
-		yoQWYBI2G96+lyJTqYFmJgBQdn4=
+		dC+3nbGZBYZD+uY8MzsbzMcJekI=
 		</data>
 		<key>sdk/color-zspace.svg</key>
 		<data>
-		M0OIhV5dJr6uNUGaVwMLsaybFIY=
+		kCzwDC3y1HcgmReCucKKRnc/cYo=
 		</data>
 		<key>sdk/common.js</key>
 		<data>
-		3tafc7YZINpzbtFgVu4LjYv8+Wc=
+		WP+DIJNcHZg72khq8D+qS0nHntQ=
 		</data>
 		<key>sdk/connective-tissue.svg</key>
 		<data>
 		npWk2cJauqX9HRUdhfY9MGp/KDI=
 		</data>
+		<key>sdk/cursor-whiteboard-erase.svg</key>
+		<data>
+		JjQYVXmULWAGbTj3rXbvKFtv880=
+		</data>
+		<key>sdk/cursor-whiteboard-paint.svg</key>
+		<data>
+		3z23nOX/msSTdQL2P4iFTSBOsUI=
+		</data>
+		<key>sdk/cursor-whiteboard-text.svg</key>
+		<data>
+		9WhoKjA6azAHG3W1RNmXSLFUYkA=
+		</data>
 		<key>sdk/custom-icons.ttf</key>
 		<data>
-		NHNLgvHTnGuIinRlNPhWJTiuIv8=
+		9mBMF345zZCA78dyVS6Uqo+j91A=
 		</data>
 		<key>sdk/custom-icons.woff2</key>
 		<data>
-		y1hObIftqBj5PA58sDrIQhOG9f4=
+		nShBfFJ++jNTjvJgsTEqGruJzaY=
 		</data>
 		<key>sdk/digestive-system.svg</key>
 		<data>
@@ -1335,6 +983,14 @@
 		<key>sdk/fa-solid-900.woff2</key>
 		<data>
 		ZSKnGlSxCb3VunmTBrGrdCbnSvM=
+		</data>
+		<key>sdk/fascia.svg</key>
+		<data>
+		cqUsfY+j25UkncqoH/HMCBQP3+g=
+		</data>
+		<key>sdk/fat.svg</key>
+		<data>
+		wy8pKFSWJTHNsLbJ9TiDuIseZn0=
 		</data>
 		<key>sdk/femaleskin_variants_dark.png</key>
 		<data>
@@ -1362,7 +1018,7 @@
 		</data>
 		<key>sdk/index.html</key>
 		<data>
-		+fwFxNlBma4H4DbmaijINRCtHWE=
+		e9GByNxp4lEISI/NFaf37G0ESJ0=
 		</data>
 		<key>sdk/integumentary-system.svg</key>
 		<data>
@@ -1378,7 +1034,7 @@
 		</data>
 		<key>sdk/main.js</key>
 		<data>
-		aW0CtLhvlGcVAhXf8qKQE10cmbU=
+		iMrJFwozg/eIXGqlPG9TFgm7ivw=
 		</data>
 		<key>sdk/maleskin_variants_dark.png</key>
 		<data>
@@ -1406,11 +1062,11 @@
 		</data>
 		<key>sdk/mono-all-models.svg</key>
 		<data>
-		EAY/yzh/z3rrHr+gKHu+pEgSJXM=
+		13ILdz7TBsWkZ2zy5zm/pRdqPCI=
 		</data>
 		<key>sdk/mono-allergy-and-immunology.svg</key>
 		<data>
-		hDWzTc4xodUJND4dKWqyqItKkYk=
+		wHbMhPXnlGxDOpzRDSyjK4sXGTQ=
 		</data>
 		<key>sdk/mono-anatomy-by-regions.svg</key>
 		<data>
@@ -1422,39 +1078,39 @@
 		</data>
 		<key>sdk/mono-bony-landmarks.svg</key>
 		<data>
-		Vj2iClvXODueBip0QTaxOelKkH0=
+		Aaur7KK9k2jGs1DSg3e4f+A1KtM=
 		</data>
 		<key>sdk/mono-cardiology.svg</key>
 		<data>
-		YNhJRnPiHt/rHuDsrBo36ySptUw=
+		+m8l5aQo59lPyGg2Y0FdpG2DFYI=
 		</data>
 		<key>sdk/mono-community-bookmarks.svg</key>
 		<data>
-		PDKhQMLc+FS/hWdFwo6iUWyxW+s=
+		BbUrna6SzffAbkSJ3Gn95uwt+Gs=
 		</data>
 		<key>sdk/mono-complete-anatomy.svg</key>
 		<data>
-		ECUNVI1Skw8NmDJeNtimqYSollk=
+		niZotH+KMtJ/NTDbUTe5kshMeXY=
 		</data>
 		<key>sdk/mono-cross-sections-and-micro-anatomy.svg</key>
 		<data>
-		7/PZWwQ9B30qO4+P/W7cYW1HD2Y=
+		p7wulzQjZvKvQhmPcNgvv017aRw=
 		</data>
 		<key>sdk/mono-dentistry.svg</key>
 		<data>
-		AAbPj+HecT8RtykUui/0u9RmF8c=
+		m24rXaDTaS9NI69pMAMYmbDv004=
 		</data>
 		<key>sdk/mono-dermatology.svg</key>
 		<data>
-		8utCkNr5oSD24C5puLQy1kQMcq8=
+		OBkjmuHhxmsTALDn3+j7EiE+Oks=
 		</data>
 		<key>sdk/mono-endocrinology.svg</key>
 		<data>
-		e+ZEBhjd70lLqT8mDQpId67h2Ms=
+		9E0yEO14Duj4m6Ff6lyN3HerEcc=
 		</data>
 		<key>sdk/mono-gastroenterology.svg</key>
 		<data>
-		uHJZLbfrLfFbt9N3A0zgSif0dDg=
+		PI+jkVsYMlTqqgq5DFNB4EZ3OfM=
 		</data>
 		<key>sdk/mono-guided-anatomy.svg</key>
 		<data>
@@ -1462,15 +1118,15 @@
 		</data>
 		<key>sdk/mono-gynecology.svg</key>
 		<data>
-		HhA1LI0x3IqfKp1iGjdP8IZ35Dw=
+		O/CfSHtqCzutsvAz4XkmVI2kWz8=
 		</data>
 		<key>sdk/mono-hematology.svg</key>
 		<data>
-		KT0SpAcP3gYnVXenbwCUMlqNQ7c=
+		KJVh0k6n/hf3cgle3Kwp8Ec6WgA=
 		</data>
 		<key>sdk/mono-infectious-disease.svg</key>
 		<data>
-		3dsdgtH/JtAMnGMEL9TzgE7rYC8=
+		Afw5C8x3Ebkg4/t1pqA0j9vqGmE=
 		</data>
 		<key>sdk/mono-nephrology.svg</key>
 		<data>
@@ -1478,15 +1134,15 @@
 		</data>
 		<key>sdk/mono-neurology-and-psychiatry.svg</key>
 		<data>
-		FJTnqinbPncJ1EpfCDIVG+aprts=
+		DbgBvu7630JGc6gp7bAyhi3g11k=
 		</data>
 		<key>sdk/mono-obstetrics.svg</key>
 		<data>
-		sAVhqOcRDBS3ICoqzll2eTsigdc=
+		sUEIUsB5sJOS8cT1I63GOKQYXO4=
 		</data>
 		<key>sdk/mono-oncology.svg</key>
 		<data>
-		GLqTrLFCcP7uNDApC5Xjf0bimWo=
+		LYnz3vg96vHxD4xxpjpwcwrOWuU=
 		</data>
 		<key>sdk/mono-ophtalmology.svg</key>
 		<data>
@@ -1498,31 +1154,31 @@
 		</data>
 		<key>sdk/mono-orthopedics.svg</key>
 		<data>
-		mOXqle1mrjS5IHxj6FscfA4nb1U=
+		y/j39Th9uAGygsLLE9gxriUoawU=
 		</data>
 		<key>sdk/mono-otolarygngology.svg</key>
 		<data>
-		1JhE3VLVmVpTqQfNirY38LzHo+s=
+		vr3GopuyLUtE52fZLyPzembK87Q=
 		</data>
 		<key>sdk/mono-pediatrics.svg</key>
 		<data>
-		xoyVuqrz6WOmWdAuwqL9OdSeCSk=
+		2RfjiG1kNXMPeqMYUnEe8fgrQaU=
 		</data>
 		<key>sdk/mono-physical-therapy.svg</key>
 		<data>
-		WQkm411dgnXq/gAWCvl8IomrFNA=
+		tNMb65Opqa1/vJ9I3YE7kSPpmV8=
 		</data>
 		<key>sdk/mono-primary-care.svg</key>
 		<data>
-		QN1jEBp2+4E2wHDJOHv7lstkDRs=
+		v32izlZxjHSDFNaCIiIf8+BheyE=
 		</data>
 		<key>sdk/mono-pulmonology.svg</key>
 		<data>
-		tpSQDkd93BOPHDKo3fDwSXP5JnM=
+		uMx2p/a8wtDr7Yy5/IY8uCG8jKA=
 		</data>
 		<key>sdk/mono-quizzes-and-assessments.svg</key>
 		<data>
-		ty9K/3NiSMsw5Ukd+R+JU9MLW7c=
+		CtQvUpPpxyBj/z4zej6As/5OJDc=
 		</data>
 		<key>sdk/mono-rheumatology.svg</key>
 		<data>
@@ -1530,11 +1186,11 @@
 		</data>
 		<key>sdk/mono-urology.svg</key>
 		<data>
-		m4J9ouZtfXmxq2w5a9rfPeDDgyY=
+		OZpLFt+OoQEURNa6K4LAdVF2SCw=
 		</data>
 		<key>sdk/mono-zspace.svg</key>
 		<data>
-		Nd0ZXHZDB+lOEaERZRgGSQ5tpD8=
+		PQDMaXn1cQ8/6V/mAbhQWXBxLos=
 		</data>
 		<key>sdk/muscular-system.svg</key>
 		<data>
@@ -1546,7 +1202,7 @@
 		</data>
 		<key>sdk/polyfills.js</key>
 		<data>
-		7q8gSwL5Q9ce8F6L6spExzf1B7c=
+		onkesONqYBvlzkjpC/VArZFf0hQ=
 		</data>
 		<key>sdk/reproductive-system.svg</key>
 		<data>
@@ -1570,23 +1226,19 @@
 		</data>
 		<key>sdk/styles.css</key>
 		<data>
-		SBlZM5+kdlMuKGU5HkTZk806h+U=
+		PiMJtPDvYjjiGjZv0epwPcpv96s=
 		</data>
 		<key>sdk/unsupported.html</key>
 		<data>
-		934XpGGR+yl40nK+qoZe8vnqY4E=
+		Z6B6XLAujD+LEAIfn39fy4x+gbI=
 		</data>
 		<key>sdk/urinary-system.svg</key>
 		<data>
 		+OLWRR+NjOH8Vr4yXYVDcL2dn6g=
 		</data>
-		<key>sdk/vendor.js</key>
-		<data>
-		UgFR1TUZ5gRwqrROhzEb4cKtMRc=
-		</data>
 		<key>viewerFrame.html</key>
 		<data>
-		E5Zf49eos+o8h6b2f6v2bfvm5cQ=
+		MLGzCoko4H46MBmkFfbyemzkcio=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -1700,7 +1352,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uky1ty3VfZBhm2doBHNxUtIUXkVhjoO4BMC5IPjLu/w=
+			Nyeno19G97I2VDLtsWByk1DlxnHIrt6VnbY1EYQ7Opo=
 			</data>
 		</dict>
 		<key>Headers/HumanKit.h</key>
@@ -1714,91 +1366,91 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YJ8Ntc5CtYC6x4o1VNbZEpfTwpTKbTGBIEbM82BIOJU=
+			Q+1zl8U5SnFs2KN+kXbHbstCfR4H6/T9gfHw5SMEzwY=
 			</data>
 		</dict>
 		<key>Modules/HumanKit.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QL3klzJGrDeMCVvd9g6Cr6W4SQmPYvevhI5ZDY8nMtg=
+			a2KcGPWx/LBgrozRpP2DZRKq50vMYoPVDZJFziSTP1I=
 			</data>
 		</dict>
 		<key>Modules/HumanKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e/Q0Ec8niksq6GYwg301LeV0NCSX4XffQQ2kH7lIKs8=
+			AaJ1N3yUUA2ZcvkAP11gKI1D1SPLpCQ8si7Jxd9H6zs=
 			</data>
 		</dict>
 		<key>Modules/HumanKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ow2VWGTIYB0n1MN5WRfFPhaBgwG9HNbW4YNRpZc6n24=
+			/uCIp/sJEz6YiveKHgNEUMXJRp1U/OYtZZTbVj6bcGk=
 			</data>
 		</dict>
 		<key>Modules/HumanKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zZyzyYvFxjZnLQyTdF4Ndjhsidk10LT259gjGlpmHxo=
+			SG+Imw2YD4wPLDfGYBJ/khnaQlB17UQfsmYHQMke+JU=
 			</data>
 		</dict>
 		<key>Modules/HumanKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ow2VWGTIYB0n1MN5WRfFPhaBgwG9HNbW4YNRpZc6n24=
+			/uCIp/sJEz6YiveKHgNEUMXJRp1U/OYtZZTbVj6bcGk=
 			</data>
 		</dict>
 		<key>Modules/HumanKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ojh1fQFcVnROv/WYW8+Ze4028YETwWkSGvqvOAinTjk=
+			y34uzrH3vqpBmLDlGpZXYH4G1URYSH43An6AnxZa56Y=
 			</data>
 		</dict>
 		<key>Modules/HumanKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e/Q0Ec8niksq6GYwg301LeV0NCSX4XffQQ2kH7lIKs8=
+			AaJ1N3yUUA2ZcvkAP11gKI1D1SPLpCQ8si7Jxd9H6zs=
 			</data>
 		</dict>
 		<key>Modules/HumanKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GTpttZMSoBhyoaVKtLpxIZEkq9RvcVfiP0ZNCfpeGik=
+			iECGXjKjIaQ+jxhwkSqd88p/uFzGvWHqVPIlkybRtU0=
 			</data>
 		</dict>
 		<key>Modules/HumanKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iiKDE4xITfqPM2XOJfqQeWpHVBWBEo+UBVSH/EdVo1I=
+			Eqapcux5iXBJ+Oy03cHWE5kgRwtgGcjSAjikx/oV5SM=
 			</data>
 		</dict>
 		<key>Modules/HumanKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GTpttZMSoBhyoaVKtLpxIZEkq9RvcVfiP0ZNCfpeGik=
+			iECGXjKjIaQ+jxhwkSqd88p/uFzGvWHqVPIlkybRtU0=
 			</data>
 		</dict>
 		<key>Modules/HumanKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a9jq32vZFsBAKf5CW/AEziqKKJXqQz8JI2PdIJkWPu4=
+			KUAi+mTmoyfW8sAZbifui5rw9ZYbETusniBFm7Fe70o=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZPu1QBX7LkAp9+ziQ3lZ0XTQLuI7jsni8yIC2qDCcpg=
+			peq5479kjl3DD6oBvEcDEpS953hSV3/Q03Ynx1BoLSA=
 			</data>
 		</dict>
 		<key>assets/pp_dummy_cube/geometry.___Shape</key>
@@ -1864,1761 +1516,1124 @@
 			NQC31LUYc39HjKf8fg5RPwtVIeCmLaRvywQZy6SAuMQ=
 			</data>
 		</dict>
-		<key>sdk/17.js</key>
+		<key>sdk/192.js</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kd79lOFDSZPn5Y7xx+EI5jWMpsFYDVW7UdEXj96Dr98=
+			MEOlG+vRSS2CNo8gyGqS6ftFt7uF1uFeZuRdNLfrb+c=
 			</data>
 		</dict>
-		<key>sdk/235.js</key>
+		<key>sdk/256.js</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cY1VLw6e2+sRIUks97BBHBGLCkeYwF894UdsuD4OQzA=
+			7mm9e123iur8Q6xzGaqBp8Ve7lBGkHfB5sodoN2CqEk=
 			</data>
 		</dict>
-		<key>sdk/361.js</key>
+		<key>sdk/262.js</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b42XWoMFDln6+yeHcxXRp58RQarPFsuWz4pu8Whtsr4=
+			aSM5zP8zh1B0mnRwa5GErb+X/coTe58jK0BCX2nnGKM=
 			</data>
 		</dict>
 		<key>sdk/3rdpartylicenses.txt</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FhFceM4H+ZU/iPKO7jUwEX/hkSdv8Q2nNCpFqG1Xp+s=
+			NMbdrAJlciDdAxE9dXO9RLEbhanTZml9jzO/siIvX/8=
 			</data>
 		</dict>
-		<key>sdk/401.js</key>
+		<key>sdk/457.js</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zeTX2Mx4MyHwV9iEoLUyqkwkzIGJ15x+HssAasB0fbw=
+			</data>
+		</dict>
+		<key>sdk/471.js</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WFYwjB9yxh/7uOMxM5KxORr5VtkUms/Zk2MrqRc0P3w=
+			</data>
+		</dict>
+		<key>sdk/537.js</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+w74ssi/txPJX8gGiEM3Gza1ymhE3pRgbkw8a8Hd4Gg=
+			</data>
+		</dict>
+		<key>sdk/661.js</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RUd4cSscbYpEUsZ0//zpU83JFpR0V6Z9gC5UaDnmvaA=
+			</data>
+		</dict>
+		<key>sdk/774.js</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ECrz4F8r5TT0dZwww5FgY0sf5UE60RbPW3ZvoT/v0Hg=
+			</data>
+		</dict>
+		<key>sdk/816.js</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wrkY38yM/DI16Lhg85YRhNokRDTa0MBDCcvqfjlKDNE=
+			</data>
+		</dict>
+		<key>sdk/846.js</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Rjd0+JuMRZk0cHMFjFFLonJ53EdxlMVJdesVwmxf/OQ=
+			</data>
+		</dict>
+		<key>sdk/863.js</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			Q7fSlvpGaN+SB5KHaVLFrUvL42R7QpSxlfda3n6eC4w=
 			</data>
 		</dict>
-		<key>sdk/449.js</key>
+		<key>sdk/937.js</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fAcMrH0QKzKYVSBCq0Erm4vcZWpY5BXIvB1lDEq6y0E=
-			</data>
-		</dict>
-		<key>sdk/492.js</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ad/tvu4E910DXKsEnAsiHc+qpooYh/dWdmtvbJybwio=
-			</data>
-		</dict>
-		<key>sdk/513.js</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BKLe7GK1CbRqkrCcgEuBgg92LzLcY3wQu+Clx/0Tb7o=
-			</data>
-		</dict>
-		<key>sdk/608.js</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			oxgMPsQwwRgr5nDKCmB2IiniNeY0oVdZ4rf2p+/7bck=
-			</data>
-		</dict>
-		<key>sdk/762.js</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			43vlXborLRuBa1v44Tgak3FoYwEt+bNLSGr7bOlgXEI=
-			</data>
-		</dict>
-		<key>sdk/78.js</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/cNLDlqDzsewuihxLLmHiLbgO3oiW5uAhX9j2e9UoK8=
-			</data>
-		</dict>
-		<key>sdk/Inter-Black.woff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			iyHVvshYa7syfRbje/y9aRb5ocubz7eL6QccZXfSj28=
+			I0AKKRcPFKV6aswTRBLGgGTUglL6szMCqJ5ua69NQ8s=
 			</data>
 		</dict>
 		<key>sdk/Inter-Black.woff2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/BARPEYZ1ymtXL8jQ0oJZ4F9gL8Fzj1qdSEAvX9bsUs=
-			</data>
-		</dict>
-		<key>sdk/Inter-BlackItalic.woff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hyNVgctmeyWlisYMcfQP/BWFxDmGHnSAf0QmPSkFfS8=
+			Eu0O7WdJCZtGx7LoGY3DDC1+DypOX7HRLwtq4sTzPMQ=
 			</data>
 		</dict>
 		<key>sdk/Inter-BlackItalic.woff2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vIAIHRuMcE1KKsxUGqOy5x2/qerNwcFe6ppuBlRqRV4=
-			</data>
-		</dict>
-		<key>sdk/Inter-Bold.woff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PiQggAfYb4yZFJuPBCW+IuMlJFNAAvHgxph+Oz0yGZ0=
+			MI4QEUHp3uO2sSFhTaA5aeuBeYhpdanutTSAIbBDaP4=
 			</data>
 		</dict>
 		<key>sdk/Inter-Bold.woff2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xjFYury3kCID7XNHbM+QHbNIJepSTUo2pSteX5fhq/c=
-			</data>
-		</dict>
-		<key>sdk/Inter-BoldItalic.woff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rOjglGdXtTV5GFUA4cpmqJUM8ck8jXTojFWiOKpHawo=
+			+oiBJ7baAVtlVp8DUfO1w5GtkokElR8cIOn4RiqNleo=
 			</data>
 		</dict>
 		<key>sdk/Inter-BoldItalic.woff2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PyEZZIF8Yz2lyb3a9NqXHXez3PIEi8icvQ7YDbXdqZ0=
-			</data>
-		</dict>
-		<key>sdk/Inter-ExtraBold.woff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8FNgLCxFkQMIMLPnTGkoqdcFSEOnuw4HF9+jLVcr8z8=
+			ShBTLXbJDEWXwK1L/JKEYA5ZfTAS3R7BbB1E4K0AWKs=
 			</data>
 		</dict>
 		<key>sdk/Inter-ExtraBold.woff2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MH2YCWIhT/oBsQYznty10ubvOpYHubgVu3KH0sc1xo8=
-			</data>
-		</dict>
-		<key>sdk/Inter-ExtraBoldItalic.woff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			be7933rIn29T8kKmHJgVszKasadvTOGKYjuu++P4n+I=
+			b3UCWFb42xshhunLib6d6YlJMsi3sg9N9eZZFv9xTjQ=
 			</data>
 		</dict>
 		<key>sdk/Inter-ExtraBoldItalic.woff2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z2sdbMmnLBLoJ2wlRLvRyB+zN7gMdg2UgqXM+8ggO2Y=
-			</data>
-		</dict>
-		<key>sdk/Inter-ExtraLight.woff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AV2tJyNoEeBZ2tyX4KFE7V7z9+vHvkmXly++kgd4adw=
+			U7sguikuKsKKB3e/D1bzG5i+Qyo8wENZ4utgjHWDScc=
 			</data>
 		</dict>
 		<key>sdk/Inter-ExtraLight.woff2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ts0JSsAmbVeirQBdHi4hJc/SR1zYFrM+R3R5XRQkKvw=
-			</data>
-		</dict>
-		<key>sdk/Inter-ExtraLightItalic.woff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MuU9imp6VmH1JJ0xrITUIs+s+SyCXSSsaqJwzWn4afY=
+			uk/IHbslhx8byrxmSx43cD/KCgX3JIqSPn20l8bSEcw=
 			</data>
 		</dict>
 		<key>sdk/Inter-ExtraLightItalic.woff2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2yKb8/IyQ8R3uZoATwBCHWpqRv4CKWc+0/TP7L0rVys=
-			</data>
-		</dict>
-		<key>sdk/Inter-Italic.woff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zR7al3mH7b+H+4nYt7xIcYIXRgo7q8fRFCnoeOs6+i4=
+			OLrTpqmtGn/NgILmQjul4LrqFlmPLPME5SeET2l+MrI=
 			</data>
 		</dict>
 		<key>sdk/Inter-Italic.woff2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kABY3/ryFsmoU+LX5BCb+ipYmUI3stTleTc05MLstKw=
-			</data>
-		</dict>
-		<key>sdk/Inter-Light.woff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			SHGu0HLfYvDt5xMY2g4EuvHZRApFp4vAzpBoUun/KtI=
+			LQeMs7yPk0dA1Ts53SOwZ48vl0d+Sex4XdnYrNi5a/w=
 			</data>
 		</dict>
 		<key>sdk/Inter-Light.woff2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NrhoMkIsiy+Ot6DeY1NpwQ/Ou+uNOg+A7erPglK/1to=
-			</data>
-		</dict>
-		<key>sdk/Inter-LightItalic.woff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fSkehZ2jldDF90Of2/wzJ4QJTwWCS+8D00THgkPVI/M=
+			4RGh4q2RTM2pF5uV6D+xAjTdUqGTLguTxIBHYieYP9k=
 			</data>
 		</dict>
 		<key>sdk/Inter-LightItalic.woff2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c3rCAemmCpSrv8QJA2zlWRrTMLso5Q3ywbOBwQbeBfQ=
-			</data>
-		</dict>
-		<key>sdk/Inter-Medium.woff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			U97aRgrK6hSGOgbANHRNqCB/ppbzzHlY3J2Z53rEUtw=
+			BQJlsn0RhgomxmwFQhCFJmGrtdIpxOC7NSV1eoMPN5A=
 			</data>
 		</dict>
 		<key>sdk/Inter-Medium.woff2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G0mLlZ5bfey/kYWANZHSW8H7+D55g3LtMNMtXHnYL/Y=
-			</data>
-		</dict>
-		<key>sdk/Inter-MediumItalic.woff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			IFyJiWGGN+qY3yG4N550Zx9ZlhLLE2I+LOE6VXoxZuA=
+			D/PpRhThST61VjFP0keubEqFp3g7TMhr5TmUDPg/Kkg=
 			</data>
 		</dict>
 		<key>sdk/Inter-MediumItalic.woff2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gWAIWGoYDAA3tOwbX0Xgj+j9vt7HcPXXFTOc1wrM8Rg=
-			</data>
-		</dict>
-		<key>sdk/Inter-Regular.woff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7x8jwBsY9FmV32rQwgbDZmC29QoN8l0SwADOY9+cZt0=
+			Gw31A95IipIIKoxdct3EwCKRg862Ra4cJcLQ1jd4UXw=
 			</data>
 		</dict>
 		<key>sdk/Inter-Regular.woff2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1hLxIStFKvB/Gl3vsrZy52qR9xOedJn6SLubK5hcItY=
-			</data>
-		</dict>
-		<key>sdk/Inter-SemiBold.woff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZT/tepMEbxF48lJXCVgQStZKZw1x4pUY0JmNwNdVH8o=
+			4G9rG8VTqupORmgCPtCrChRxKcMQf1Ebx9A9NhsK4IU=
 			</data>
 		</dict>
 		<key>sdk/Inter-SemiBold.woff2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FSJhKRyTiqWq1qVtUrR//LiT0cA4fnbX8nCnOC/3htU=
-			</data>
-		</dict>
-		<key>sdk/Inter-SemiBoldItalic.woff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			leaLa8WjDswoo5Oojxvmr95NzwV4fXodjAxZF2CuPFM=
+			XLcQPk5gWYmv68A9mJx5IB5UshtRg9szmB9w25F4owE=
 			</data>
 		</dict>
 		<key>sdk/Inter-SemiBoldItalic.woff2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O2330F5yXVmC+FJVMRKaCoQJBffhK+hF2uqj/3yCEDM=
-			</data>
-		</dict>
-		<key>sdk/Inter-Thin.woff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5rztjgx2VfrpbDP/Qgg2nr2DcwFJsgL4yaG+cJcPLLI=
+			Xiorw7W5rwZE8AVpOxBJnasYBl1q7b9GyLdMzt4n2us=
 			</data>
 		</dict>
 		<key>sdk/Inter-Thin.woff2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d9lsHEcgESMXr5s7G91EpnTdPOgKEneeijFe6yARxXU=
-			</data>
-		</dict>
-		<key>sdk/Inter-ThinItalic.woff</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cGSOmzZ9HjbuoTtxoazlv2X7Vrhk8+K7BFWkqefUHww=
+			cMqZhjXZ/GJ97egQjwTQmJ5uAzRhg/CtCRdyPnkPaXM=
 			</data>
 		</dict>
 		<key>sdk/Inter-ThinItalic.woff2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2Cvu6JkLG2WKInLdXvrg6ZaMgB0YlMjEYnVFdE6A7Sw=
+			kw1ma3Tg3AwmwoIfVkO3AfikG+rzu5XOFGKYEE8pFpw=
 			</data>
 		</dict>
-		<key>sdk/Inter-italic.var.woff2</key>
+		<key>sdk/InterDisplay-Black.woff2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0UAUGdwwWHAI1Nf+EjDKBoRCY175tGU45RVyXWjgeRo=
+			BWUMuDxw/aKkZereDAoabCXTfsSd8810t+VkaD+XKfE=
 			</data>
 		</dict>
-		<key>sdk/Inter-roman.var.woff2</key>
+		<key>sdk/InterDisplay-BlackItalic.woff2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F/44qzAsfl2/tcPYeAEJLXm+lYUA22QS7TvA8Sa9U9M=
+			l0a/K9Q/4VgUS4Pt50cIjoA5barVW55upyMuDiLub84=
 			</data>
 		</dict>
-		<key>sdk/Inter.var.woff2</key>
+		<key>sdk/InterDisplay-Bold.woff2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hfCLX1HjbKfpYaAzxrth1/DkSqCYRkY4PsrGSOmP3Mg=
+			I7w3YZWTN34SjyRmD+2yhp0YJ3tAJstG5WN752Q/r5E=
 			</data>
 		</dict>
-		<key>sdk/assets/images/2d_image_workflow.gif</key>
+		<key>sdk/InterDisplay-BoldItalic.woff2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hWqI+J/skUz0ueNBT6rZS6bb+C8y2AECwM9GiNAqvgY=
+			Wg/h8BuHd/q0pfc8dXdD+lJXnHcjsCkXd2JctTwKeSo=
 			</data>
 		</dict>
-		<key>sdk/assets/images/BioDigital_watermark_1024x768.svg</key>
+		<key>sdk/InterDisplay-ExtraBold.woff2</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			l+7uWm9PIv7x9gfPiDYQTWWWjwPlm8Bop1hr8YNkqKc=
+			</data>
+		</dict>
+		<key>sdk/InterDisplay-ExtraBoldItalic.woff2</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FZtyukeIcDKRVCCqFEWuZ2gZfn6nMiMBgpmPFNHNuTI=
+			</data>
+		</dict>
+		<key>sdk/InterDisplay-ExtraLight.woff2</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kDG20qGlWXU9ULMR7LRj3fesqq4dmSp+mwCWINjObe8=
+			</data>
+		</dict>
+		<key>sdk/InterDisplay-ExtraLightItalic.woff2</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6NcHgWDvkrgsISOFfBs676pKeVpEtW31/j7a3mDYFXY=
+			</data>
+		</dict>
+		<key>sdk/InterDisplay-Italic.woff2</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			39OY1zcrYSeOFQW/vfxasPZRHviHpHoskME0derlhdo=
+			</data>
+		</dict>
+		<key>sdk/InterDisplay-Light.woff2</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ad0tSR7YYxd+YfbpRYgTuqhUU62XsyxcEhaSfU7r/mU=
+			</data>
+		</dict>
+		<key>sdk/InterDisplay-LightItalic.woff2</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WbW+VjBv01PQZ6pplcLJK8P+s6znNoTZTjxuc/4r6qw=
+			</data>
+		</dict>
+		<key>sdk/InterDisplay-Medium.woff2</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8SJ5B2hIU4gq0A1/l86fZLwXuJoqKRp9TshPzPpEKTQ=
+			</data>
+		</dict>
+		<key>sdk/InterDisplay-MediumItalic.woff2</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			a/JUwaZcgGwBn1KBit1mdH2oNZWjFBEpF5Ebz1+i9cU=
+			</data>
+		</dict>
+		<key>sdk/InterDisplay-Regular.woff2</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OpRjpYw+e6HjzWW12/+Ro1xQj/eKEEzREh/v+D7+t4c=
+			</data>
+		</dict>
+		<key>sdk/InterDisplay-SemiBold.woff2</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2fY6grgm+wEXyScVw6UqLSJHvDIbw5NBQgv1LZHoJ3o=
+			</data>
+		</dict>
+		<key>sdk/InterDisplay-SemiBoldItalic.woff2</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3Z14MUvdUGIwKnPH4pVACLq4FYME+nrE8OqJd7hB3Ms=
+			</data>
+		</dict>
+		<key>sdk/InterDisplay-Thin.woff2</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ic/kLn8QMbQQ4kftGZ9D/DYkFa+Bs6jkQql/Y7Tb4yc=
+			</data>
+		</dict>
+		<key>sdk/InterDisplay-ThinItalic.woff2</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7/IVierPH2pZYZEDjXtHtN0kVaCWsXW7NXLsttAmphE=
+			</data>
+		</dict>
+		<key>sdk/InterVariable-Italic.woff2</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5WT2UpFttsE5Vw/vuVJKd8TUjzDJKSjenbGba1x6Jio=
+			</data>
+		</dict>
+		<key>sdk/InterVariable.woff2</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aTt31PMu6bi/yZVYm1+tXpmt8oMnOGYfVAL5l4QpqOM=
+			</data>
+		</dict>
+		<key>sdk/assets/shared/images/BioDigital_watermark_1024x768.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			dCSJHvvqrT75LSv1tCPohN2F+Mw7TssaWq5gJLO+H2w=
 			</data>
 		</dict>
-		<key>sdk/assets/images/BioDigital_watermark_959x100.svg</key>
+		<key>sdk/assets/shared/images/BioDigital_watermark_959x100.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			Vu7WEcEMp6cdOulBPQ7fM3pEevuJmXUN4bwQ7nITJcc=
 			</data>
 		</dict>
-		<key>sdk/assets/images/ar-position-reticle.png</key>
+		<key>sdk/assets/shared/images/ar-position-reticle.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			SCTvOhL+GSrjufR9Pa0Yd6M32nfpo+thmei9jXGwbqA=
 			</data>
 		</dict>
-		<key>sdk/assets/images/ar_icon.svg</key>
+		<key>sdk/assets/shared/images/ar_icon.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			ThCE848uHPniQmWPVGMnr0YGRlPXUOQr7ktvQKUII1c=
 			</data>
 		</dict>
-		<key>sdk/assets/images/ar_learn_more.svg</key>
+		<key>sdk/assets/shared/images/ar_learn_more.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			O8ABn8RGSikIwXMBoLgTB3+To0yS9deoUFkY7nbZL24=
 			</data>
 		</dict>
-		<key>sdk/assets/images/ar_move_phone.svg</key>
+		<key>sdk/assets/shared/images/ar_move_phone.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			wpu/RlEboo4qHGDH+7oNkL/uhKx71YC+IZlDVnOLdnk=
 			</data>
 		</dict>
-		<key>sdk/assets/images/bento/biodigital-3d-visualization-services.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Nq6PawuABBXzuKObKwKEwpoiBoCOwEevPEyQziPxjYg=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/complete-anatomy-male-female.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1tclT7VzF7kSI8x84wBoPOlW08XXY1nubu2talgffk4=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/pro-services-step-1.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AOpkXg216+PMnrRGWORfGGob4SNMeAfZisaxFTAEyAw=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/pro-services-step-2.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xIINQ/YysmFADEpSgf10FsDXzfHtK8VAwyl/pdncQmQ=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/pro-services-step-3.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jhdNBf74ugrmSK+r5Q7j0vqaPN7r58OC66+dwBbdtKs=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/pro-services-step-4.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fyx4/46ZqP2XIzOtoyp+e4QtW1NNHXcMyiXFpVnkmr8=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/skintone-0_layer-01.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vqFp7CXk8z46PVAyMlcFWNaUL+0ZX+Iy6D1+LAGVf0c=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/skintone-0_layer-02.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ppTCsAXEWSVm/XFIrZVhobmwQc0WUKPIYuIUEU4aYYo=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/skintone-0_layer-03.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			r5ai+e9kfc54sQy9AIgIuquQy2QKKksGUXUKcqO1Uw8=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/skintone-1_layer-01.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			K1FY+MEsLMp70P0N2X1pKqDIF7x881rf1LOVd6WqW+w=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/skintone-1_layer-02.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/UyyafK1ZDFI0NTld83n73Ys3v+wVNgG6987zWpIrmw=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/skintone-1_layer-03.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			56NUDjWr8HlmMCCMim2mbogPdgNzw5H9CkuWKKYtoRU=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/skintone-2_layer-01.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VEGBooJpQkir6/qeGtCWa1zQDDBzxaaWU+aHZI3s9B8=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/skintone-2_layer-02.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			FKJfmfsBDBYXo9nEKK+y2kozATWYUMGS/+iEi+Ckjno=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/skintone-2_layer-03.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			idRJ8DpypzgBdbK2paKcxMdXdBtsIBhZH1mhv27hjfU=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/skintone-3_layer-01.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			H1zdaBeWeYaqulIa/L7fY7fW76TqPqOUIJ23PU/V3KQ=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/skintone-3_layer-02.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UzSL98f9GSy9DIl01+K4bohcDR8dyFuPCqxP2jO5UGA=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/skintone-3_layer-03.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			b+r8vGC7hv0XPTB9WJOakwu8KG+5GQ01QVjpMpuPEOs=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/skintone-4_layer-01.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sVgsH0CTYNpaDpjsunvZAokjoeAaewsd/+qaTtn0124=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/skintone-4_layer-02.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MP3ArluX5Si4bixaRcO+S4lV0nvuEzmHDoKVeQVxbBQ=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/skintone-4_layer-03.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4yVYvxCXr4Gm8A5NC1EJ5ZmyigSifKCrNY+t3XxvrCM=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/studio-01-tree.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zfgcaOuvXdBsDPjFkFVZHe+bH0PmovDLGcXCekSU8ws=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/studio-02-paint.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			oaBcXJ1xgibRclKHvKOC2lvWFKfL4yNpUoOKgd/YNK4=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/studio-03-label.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Gnjt1I82s/JnFJTIMY4GjvvgBciX9Blskcw6pca/+y0=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/studio-04-quiz.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			00C52YudKlL9CCkdFldilC8cap4qYbHjMds8nV9Nz3k=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/studio-05-download-image.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Rc4EuWGdJOS6WFCzeOn+JDK+KQOa48MyPXK9qwmuaM0=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/vr-hands-on.mp4</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			so0sBPjFZBi+tO0EicMiQCpUKivXklAWKAb9ivjNBZg=
-			</data>
-		</dict>
-		<key>sdk/assets/images/bento/vr-hands-on.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			A4TIkFalFQfE0wi2nLuAPRS98I5Tq7OD+MzfAfAygKA=
-			</data>
-		</dict>
-		<key>sdk/assets/images/biodigital-head-and-neck.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			svCAYf1CcXKEhGrhR5DbsufYdwfnK1K7Pkqn0QUYuC0=
-			</data>
-		</dict>
-		<key>sdk/assets/images/biodigital-human-3d-model-my-library.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PZu00v3M9a/r8yhqeCK82FOFKkz7+GfURpscRqo7m1A=
-			</data>
-		</dict>
-		<key>sdk/assets/images/biodigital-human-customize-3D-model-in-studio.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VYBka2Kehw7Mgr3mGBg8LB5OBTtxUHZ0ke+VoSoU4QA=
-			</data>
-		</dict>
-		<key>sdk/assets/images/biodigital-human-customize-3D-model-in-studio.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ndY+yIKEqZ9hCH4GTr0u1qFZPiCsjysF1jj380GegqM=
-			</data>
-		</dict>
-		<key>sdk/assets/images/biodigital-human-explore-3d-human-anatomy.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			n1aegwipTB8AIA03EDTadCuYA87CVFrfNtOmHj2MxLw=
-			</data>
-		</dict>
-		<key>sdk/assets/images/biodigital-human-publish-custom-3D-model.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8I0Rh8XOOXP32SQaFc2Vb/mF/AIC3OhKid4QCzU0wqY=
-			</data>
-		</dict>
-		<key>sdk/assets/images/biodigital-human-publish-custom-3d-model.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HhPuaRJ2U00HF2Amk/UkAJnuv1t/I3J6wMvvNpnkvhY=
-			</data>
-		</dict>
-		<key>sdk/assets/images/biodigital-human-upload-videos.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LS8DJAf1U2Za4QGMKYUlL9DAQaeMrMGthaHsb2FkIuo=
-			</data>
-		</dict>
-		<key>sdk/assets/images/biodigital-logo-white.svg</key>
+		<key>sdk/assets/shared/images/biodigital-logo-white.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			7/PQAtSluUjeqks0YMKJ6mbyqTmtAI04EkFKv8fkF0o=
 			</data>
 		</dict>
-		<key>sdk/assets/images/biodigital-logo.svg</key>
+		<key>sdk/assets/shared/images/biodigital-logo.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			fUwYl6L6QXqzUvrgbOsQCQJsUZ6tcAMNq/4EeZwzzlc=
 			</data>
 		</dict>
-		<key>sdk/assets/images/biodigital-multidevice-graphic.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Pr371ix2NGApnWkiIT7qdSE3G07BWZ5JPfoIK6Zo6/A=
-			</data>
-		</dict>
-		<key>sdk/assets/images/blur/blur_0.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			L1UJjW2xo/BmwAnRdf+D4pHE35FDRKb0xEVV+ZjF7WE=
-			</data>
-		</dict>
-		<key>sdk/assets/images/blur/blur_1.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hSisQo2uRw6+IXhRXi0C8N441u0XlaBQzLdsMLQ9wsk=
-			</data>
-		</dict>
-		<key>sdk/assets/images/blur/blur_10.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6ZwhLjNZ3H4OzzRMwiPJW050+jB+0Z7uCpmiyUp6n/o=
-			</data>
-		</dict>
-		<key>sdk/assets/images/blur/blur_2.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vg2shj5hKfejNNhqniNyPp1pLI6WhyV7kAHFBd2J1RY=
-			</data>
-		</dict>
-		<key>sdk/assets/images/blur/blur_3.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			91H8VQRMRHjr8KtOthUydPXIEqLqZSwNi8UUYjQWmd4=
-			</data>
-		</dict>
-		<key>sdk/assets/images/blur/blur_4.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fBe6XmSS5MpgU96UBkTKfzIKwMzflkqZ/062xRrZBmI=
-			</data>
-		</dict>
-		<key>sdk/assets/images/blur/blur_5.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fE6PxWmewuV6S7OCYyUrsbtmvtGVbpPyRu4MOlWBnvo=
-			</data>
-		</dict>
-		<key>sdk/assets/images/blur/blur_6.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			j/funGgkMdpncamohE/dL9PwakmGs6O9C/wGQ9Oi+hc=
-			</data>
-		</dict>
-		<key>sdk/assets/images/blur/blur_7.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mpfReGTQkTXfx8tYrBBH0ebaqJwIOSOWuos62/NgmvQ=
-			</data>
-		</dict>
-		<key>sdk/assets/images/blur/blur_8.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6qVqf5SfT02t1K1GMxLbqC1sUxOvuxKpRn2csPZbBQo=
-			</data>
-		</dict>
-		<key>sdk/assets/images/blur/blur_9.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JZ3j5ZoP0cq6ESSPhZ49Kazsmj5YYqmDaOvENs/1mmc=
-			</data>
-		</dict>
-		<key>sdk/assets/images/card-thumbnail-placeholder.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pttgU4ngiDiIDxPJrOBfKGCARye78TMzuGiwrPVz6f8=
-			</data>
-		</dict>
-		<key>sdk/assets/images/categories-sprite-small-active.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			co/bdwXYmJXMWGCaCbpDoaJEA8sOliKNVhY5LUFu9Fg=
-			</data>
-		</dict>
-		<key>sdk/assets/images/categories-sprite-small.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kyBcX1iKKxAk1x2TTwzFHbBjaeqhJqrH9+uu/GeMkx4=
-			</data>
-		</dict>
-		<key>sdk/assets/images/categories-sprite.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			HyUQV10v+Z8Xx6eVkjr04CPUTBa7bzCG51NG5N1CDRo=
-			</data>
-		</dict>
-		<key>sdk/assets/images/circle-check.svg</key>
+		<key>sdk/assets/shared/images/circle-check.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			14mHM1X0q7HUSfgX1xADnVeQ65q9Hae/PuN/kgaWraM=
 			</data>
 		</dict>
-		<key>sdk/assets/images/credit-cards/american-express.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bkqJN4hHYUvCDtKvTT2OyQgg6Q4tYUWDz4XfNqcOxdE=
-			</data>
-		</dict>
-		<key>sdk/assets/images/credit-cards/discover.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			D4dnzXiqVUjRN1r//m4zXBtQ9/WdhUKL9BJRNXF4stU=
-			</data>
-		</dict>
-		<key>sdk/assets/images/credit-cards/master-card.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			44pkA02hS749k0KFPvF9KORXDFRqGSCiMy2bnpeA6r4=
-			</data>
-		</dict>
-		<key>sdk/assets/images/credit-cards/paypal.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gyTnLYNVHgOazzmbw1txNcpoBESjmLWQS0YrldRluXg=
-			</data>
-		</dict>
-		<key>sdk/assets/images/credit-cards/visa.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ul0U0udcwCT/zw4hIGHQEq/ishP+BaRuCgHdDKjtAYA=
-			</data>
-		</dict>
-		<key>sdk/assets/images/crosshair-circle.png</key>
+		<key>sdk/assets/shared/images/crosshair-circle.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			GIHTfVw7Qgs+tSpDREq/y88Lsf12kDrTE7h/4hk7rGw=
 			</data>
 		</dict>
-		<key>sdk/assets/images/crosshair.png</key>
+		<key>sdk/assets/shared/images/crosshair.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			t9SRx0b6paaufpc/XTEXV+wSI5dzw8kdxvCNjDK9dkM=
 			</data>
 		</dict>
-		<key>sdk/assets/images/cube-regular.svg</key>
+		<key>sdk/assets/shared/images/cube-regular.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			hvEtb+7/M7JvNWefFn15Rt7ZHEId9LDFun7RPZ3xc1w=
 			</data>
 		</dict>
-		<key>sdk/assets/images/cursor-whiteboard-erase.svg</key>
+		<key>sdk/assets/shared/images/cursor-whiteboard-erase.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			yFRBiTNkea6svZv8IKpgE6bjf2EHcz8tcvo+tvXqqp0=
 			</data>
 		</dict>
-		<key>sdk/assets/images/cursor-whiteboard-paint.svg</key>
+		<key>sdk/assets/shared/images/cursor-whiteboard-paint.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			gKuXJFIiUUUyIuhmhzEIQFrPYx+y2Oyk1N+4yCU7Qck=
 			</data>
 		</dict>
-		<key>sdk/assets/images/cursor-whiteboard-text.svg</key>
+		<key>sdk/assets/shared/images/cursor-whiteboard-text.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			hoROJSrhGTdh8yFKdSyo6BP+fLNhRwpwT8AB5V7IEEU=
 			</data>
 		</dict>
-		<key>sdk/assets/images/cursors/cursor-eyedropper.png</key>
+		<key>sdk/assets/shared/images/cursors/cursor-eyedropper.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			uaDc8sLw0TdTdmalnhB64HxyclXej37KK6ha2mI205M=
 			</data>
 		</dict>
-		<key>sdk/assets/images/cursors/cursor-eyedropper.svg</key>
+		<key>sdk/assets/shared/images/cursors/cursor-eyedropper.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			vWkwj9MQPMkomU/4NjIeelAPxTSQ+JsD6I24927a0Jw=
 			</data>
 		</dict>
-		<key>sdk/assets/images/cursors/cursor-fade.png</key>
+		<key>sdk/assets/shared/images/cursors/cursor-fade.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			9pGw5z75yfjtnVNkkl0+7KSyofmFy/KQ1gU0pwVdyBs=
 			</data>
 		</dict>
-		<key>sdk/assets/images/cursors/cursor-fade.svg</key>
+		<key>sdk/assets/shared/images/cursors/cursor-fade.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			OjZ4ozR5oKzUu9darT0h1KnwGS+WbGiiQtwc2qJ2PCE=
 			</data>
 		</dict>
-		<key>sdk/assets/images/cursors/cursor-hide.png</key>
+		<key>sdk/assets/shared/images/cursors/cursor-hide.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			xXQEzqMJCfZr1scy2rtqFugN6O0BTHnusiBeCjUIUYg=
 			</data>
 		</dict>
-		<key>sdk/assets/images/cursors/cursor-hide.svg</key>
+		<key>sdk/assets/shared/images/cursors/cursor-hide.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			LUf+4DqyszWherX5B9QMEqfeUNSSVXKJXGhpvAz6Hjw=
 			</data>
 		</dict>
-		<key>sdk/assets/images/cursors/cursor-label.png</key>
+		<key>sdk/assets/shared/images/cursors/cursor-label.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			ckExFV7llQYdheHqF4Tz1nJibRvG4nUAorruXSrKh3I=
 			</data>
 		</dict>
-		<key>sdk/assets/images/cursors/cursor-label.svg</key>
+		<key>sdk/assets/shared/images/cursors/cursor-label.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			f4l2RH/sFsNpOEwDr0SPriQubKSsrI+qv5UYSnXkAng=
 			</data>
 		</dict>
-		<key>sdk/assets/images/cursors/cursor-paint.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YYmCfntwxrHJMan2bt21NhOf7KGc1gPD5zMy7IEVslY=
-			</data>
-		</dict>
-		<key>sdk/assets/images/cursors/cursor-paint.svg</key>
+		<key>sdk/assets/shared/images/cursors/cursor-paint-legacy.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			IeS4FHEVJvOOzBz5FZilo08FnqTLbO5XvH9NLxzpYWI=
 			</data>
 		</dict>
-		<key>sdk/assets/images/cursors/cusor-paint.svg</key>
+		<key>sdk/assets/shared/images/cursors/cursor-paint.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JH4XVjJPbHrCZfagzuFwEV//FoqiqVKYpS8scdhCPTU=
+			YYmCfntwxrHJMan2bt21NhOf7KGc1gPD5zMy7IEVslY=
 			</data>
 		</dict>
-		<key>sdk/assets/images/expert-collections/medical.png</key>
+		<key>sdk/assets/shared/images/cursors/cursor-paint.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mlzwl8jZ4QU9bgoCt4BjLkBDB9t6QfqOC87EAKCUkcg=
+			zGkwJ9ApeocTEcOs5j3dhYtukQh15V4hMIolB40tCpU=
 			</data>
 		</dict>
-		<key>sdk/assets/images/expert-collections/physical-therapy.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			S3lPFbi1LY0iulXtctdJOXEFftISGIydNWpWTTBUZ/k=
-			</data>
-		</dict>
-		<key>sdk/assets/images/facebook-icon.svg</key>
+		<key>sdk/assets/shared/images/facebook-icon.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			y3XjX1eBR5EBA/0yfbxWc5ngVzKtDiFtzX3w9fc8Px4=
 			</data>
 		</dict>
-		<key>sdk/assets/images/favicon.ico</key>
+		<key>sdk/assets/shared/images/favicon.ico</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			UVnmNS93EI6VPEHj5xQYkNRWvAPPIOOM2fsw0zgmbwU=
 			</data>
 		</dict>
-		<key>sdk/assets/images/female/Female_side-by-side.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cbo1HFkIAvxXJPiEscpxFG/tTDD6VKouXc2d7j9ZBRE=
-			</data>
-		</dict>
-		<key>sdk/assets/images/female/Female_side-by-side_v4.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			M5Iaf4zwHsDazdtO5gmPkxGY1K6V3WpUoRSA0GIPz/E=
-			</data>
-		</dict>
-		<key>sdk/assets/images/female/Female_single-1_full.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			G6Gb97MxzK/QdSeC/1owv4D32Peb1HDkjEOMNy3urxc=
-			</data>
-		</dict>
-		<key>sdk/assets/images/female/Female_single-2_full.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			n2mQ9xVNdj4o3NX0GLdPZYnTXxP7X2r6FVHgT9TsOt8=
-			</data>
-		</dict>
-		<key>sdk/assets/images/female/Female_single-3_full.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5STra5f6Rzp4bRN31tmc7jfNUv8k9Ia0vY9XdI+cqPU=
-			</data>
-		</dict>
-		<key>sdk/assets/images/female/Female_single-4_full.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			g4R7ChMvM4UL07i3b6Shq7oTT5iRgTogBj7kKDWg39c=
-			</data>
-		</dict>
-		<key>sdk/assets/images/female/biodigital-lady_480.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2UqNeZWpAvQBALe/Gh8W4lwNgBl8e4K1dJGz433zij4=
-			</data>
-		</dict>
-		<key>sdk/assets/images/female/biodigital-lady_960.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			q+7RTKsnTk5HoiSAwPEqMEJZAXwL/Y8gSbqoJITZzaM=
-			</data>
-		</dict>
-		<key>sdk/assets/images/flags/cn.svg</key>
+		<key>sdk/assets/shared/images/flags/cn.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			54beCklHfNbevNfN8Vvsw8tUO02ESdXSq6R/swwyf2E=
 			</data>
 		</dict>
-		<key>sdk/assets/images/flags/de.svg</key>
+		<key>sdk/assets/shared/images/flags/de.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			LDiZOzEQSQNqty6CIamH3MMox7Sp+gY6YQwm0w6iGVs=
 			</data>
 		</dict>
-		<key>sdk/assets/images/flags/es.svg</key>
+		<key>sdk/assets/shared/images/flags/es.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			ShHd2BfmaHnHpiKuqgld9ObAxCv0y/yPNlejsOFQztg=
 			</data>
 		</dict>
-		<key>sdk/assets/images/flags/fr.svg</key>
+		<key>sdk/assets/shared/images/flags/fr.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			sYJTTz3GmU272mB0p2IXVsi64c3lESU/9X0BY6YnYTQ=
 			</data>
 		</dict>
-		<key>sdk/assets/images/flags/il.svg</key>
+		<key>sdk/assets/shared/images/flags/il.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			IGH78issIcX87R7/SSkmoBbNtxKBZONjg+M4TxC1TYQ=
 			</data>
 		</dict>
-		<key>sdk/assets/images/flags/it.svg</key>
+		<key>sdk/assets/shared/images/flags/it.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			aTgKPlyQ5zbYZVORXUKX622S00dvukAHtYsNTF13Lgs=
 			</data>
 		</dict>
-		<key>sdk/assets/images/flags/ja.svg</key>
+		<key>sdk/assets/shared/images/flags/ja.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			SEm161ou5pHJwhUhyNTx6Euksvkzac+vMoq0UU7xfs0=
 			</data>
 		</dict>
-		<key>sdk/assets/images/flags/pt.svg</key>
+		<key>sdk/assets/shared/images/flags/pt.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			rezOOzmkVUe7uy1U6Q1tMVbnAiclJ9tQgufqcdgvvzc=
 			</data>
 		</dict>
-		<key>sdk/assets/images/flags/us.svg</key>
+		<key>sdk/assets/shared/images/flags/us.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			9PdgD5iZOO2xmX1dEGQeNiQmYiarci/Fyz/fKCkmilc=
 			</data>
 		</dict>
-		<key>sdk/assets/images/google-g-24x24.png</key>
+		<key>sdk/assets/shared/images/google-g-24x24.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			6quqYX5yWnec925ncg+wkkgZxigP4Aj7y2jnNKk4m2A=
 			</data>
 		</dict>
-		<key>sdk/assets/images/google-icon.svg</key>
+		<key>sdk/assets/shared/images/google-icon.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			r4S7EqLH2NKVBxFuWHFduQrYMVpcfjTmxNGGI7Wpdco=
 			</data>
 		</dict>
-		<key>sdk/assets/images/hero/biodigital-human-asthma-cytokines-activate-t-cells.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nV1TJduHtADYyxHUGLc9MPpORpqo4gFui/ndoYMPLUY=
-			</data>
-		</dict>
-		<key>sdk/assets/images/hero/biodigital-human-asthma-ephitellium-releases-cytokines.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AghK/JI0m+HKnKaolIiJsyODZu/B20AHFjr5qfqyIH4=
-			</data>
-		</dict>
-		<key>sdk/assets/images/hero/biodigital-human-asthma.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			H2WRuamdgjTAfKklwJgH9LgnSPRpaIYQpd7VuXnO3zM=
-			</data>
-		</dict>
-		<key>sdk/assets/images/hero/biodigital-human-body-systems.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			SMnrqOZEugazOWfH5uGaqv5gHqKz02yhPpvogTo+Isg=
-			</data>
-		</dict>
-		<key>sdk/assets/images/hero/biodigital-human-cardiovascular-system.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YBVguzPt1muT6P1WFiu3avwgtpv4gB7BPGdToL4hF+c=
-			</data>
-		</dict>
-		<key>sdk/assets/images/hero/biodigital-human-covid-19.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JWcg9i3rZ500h4Mz3jMg+bUHq97Cu+836tbkOOQ+4Jo=
-			</data>
-		</dict>
-		<key>sdk/assets/images/hero/biodigital-human-multiple-systems.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6zSs7FVm0+w6i3XXMN0xCuVr3Vml/j6tRFdAQzXz8X0=
-			</data>
-		</dict>
-		<key>sdk/assets/images/hero/biodigital-human-muscular-system.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Kp2GgOKREiAf+mw2fEvmZbGyet1OlXqlPaGyaEye8M4=
-			</data>
-		</dict>
-		<key>sdk/assets/images/hero/biodigital-human-nervous-system.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			d2hH0FJX3iq7lPZB5evJUTzWcqBsNR/xm9Gi72RY9lA=
-			</data>
-		</dict>
-		<key>sdk/assets/images/hero/biodigital-human-rotator-cuff-repair.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CfN18IoI+4txFUHrsMClPrxX3dVf71XQQrouTcd6TMQ=
-			</data>
-		</dict>
-		<key>sdk/assets/images/hero/biodigital-human-sodium-potassium-pump.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cYXLzwd/vqdFrTY3dAsXPqA5aKkGXEzh8T3mIwn6bJs=
-			</data>
-		</dict>
-		<key>sdk/assets/images/hero/biodigital-human-tachycardia-conduction-system-electrical-signals.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			h4LDlJRFREdPVJaCQ9MwT0wWyqE3X1dtFYB/gqQgjjg=
-			</data>
-		</dict>
-		<key>sdk/assets/images/hero/biodigital-human-tachycardia-conduction-system.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zoWkTVgcPGtjgdbNLz7g0o5uPUpFYdTLgfeIgkQBi1M=
-			</data>
-		</dict>
-		<key>sdk/assets/images/hero/biodigital-human-tachycardia.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			L9J6A+2qoK4v/0uOqpzjWa6CTpvoG3uw5UlIogfxEHw=
-			</data>
-		</dict>
-		<key>sdk/assets/images/hero/hero-biodigital-lady.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sj+R0o+1RKwMxuL03xHhL4KJ3FFHoAARShC5TU///3I=
-			</data>
-		</dict>
-		<key>sdk/assets/images/labels/caret-right.svg</key>
+		<key>sdk/assets/shared/images/labels/caret-right.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			2jpx2eRi0igYCCzEy5b/qfc5TbM+TlFptfO29oPFedQ=
 			</data>
 		</dict>
-		<key>sdk/assets/images/labels/circle-dark.svg</key>
+		<key>sdk/assets/shared/images/labels/circle-dark.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			IOQ7zccl6NJqRdXRKYNjaM9h6kCVTyPpPjcVByb+HY4=
 			</data>
 		</dict>
-		<key>sdk/assets/images/labels/circle-minus-dark.svg</key>
+		<key>sdk/assets/shared/images/labels/circle-minus-dark.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			PU89agDrUDrmcJph2YmlCJRfWmH7xHpTUC5EDQFwCX4=
 			</data>
 		</dict>
-		<key>sdk/assets/images/labels/circle-minus.svg</key>
+		<key>sdk/assets/shared/images/labels/circle-minus.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			LPYQNxd6YwSe0pcWdwIquoo4R/iW810/simhde4lvEA=
 			</data>
 		</dict>
-		<key>sdk/assets/images/labels/circle-plus-dark.svg</key>
+		<key>sdk/assets/shared/images/labels/circle-plus-dark.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			26CHOCNaRi8u6RTCYrAD4OarB/BO5wQqtkUWwWVD6gs=
 			</data>
 		</dict>
-		<key>sdk/assets/images/labels/circle-plus.svg</key>
+		<key>sdk/assets/shared/images/labels/circle-plus.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			AuV/enEuNdQt4sTGVzrpgkhQSJF1F6zvkSuGODpCimg=
 			</data>
 		</dict>
-		<key>sdk/assets/images/labels/circle.svg</key>
+		<key>sdk/assets/shared/images/labels/circle.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			gYjEmp0nU4NnRv3xktM8QzaZxWBXGkvGB54isUhpIRI=
 			</data>
 		</dict>
-		<key>sdk/assets/images/loft.svg</key>
+		<key>sdk/assets/shared/images/loft-logo.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+Ch9lYHUvTtUYFAT+S6u4wAg3Uh3KqS/u2c89w94sC4=
+			87o04MseEFbepP04uyU7NMN75wYyf0zV227dTBUzDy0=
 			</data>
 		</dict>
-		<key>sdk/assets/images/login-art.png</key>
+		<key>sdk/assets/shared/images/logo-biodigital-anatomage-color.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2zPpf7hXbj7IHRsSlqY8EIbmlPrnlvm5wWeEWHWLjus=
+			PcfqpcP417Jr/UJ2N5bsNnxWFhUFrvzLcj53qCQ/YKI=
 			</data>
 		</dict>
-		<key>sdk/assets/images/logo-blue.svg</key>
+		<key>sdk/assets/shared/images/logo-biodigital-anatomage-white.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eBo4nErBaHCeKwwYnPAmyogQ2m8vtMCgNuxtxfVdsbg=
+			</data>
+		</dict>
+		<key>sdk/assets/shared/images/logo-blue.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			HzxkBdFIQbn9zsUPCsOKImHO1maTpw4j/WEsCHsDApk=
 			</data>
 		</dict>
-		<key>sdk/assets/images/logo-color.svg</key>
+		<key>sdk/assets/shared/images/logo-color.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			B9rIvXdcDDjWCiWjr0en5b5qXubANFZnl0l4/Yr2npM=
 			</data>
 		</dict>
-		<key>sdk/assets/images/logo-dark-transparent.svg</key>
+		<key>sdk/assets/shared/images/logo-dark-transparent.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			FQy3LUaDG7CPNkSVg+tiRqgZjaeUcVUpDldq8vBt73c=
 			</data>
 		</dict>
-		<key>sdk/assets/images/logo-white.svg</key>
+		<key>sdk/assets/shared/images/logo-white.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			sVNYRXl5PNF3zjP+YUdenEm6L+37CEvIjvbXmJDTFuk=
 			</data>
 		</dict>
-		<key>sdk/assets/images/logo.svg</key>
+		<key>sdk/assets/shared/images/logo.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			iC3zArxZ8Sn/ZVK4Zn2lxuRi0J7AW4Ym/NGXppAHi6g=
 			</data>
 		</dict>
-		<key>sdk/assets/images/logos/bu-logo.svg</key>
+		<key>sdk/assets/shared/images/ms-symbollockup_signin_light.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			29LiSv66x7c+kJUBVaE+SiCXtBV5OrdfPEy3wfY4VX0=
+			4G+2ucSJ1XGSYJRbW5EI8S/t135hIGIp9f3XegYOd6g=
 			</data>
 		</dict>
-		<key>sdk/assets/images/logos/northwestern-medicine-logo.svg</key>
+		<key>sdk/assets/shared/images/powered-by-biodigital-anatomage-color.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oU5/rMqPA6a98xKnrD9ORKaEsQrmQtAcC0L7eYJ0IBs=
+			QqkHyNQrLXRMQ/c1lvCIjfH++mwwYIgxKp7/ou1ZwM4=
 			</data>
 		</dict>
-		<key>sdk/assets/images/powered-by-biodigital-black.svg</key>
+		<key>sdk/assets/shared/images/powered-by-biodigital-anatomage-gray-transparent.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aIxOV0xgqtdRfaUcZ0PrPRGTD6fw/BvUQ2E2tp3sFWI=
+			</data>
+		</dict>
+		<key>sdk/assets/shared/images/powered-by-biodigital-anatomage-white.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9BjgwyXd2cjglC/rkkJIESd75O7dtnf1n06OcgN+dhU=
+			</data>
+		</dict>
+		<key>sdk/assets/shared/images/powered-by-biodigital-black.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			lrRAZgz/OM9j5IwMxX/u7uILFIJlyF3B0dIN71GJ86k=
 			</data>
 		</dict>
-		<key>sdk/assets/images/powered-by-biodigital-color.svg</key>
+		<key>sdk/assets/shared/images/powered-by-biodigital-color.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			YV4CB2GT3aQbq17tPhYbWhLljuxhLEk+6KBVFb25xls=
 			</data>
 		</dict>
-		<key>sdk/assets/images/powered-by-biodigital-logo.svg</key>
+		<key>sdk/assets/shared/images/powered-by-biodigital-logo.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			XUOywQjQDE+s6VzZelGqtXxVh+hLHLB4KTY5jhp0nLU=
 			</data>
 		</dict>
-		<key>sdk/assets/images/powered-by-biodigital-white.svg</key>
+		<key>sdk/assets/shared/images/powered-by-biodigital-white.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			yyEH3vQ+Qrrb8WrtYD3VMWX6LjIC0gxug6Qnd71qf9U=
 			</data>
 		</dict>
-		<key>sdk/assets/images/powered-by-biodigital.png</key>
+		<key>sdk/assets/shared/images/powered-by-biodigital.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			rEUMcmT6wL/AdqiBYXXTIryOGT4uQmAhPZ8+CiAtkLE=
 			</data>
 		</dict>
-		<key>sdk/assets/images/sample-2.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			scCR3Mu99c98A3whPZiIL/rfmb3kfcALlNkJ5XrMPac=
-			</data>
-		</dict>
-		<key>sdk/assets/images/sample-3.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Gipai9BNYwuvxRxYbiO7NYTBJa/Nwt7wtKwIHDusr68=
-			</data>
-		</dict>
-		<key>sdk/assets/images/sample.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fAQH+x0OrIAEcydTBqqPVuSR2khCvOQ/KbpCH9prt+M=
-			</data>
-		</dict>
-		<key>sdk/assets/images/signup-art.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			K0VHtrthjBSD3hGUDKotm5aSFMgMdfx++mcWyqvgiKg=
-			</data>
-		</dict>
-		<key>sdk/assets/images/social/email-share.svg</key>
+		<key>sdk/assets/shared/images/social/email-share.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			r3kGbyemQ+I01eDIGqeN27kaX3iqBbhruHw8wPF6JXQ=
 			</data>
 		</dict>
-		<key>sdk/assets/images/social/facebook-share.svg</key>
+		<key>sdk/assets/shared/images/social/facebook-share.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			EdiIKw3V1CrrC1BvlVbkYK5Pq8BhFntymAVN9wPQmug=
 			</data>
 		</dict>
-		<key>sdk/assets/images/social/link-share.svg</key>
+		<key>sdk/assets/shared/images/social/link-share.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			i+2jzz74HMq45rOzGM5CXGXJea4LY0XE85iAVkhDKFo=
 			</data>
 		</dict>
-		<key>sdk/assets/images/social/linkedin-share.svg</key>
+		<key>sdk/assets/shared/images/social/linkedin-share.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			9tHhWpBz6QrB+HHYL+l0r+EugPFfTjjJtTfzKDqHjTw=
 			</data>
 		</dict>
-		<key>sdk/assets/images/social/twitter-share.svg</key>
+		<key>sdk/assets/shared/images/social/twitter-share.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			OT/zeWT/kZTx7yy8khyuAyVwF8vEgJDsW0KwiOc//sE=
 			</data>
 		</dict>
-		<key>sdk/assets/images/studio-tour-labels.jpg</key>
+		<key>sdk/assets/shared/images/studio-logo-white.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NV8reI60XiZtWebfozwvqqWuyyyto0jvD/fbXEI6B8E=
+			AwxzjSwk0YMB2752CK0vS6wsk/MbEQbslBJIJxYqbdI=
 			</data>
 		</dict>
-		<key>sdk/assets/images/studio-tour-paint.jpg</key>
+		<key>sdk/assets/shared/images/studio-logo.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AUktBfE4Olou40JE1pnaHTWQwCvChG00cOPxkBiXxbQ=
+			rFp2QSIqAje2Y0/ez6WKkCkA5su52tzAwxTLYFIZ6o4=
 			</data>
 		</dict>
-		<key>sdk/assets/images/studio-tour-studio.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1//xcuUyuF/qQOgdy84HZ7uhhDRS7WF+C1p+Vg/0m6s=
-			</data>
-		</dict>
-		<key>sdk/assets/images/studio-tour-text.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tS05PEBR/jVkkdzWpYM1+CG9LVmciB+fJT147WKSUB4=
-			</data>
-		</dict>
-		<key>sdk/assets/images/studio-tour-tour.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			GkG2C8K2wIOurwM/fQ5OC5Zt7ouvIM7hB2RQFNSR/28=
-			</data>
-		</dict>
-		<key>sdk/assets/images/tutorial/tutorial-toolbar@3x.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MsH5ZnugB27i01rZScdYLoG7SSB9zlFL8MnzXpMwCKI=
-			</data>
-		</dict>
-		<key>sdk/assets/images/view-chapter-thumbnail-placeholder.png</key>
+		<key>sdk/assets/shared/images/view-chapter-thumbnail-placeholder.png</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			lZiS+FcYMp956InlUTHsPAKGJqcEfFPdVUs/iaQ4e7k=
 			</data>
 		</dict>
-		<key>sdk/assets/images/welcome-tour-collaborate.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			E9XBnpFaGN1t0JayM2TvRJKSqrCG0dEZaevdhm7+7ec=
-			</data>
-		</dict>
-		<key>sdk/assets/images/welcome-tour-customize.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			g+ghpcPF6MJ+WufN05TzcnxUgsNpakvpmG+/2VoGB8U=
-			</data>
-		</dict>
-		<key>sdk/assets/images/welcome-tour-explore.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6S1+H0nvrOOqjLkFiLd5pWZhTPe6ZBDejMmWRw4BtMQ=
-			</data>
-		</dict>
-		<key>sdk/assets/images/welcome-tour-integrate.jpg</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			W5hJBLdRnwol/SBlPgge+hn3psCU6vXleK+uE21m8I0=
-			</data>
-		</dict>
-		<key>sdk/assets/images/widget/help-keyboard-pan.svg</key>
+		<key>sdk/assets/shared/images/widget/help-keyboard-pan.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			QIrMLown0r5hGutQsJtul03U93pyWMkgzN5e/S2z1dw=
 			</data>
 		</dict>
-		<key>sdk/assets/images/widget/help-keyboard-rotate.svg</key>
+		<key>sdk/assets/shared/images/widget/help-keyboard-rotate.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			Gh6l98jq8GiX+Z1ADYs3/KnW5TYpVhOOEbcCkxn9szY=
 			</data>
 		</dict>
-		<key>sdk/assets/images/widget/help-keyboard-slow-motion.svg</key>
+		<key>sdk/assets/shared/images/widget/help-keyboard-slow-motion.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			4whmljT7OZijCzJ6LZza6EalkHxIMlkM4xEg/zqpqf0=
 			</data>
 		</dict>
-		<key>sdk/assets/images/widget/help-keyboard-zoom.svg</key>
+		<key>sdk/assets/shared/images/widget/help-keyboard-zoom.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			zzag+2BPNBRcT+6ToXqyilOdGFX4fk0PDskN9e1LvJg=
 			</data>
 		</dict>
-		<key>sdk/assets/images/widget/help-learn.svg</key>
+		<key>sdk/assets/shared/images/widget/help-learn.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			EDqwkS+GD6lgfiPRC26DPc7IXiMQBgdvk/TCVes5dFQ=
 			</data>
 		</dict>
-		<key>sdk/assets/images/widget/help-mouse-double-click-left.svg</key>
+		<key>sdk/assets/shared/images/widget/help-mouse-double-click-left.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			rRcIsH/Se4QBUAl0n4GL0skzX/P25bcicEGQPJ4i0yg=
 			</data>
 		</dict>
-		<key>sdk/assets/images/widget/help-mouse-hold-left.svg</key>
+		<key>sdk/assets/shared/images/widget/help-mouse-hold-left.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			J0tasm1kTrGEps7SqQ87y+wfpYxQFAP086Dm6BZsIM8=
 			</data>
 		</dict>
-		<key>sdk/assets/images/widget/help-mouse-hold-right.svg</key>
+		<key>sdk/assets/shared/images/widget/help-mouse-hold-right.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			TUrnEXK1k/cMo+KG8OtgqOGJjn9viTI9Q5Hb68bJapc=
 			</data>
 		</dict>
-		<key>sdk/assets/images/widget/help-mouse-long-press-left.svg</key>
+		<key>sdk/assets/shared/images/widget/help-mouse-long-press-left.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			gEaQYBxhIlFJhVMnklDBq+JjHW6rKaTZAUydYLfuXdo=
 			</data>
 		</dict>
-		<key>sdk/assets/images/widget/help-mouse-scroll.svg</key>
+		<key>sdk/assets/shared/images/widget/help-mouse-scroll.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			yxvU3fBNWC/cJCnkLYCVEdHHAq2RbDIvLLwXDRHNYrk=
 			</data>
 		</dict>
-		<key>sdk/assets/images/widget/help-mouse-single-click-left.svg</key>
+		<key>sdk/assets/shared/images/widget/help-mouse-single-click-left.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			veDVmtPF0j7o6zIuKsyd6cEcowFPGuYLdh68pS6po/s=
 			</data>
 		</dict>
-		<key>sdk/assets/images/widget/help-pan.svg</key>
+		<key>sdk/assets/shared/images/widget/help-pan.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			Iz7uROyS2ijuATdcqWn01BmaLBpqvaXEsKqOB8Z/oKw=
 			</data>
 		</dict>
-		<key>sdk/assets/images/widget/help-rotate.svg</key>
+		<key>sdk/assets/shared/images/widget/help-rotate.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			Tjm8GOTnvUlBh6IiWsqk37j/XLshWihy3+GghwfpbuY=
 			</data>
 		</dict>
-		<key>sdk/assets/images/widget/help-trackpad-double-tap.svg</key>
+		<key>sdk/assets/shared/images/widget/help-trackpad-double-tap.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			KCPZdO6LDJUd53UQj/Xp8MJRm2COQ4qWDJQcyGjz82g=
 			</data>
 		</dict>
-		<key>sdk/assets/images/widget/help-trackpad-long-press.svg</key>
+		<key>sdk/assets/shared/images/widget/help-trackpad-long-press.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			KdvSPiqHYEDuomPBJUNPOgFyjJml4KL3X7MSrUCg1uY=
 			</data>
 		</dict>
-		<key>sdk/assets/images/widget/help-trackpad-scroll.svg</key>
+		<key>sdk/assets/shared/images/widget/help-trackpad-scroll.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			vflbTmn2jCZF5z/Fp4eeYuEZKOsMCPatR3HShHHjYI0=
 			</data>
 		</dict>
-		<key>sdk/assets/images/widget/help-trackpad-single-tap.svg</key>
+		<key>sdk/assets/shared/images/widget/help-trackpad-single-tap.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			Mw/tjp6o9aYkZkH6ZEv4ID1QdjQ4eGLAOfpw2PUGD3Q=
 			</data>
 		</dict>
-		<key>sdk/assets/images/widget/help-zoom.svg</key>
+		<key>sdk/assets/shared/images/widget/help-zoom.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			xLP4hsD+aMCWxK4IGty7EBzHzfl4wp1ZkdF5/olUREQ=
 			</data>
 		</dict>
-		<key>sdk/assets/images/widget/loading_experience/interact-in-3d-arrow.svg</key>
+		<key>sdk/assets/shared/images/widget/loading_experience/interact-in-3d-arrow.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			XMsCKSRqPLvBz5xVwXBJIdReHDMYJU6Lk0BtUNg4EjY=
 			</data>
 		</dict>
-		<key>sdk/assets/images/widget/loading_experience/interact-in-3d-hand.svg</key>
+		<key>sdk/assets/shared/images/widget/loading_experience/interact-in-3d-hand.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			0UcI84pVtj/TqaUkdjZalHpUAk/4rXEwgmibn3IyL+Y=
 			</data>
 		</dict>
-		<key>sdk/assets/images/widget/nav-cube-arrows-selected.svg</key>
+		<key>sdk/assets/shared/images/widget/nav-cube-arrows-selected.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			ui+6Bp0uAGOO0kID4O7g9q3cNoXR5dP72FIb7ewtdBo=
 			</data>
 		</dict>
-		<key>sdk/assets/images/widget/nav-cube-arrows.svg</key>
+		<key>sdk/assets/shared/images/widget/nav-cube-arrows.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			eXqzYIScYYYcsxOmjKrLRpvl+bd6rlfcOngth5XNC7Y=
 			</data>
 		</dict>
-		<key>sdk/assets/images/widget/nav-cube-selected.svg</key>
+		<key>sdk/assets/shared/images/widget/nav-cube-selected.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			DIwd4eEt1Pohwal/mdEiraSBvSsAHGJM70ZK1F5DYg8=
 			</data>
 		</dict>
-		<key>sdk/assets/images/widget/nav-cube.svg</key>
+		<key>sdk/assets/shared/images/widget/nav-cube.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			Etp5moirT/0pe1qJOUqo1HTTAcWwduWT0ComwSbCIgA=
 			</data>
 		</dict>
-		<key>sdk/assets/images/zspace-tag.svg</key>
+		<key>sdk/assets/shared/latin/l2bi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0iUqJAvHLaGPzYM7KcxqbnQ745GVoIyqQUftDQ47kLQ=
+			JimLcR75PmIWsXLxeSYetCnzB/FJrs0a8CcRKxha7So=
 			</data>
 		</dict>
-		<key>sdk/assets/latin/l2bi.json</key>
+		<key>sdk/assets/shared/locales/de-DE.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m/Zx54StwLlMwgxJIjEDTe23RzGOd9aYeDpQV3dGmqw=
+			0hfDHGQ6DedQrISlbMtF4mcjj2mPU6Yu9T4Thyapk1M=
 			</data>
 		</dict>
-		<key>sdk/assets/locales/de-DE.json</key>
+		<key>sdk/assets/shared/locales/dictionary.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FPqTHR1zGlw9IwVjR0xWQI77bTAXPYd/hNH9oV2WaK0=
+			vnQKUh40wRfOcPOikjMY2srKIl7t0wTxLah+XRTLSK8=
 			</data>
 		</dict>
-		<key>sdk/assets/locales/dictionary.json</key>
+		<key>sdk/assets/shared/locales/en-US.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/0OmDn+IOysyio6lKVFOtBgtayYjXmz7y095tEAjHvE=
+			YKZJm/sxhgfoX7Pf1dyHBXDBDjyF/KmFp6CyJQ7eHDk=
 			</data>
 		</dict>
-		<key>sdk/assets/locales/en-US.json</key>
+		<key>sdk/assets/shared/locales/es-ES.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PvCa8V0UenIE0tp/A8K1LreemZ9mGooI8fjs/IcsrU0=
+			aEMCgT7fdZUFnrni16tys+wfwAUL30IXbyvDOQZD7ik=
 			</data>
 		</dict>
-		<key>sdk/assets/locales/es-ES.json</key>
+		<key>sdk/assets/shared/locales/fr-FR.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7LU+W1DrHUQ7Fo1WC4uX7eGzVE7tVyO4kGyBrivokjc=
+			vKcd2YBHi7rBjbJkFKP9rdpQME45dziYSrGfLyVWOSc=
 			</data>
 		</dict>
-		<key>sdk/assets/locales/fr-FR.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/lHag8Qv3iT0gKGj8rWuYHr4oguaxUcONDDhbD0yl9Q=
-			</data>
-		</dict>
-		<key>sdk/assets/locales/he-IL.json</key>
+		<key>sdk/assets/shared/locales/he-IL.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			546KLwnpOaU9z2E3by1+mdrSfW1p/26c8oxiqnW99V4=
 			</data>
 		</dict>
-		<key>sdk/assets/locales/it-IT.json</key>
+		<key>sdk/assets/shared/locales/it-IT.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uYdRJJ4v39P5SjwACps/wKXIuE5HZuNmgiv1PAej1NE=
+			2exxV/7Uc3TMCQLdyegzEwUbyqd5jfND2ODha0USpvc=
 			</data>
 		</dict>
-		<key>sdk/assets/locales/ja-JP.json</key>
+		<key>sdk/assets/shared/locales/ja-JP.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jtv6bofc3ky7zpV1yV/zjVW8co9rSi0tITv5h3bSuPM=
+			pyVM+6VOJxlJPeXYkdQk6WoqK8g5FH9DoOlU2zrG07o=
 			</data>
 		</dict>
-		<key>sdk/assets/locales/ja.json</key>
+		<key>sdk/assets/shared/locales/ja.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			ZkiiIhSpBv6GMoulH19TlmuDVRUwB7SpM2esx+bto3M=
 			</data>
 		</dict>
-		<key>sdk/assets/locales/pt-BR.json</key>
+		<key>sdk/assets/shared/locales/pt-BR.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i567wL9XJ/A0JFoSdfWrrWxswxqR9mO0pTX4dwY1cls=
+			kbXS893gEDtBbyGYfo4s070X5HZwuWfZo3eLjW8P8tc=
 			</data>
 		</dict>
-		<key>sdk/assets/locales/pt-PT.json</key>
+		<key>sdk/assets/shared/locales/pt-PT.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			Q4zhZsZDMR62le2IhQs3B7tbYTDmgI+/Wxq4MJNZDpc=
 			</data>
 		</dict>
-		<key>sdk/assets/locales/zh-CN.json</key>
+		<key>sdk/assets/shared/locales/zh-CN.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6wcGFMyMg3YvMGlHr1VmqfOVIbXsQjzQOTfW2ozxN7k=
+			B4fw6Kl8K2YK8rfRntWCR3eC8t++56oemxcQ9ANNvB4=
+			</data>
+		</dict>
+		<key>sdk/auth.html</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			J/V0WGcttSc7FDoTMRLHgspU6c2N4zEKBIYSIvDjejo=
 			</data>
 		</dict>
 		<key>sdk/cardiovascular-system.svg</key>
@@ -3632,14 +2647,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9jh/atJM5J6vQlVZaHYTr05H++XQy5raoQIPeu0IN6g=
+			/bbpxb4LJl7vb+jqNYUsy0IcilKyw1ynrSdTAmYnaiQ=
 			</data>
 		</dict>
 		<key>sdk/color-allergy-and-immunology.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tZoxqMsT7YlohMGuHesNTDmU64WAYYjGeXZXA00LVjw=
+			ymfae91E78hm16ACzGx9kRZR9sbeh1BqXPrgN1iaRrU=
 			</data>
 		</dict>
 		<key>sdk/color-anatomy-by-regions.svg</key>
@@ -3660,63 +2675,63 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iVgBZIs2W2T6c62pvABaUVc21WzILMLo3tpMriDlxco=
+			y2UBJrewWw8S8yBVKPoGBKtecIGIJ5myZU4dOzjJyfk=
 			</data>
 		</dict>
 		<key>sdk/color-cardiology.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yMgcH01mK0JfYWOpjLIhOXUM/qyoe8nQzkKSBsrcsCk=
+			/MO0751pi67X+xsT5ELYrkewmn+rnttCpEzJyxQK1r8=
 			</data>
 		</dict>
 		<key>sdk/color-community-bookmarks.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+qWGk3+KIfvhANlKYpTaGTQ7WzMym7PTw2QXiRc0DSQ=
+			vXz4J1QGn2OacQfHNWjxcJlf/7SHE6MLpPEwpLZuUCk=
 			</data>
 		</dict>
 		<key>sdk/color-complete-anatomy.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+iwoF3qnp5u/PmrQFa5RycaZPhUpvAjEhze80JMkJPI=
+			2kDrUwlXsk8/vQAfAr7fwgcVEHbk7hmKNvk46wRc+cw=
 			</data>
 		</dict>
 		<key>sdk/color-cross-sections-and-micro-anatomy.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xRwyffue+yUjS9OD1FjXsdnmc5bX1wcjRCb8DMyLoXc=
+			ftJu+ZVNoevvvIsw/8cM2RJa0w9OhUO7xtLzVTmBtdU=
 			</data>
 		</dict>
 		<key>sdk/color-dentistry.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ItPAom0no5qixa2/hKIJV+Coh/n5XKYZrslnVznRMT4=
+			g+yDFdQYqWkl47VaektAyUJJqX963Ef+R7mLNSo1l4A=
 			</data>
 		</dict>
 		<key>sdk/color-dermatology.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ihzbaErkBNZG9uYLUYidQC/tc+PVZQAaidvhqEbMnXA=
+			AIEpd38ttfBWSuzYcAcPMS6+yupnFsOBtnSbyT+VvGk=
 			</data>
 		</dict>
 		<key>sdk/color-endocrinology.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rGRNWPbOanSDSBfFardHKwcMngCnlTCWMSU6MY2F1YQ=
+			FT37b3VRA9sxIvtAICfZFY9DYgm0zlbl/WoD4EJ8mO0=
 			</data>
 		</dict>
 		<key>sdk/color-gastroenterology.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ezl7ZtRx2l+1MLFjpQhYxpzPmGPlt73Gi1D0PUoW+l0=
+			IwYfNKG1c9p5Wnk2MYiAGdRZMMJFhYkv7ySLvFvzYBw=
 			</data>
 		</dict>
 		<key>sdk/color-guided-anatomy.svg</key>
@@ -3730,21 +2745,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TqZZBvi4Q+/m77WbBVIauM6nehqK6/ZmSMTtUO2Rm0w=
+			w7EAUFwmRGIXMe79OFDw9Dn+BIRqKUMVKkQaYqSPpk4=
 			</data>
 		</dict>
 		<key>sdk/color-hematology.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5e2iHJ5abkxRI+G8eF/l07TwJ+NFtYSsazUEQdj0EzE=
+			Xg1QuNeGWF82rewDKJ3aiGE2pIlE77KiLrR92zRPGyE=
 			</data>
 		</dict>
 		<key>sdk/color-infectious-disease.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GxnavzTzI2QjIN4Jtgjy3U53d5bKya3FNJ9DKU0BCVQ=
+			sWbKEz4F7T/5M1w5NTQ4dLfwmqR2B1ap9grMXAhzmK8=
 			</data>
 		</dict>
 		<key>sdk/color-nephrology.svg</key>
@@ -3758,28 +2773,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TZYhsxzmTGBhezTz6C5Ogwch06UDxeKQ1qSH71ejSZQ=
+			Ss+PtvBhPlBdrBkaEKzRRkrZ/6CQUmLlOpCf2Le5JJk=
 			</data>
 		</dict>
 		<key>sdk/color-obstetrics.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LARtyD+NkPY+AVOaeEZBKsqLuchKvQwOw1rB5obMZuM=
+			/VRWg5Bd7jB+bdsIcL3xYtAfCA1nndy9rHANixSeD3s=
 			</data>
 		</dict>
 		<key>sdk/color-oncology.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3KpUy9r05qLt4MySzcGBvaBl83rJgOHjlFphUce/joo=
+			WA5JRZhpK/p3SihMjqCdjH4J6UD08Do4OdAIa995V+4=
 			</data>
 		</dict>
 		<key>sdk/color-ophtalmology.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xpRgHAeLfO++TRPB8ONpfTlsm0YVyw6heYY5l22PfO8=
+			lz3QbFXF4uxKCc4mSH5dDpPLd9pE4a1m7kP9+1Zkhu8=
 			</data>
 		</dict>
 		<key>sdk/color-origins-and-insertions.svg</key>
@@ -3793,49 +2808,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z3OYZKcnMr8QYWt3CsqBy3l6jjdVlSDaRRNoyvH/RXA=
+			76DrrmyLcvd20t6Or5Nah0DdG7XZWqGaqILEWAlAZUY=
 			</data>
 		</dict>
 		<key>sdk/color-otolarygngology.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hwbI3BqODihvYn5Qcc2Jaam+hlafwiaZUtKvY3yGoIg=
+			T1pt6PzU97sRDA6qereZDS5N16RCQS1jGfvdezl43Ng=
 			</data>
 		</dict>
 		<key>sdk/color-pediatrics.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z+jCGzrm2WQXdWmPgEzf8eJNSl1mzVhu1ZQwoE91jX4=
+			XZjJjToPCUJNr8EhsZwZNgxaZGakerP54BgRNkonMWA=
 			</data>
 		</dict>
 		<key>sdk/color-physical-therapy.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V1r37xrjT/x4NUJpLCleZCiqYQW13IxnKzClPWYvQWU=
+			dcM/V3T4SHu3lFxZl1cih+cnKOdA0/zNMmBVeS4nhZk=
 			</data>
 		</dict>
 		<key>sdk/color-primary-care.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9uy57vg774tS973Gw6D5xKWFg1X4COV59F9noKD/Ddc=
+			Ryo2Z2EB0Y/Az3zGKP43HSmaAlQwQNt85KuR3WGl6cQ=
 			</data>
 		</dict>
 		<key>sdk/color-pulmonology.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fP7OkELuIrklHEWRzoNvTufP61te7xEOjCa2fVXweXk=
+			ICZXyayBdOLd2XkkfA6/1m+gVukF+/E+wikoBnyQVZs=
 			</data>
 		</dict>
 		<key>sdk/color-quizzes-and-assessments.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e/6eB37h0mZH+bzP+sFteqckuC3LmKs4m4sjmfZh8YI=
+			XXLfTL04qAJcGUaD4SN0UVLgL8NTOnv6hYv0lIGIF00=
 			</data>
 		</dict>
 		<key>sdk/color-rheumatology.svg</key>
@@ -3849,21 +2864,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qOQHApyZaL8cl0QW8DnyH4YHCDh0QA0YwCLdaCqTVmo=
+			jUxMxkKw3BxQQdDmdaLCE3SPyeoEmac78pBQ4XGAmvo=
 			</data>
 		</dict>
 		<key>sdk/color-zspace.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ah43f52I23cCDWTePgi3IIU6JJ8tcWIVFM3PQUqwY4E=
+			Hcm+hSPATpQOomPK/1+ks6/OhdKcECrhYCa40bz1SWU=
 			</data>
 		</dict>
 		<key>sdk/common.js</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dJLAcD6kmp2ppxy1JOxo35qcIhaGo9VnBwqMCXttRjg=
+			G8ZFnSxAOm63ahHC+CBCRg5DoHf3hr7txcJtkiH6OFs=
 			</data>
 		</dict>
 		<key>sdk/connective-tissue.svg</key>
@@ -3873,18 +2888,39 @@
 			puLShkQZTBGRXr9qK6x/AHvZcVTxNt1IaOHGdpsPHOQ=
 			</data>
 		</dict>
+		<key>sdk/cursor-whiteboard-erase.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yFRBiTNkea6svZv8IKpgE6bjf2EHcz8tcvo+tvXqqp0=
+			</data>
+		</dict>
+		<key>sdk/cursor-whiteboard-paint.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gKuXJFIiUUUyIuhmhzEIQFrPYx+y2Oyk1N+4yCU7Qck=
+			</data>
+		</dict>
+		<key>sdk/cursor-whiteboard-text.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hoROJSrhGTdh8yFKdSyo6BP+fLNhRwpwT8AB5V7IEEU=
+			</data>
+		</dict>
 		<key>sdk/custom-icons.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U8R7uF4QN0TDvN5YTSQAmrdPWa6mhGxIEiWLO1NSoXM=
+			sJV01ARUdcpCppVc/hEtSgZyXoXJIK+RAhl7VtcRvh0=
 			</data>
 		</dict>
 		<key>sdk/custom-icons.woff2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SOgQb7uyx7dbnoUXQRkb0T1F/NVdHQlwMPhxfDqmJyg=
+			BCePpQgFppb0H6hDlLdzxqIsQEXmiggMp3LSm1if9Cg=
 			</data>
 		</dict>
 		<key>sdk/digestive-system.svg</key>
@@ -3913,6 +2949,20 @@
 			<key>hash2</key>
 			<data>
 			pM4jUB9lijNjI72QtSdG5z4N3Ka+GGUVlNFpsmPbVBA=
+			</data>
+		</dict>
+		<key>sdk/fascia.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			whhMzsYCoG+eLyIG/XwNSrdLNS6cqnhuGWx2IxkyVd4=
+			</data>
+		</dict>
+		<key>sdk/fat.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DnzIf0VR6+UdAiSpFJQIEgBObbHfODotN7hsihrGsQo=
 			</data>
 		</dict>
 		<key>sdk/femaleskin_variants_dark.png</key>
@@ -3961,7 +3011,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H4H539AHufV90HXIqY1/hwH6bXnWTi4DXWTF6ihnmn0=
+			OQ3XNEvCEgbryXhzgj3J2rhVvD35aemgaa3S4TsjDqw=
 			</data>
 		</dict>
 		<key>sdk/integumentary-system.svg</key>
@@ -3989,7 +3039,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6n+PyWxPour7mI31Q996Xz9mbBIuECgGC1FP6BCy21Y=
+			6pLJAoWWB/t8RI4FKYL1hDKMlLBQ2sEnhpM3wfHXgHg=
 			</data>
 		</dict>
 		<key>sdk/maleskin_variants_dark.png</key>
@@ -4038,14 +3088,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pY4OhfWR9iKRZbANnkBQNjvyglKqDZMCHsJxuZa8Ebg=
+			vAtxpNcEOHxktFNVICFF8cjJMyiKuEr98tZikbu1WOE=
 			</data>
 		</dict>
 		<key>sdk/mono-allergy-and-immunology.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0d+6/3/X+7AhKkxBYgiYOtbtJCk4mnd3BS+q5UTYdi4=
+			8+yO264oqUN5OyVoDMoXVUv12N09ySc3USy5FRrsUJI=
 			</data>
 		</dict>
 		<key>sdk/mono-anatomy-by-regions.svg</key>
@@ -4066,63 +3116,63 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VclyMT3iEmebF6GtTGcVr0wM24BSehktJ+BBYf9Utno=
+			Ope79KrvNS/Zq8rhF3uxsFB35iGK98GP/1amGNRHiPg=
 			</data>
 		</dict>
 		<key>sdk/mono-cardiology.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JcO77bQjgItzqxhablD9lDYIWaVKF3umxd8R7R9vcTY=
+			6ddt+fFCnB60nf6pIFClUtxtXj7vUuKYo+WO8AZ/1PA=
 			</data>
 		</dict>
 		<key>sdk/mono-community-bookmarks.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			poHWbQoq0eXSmmT149CO7AlWQDr2aJrPA101FEMuSak=
+			q7P5FszVZrt6E2yDZ+VfUsULBbWwe2SHsetUfytAPLY=
 			</data>
 		</dict>
 		<key>sdk/mono-complete-anatomy.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YpTCnrX1SgSv+9cbVdbqefc7lby3xuwICDn8MTf5Lx4=
+			9EX15zjxuMsTsvdIVIXGtWG6iFKRvWxhRlK7QgNN+5M=
 			</data>
 		</dict>
 		<key>sdk/mono-cross-sections-and-micro-anatomy.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SKge1VqI8vYkPy84SycZG5RLsTzHBPV9U6jPKUHAO8M=
+			VEp+Qdxu8lQrWlzPFYH8y3ZSiLsnnvdZK+sqj/MRjtQ=
 			</data>
 		</dict>
 		<key>sdk/mono-dentistry.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IbZ5RR0ddhIuow5z8rswy+FnI+ULCf2Lx/IUNbk4nNI=
+			v2tPeQfCC2lyfsaLK8iNonbNjwyFYPJnsKIBTsgAuYc=
 			</data>
 		</dict>
 		<key>sdk/mono-dermatology.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vAXW4UwQMvbKNR3/QTO8yovIEUvwwwn8RO62t48cl1I=
+			GcjT1ALhncVwU8CrXwYZwyv4Y9ux2pbUPAy/hwjkPuQ=
 			</data>
 		</dict>
 		<key>sdk/mono-endocrinology.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n5scDEAbzk8SbrY+Ue7InoVKkRZCeA+aAB0A90u5TnU=
+			D3MF+NyIxHen+9q8tJi2iUb023xkASgcZYXZUr7s2N0=
 			</data>
 		</dict>
 		<key>sdk/mono-gastroenterology.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Aukw1G/q/NEcGHym58KmVJYgVymF7imQTKEC7TAGYWc=
+			TGAB6Bg7sziv4mP3mETf3RYTIz9JD3uRybZ97BzzSrE=
 			</data>
 		</dict>
 		<key>sdk/mono-guided-anatomy.svg</key>
@@ -4136,21 +3186,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BP9I413/glFcLRdqLsAZFg4O7LBaIuOBl1D4LgESmkw=
+			aGvvTNmSjX8HXnhWvX8/mtnJS4ALPtee2IML3Mn4x2E=
 			</data>
 		</dict>
 		<key>sdk/mono-hematology.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tJ3W5VUG4Aace/8Ke1S4LA7PVOQmyNzXruAkFYUM2G0=
+			Q6LtRRA5gylgIKu9rzYeOluqHik2mm1CKPGgVmNG5FE=
 			</data>
 		</dict>
 		<key>sdk/mono-infectious-disease.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			y0uKCukn0f2PAyeTtSFZKvZl4hsN2IAONFo8l0/HQ1Y=
+			/AB3IcVcxbqZn0OHkN0idg0/wep00BdL1SX+4O6ARqQ=
 			</data>
 		</dict>
 		<key>sdk/mono-nephrology.svg</key>
@@ -4164,21 +3214,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QW5XgeAAZJHJbEX3yV97ch0vfwiG++SlD/nuwqvzFPM=
+			KusvLAduWYnSVzjA9LO1AzcKJrXpZueTcszT/orFNro=
 			</data>
 		</dict>
 		<key>sdk/mono-obstetrics.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vunHFHVHPZrtyK5Snn0i8FdhPGCWTy4cJf2Svw1D6pg=
+			XW0paLKxJEdmcRDYC7QR/NvJFUj2GNDqd4EnFhYJk6g=
 			</data>
 		</dict>
 		<key>sdk/mono-oncology.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yXsg+CnpuS4HF1ZdSQtNcUGizMX6Y2NTwaEzOzBHOs8=
+			z1GJmijDT94VN04OFS+aT1u4JyD4pEfQCU/PtPjM7fw=
 			</data>
 		</dict>
 		<key>sdk/mono-ophtalmology.svg</key>
@@ -4199,49 +3249,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9dUaMtv3RJa7wUp90kef6KRb2kzC6WTEpyqvEZAI818=
+			Udbf6wHA7eNNbZTLY2GCbz2e5pS0X0brQSLsmtIhTG4=
 			</data>
 		</dict>
 		<key>sdk/mono-otolarygngology.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8loD+XrVjERTapaY0Hg6WzUezGBHar5x8k+DAlPAI34=
+			ov+wAxDnOnfzb0Ju87rpefYrUBYiBrpjzR2lRv2lu2o=
 			</data>
 		</dict>
 		<key>sdk/mono-pediatrics.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L4KL00FGVCnOEXOdiekX9F9PNLa9lLeEwLMHGBtwHjc=
+			sch92BA6CU6TMdagz90Kv+T/JL8mAxofej1kEeCgXzs=
 			</data>
 		</dict>
 		<key>sdk/mono-physical-therapy.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			is/5nFcOrO7s5HHYdE8I0HlCG6+4yy7WNPi+OvtWKls=
+			iTa2NdM6/6wns0kuA1dbn0oSONaXMUM2hzkpq3t+ndE=
 			</data>
 		</dict>
 		<key>sdk/mono-primary-care.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VVNxQbib68fgixEc81mzJ/8orGQDQp+sQek+H2TjQPo=
+			8SBuXTVT6gbKG1xLT3TDbThF23cAuN8OsPMPJnL24k4=
 			</data>
 		</dict>
 		<key>sdk/mono-pulmonology.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W54kBRCAwfmjM08zVZZfb8KuW7qGdEHoWVacOnXd+hc=
+			A7BMWAzar2xJFAAbasCFKK74uH6t3xlaXIKEUBtw4yM=
 			</data>
 		</dict>
 		<key>sdk/mono-quizzes-and-assessments.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g3mMIWn8trjytwNdfRo/GGy2bN0mXNszus8mQZ/U/xI=
+			cGEqy0UESpNIv2W89xGZVlCEETuA2NyeHslcd8Bzsh8=
 			</data>
 		</dict>
 		<key>sdk/mono-rheumatology.svg</key>
@@ -4255,14 +3305,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/K+R1G8IU62Ffvx9oZlxEDYBgAWMox6EJFtlV6jh630=
+			G8aGyUV/IiE8MEi6Wmo1SPpDRI4N6z2yNjzYT12sIRM=
 			</data>
 		</dict>
 		<key>sdk/mono-zspace.svg</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b4ls0gQIeuUDoP3qUgCF50K82rTCIIQHkqX45VygJSY=
+			EvVmkBf+1+OOmNz8V2QLi0x0iZ9qRFDNEEx8V7yRXig=
 			</data>
 		</dict>
 		<key>sdk/muscular-system.svg</key>
@@ -4283,7 +3333,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r+2OEK8qDT+UP//4W5e+0e0oijreetrD4XUDYVtEmS4=
+			xoEXONpupzV9B3cpxvtCaTk7wXuMzm8y0wW+TPWRdAg=
 			</data>
 		</dict>
 		<key>sdk/reproductive-system.svg</key>
@@ -4325,14 +3375,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uvVPjCHgxoglctOHkVFY7qx5BFEEou0IyIVXvSdIaQE=
+			abTfqv7E5Do4Wpuvu2fCNsePHFHfDLh04BlApEerqbs=
 			</data>
 		</dict>
 		<key>sdk/unsupported.html</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S4TmcoOwrL6ZZOd1dFwAn/89ZURVehM3dlvmcaHWs4Y=
+			ysUAKvI5O2cA6/HTbgr7tYr6jLeUfPMXJucBIYJ5mMY=
 			</data>
 		</dict>
 		<key>sdk/urinary-system.svg</key>
@@ -4342,18 +3392,11 @@
 			KRWM2NxCCf9aUOO2l/xWeYsWQQBW9IzSzOnnBPnCs7k=
 			</data>
 		</dict>
-		<key>sdk/vendor.js</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			k0yhbx/umdMqL7Vp3KCirTJo2COO+KZSJ2f10DZ+2tY=
-			</data>
-		</dict>
 		<key>viewerFrame.html</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aEwmHYSBBdfVZXBhZ14asGVu3EaqjBnPYaXxvj/BNNY=
+			1IPOZSRJU17fRF6fYqOiyOmQ15n6X25acASdU12sL7M=
 			</data>
 		</dict>
 	</dict>
