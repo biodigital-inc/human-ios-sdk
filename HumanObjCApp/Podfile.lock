@@ -1,16 +1,16 @@
 PODS:
-  - HumanKit (134.1)
+  - HumanKit (164.3-universal)
 
 DEPENDENCIES:
-  - HumanKit (= 134.1)
+  - HumanKit (= 164.3-universal)
 
 SPEC REPOS:
   https://github.com/biodigital-inc/human-ios-sdk.git:
     - HumanKit
 
 SPEC CHECKSUMS:
-  HumanKit: 474a6b01aefa05834e12d10498a8474ac3c1bbed
+  HumanKit: 9cd379f8e042ffc5742e29a1e0f1bb94ad95a41f
 
-PODFILE CHECKSUM: 5153ad43c5440f39e53fdc99b3c070fb0a737f8d
+PODFILE CHECKSUM: 6cf8aff532a9a93768827cb5f2748734b4504be9
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.16.2

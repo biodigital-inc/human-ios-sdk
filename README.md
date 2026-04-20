@@ -1,7 +1,7 @@
 # HumanKit
 The BioDigital Human iOS SDK
 
-Current version: 147.0 Released 6 May, 2025
+Current version: 164.3 Released 17 April, 2026
 
 The iOS SDK is now available via Swift Package Manager at https://github.com/biodigital-inc/HumanKit.git
 
@@ -12,6 +12,8 @@ The Demo App HumanSwiftApp has been updated with a Quiz Demo model and callbacks
 Please visit http://developer.biodigital.com for documentation and setup instructions, and http://human.biodigital.com to see the 3D Human
 
 NOTE: You'll need to generate an API key in our developer site and put your credentials into the Sample Apps to view our 3D content.
+
+NOTE: Our SDK uses a local loopback connection. By default, iOS enforces secure networking via App Transport Security (ATS), which blocks local HTTP traffic unless explicitly allowed. Please refer to the Info.plist in the sample apps for the required ATS configuration.
 
 To test the Sample Apps, clone the repo or download the ZIP
 

@@ -7,6 +7,6 @@ target 'HumanSwiftApp' do
   use_frameworks!
 
   # Pods for HumanSwiftApp
-  pod 'HumanKit', '140.1'
+  pod 'HumanKit', '164.3-universal'
 
 end
