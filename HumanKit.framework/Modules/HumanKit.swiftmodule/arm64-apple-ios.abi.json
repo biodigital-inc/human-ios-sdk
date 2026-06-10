@@ -28491,1169 +28491,1169 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/BodyHelper.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/BodyHelper.swift",
       "kind": "BooleanLiteral",
       "offset": 421,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKHuman.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKHuman.swift",
       "kind": "StringLiteral",
       "offset": 623,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKHuman.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKHuman.swift",
       "kind": "BooleanLiteral",
       "offset": 656,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKHuman.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKHuman.swift",
       "kind": "StringLiteral",
       "offset": 687,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKHuman.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKHuman.swift",
       "kind": "StringLiteral",
       "offset": 1603,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKHuman.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKHuman.swift",
       "kind": "BooleanLiteral",
       "offset": 10552,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "StringLiteral",
       "offset": 386,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "StringLiteral",
       "offset": 457,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "StringLiteral",
       "offset": 543,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "StringLiteral",
       "offset": 631,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "Dictionary",
       "offset": 746,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "Array",
       "offset": 839,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "StringLiteral",
       "offset": 1089,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "Array",
       "offset": 1181,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "Array",
       "offset": 1279,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "BooleanLiteral",
       "offset": 1355,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "BooleanLiteral",
       "offset": 1765,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "BooleanLiteral",
       "offset": 1867,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "BooleanLiteral",
       "offset": 2033,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "IntegerLiteral",
       "offset": 2177,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "IntegerLiteral",
       "offset": 2313,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "BooleanLiteral",
       "offset": 2459,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "BooleanLiteral",
       "offset": 2619,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "BooleanLiteral",
       "offset": 2773,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "BooleanLiteral",
       "offset": 2934,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "Dictionary",
       "offset": 3043,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "Array",
       "offset": 3160,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "StringLiteral",
       "offset": 3256,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "Array",
       "offset": 3562,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "BooleanLiteral",
       "offset": 3687,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "FloatLiteral",
       "offset": 3816,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "IntegerLiteral",
       "offset": 3940,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "IntegerLiteral",
       "offset": 4075,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "IntegerLiteral",
       "offset": 4202,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
       "kind": "IntegerLiteral",
       "offset": 4333,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKModel.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKModel.swift",
       "kind": "StringLiteral",
       "offset": 1035,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKScene.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKScene.swift",
       "kind": "BooleanLiteral",
       "offset": 288,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKScene.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKScene.swift",
       "kind": "BooleanLiteral",
       "offset": 325,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKScene.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKScene.swift",
       "kind": "BooleanLiteral",
       "offset": 359,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKScene.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKScene.swift",
       "kind": "StringLiteral",
       "offset": 645,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKScene.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKScene.swift",
       "kind": "StringLiteral",
       "offset": 757,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKScene.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKScene.swift",
       "kind": "BooleanLiteral",
       "offset": 1299,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKScene.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKScene.swift",
       "kind": "BooleanLiteral",
       "offset": 1388,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKScene.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKScene.swift",
       "kind": "BooleanLiteral",
       "offset": 1425,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKScene.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKScene.swift",
       "kind": "BooleanLiteral",
       "offset": 1464,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKScene.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKScene.swift",
       "kind": "Dictionary",
       "offset": 1537,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKScene.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKScene.swift",
       "kind": "StringLiteral",
       "offset": 1574,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/Reachability.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 1846,
       "length": 21,
       "value": "\"reachabilityChanged\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/Reachability.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/Reachability.swift",
       "kind": "BooleanLiteral",
       "offset": 5046,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/Reachability.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/Reachability.swift",
       "kind": "BooleanLiteral",
       "offset": 5117,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/Reachability.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/Reachability.swift",
       "kind": "StringLiteral",
       "offset": 5254,
       "length": 32,
       "value": "\"uk.co.ashleymills.reachability\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
       "kind": "Array",
       "offset": 334,
       "length": 13,
       "value": "[0.0, 0.0, 0.0]"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
       "kind": "Array",
       "offset": 433,
       "length": 13,
       "value": "[0.0, 0.0, 0.0]"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
       "kind": "Array",
       "offset": 528,
       "length": 13,
       "value": "[0.0, 0.0, 0.0]"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
       "kind": "FloatLiteral",
       "offset": 649,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
       "kind": "IntegerLiteral",
       "offset": 4125,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
       "kind": "IntegerLiteral",
       "offset": 4165,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
       "kind": "IntegerLiteral",
       "offset": 4207,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
       "kind": "FloatLiteral",
       "offset": 4515,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
       "kind": "IntegerLiteral",
       "offset": 4808,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
       "kind": "StringLiteral",
       "offset": 4868,
       "length": 75,
       "value": "\"human.send('camera.orbit', { yaw: \""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
       "kind": "StringLiteral",
       "offset": 4915,
       "length": 1,
       "value": "\", pitch: \""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
       "kind": "StringLiteral",
       "offset": 4938,
       "length": 1,
       "value": "\" });\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
       "kind": "IntegerLiteral",
       "offset": 5009,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
       "kind": "FloatLiteral",
       "offset": 5068,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
       "kind": "FloatLiteral",
       "offset": 5072,
       "length": 4,
       "value": "30.0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKCamera.swift",
       "kind": "BooleanLiteral",
       "offset": 5592,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 274,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 301,
       "length": 7,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 336,
       "length": 10,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 371,
       "length": 6,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 403,
       "length": 7,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 435,
       "length": 6,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 467,
       "length": 7,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 501,
       "length": 8,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 836,
       "length": 13,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 987,
       "length": 9,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 1089,
       "length": 5,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 1196,
       "length": 4,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 1320,
       "length": 4,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 1450,
       "length": 4,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 1555,
       "length": 6,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 1659,
       "length": 9,
       "value": "8"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 1802,
       "length": 6,
       "value": "9"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 1906,
       "length": 3,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 2048,
       "length": 10,
       "value": "11"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 2142,
       "length": 8,
       "value": "12"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 2282,
       "length": 13,
       "value": "13"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 2396,
       "length": 8,
       "value": "14"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 2526,
       "length": 5,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 2623,
       "length": 5,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 2718,
       "length": 4,
       "value": "17"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 2836,
       "length": 8,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 2933,
       "length": 6,
       "value": "19"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 3004,
       "length": 4,
       "value": "20"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 3301,
       "length": 6,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "Array",
       "offset": 3540,
       "length": 97,
       "value": "[\"English\", \"Español\", \"Português\", \"Français\", \"Italiano\", \"Deutsch\", \"中文(简体)\", \"日本語\"]"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "Array",
       "offset": 3731,
       "length": 41,
       "value": "[\"en\", \"es\", \"pt\", \"fr\", \"it\", \"de\", \"zh\", \"ja\"]"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "Array",
       "offset": 4196,
       "length": 9,
       "value": "[0.0, 0.0]"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "BooleanLiteral",
       "offset": 4357,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "BooleanLiteral",
       "offset": 4518,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "StringLiteral",
       "offset": 8255,
       "length": 8,
       "value": "\"colors\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 8332,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 8398,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "FloatLiteral",
       "offset": 8401,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 8429,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "FloatLiteral",
       "offset": 8432,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 8459,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "FloatLiteral",
       "offset": 8462,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 8490,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 8541,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 8613,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "FloatLiteral",
       "offset": 8616,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 8647,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "FloatLiteral",
       "offset": 8650,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 8680,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "FloatLiteral",
       "offset": 8683,
       "length": 5,
       "value": "255.0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "IntegerLiteral",
       "offset": 8714,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "StringLiteral",
       "offset": 8763,
       "length": 14,
       "value": "\"gradientType\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "StringLiteral",
       "offset": 8829,
       "length": 8,
       "value": "\"radial\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "StringLiteral",
       "offset": 8896,
       "length": 12,
       "value": "\"colorStops\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "StringLiteral",
       "offset": 8981,
       "length": 45,
       "value": "\"** got bg colors \""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "StringLiteral",
       "offset": 9010,
       "length": 1,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "StringLiteral",
       "offset": 9025,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "StringLiteral",
       "offset": 9043,
       "length": 35,
       "value": "\"** got bg type \""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "StringLiteral",
       "offset": 9077,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "StringLiteral",
       "offset": 9095,
       "length": 31,
       "value": "\"** got bg stops \""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKUI.swift",
       "kind": "StringLiteral",
       "offset": 9125,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKTimeline.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKTimeline.swift",
       "kind": "FloatLiteral",
       "offset": 329,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKTimeline.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKTimeline.swift",
       "kind": "FloatLiteral",
       "offset": 434,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKTimeline.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKTimeline.swift",
       "kind": "BooleanLiteral",
       "offset": 547,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKTimeline.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKTimeline.swift",
       "kind": "BooleanLiteral",
       "offset": 953,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKTimeline.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKTimeline.swift",
       "kind": "BooleanLiteral",
       "offset": 982,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKLabels.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKLabels.swift",
       "kind": "BooleanLiteral",
       "offset": 393,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKColor.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKColor.swift",
       "kind": "FloatLiteral",
       "offset": 672,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKColor.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKColor.swift",
       "kind": "FloatLiteral",
       "offset": 684,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKColor.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKColor.swift",
       "kind": "FloatLiteral",
       "offset": 695,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKColor.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKColor.swift",
       "kind": "FloatLiteral",
       "offset": 707,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKColor.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKColor.swift",
       "kind": "FloatLiteral",
       "offset": 811,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKColor.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKColor.swift",
       "kind": "FloatLiteral",
       "offset": 908,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKColor.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKColor.swift",
       "kind": "FloatLiteral",
       "offset": 1012,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKColor.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKColor.swift",
       "kind": "FloatLiteral",
       "offset": 1112,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "IntegerLiteral",
       "offset": 1677,
       "length": 5,
       "value": "38999"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "IntegerLiteral",
       "offset": 1687,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "IntegerLiteral",
       "offset": 1731,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
       "offset": 1805,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
       "offset": 1835,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
       "offset": 1873,
       "length": 12,
       "value": "\"models\/9OR\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
       "offset": 1916,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
       "offset": 1952,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
       "offset": 2225,
       "length": 5,
       "value": "\"sdk\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
       "offset": 2370,
       "length": 30,
       "value": "\"https:\/\/human.biodigital.com\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "BooleanLiteral",
       "offset": 2449,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
       "offset": 2543,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
       "offset": 2574,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
       "offset": 2605,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "IntegerLiteral",
       "offset": 2735,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "IntegerLiteral",
       "offset": 2771,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "IntegerLiteral",
       "offset": 2830,
       "length": 4,
       "value": "-600"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "IntegerLiteral",
       "offset": 2839,
       "length": 4,
       "value": "-800"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "IntegerLiteral",
       "offset": 2852,
       "length": 3,
       "value": "600"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "IntegerLiteral",
       "offset": 2865,
       "length": 3,
       "value": "800"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "BooleanLiteral",
       "offset": 2902,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "BooleanLiteral",
       "offset": 2933,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "BooleanLiteral",
       "offset": 3072,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
       "offset": 3822,
       "length": 69,
       "value": "\"https:\/\/apis.biodigital.com\/services\/v1\/content\/collections\/myhuman\""
     },
     {
-      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/ios\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
       "offset": 3919,
       "length": 45,
