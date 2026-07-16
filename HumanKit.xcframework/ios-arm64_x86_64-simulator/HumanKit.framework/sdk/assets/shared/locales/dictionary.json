@@ -1,0 +1,875 @@
+{
+  "en-US": {
+    "submitted": {
+      "fr-FR": "envoyé",
+      "he-IL": "הוגש"
+    },
+    "Info": {
+      "fr-FR": "Informations"
+    },
+    "A heart with a magnifying glass over it, which symbolises zooming into and out from an object within the 3D viewport.": {
+      "fr-FR": "Un cœur avec une loupe, qui symbolise le zoom avant et arrière sur un objet dans la fenêtre d'affichage 3D.",
+      "he-IL": "לב שמעליו מרחפת זכוכית מגדלת, אשר מסמלת התבוננות מקרוב ומרחוק בפריט מנקודת מבט תלת ממדית."
+    },
+    "A heart with a smaller region colored in blue and a popup window specifying that the Right Ventricle is selected.": {
+      "it-IT": "Un cuore con una regione più piccola colorata in azzurro e una finestra popup che specifica che il ventricolo destro è selezionato.",
+      "he-IL": "לב שבתוכו איזור קטן יותר צבוע בכחול וחלון קופץ שמפרט שנבחר חדר הלב הימני."
+    },
+    "Blue": {
+      "it-IT": "Azzurro",
+      "he-IL": "כחול"
+    },
+    "Clicking this button will reset the camera viewing the 3D model": {
+      "pt-BR": "Clicar neste botão para reiniciar a visualização da camera do modelo 3D",
+      "he-IL": "הקלקה על כפתור זה תאפס את המצלמה של מודל התלת מימד"
+    },
+    "Collapse": {
+      "pt-BR": "Colapso",
+      "he-IL": "צמצום"
+    },
+    "Draw": {
+      "es-ES": "Dibuja",
+      "he-IL": "ציור"
+    },
+    "Exit Draw": {
+      "es-ES": "Dibuja de salida",
+      "pt-BR": "Sair da figura",
+      "he-IL": "יציאה ממצב ציור"
+    },
+    "Exit Tutorial": {
+      "pt-BR": "Sair do tutorial",
+      "he-IL": "יציאה מהדרכה"
+    },
+    "keys to pan.": {
+      "pt-BR": "Teclas para panorâmica.",
+      "he-IL": "מקשים להזזה."
+    },
+    "Legend": {
+      "pt-BR": "Legenda",
+      "he-IL": "מקרא"
+    },
+    "Reset": {
+      "pt-BR": "Reiniciar",
+      "he-IL": "איפוס"
+    },
+    "Reset chapter": {
+      "pt-BR": "Reiniciar Capítulo",
+      "he-IL": "איפוס פרק"
+    },
+    "Show": {
+      "pt-BR": "Mostrar",
+      "he-IL": "הצגה"
+    },
+    "show": {
+      "pt-BR": "Mostrar"
+    },
+    "Slow pan left": {
+      "pt-BR": "Mova lentamente para a esquerda",
+      "he-IL": "הזזה איטית שמאלה"
+    },
+    "Slow pan right": {
+      "pt-BR": "Mova lentamente",
+      "he-IL": "הזזה איטית ימינה"
+    },
+    "Slow pan up": {
+      "pt-BR": "Mova lentamente para cima",
+      "he-IL": "הזזה איטית מעלה"
+    },
+    "Fair Skin": {
+      "es-ES": "Piel pálida",
+      "fr-FR": "Peau pâle",
+      "it-IT": "Pelle pallida",
+      "pt-BR": "Pele pálida",
+      "he-IL": "עור בהיר מאוד"
+    },
+    "{$INTERPOLATION} Animation": {
+      "he-IL": "{$INTERPOLATION} אנימציה"
+    },
+    "{$START_TAG_DIV}See Results{$CLOSE_TAG_DIV}": {
+      "he-IL": "{$START_TAG_DIV}ראו תוצאות{$CLOSE_TAG_DIV}"
+    },
+    "3D": {
+      "he-IL": "3D"
+    },
+    "3D Navigation Tutorial": {
+      "he-IL": "מדריך ניווט 3D"
+    },
+    "A finger clicking the trackpad once.": {
+      "he-IL": "אצבע שמקליקה על משטח המגע פעם אחת."
+    },
+    "A finger clicking the trackpad twice.": {
+      "he-IL": "אצבע שמקליקה על משטח המגע פעמיים."
+    },
+    "A finger pressing for a long duration on the trackpad.": {
+      "he-IL": "אצע שלוחצת לחיצה ארוכה על משטח המגע."
+    },
+    "A heart with an arrow wrapped around it, which symbolises objects being rotated withing the 3D viewport.": {
+      "he-IL": "חץ שסביבו חץ, אשר מסמל פריטים שניתן לסובב בעת צפייה בתלת ממדי."
+    },
+    "A heart with left and right arrows pointing away from it, which symbolises objects being panned within the 3D viewport": {
+      "he-IL": "לב שחץ ימני וחץ שמאלי מצביעים החוצה ממנו, המסמל פריטים שניתן להזיז בעת צפייה בתלת ממד."
+    },
+    "A mouse with the left button being clicked.": {
+      "he-IL": "עכבר שמקליקים על הכפתור השמאלי שלו."
+    },
+    "A mouse with the left button being double clicked.": {
+      "he-IL": "עכבר שמקליקים הקלקה כפולה על הכפתור השמאלי שלו."
+    },
+    "A mouse with the left button being held in for a long duration.": {
+      "he-IL": "עכבר שלוחצים לחיצה ארוכה על הכפתור השמאלי שלו."
+    },
+    "A mouse with the left button being held in.": {
+      "he-IL": "עכבר שמחזיקים את הכפתור השמאלי שלו."
+    },
+    "A mouse with the right button being held in.": {
+      "he-IL": "עכבר שמחזיקים את הכפתור הימני שלו."
+    },
+    "All Controls": {
+      "he-IL": "כל מחווני השליטה"
+    },
+    "Anatomy Layers": {
+      "he-IL": "שכבות אנטומיה"
+    },
+    "Anatomy Search": {
+      "he-IL": "חיפוש אנטומיה"
+    },
+    "Begin Interactive Tour": {
+      "he-IL": "התחלת סיור אינטראקטיבי"
+    },
+    "Black": {
+      "he-IL": "שחור"
+    },
+    "Brush": {
+      "he-IL": "מברשת"
+    },
+    "Camera Control Buttons": {
+      "he-IL": "כפתורי שליטה במצלמה"
+    },
+    "cardiovascular system": {
+      "he-IL": "מערכת הלב וכלי הדם"
+    },
+    "Change to Pan Mode": {
+      "he-IL": "החלפה למצב הזזה"
+    },
+    "Change to Rotate Mode": {
+      "he-IL": "החלפה למצב סיבוב"
+    },
+    "Chapter": {
+      "he-IL": "פרק"
+    },
+    "Chapter {$INTERPOLATION}": {
+      "he-IL": "פרק {$INTERPOLATION}"
+    },
+    "Chapter List": {
+      "he-IL": "רשימת הפרקים"
+    },
+    "Chapters": {
+      "he-IL": "פרקים"
+    },
+    "Clear": {
+      "he-IL": "ניקוי"
+    },
+    "Click and drag or use one finger to change the viewing angle.": {
+      "he-IL": "הקליקו ומשכו או השתמשו באצבע אחת כדי לשנות את זווית הצפייה."
+    },
+    "Click or tap an anatomic structure or label to learn more.": {
+      "he-IL": "הקליקו או לחצו על מבנה אנטומי או תווית כדי לקבל מידע נוסף."
+    },
+    "Click to expand the image": {
+      "he-IL": "הקליקו כדי להגדיל את התמונה"
+    },
+    "Close": {
+      "he-IL": "סגירה"
+    },
+    "Close 3D Controls": {
+      "he-IL": "סגירת מחווני שליטה תלת מימד"
+    },
+    "Close Anatomy": {
+      "he-IL": "סגירת מבנה אנטומי"
+    },
+    "Close anatomy column": {
+      "he-IL": "סגירת טור מבנים אנטומיים"
+    },
+    "Close Anatomy Layers": {
+      "he-IL": "סגירת שכבות אנטומיה"
+    },
+    "Close help modal": {
+      "he-IL": "סגירת מצב עזרה"
+    },
+    "Close Info Panel": {
+      "he-IL": "סגירת פאנל מידע"
+    },
+    "Close layers": {
+      "he-IL": "סגירת שכבות"
+    },
+    "Close Media Bar": {
+      "he-IL": "סגירת סרגל מדיה"
+    },
+    "Color": {
+      "he-IL": "צבע"
+    },
+    "connective tissue": {
+      "he-IL": "רקמת חיבור"
+    },
+    "current": {
+      "he-IL": "נוכחי"
+    },
+    "Cyan": {
+      "he-IL": "ציאן (כחול ירקרק)"
+    },
+    "Dark Skin": {
+      "he-IL": "עור כהה"
+    },
+    "digestive system": {
+      "he-IL": "מערכת העיכול"
+    },
+    "Double-click left button to auto-focus on a structure": {
+      "he-IL": "הקליקו פעמיים על הכפתור השמאלי למיקוד אוטומטי על המבנה"
+    },
+    "Double-tap to select a structure": {
+      "he-IL": "הקליקו פעמיים כדי לבחור מבנה"
+    },
+    "Double-tap to zoom in on specific structures.": {
+      "he-IL": "ליחצו פעמיים כדי לעשות זום-אין על מבנים ספציפיים."
+    },
+    "down": {
+      "he-IL": "למטה"
+    },
+    "Download": {
+      "he-IL": "הורדה"
+    },
+    "Download Results as PDF": {
+      "he-IL": "הורדת תוצאות כקובץ PDF"
+    },
+    "endocrine system": {
+      "he-IL": "המערכת האנדוקרינית"
+    },
+    "Enter Fullscreen": {
+      "he-IL": "כניסה למצב מסך מלא"
+    },
+    "Eraser": {
+      "he-IL": "מחק"
+    },
+    "Exit Fullscreen": {
+      "he-IL": "יציאה ממצב מסך מלא"
+    },
+    "Exit Quiz": {
+      "he-IL": "יציאה ממבחן"
+    },
+    "Expand": {
+      "he-IL": "הרחבה"
+    },
+    "Explore the Anatomy": {
+      "he-IL": "חקרו את המבנה האנטומיה"
+    },
+    "Fade": {
+      "he-IL": "עמעום"
+    },
+    "Fade selected objects": {
+      "he-IL": "עמעום הפריטים הנבחרים"
+    },
+    "Fast forward 1 second": {
+      "he-IL": "הרצה קדימה שנייה 1"
+    },
+    "Gallery": {
+      "he-IL": "גלריה"
+    },
+    "Getting Started": {
+      "he-IL": "מתחילים"
+    },
+    "Getting Started Tutorial": {
+      "he-IL": "מדריך למתחילים"
+    },
+    "Getting Started Video": {
+      "he-IL": "סרטון למתחילים"
+    },
+    "Green": {
+      "he-IL": "ירוק"
+    },
+    "Help": {
+      "he-IL": "עזרה"
+    },
+    "Hide": {
+      "he-IL": "הסתרה"
+    },
+    "Hide {$PH} Layer": {
+      "he-IL": "הסתרת {$PH} שכבה"
+    },
+    "Hide All Anatomy Layers": {
+      "he-IL": "הסתרת כל שכבות האנטומיה"
+    },
+    "Hide Labels": {
+      "he-IL": "הסתרת תוויות"
+    },
+    "Hide Layer": {
+      "he-IL": "הסתרת שכבה"
+    },
+    "Hide selected objects": {
+      "he-IL": "הסתרת הפריטים הנבחרים"
+    },
+    "Hide selected structure": {
+      "he-IL": "הסתרת המבנה שנבחר"
+    },
+    "Hide Summary": {
+      "he-IL": "הסתרת סיכום"
+    },
+    "Hold left button to rotate": {
+      "he-IL": "החזיקו את הכפתוחר השמאלי כדי לסובב"
+    },
+    "Hold right button to pan": {
+      "he-IL": "החזיקו את הכפתור הימני כדי להזיז"
+    },
+    "Hold the shift key and drag or use two fingers to move the model's position.": {
+      "he-IL": "החזיקו את מקש shift וגררו או השתמשו בשתי אצבעות כדי לשנות את מנח המודל."
+    },
+    "Hold with any previous key to slow down motion": {
+      "he-IL": "החזיקו עם כל מקש קודם כדי להאט את התזוזה"
+    },
+    "In-App": {
+      "he-IL": "באפליקציה"
+    },
+    "Integumentary System": {
+      "he-IL": "המערכת האינטגומנטרית"
+    },
+    "Interact in 3D": {
+      "he-IL": "אינטראקציה בתלת מימד"
+    },
+    "Isolate selected objects": {
+      "he-IL": "הפרדת הפריטים הנבחרים"
+    },
+    "Keyboard Shortcuts": {
+      "he-IL": "קיצורי מקלדת"
+    },
+    "Labels": {
+      "he-IL": "תוויות"
+    },
+    "Launching...": {
+      "he-IL": "הפעלה..."
+    },
+    "Layer": {
+      "he-IL": "שכבה"
+    },
+    "layer slider": {
+      "he-IL": "סליידר שכבות"
+    },
+    "left": {
+      "he-IL": "שמאל"
+    },
+    "Light Skin": {
+      "he-IL": "עור בהיר"
+    },
+    "link opens in a new tab": {
+      "he-IL": "קישור נפתח בכרטיסייה חדשה"
+    },
+    "List": {
+      "he-IL": "רשימה"
+    },
+    "List of Chapters": {
+      "he-IL": "רשימת פרקים"
+    },
+    "Loading Audio": {
+      "he-IL": "טעינת אודיו"
+    },
+    "Loading...": {
+      "he-IL": "טעינה..."
+    },
+    "Long-click to fly to a structure": {
+      "he-IL": "הקלקה ארוכה כדי לעבור ישירות לבמנה"
+    },
+    "Long-press to fly to a structure": {
+      "he-IL": "לחיצה ארוכה כדי לעבור ישירות לבמנה"
+    },
+    "lymphatic system": {
+      "he-IL": "מערכת הלימפה"
+    },
+    "Media Controls": {
+      "he-IL": "מחווני השליטה במדיה"
+    },
+    "media slider": {
+      "he-IL": "סליידר מדיה"
+    },
+    "Medically Reviewed": {
+      "he-IL": "עבר סקירה רפואית"
+    },
+    "Medically reviewed on {$INTERPOLATION}": {
+      "he-IL": "עבר סקירה רפואית בתאריך {$INTERPOLATION}"
+    },
+    "Medium Skin": {
+      "he-IL": "עור בגוון בינוני"
+    },
+    "menu": {
+      "he-IL": "תפריט"
+    },
+    "Modify Selected Objects": {
+      "he-IL": "שינוי הפריטים הנבחרים"
+    },
+    "More": {
+      "he-IL": "עוד"
+    },
+    "More Options": {
+      "he-IL": "אפשרויות נוספות"
+    },
+    "Mouse": {
+      "he-IL": "עכבר"
+    },
+    "mouse, trackpad, or keyboard": {
+      "he-IL": "עכבר, משטח מגע, או מקלדת"
+    },
+    "muscular system": {
+      "he-IL": "מערכת השרירים"
+    },
+    "Mute": {
+      "he-IL": "השתקה"
+    },
+    "mute audio": {
+      "he-IL": "השתקת אודיו"
+    },
+    "Navigate to description for, ": {
+      "he-IL": "ניווט לתיאור עבור, "
+    },
+    "Navigation": {
+      "he-IL": "ניווט"
+    },
+    "Navigation Basics": {
+      "he-IL": "הגדרות בסיס של ניווט"
+    },
+    "nervous system": {
+      "he-IL": "מערכת העצבים"
+    },
+    "Next Chapter": {
+      "he-IL": "הפרק הבא"
+    },
+    "Next Image": {
+      "he-IL": "התמונה הבאה"
+    },
+    "Next Question": {
+      "he-IL": "השאלה הבאה"
+    },
+    "Next Tutorial Step": {
+      "he-IL": "השלב הבא בהדרכה"
+    },
+    "No results": {
+      "he-IL": "אין תוצאות"
+    },
+    "Normal": {
+      "he-IL": "תקין"
+    },
+    "of": {
+      "he-IL": "של"
+    },
+    "Off": {
+      "he-IL": "כיבוי"
+    },
+    "Opacity": {
+      "he-IL": "אטימות"
+    },
+    "Open 3D Controls": {
+      "he-IL": "פתיחת מחווני שליטה תלת מימד"
+    },
+    "Open Help": {
+      "he-IL": "פתיחת עזרה"
+    },
+    "Open in New Tab": {
+      "he-IL": "פתיחה בכרטיסייה חדשה"
+    },
+    "Open Info Panel": {
+      "he-IL": "פתיחת פאנל מידע"
+    },
+    "Open Media Bar": {
+      "he-IL": "פתיחת סרגל מדיה"
+    },
+    "Open Search": {
+      "he-IL": "פתיחת חיפוש"
+    },
+    "Pan": {
+      "he-IL": "הזזה"
+    },
+    "Pan down": {
+      "he-IL": "הזזה למטה"
+    },
+    "Pan left": {
+      "he-IL": "הזזה שמאלה"
+    },
+    "Pan mode active, change to rotate mode": {
+      "he-IL": "מצב הזזה פעיל, החלפה למצב סיבוב"
+    },
+    "Pan right": {
+      "he-IL": "הזזה ימינה"
+    },
+    "Pan up": {
+      "he-IL": "הזזה מעלה"
+    },
+    "Pan up (W), left (A), down (S), right(D)": {
+      "he-IL": "הזזה מעלה (W), שמאלה (A), למטה (S), ימינה (D)"
+    },
+    "Pause Animation": {
+      "he-IL": "הפסקת אנימציה"
+    },
+    "Pink": {
+      "he-IL": "ורוד"
+    },
+    "Play / pause": {
+      "he-IL": "ניגון / עצירה"
+    },
+    "Play Animation": {
+      "he-IL": "הפעלת אנימציה"
+    },
+    "Play Chapter From Start": {
+      "he-IL": "הפעלת פרק מההתחלה"
+    },
+    "Play From Beginning": {
+      "he-IL": "הפעלה מההתחלה"
+    },
+    "Playback Speed": {
+      "he-IL": "מהירות הפעלה חוזרת (פלייבק)"
+    },
+    "Positions": {
+      "he-IL": "תנוחות"
+    },
+    "Powered by BioDigital": {
+      "he-IL": "מופעל על ידי BioDigital"
+    },
+    "Powered by BioDigital (opens in a new tab)": {
+      "he-IL": "מופעל על ידי BioDigital (נפתח בכרטיסייה חדשה)"
+    },
+    "Previous Chapter": {
+      "he-IL": "הפרק הקודם"
+    },
+    "Previous Image": {
+      "he-IL": "התמונה הקודמץ"
+    },
+    "Previous Tutorial Step": {
+      "he-IL": "השלב הקודם בהדרכה"
+    },
+    "Question {$PH}": {
+      "he-IL": "שאלה {$PH}"
+    },
+    "Quiz": {
+      "he-IL": "בוחן"
+    },
+    "Read about our review process.": {
+      "he-IL": "קראו אודות תהליך הבדיקה שלנו."
+    },
+    "Red": {
+      "he-IL": "אדום"
+    },
+    "Redo": {
+      "he-IL": "ביצוע חוזר"
+    },
+    "References": {
+      "he-IL": "סימוכין"
+    },
+    "reproductive system": {
+      "he-IL": "מערכת הרבייה"
+    },
+    "respiratory system": {
+      "he-IL": "מערכת הנשימה"
+    },
+    "Return to Starting Position": {
+      "he-IL": "חזרה לנקודת ההתחלה"
+    },
+    "Rewind 1 second": {
+      "he-IL": "הרצה אחורה שנייה 1"
+    },
+    "right": {
+      "he-IL": "ימין"
+    },
+    "Rotate": {
+      "he-IL": "סיבוב"
+    },
+    "Rotate down": {
+      "he-IL": "סיבוב מטה"
+    },
+    "Rotate left": {
+      "he-IL": "סיבוב שמאלה"
+    },
+    "Rotate mode active, change to pan mode": {
+      "he-IL": "מצב סיבוב פעיל, החלפה למצב הזזה"
+    },
+    "Rotate right": {
+      "he-IL": "סיבוב ימינה"
+    },
+    "Rotate up": {
+      "he-IL": "סיבוב מעלה"
+    },
+    "Rotate with arrows": {
+      "he-IL": "סיבוב באמצעות חיצים"
+    },
+    "Scroll up and down or pinch with two fingers to zoom in or out.": {
+      "he-IL": "גללו מעלה או מטה או צבטו עם שתי אצבעות כדי לעשות זום-אין או זום-אאוט."
+    },
+    "Scroll up and down to zoom": {
+      "he-IL": "גללו מעלה או מטה כדי לעשות זום"
+    },
+    "Search for a structure": {
+      "he-IL": "חיפוש מבנה"
+    },
+    "Select": {
+      "he-IL": "בחירה"
+    },
+    "Selection Tools": {
+      "he-IL": "כלי בחירה"
+    },
+    "Show {$PH} Layer": {
+      "he-IL": "הצגת {$PH} שכבה"
+    },
+    "Show All Anatomy Layers": {
+      "he-IL": "הצגת כל שכבות האנטומיה"
+    },
+    "Show Labels": {
+      "he-IL": "הצגתתוויות"
+    },
+    "Show Layer": {
+      "he-IL": "הצגת שכבה"
+    },
+    "Show Summary": {
+      "he-IL": "הצגת סיכום"
+    },
+    "Single-click left button to select a structure": {
+      "he-IL": "הקליקו פעם אחת על הכפתור השמאלי כדי לבחור מבנה"
+    },
+    "Single-tap to auto-focus a structure": {
+      "he-IL": "הקישו פעם אחת כדי לעשות מיקוד אוטומטי על מבנה"
+    },
+    "skeletal system": {
+      "he-IL": "מערכת השלד"
+    },
+    "Skin Options Available": {
+      "he-IL": "אפשרויות זמינות עבור עור"
+    },
+    "Slow pan down": {
+      "he-IL": "הזזה איטית למטה"
+    },
+    "Slow rotate down": {
+      "he-IL": "סיבוב איטי למטה"
+    },
+    "Slow rotate left": {
+      "he-IL": "סיבוב איטי שמאלה"
+    },
+    "Slow rotate right": {
+      "he-IL": "סיבוב איטי ימינה"
+    },
+    "Slow rotate up": {
+      "he-IL": "סיבוב איטי מעלה"
+    },
+    "Slow zoom in": {
+      "he-IL": "זום-אין איטי"
+    },
+    "Slow zoom out": {
+      "he-IL": "זום-אאוט איטי"
+    },
+    "Source Information": {
+      "he-IL": "מידע מקור"
+    },
+    "Start Tutorial": {
+      "he-IL": "התחלת הדרכה"
+    },
+    "Start typing the search term, then use tab to navigate the results": {
+      "he-IL": "התחילו להקליד מונח לחיפוש, וז השתמשו בלשונית כדי לנווט בתוצאות"
+    },
+    "Starting Position": {
+      "he-IL": "נקודת ההתחלה"
+    },
+    "Submit": {
+      "he-IL": "הגשה"
+    },
+    "Switch to {$PH}": {
+      "he-IL": "מעבר אל {$PH}"
+    },
+    "Take Quiz": {
+      "he-IL": "מענה על הבוחן"
+    },
+    "Team Logo": {
+      "he-IL": "לוגו צוות"
+    },
+    "Text": {
+      "he-IL": "טקסט"
+    },
+    "The arrow keys.": {
+      "he-IL": "מקשי החיצים."
+    },
+    "The plus and minus keys grouped together or the E and C keys grouped together.": {
+      "he-IL": "מקשי הפלוס והמינוס יחד או מקשי E ו-C יחד."
+    },
+    "The shift key.": {
+      "he-IL": "מקש shift."
+    },
+    "The W, A, S and D keys.": {
+      "he-IL": "מקשי W, A, S ו-D."
+    },
+    "This is the {$INTERPOLATION}.": {
+      "he-IL": "זהו ה {$INTERPOLATION}."
+    },
+    "to rotate.": {
+      "he-IL": "כדי לסובב."
+    },
+    "to zoom out.": {
+      "he-IL": "כדי לעשות זום-אאוט."
+    },
+    "Toggle 3D navigation controls": {
+      "he-IL": "החלפת מחווני שליטת ניווט בתלת מימד"
+    },
+    "Toggle between pan and rotate mode": {
+      "he-IL": "החלפה בין מצב הזזה למצב סיבוב"
+    },
+    "Toggle Description": {
+      "he-IL": "תיאור החלפה"
+    },
+    "Tools": {
+      "he-IL": "כלים"
+    },
+    "touchscreen": {
+      "he-IL": "מסך מגע"
+    },
+    "Trackpad": {
+      "he-IL": "משטח מגע"
+    },
+    "Transparent Skin": {
+      "he-IL": "עור שקוף"
+    },
+    "Tree": {
+      "he-IL": "עץ"
+    },
+    "Turn off Skin": {
+      "he-IL": "כיבוי \"עור\""
+    },
+    "Two fingers pressing the trackpad while moving vertically.": {
+      "he-IL": "שתי אצבעות לוחצות על משטח מגע בעודן נעות אנכית."
+    },
+    "Type..": {
+      "he-IL": "הקלידו.."
+    },
+    "Undo": {
+      "he-IL": "ביטול"
+    },
+    "Undo Tools": {
+      "he-IL": "ביטול \"כלים\""
+    },
+    "Unmute": {
+      "he-IL": "ביטול השתקה‏"
+    },
+    "up": {
+      "he-IL": "מעלה"
+    },
+    "Updated on": {
+      "he-IL": "עודכן בתאריך"
+    },
+    "Updated on ": {
+      "he-IL": "עודכן בתאריך "
+    },
+    "urinary system": {
+      "he-IL": "מערכת השתן"
+    },
+    "{VAR_PLURAL, plural, =1 {Answer} other {Answers}}": {
+      "he-IL": "{VAR_PLURAL, plural, =1 {Answer} other {Answers}}"
+    },
+    "Welcome! This tutorial will teach you how to navigate and explore in 3D using your": {
+      "he-IL": "ברוכים הבאים! מדריך זה ילמד אתכם כיצד לנווט ולחקור בתלת מימד באמצעות"
+    },
+    "White": {
+      "he-IL": "לבן"
+    },
+    "Yellow": {
+      "he-IL": "צהוב"
+    },
+    "You can also use": {
+      "he-IL": "תוכלו להשתמש גם"
+    },
+    "You can also use the": {
+      "he-IL": "תוכלו להשתמש גם"
+    },
+    "You can also use the arrow keys": {
+      "he-IL": "תוכלו להשתמש גם במקשי החיצים"
+    },
+    "You selected {$INTERPOLATION}.": {
+      "he-IL": "בחרתם {$INTERPOLATION}."
+    },
+    "Zoom": {
+      "he-IL": "זום"
+    },
+    "Zoom In": {
+      "he-IL": "זום-אין"
+    },
+    "Zoom Out": {
+      "he-IL": "זום-אאוט"
+    },
+    "Zoom out (-, C) and zoom in (+, E)": {
+      "he-IL": "זום אאוט (-, C) וזום-אין (+, E)"
+    },
+    "Browse our documentation": {
+      "he-IL": "עיינו במסמכים שלנו"
+    },
+    "Chapter pagination": {
+      "he-IL": "עימוד הפרק"
+    },
+    "Isolate": {
+      "he-IL": "לבודד"
+    },
+    "Learn More": {
+      "he-IL": "למידע נוסף"
+    },
+    "Pause Audio": {
+      "he-IL": "עצירת אודיו"
+    },
+    "Play Audio": {
+      "he-IL": "ניגון אודיו"
+    },
+    " Fade ": {
+      "he-IL": "עמעום"
+    },
+    "hide": {
+      "he-IL": "הסתרה"
+    },
+    " Hide ": {
+      "he-IL": "הסתרה"
+    },
+    " Isolate ": {
+      "he-IL": "לבודד"
+    },
+    " Fade Everything Else ": {
+      "he-IL": "עמעום כל השאר"
+    },
+    " Fade This ": {
+      "he-IL": "עמעמו את זה"
+    },
+    " Copy ": {
+      "he-IL": "עותק"
+    },
+    " Fly To ": {
+      "he-IL": " \"לטוס ל\""
+    },
+    " Help ": {
+      "he-IL": "עזרה"
+    },
+    "Copy": {
+      "he-IL": "עותק"
+    },
+    "No, Thanks.": {
+      "he-IL": "לא, תודה"
+    },
+    "Next chapter": {
+      "he-IL": "הפרק הבא"
+    },
+    "Previous chapter": {
+      "he-IL": "הפרק הקודם"
+    },
+    "Zoom in": {
+      "he-IL": "זום-אין"
+    },
+    "Zoom out": {
+      "he-IL": "זום-אאוט"
+    },
+    "Use \"Select\" tool": {
+      "he-IL": "שימוש / בכלי / \"בחירה\""
+    },
+    "Use \"Hide\" tool": {
+      "he-IL": "שימוש / בכלי / \"הסתרה\""
+    },
+    "Use \"Fade\" tool": {
+      "he-IL": "שימוש / בכלי / \"עמעום\""
+    },
+    "Keyboard": {
+      "he-IL": "מקלדת"
+    }
+  }
+}

@@ -1,1 +1,0 @@
-{"shine":150,"baseColor":{"r":1,"g":1,"b":1},"glassFactor":0,"emitColor":{"r":0,"g":0,"b":0},"id":"lambert2","specularColor":{"r":0,"g":0,"b":0},"alpha":0,"nodes":[{"flags":{"transparent":true},"type":"flags"}],"type":"material","emit":1}

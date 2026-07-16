@@ -544,6 +544,12 @@ SWIFT_CLASS("_TtC8HumanKit7HKHuman")
 - (void)unload;
 /// Reload the currently loaded model
 - (void)reload;
+/// :nodoc:
+- (void)loadBase;
+/// :nodoc:
+- (void)sendOfflineModelIds:(NSArray<NSString *> * _Nonnull)modelIDs;
+/// :nodoc:
+- (void)skipSignInUserid:(NSString * _Nonnull)userid pw:(NSString * _Nonnull)pw productKey:(NSString * _Nonnull)productKey;
 /// Disable user input
 /// since:
 /// SDK 2.0
@@ -563,6 +569,27 @@ SWIFT_CLASS("_TtC8HumanKit7HKHuman")
 SWIFT_PROTOCOL("_TtP8HumanKit15HKHumanDelegate_")
 @protocol HKHumanDelegate
 @optional
+/// :nodoc:
+- (void)subscribe;
+/// :nodoc:
+- (void)subscribeSuccess;
+/// Presents Apple’s in-app refund request UI for App Store subscriptions (StoreKit 2).
+/// :nodoc:
+- (void)manageSubscription;
+/// :nodoc:
+- (void)deleteData;
+/// :nodoc:
+- (void)offline:(BOOL)isOffline;
+/// :nodoc:
+- (void)onSignInError:(NSString * _Nonnull)social :(NSString * _Nonnull)error;
+/// :nodoc:
+- (void)showSkipButton;
+/// :nodoc:
+- (void)hideSkipButton;
+/// :nodoc:
+- (void)human:(HKHuman * _Nonnull)view shareModel:(NSString * _Nonnull)shareModel;
+/// :nodoc:
+- (void)human:(HKHuman * _Nonnull)view googleSignIn:(NSString * _Nonnull)googleSignIn;
 /// Callback when the current animation is finished playing
 /// since:
 /// SDK 2.0
@@ -1178,12 +1205,18 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) HKServices *
 + (HKServices * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+/// :nodoc:
+- (void)setupWithRoot:(NSString * _Nonnull)root product_key:(NSString * _Nonnull)product_key delegate:(id <HKServicesDelegate> _Nullable)delegate;
 /// Initialize the backend services and authenticate the SDK with an explicit Key and optional Secret
 - (void)setupWithKey:(NSString * _Nonnull)key secret:(NSString * _Nonnull)secret delegate:(id <HKServicesDelegate> _Nullable)delegate;
+/// Returns the API key used to authenticate the SDK, or an empty string if none is set.
+- (NSString * _Nonnull)getApiKey SWIFT_WARN_UNUSED_RESULT;
 /// Initialize the backend services and authenticate the SDK with Key and optional Secret in the Info.plist file
 - (void)setupWithDelegate:(id <HKServicesDelegate> _Nullable)delegate;
 /// Request models associated with your account from our server
 - (void)getModels;
+/// :nodoc:
+- (void)isSignedIn:(void (^ _Nonnull)(BOOL))calls;
 /// Get a list of Model objects by ICD Number
 /// \param ICD String version of ICD number
 ///
@@ -1219,12 +1252,16 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) HKServices *
 - (void)stop;
 /// Restarts the backend service, this should ONLY be done when your app is returning to the foreground
 - (void)restart;
+/// :nodoc:
+- (void)verifyReceipt:(NSString * _Nonnull)receipt :(void (^ _Nonnull)(BOOL, NSString * _Nonnull))calls;
 @end
 
 /// callback methods for the HKServices delegate
 SWIFT_PROTOCOL("_TtP8HumanKit18HKServicesDelegate_")
 @protocol HKServicesDelegate
 @optional
+/// :nodoc:
+- (void)sendRollbarWithMessage:(NSString * _Nonnull)message;
 /// Callback when the validation process succeeds
 - (void)onValidSDK;
 /// Callback when the validation process has failed

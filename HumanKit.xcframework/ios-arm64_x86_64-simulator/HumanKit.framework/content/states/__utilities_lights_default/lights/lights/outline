@@ -1,0 +1,89 @@
+{
+    "comment": [
+        "(This is not parsed)",
+
+        "List the lights ambient first, then in order of importance, because Human will load as many of them as it can before",
+        "it runs out of available shader variables. iOS 8 imposes a limit of three light non-ambient lights due to limited number of ",
+        "'varying' variables in its WebGL implementation."
+    ],
+
+    "lights": [
+        {
+            "lightId": "light0",
+            "displayName": "Ambient light source",
+            "description": "Ambient light source",
+            "params": {
+                "mode": "ambient",
+                "color": {
+                    "r": 0.2,
+                    "g": 0.2,
+                    "b": 0.2,
+                    "diffuse": true
+                }
+            }
+        },
+        {
+            "lightId": "light1",
+            "displayName": "Directional light source",
+            "description": "Directional light source",
+            "params": {
+                "mode": "dir",
+                "dir": {
+                    "x": 1.0,
+                    "y": 0.0,
+                    "z": -0.5
+                },
+                "color": {
+                    "r": 0.1,
+                    "g": 0.1,
+                    "b": 0.2
+                },
+                "diffuse": true,
+                "specular": false,
+                "space": "view"
+            }
+        },
+        {
+            "lightId": "light2",
+            "displayName": "Directional light source",
+            "description": "Directional light source",
+            "params": {
+                "mode": "dir",
+                "dir": {
+                    "x": -1,
+                    "y": 0.0,
+                    "z": 1.0
+                },
+                "color": {
+                    "r": 0.55,
+                    "g": 0.5,
+                    "b": 0.5
+                },
+                "diffuse": true,
+                "specular": true,
+                "space": "view"
+            }
+        },
+        {
+            "lightId": "light3",
+            "displayName": "Directional light source",
+            "description": "Directional light source",
+            "params": {
+                "mode": "dir",
+                "dir": {
+                    "x": 0.25,
+                    "y": 0.0,
+                    "z": -1.0
+                },
+                "color": {
+                    "r": 0.9,
+                    "g": 0.9,
+                    "b": 0.9
+                },
+                "diffuse": true,
+                "specular": true,
+                "space": "view"
+            }
+        }
+    ]
+}

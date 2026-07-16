@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.biodigitalhuman.humanAndroid",
+      "sha256_cert_fingerprints": [
+        "FE:A6:70:22:9A:81:13:6F:D0:36:0B:9E:67:59:15:B6:AD:EC:D5:B3:11:91:4F:EE:5D:1E:27:CC:0D:4D:51:36"
+      ]
+    }
+  }
+]
