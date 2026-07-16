@@ -28,6 +28,23 @@ import os
   @objc public func load(model: Swift.String)
   @objc public func unload()
   @objc public func reload()
+  @objc public func loadBase()
+  @objc public func sendOfflineModelIds(_ modelIDs: [Swift.String])
+  @objc public func skipSignIn(userid: Swift.String, pw: Swift.String, productKey: Swift.String)
+  public func redirect(page: Swift.String, params: [Foundation.URLQueryItem])
+  public func redirect(page: Swift.String, params: [Swift.String : Swift.String])
+  public func reload(page: Swift.String, params: [Foundation.URLQueryItem])
+  public enum NativeErrorMessage : Swift.String {
+    case load
+    case generic
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public func sendNativeError(_ message: HumanKit.HKHuman.NativeErrorMessage)
+  public func sendNativeError(_ message: Swift.String)
   @objc public func disableInput()
   @objc public func enableInput()
   @objc deinit
@@ -278,6 +295,7 @@ import os
   @objc deinit
 }
 @objc public protocol HKServicesDelegate {
+  @objc optional func sendRollbar(message: Swift.String)
   @objc optional func onValidSDK()
   @objc optional func onInvalidSDK()
   @objc optional func modelsLoaded()
@@ -285,12 +303,16 @@ import os
   @objc optional func modelDownloadError(modelId: Swift.String)
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class HKServices : ObjectiveC.NSObject, HumanKit.HKHumanDelegate {
+  public var port: Swift.Int
   public var BASE_URL: Swift.String
   @objc public var models: [HumanKit.HKModel]
   @objc public static let shared: HumanKit.HKServices
+  @objc public func setup(root: Swift.String, product_key: Swift.String, delegate: (any HumanKit.HKServicesDelegate)? = nil)
   @objc public func setup(key: Swift.String, secret: Swift.String, delegate: (any HumanKit.HKServicesDelegate)? = nil)
+  @objc public func getApiKey() -> Swift.String
   @objc public func setup(delegate: (any HumanKit.HKServicesDelegate)? = nil)
   @objc public func getModels()
+  @objc public func isSignedIn(_ calls: @escaping (Swift.Bool) -> ())
   @objc public func findModel(ICD: Swift.String)
   @objc public func download(modelIds: [Swift.String])
   @objc public func human(_ view: HumanKit.HKHuman, modelLoaded: Swift.String)
@@ -305,9 +327,20 @@ import os
   @objc public func checkWebserver() -> Swift.Bool
   @objc public func stop()
   @objc public func restart()
+  @objc public func verifyReceipt(_ receipt: Swift.String, _ calls: @escaping (Swift.Bool, Swift.String) -> ())
   @objc deinit
 }
 @objc public protocol HKHumanDelegate {
+  @objc optional func subscribe()
+  @objc optional func subscribeSuccess()
+  @objc optional func manageSubscription()
+  @objc optional func deleteData()
+  @objc optional func offline(_ isOffline: Swift.Bool)
+  @objc optional func onSignInError(_ social: Swift.String, _ error: Swift.String)
+  @objc optional func showSkipButton()
+  @objc optional func hideSkipButton()
+  @objc optional func human(_ view: HumanKit.HKHuman, shareModel: Swift.String)
+  @objc optional func human(_ view: HumanKit.HKHuman, googleSignIn: Swift.String)
   @objc optional func human(_ view: HumanKit.HKHuman, animationComplete: Swift.Bool)
   @objc optional func human(_ view: HumanKit.HKHuman, cameraUpdated: HumanKit.HKCamera)
   @objc optional func human(_ view: HumanKit.HKHuman, chapterTransition: Swift.String)
@@ -339,6 +372,9 @@ import os
   @objc optional func human(_ view: HumanKit.HKHuman, xrayEnabled: Swift.Bool)
   @objc optional func screenshot(image: UIKit.UIImage)
 }
+extension HumanKit.HKHuman.NativeErrorMessage : Swift.Equatable {}
+extension HumanKit.HKHuman.NativeErrorMessage : Swift.Hashable {}
+extension HumanKit.HKHuman.NativeErrorMessage : Swift.RawRepresentable {}
 extension HumanKit.HumanLanguage : Swift.Equatable {}
 extension HumanKit.HumanLanguage : Swift.Hashable {}
 extension HumanKit.HumanLanguage : Swift.RawRepresentable {}

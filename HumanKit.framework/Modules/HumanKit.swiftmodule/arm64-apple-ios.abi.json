@@ -315,6 +315,54 @@
           },
           {
             "kind": "Function",
+            "name": "doRedirect",
+            "printedName": "doRedirect(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8HumanKit10BodyHelperC10doRedirectyySS_SDyS2SGtF",
+            "mangledName": "$s8HumanKit10BodyHelperC10doRedirectyySS_SDyS2SGtF",
+            "moduleName": "HumanKit",
+            "isOpen": true,
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "webView",
             "printedName": "webView(_:didFail:withError:)",
             "children": [
@@ -2713,6 +2761,510 @@
           },
           {
             "kind": "Function",
+            "name": "loadBase",
+            "printedName": "loadBase()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HumanKit@objc(cs)HKHuman(im)loadBase",
+            "mangledName": "$s8HumanKit7HKHumanC8loadBaseyyF",
+            "moduleName": "HumanKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendOfflineModelIds",
+            "printedName": "sendOfflineModelIds(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HumanKit@objc(cs)HKHuman(im)sendOfflineModelIds:",
+            "mangledName": "$s8HumanKit7HKHumanC19sendOfflineModelIdsyySaySSGF",
+            "moduleName": "HumanKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "skipSignIn",
+            "printedName": "skipSignIn(userid:pw:productKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HumanKit@objc(cs)HKHuman(im)skipSignInUserid:pw:productKey:",
+            "mangledName": "$s8HumanKit7HKHumanC10skipSignIn6userid2pw10productKeyySS_S2StF",
+            "moduleName": "HumanKit",
+            "isOpen": true,
+            "objc_name": "skipSignInUserid:pw:productKey:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "redirect",
+            "printedName": "redirect(page:params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.URLQueryItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLQueryItem",
+                    "printedName": "Foundation.URLQueryItem",
+                    "usr": "s:10Foundation12URLQueryItemV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8HumanKit7HKHumanC8redirect4page6paramsySS_Say10Foundation12URLQueryItemVGtF",
+            "mangledName": "$s8HumanKit7HKHumanC8redirect4page6paramsySS_Say10Foundation12URLQueryItemVGtF",
+            "moduleName": "HumanKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "redirect",
+            "printedName": "redirect(page:params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8HumanKit7HKHumanC8redirect4page6paramsySS_SDyS2SGtF",
+            "mangledName": "$s8HumanKit7HKHumanC8redirect4page6paramsySS_SDyS2SGtF",
+            "moduleName": "HumanKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reload",
+            "printedName": "reload(page:params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.URLQueryItem]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLQueryItem",
+                    "printedName": "Foundation.URLQueryItem",
+                    "usr": "s:10Foundation12URLQueryItemV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8HumanKit7HKHumanC6reload4page6paramsySS_Say10Foundation12URLQueryItemVGtF",
+            "mangledName": "$s8HumanKit7HKHumanC6reload4page6paramsySS_Say10Foundation12URLQueryItemVGtF",
+            "moduleName": "HumanKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "NativeErrorMessage",
+            "printedName": "NativeErrorMessage",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "load",
+                "printedName": "load",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(HumanKit.HKHuman.NativeErrorMessage.Type) -> HumanKit.HKHuman.NativeErrorMessage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeErrorMessage",
+                        "printedName": "HumanKit.HKHuman.NativeErrorMessage",
+                        "usr": "s:8HumanKit7HKHumanC18NativeErrorMessageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "HumanKit.HKHuman.NativeErrorMessage.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NativeErrorMessage",
+                            "printedName": "HumanKit.HKHuman.NativeErrorMessage",
+                            "usr": "s:8HumanKit7HKHumanC18NativeErrorMessageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8HumanKit7HKHumanC18NativeErrorMessageO4loadyA2EmF",
+                "mangledName": "$s8HumanKit7HKHumanC18NativeErrorMessageO4loadyA2EmF",
+                "moduleName": "HumanKit"
+              },
+              {
+                "kind": "Var",
+                "name": "generic",
+                "printedName": "generic",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(HumanKit.HKHuman.NativeErrorMessage.Type) -> HumanKit.HKHuman.NativeErrorMessage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeErrorMessage",
+                        "printedName": "HumanKit.HKHuman.NativeErrorMessage",
+                        "usr": "s:8HumanKit7HKHumanC18NativeErrorMessageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "HumanKit.HKHuman.NativeErrorMessage.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NativeErrorMessage",
+                            "printedName": "HumanKit.HKHuman.NativeErrorMessage",
+                            "usr": "s:8HumanKit7HKHumanC18NativeErrorMessageO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:8HumanKit7HKHumanC18NativeErrorMessageO7genericyA2EmF",
+                "mangledName": "$s8HumanKit7HKHumanC18NativeErrorMessageO7genericyA2EmF",
+                "moduleName": "HumanKit"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "HumanKit.HKHuman.NativeErrorMessage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NativeErrorMessage",
+                        "printedName": "HumanKit.HKHuman.NativeErrorMessage",
+                        "usr": "s:8HumanKit7HKHumanC18NativeErrorMessageO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:8HumanKit7HKHumanC18NativeErrorMessageO8rawValueAESgSS_tcfc",
+                "mangledName": "$s8HumanKit7HKHumanC18NativeErrorMessageO8rawValueAESgSS_tcfc",
+                "moduleName": "HumanKit",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:8HumanKit7HKHumanC18NativeErrorMessageO8rawValueSSvp",
+                "mangledName": "$s8HumanKit7HKHumanC18NativeErrorMessageO8rawValueSSvp",
+                "moduleName": "HumanKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:8HumanKit7HKHumanC18NativeErrorMessageO8rawValueSSvg",
+                    "mangledName": "$s8HumanKit7HKHumanC18NativeErrorMessageO8rawValueSSvg",
+                    "moduleName": "HumanKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:8HumanKit7HKHumanC18NativeErrorMessageO",
+            "mangledName": "$s8HumanKit7HKHumanC18NativeErrorMessageO",
+            "moduleName": "HumanKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "sendNativeError",
+            "printedName": "sendNativeError(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NativeErrorMessage",
+                "printedName": "HumanKit.HKHuman.NativeErrorMessage",
+                "usr": "s:8HumanKit7HKHumanC18NativeErrorMessageO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8HumanKit7HKHumanC15sendNativeErroryyAC0eF7MessageOF",
+            "mangledName": "$s8HumanKit7HKHumanC15sendNativeErroryyAC0eF7MessageOF",
+            "moduleName": "HumanKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendNativeError",
+            "printedName": "sendNativeError(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8HumanKit7HKHumanC15sendNativeErroryySSF",
+            "mangledName": "$s8HumanKit7HKHumanC15sendNativeErroryySSF",
+            "moduleName": "HumanKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "loadViewer",
             "printedName": "loadViewer()",
             "children": [
@@ -2863,6 +3415,24 @@
           },
           {
             "kind": "Function",
+            "name": "goBack",
+            "printedName": "goBack()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8HumanKit7HKHumanC6goBackyyF",
+            "mangledName": "$s8HumanKit7HKHumanC6goBackyyF",
+            "moduleName": "HumanKit",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "processIncomingQuiz",
             "printedName": "processIncomingQuiz()",
             "children": [
@@ -2881,6 +3451,30 @@
               "AccessControl",
               "RawDocComment"
             ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "InitAPI",
+            "printedName": "InitAPI(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8HumanKit7HKHumanC7InitAPIyySiF",
+            "mangledName": "$s8HumanKit7HKHumanC7InitAPIyySiF",
+            "moduleName": "HumanKit",
+            "isOpen": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -22441,6 +23035,39 @@
         "children": [
           {
             "kind": "Function",
+            "name": "sendRollbar",
+            "printedName": "sendRollbar(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HumanKit@objc(pl)HKServicesDelegate(im)sendRollbarWithMessage:",
+            "mangledName": "$s8HumanKit18HKServicesDelegateP11sendRollbar7messageySS_tF",
+            "moduleName": "HumanKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : HumanKit.HKServicesDelegate>",
+            "sugared_genericSig": "<Self where Self : HumanKit.HKServicesDelegate>",
+            "protocolReq": true,
+            "objc_name": "sendRollbarWithMessage:",
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "onValidSDK",
             "printedName": "onValidSDK()",
             "children": [
@@ -22737,6 +23364,228 @@
                 "declKind": "Accessor",
                 "usr": "s:8HumanKit10HKServicesC4portSivM",
                 "mangledName": "$s8HumanKit10HKServicesC4portSivM",
+                "moduleName": "HumanKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "redirectPath",
+            "printedName": "redirectPath",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8HumanKit10HKServicesC12redirectPathSSvp",
+            "mangledName": "$s8HumanKit10HKServicesC12redirectPathSSvp",
+            "moduleName": "HumanKit",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8HumanKit10HKServicesC12redirectPathSSvg",
+                "mangledName": "$s8HumanKit10HKServicesC12redirectPathSSvg",
+                "moduleName": "HumanKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8HumanKit10HKServicesC12redirectPathSSvs",
+                "mangledName": "$s8HumanKit10HKServicesC12redirectPathSSvs",
+                "moduleName": "HumanKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8HumanKit10HKServicesC12redirectPathSSvM",
+                "mangledName": "$s8HumanKit10HKServicesC12redirectPathSSvM",
+                "moduleName": "HumanKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "redirectParams",
+            "printedName": "redirectParams",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8HumanKit10HKServicesC14redirectParamsSDyS2SGvp",
+            "mangledName": "$s8HumanKit10HKServicesC14redirectParamsSDyS2SGvp",
+            "moduleName": "HumanKit",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8HumanKit10HKServicesC14redirectParamsSDyS2SGvg",
+                "mangledName": "$s8HumanKit10HKServicesC14redirectParamsSDyS2SGvg",
+                "moduleName": "HumanKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8HumanKit10HKServicesC14redirectParamsSDyS2SGvs",
+                "mangledName": "$s8HumanKit10HKServicesC14redirectParamsSDyS2SGvs",
+                "moduleName": "HumanKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8HumanKit10HKServicesC14redirectParamsSDyS2SGvM",
+                "mangledName": "$s8HumanKit10HKServicesC14redirectParamsSDyS2SGvM",
                 "moduleName": "HumanKit",
                 "implicit": true,
                 "isOpen": true,
@@ -23083,7 +23932,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -23146,6 +23996,96 @@
                 "declKind": "Accessor",
                 "usr": "s:8HumanKit10HKServicesC4rootSSvM",
                 "mangledName": "$s8HumanKit10HKServicesC4rootSSvM",
+                "moduleName": "HumanKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "product_key",
+            "printedName": "product_key",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8HumanKit10HKServicesC11product_keySSvp",
+            "mangledName": "$s8HumanKit10HKServicesC11product_keySSvp",
+            "moduleName": "HumanKit",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8HumanKit10HKServicesC11product_keySSvg",
+                "mangledName": "$s8HumanKit10HKServicesC11product_keySSvg",
+                "moduleName": "HumanKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8HumanKit10HKServicesC11product_keySSvs",
+                "mangledName": "$s8HumanKit10HKServicesC11product_keySSvs",
+                "moduleName": "HumanKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8HumanKit10HKServicesC11product_keySSvM",
+                "mangledName": "$s8HumanKit10HKServicesC11product_keySSvM",
                 "moduleName": "HumanKit",
                 "implicit": true,
                 "isOpen": true,
@@ -24399,6 +25339,120 @@
           },
           {
             "kind": "Var",
+            "name": "webappHuman",
+            "printedName": "webappHuman",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "HumanKit.HKHuman?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HKHuman",
+                    "printedName": "HumanKit.HKHuman",
+                    "usr": "c:@M@HumanKit@objc(cs)HKHuman"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8HumanKit10HKServicesC06webappA0AA7HKHumanCSgvp",
+            "mangledName": "$s8HumanKit10HKServicesC06webappA0AA7HKHumanCSgvp",
+            "moduleName": "HumanKit",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "HumanKit.HKHuman?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HKHuman",
+                        "printedName": "HumanKit.HKHuman",
+                        "usr": "c:@M@HumanKit@objc(cs)HKHuman"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8HumanKit10HKServicesC06webappA0AA7HKHumanCSgvg",
+                "mangledName": "$s8HumanKit10HKServicesC06webappA0AA7HKHumanCSgvg",
+                "moduleName": "HumanKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "HumanKit.HKHuman?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HKHuman",
+                        "printedName": "HumanKit.HKHuman",
+                        "usr": "c:@M@HumanKit@objc(cs)HKHuman"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8HumanKit10HKServicesC06webappA0AA7HKHumanCSgvs",
+                "mangledName": "$s8HumanKit10HKServicesC06webappA0AA7HKHumanCSgvs",
+                "moduleName": "HumanKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8HumanKit10HKServicesC06webappA0AA7HKHumanCSgvM",
+                "mangledName": "$s8HumanKit10HKServicesC06webappA0AA7HKHumanCSgvM",
+                "moduleName": "HumanKit",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "isSetup",
             "printedName": "isSetup",
             "children": [
@@ -24930,6 +25984,57 @@
           {
             "kind": "Function",
             "name": "setup",
+            "printedName": "setup(root:product_key:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any HumanKit.HKServicesDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HKServicesDelegate",
+                    "printedName": "any HumanKit.HKServicesDelegate",
+                    "usr": "c:@M@HumanKit@objc(pl)HKServicesDelegate"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HumanKit@objc(cs)HKServices(im)setupWithRoot:product_key:delegate:",
+            "mangledName": "$s8HumanKit10HKServicesC5setup4root11product_key8delegateySS_SSAA0C8Delegate_pSgtF",
+            "moduleName": "HumanKit",
+            "isOpen": true,
+            "objc_name": "setupWithRoot:product_key:delegate:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setup",
             "printedName": "setup(key:secret:delegate:)",
             "children": [
               {
@@ -24971,6 +26076,30 @@
             "moduleName": "HumanKit",
             "isOpen": true,
             "objc_name": "setupWithKey:secret:delegate:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getApiKey",
+            "printedName": "getApiKey()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HumanKit@objc(cs)HKServices(im)getApiKey",
+            "mangledName": "$s8HumanKit10HKServicesC9getApiKeySSyF",
+            "moduleName": "HumanKit",
+            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -25124,6 +26253,47 @@
             "isOpen": true,
             "declAttributes": [
               "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isSignedIn",
+            "printedName": "isSignedIn(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HumanKit@objc(cs)HKServices(im)isSignedIn:",
+            "mangledName": "$s8HumanKit10HKServicesC10isSignedInyyySbcF",
+            "moduleName": "HumanKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -25613,6 +26783,66 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "verifyReceipt",
+            "printedName": "verifyReceipt(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool, Swift.String) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Bool, Swift.String)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HumanKit@objc(cs)HKServices(im)verifyReceipt::",
+            "mangledName": "$s8HumanKit10HKServicesC13verifyReceiptyySS_ySb_SStctF",
+            "moduleName": "HumanKit",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -25719,6 +26949,308 @@
         "name": "HKHumanDelegate",
         "printedName": "HKHumanDelegate",
         "children": [
+          {
+            "kind": "Function",
+            "name": "subscribe",
+            "printedName": "subscribe()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HumanKit@objc(pl)HKHumanDelegate(im)subscribe",
+            "mangledName": "$s8HumanKit15HKHumanDelegateP9subscribeyyF",
+            "moduleName": "HumanKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : HumanKit.HKHumanDelegate>",
+            "sugared_genericSig": "<Self where Self : HumanKit.HKHumanDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subscribeSuccess",
+            "printedName": "subscribeSuccess()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HumanKit@objc(pl)HKHumanDelegate(im)subscribeSuccess",
+            "mangledName": "$s8HumanKit15HKHumanDelegateP16subscribeSuccessyyF",
+            "moduleName": "HumanKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : HumanKit.HKHumanDelegate>",
+            "sugared_genericSig": "<Self where Self : HumanKit.HKHumanDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "manageSubscription",
+            "printedName": "manageSubscription()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HumanKit@objc(pl)HKHumanDelegate(im)manageSubscription",
+            "mangledName": "$s8HumanKit15HKHumanDelegateP18manageSubscriptionyyF",
+            "moduleName": "HumanKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : HumanKit.HKHumanDelegate>",
+            "sugared_genericSig": "<Self where Self : HumanKit.HKHumanDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteData",
+            "printedName": "deleteData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HumanKit@objc(pl)HKHumanDelegate(im)deleteData",
+            "mangledName": "$s8HumanKit15HKHumanDelegateP10deleteDatayyF",
+            "moduleName": "HumanKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : HumanKit.HKHumanDelegate>",
+            "sugared_genericSig": "<Self where Self : HumanKit.HKHumanDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "offline",
+            "printedName": "offline(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HumanKit@objc(pl)HKHumanDelegate(im)offline:",
+            "mangledName": "$s8HumanKit15HKHumanDelegateP7offlineyySbF",
+            "moduleName": "HumanKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : HumanKit.HKHumanDelegate>",
+            "sugared_genericSig": "<Self where Self : HumanKit.HKHumanDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSignInError",
+            "printedName": "onSignInError(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HumanKit@objc(pl)HKHumanDelegate(im)onSignInError::",
+            "mangledName": "$s8HumanKit15HKHumanDelegateP13onSignInErroryySS_SStF",
+            "moduleName": "HumanKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : HumanKit.HKHumanDelegate>",
+            "sugared_genericSig": "<Self where Self : HumanKit.HKHumanDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showSkipButton",
+            "printedName": "showSkipButton()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HumanKit@objc(pl)HKHumanDelegate(im)showSkipButton",
+            "mangledName": "$s8HumanKit15HKHumanDelegateP14showSkipButtonyyF",
+            "moduleName": "HumanKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : HumanKit.HKHumanDelegate>",
+            "sugared_genericSig": "<Self where Self : HumanKit.HKHumanDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hideSkipButton",
+            "printedName": "hideSkipButton()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HumanKit@objc(pl)HKHumanDelegate(im)hideSkipButton",
+            "mangledName": "$s8HumanKit15HKHumanDelegateP14hideSkipButtonyyF",
+            "moduleName": "HumanKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : HumanKit.HKHumanDelegate>",
+            "sugared_genericSig": "<Self where Self : HumanKit.HKHumanDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "human",
+            "printedName": "human(_:shareModel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HKHuman",
+                "printedName": "HumanKit.HKHuman",
+                "usr": "c:@M@HumanKit@objc(cs)HKHuman"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HumanKit@objc(pl)HKHumanDelegate(im)human:shareModel:",
+            "mangledName": "$s8HumanKit15HKHumanDelegateP5human_10shareModelyAA0C0C_SStF",
+            "moduleName": "HumanKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : HumanKit.HKHumanDelegate>",
+            "sugared_genericSig": "<Self where Self : HumanKit.HKHumanDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "human",
+            "printedName": "human(_:googleSignIn:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HKHuman",
+                "printedName": "HumanKit.HKHuman",
+                "usr": "c:@M@HumanKit@objc(cs)HKHuman"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HumanKit@objc(pl)HKHumanDelegate(im)human:googleSignIn:",
+            "mangledName": "$s8HumanKit15HKHumanDelegateP5human_12googleSignInyAA0C0C_SStF",
+            "moduleName": "HumanKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : HumanKit.HKHumanDelegate>",
+            "sugared_genericSig": "<Self where Self : HumanKit.HKHumanDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
           {
             "kind": "Function",
             "name": "human",
@@ -28528,9 +30060,23 @@
     {
       "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKHuman.swift",
       "kind": "BooleanLiteral",
-      "offset": 10552,
+      "offset": 10803,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKHuman.swift",
+      "kind": "StringLiteral",
+      "offset": 15757,
+      "length": 86,
+      "value": "\"Please go online to load this model, then you'll be able to access it while offline.\""
+    },
+    {
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKHuman.swift",
+      "kind": "StringLiteral",
+      "offset": 15867,
+      "length": 62,
+      "value": "\"You're offline.  Please check your connection and try again.\""
     },
     {
       "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKQuiz.swift",
@@ -29487,16 +31033,16 @@
     {
       "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "IntegerLiteral",
-      "offset": 1677,
+      "offset": 1527,
       "length": 5,
-      "value": "38999"
+      "value": "31672"
     },
     {
       "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1687,
-      "length": 4,
-      "value": "1000"
+      "kind": "StringLiteral",
+      "offset": 1565,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
@@ -29543,9 +31089,16 @@
     {
       "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
       "kind": "StringLiteral",
-      "offset": 2225,
-      "length": 5,
-      "value": "\"sdk\""
+      "offset": 2066,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
+      "kind": "StringLiteral",
+      "offset": 2100,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/jazzdhandwar\/Desktop\/Projects\/human-ios-sdk\/HumanKit\/HumanKit\/HKServices.swift",
