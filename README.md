@@ -1,11 +1,11 @@
 # HumanKit
 The BioDigital Human iOS SDK
 
-Current version: 165.5.1 Released 16 July, 2026
+Current version: 168.3 Released 21 October, 2026
 
 The iOS SDK is now available via Swift Package Manager at https://github.com/biodigital-inc/HumanKit.git
 
-Tbe included xcframework is compatable with iOS devices, and iOS Simulators on both Apple Silicon and Intel processors.
+The included xcframework is compatible with iOS devices, and iOS Simulators on both Apple Silicon and Intel processors.
 
 The Demo App HumanSwiftApp has been updated with a Quiz Demo model and callbacks are implemented with Debug output to help show how the SDK works as a user progresses through an embedded quiz.
 
